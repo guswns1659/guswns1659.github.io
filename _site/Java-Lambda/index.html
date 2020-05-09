@@ -1,0 +1,588 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.19.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Java   lambda - 매일 꾸준히!</title>
+<meta content="목차    람다란?   람다식 인자 전달   람다가 필요한 순간은?   람다식의 다양한 표현   함수형 인터페이스와 어노테이션   람다식과 제네릭   " name="description">
+
+
+  <meta content="HYUNJUN" name="author">
+
+
+<meta content="article" property="og:type">
+<meta content="en_US" property="og:locale">
+<meta content="매일 꾸준히!" property="og:site_name">
+<meta content="Java   lambda" property="og:title">
+<meta content="http://localhost:4000/Java-Lambda/" property="og:url">
+
+
+  <meta content="목차    람다란?   람다식 인자 전달   람다가 필요한 순간은?   람다식의 다양한 표현   함수형 인터페이스와 어노테이션   람다식과 제네릭   " property="og:description">
+
+
+
+
+
+
+
+  <meta content="2020-02-09T00:00:00+09:00" property="article:published_time">
+
+
+
+
+
+  
+
+  
+
+
+<link href="http://localhost:4000/Java-Lambda/" rel="canonical">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "HYUNJUN",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" rel="alternate" title="매일 꾸준히! Feed" type="application/atom+xml">
+
+<!-- https://t.co/dKP3o1e -->
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link href="/assets/css/main.css" rel="stylesheet">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a class="screen-reader-shortcut" href="#site-nav">Skip to primary navigation</a></li>
+    <li><a class="screen-reader-shortcut" href="#main">Skip to content</a></li>
+    <li><a class="screen-reader-shortcut" href="#footer">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav class="greedy-nav" id="site-nav">
+        
+        <a class="site-title" href="/">
+          매일 꾸준히!
+          
+        </a>
+        <ul class="visible-links"></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">HYUNJUN</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>자바 백엔드 개발자를 준비하고 있습니다. 아직 검색, 메뉴 기능이 없습니다.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i aria-hidden="true" class="fas fa-fw fa-map-marker-alt"></i> <span itemprop="name">Seoul</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta content="Java   lambda" itemprop="headline">
+    <meta content="목차  람다란?  람다식 인자 전달  람다가 필요한 순간은?  람다식의 다양한 표현  함수형 인터페이스와 어노테이션  람다식과 제네릭" itemprop="description">
+    <meta content="2020-02-09T00:00:00+09:00" itemprop="datePublished">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" id="page-title" itemprop="headline">Java   lambda
+</h1>
+          
+            <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  1 minute read
+
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h2 id="목차">목차</h2>
+<ul>
+  <li>람다란?</li>
+  <li>람다식 인자 전달</li>
+  <li>람다가 필요한 순간은?</li>
+  <li>람다식의 다양한 표현</li>
+  <li>함수형 인터페이스와 어노테이션</li>
+  <li>람다식과 제네릭</li>
+</ul>
+
+<h2 id="람다란">람다란?</h2>
+<p>람다식은 컴파일러가 구별할 수 있는 수준만 남기고 다 생략하는 기법을 말한다. 익명클래스로 간단해진 코드를 더 간단하게 만들어준다. 익명 클래스란 클래스의 정스의 없이 인스턴스를 생성하는 클래스를 말한다. 클래스 생성이 없이 때문에 클래스의 이름이 없다. 그래서 익명이다. 익명 클래스를 생략하면 람다식이 만들어진다는 100% 정답은 아니지만 사용자 관점에서는 큰 차이가 없다.<br /></p>
+
+<h2 id="람다식-인자-전달">람다식 인자 전달</h2>
+<p>만약 어떤 인터페이스의 참조변수를 람다식으로 생성한다면 그 람다식은 그 인터페이스가 인자인 메서드의 인자로 전달될 수 있다. 무슨 말이냐 한번 살펴보자.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">LambdaMain</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">printTest</span><span class="o">(</span><span class="n">s</span> <span class="o">-&gt;</span> <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">s</span><span class="o">));</span>
+    <span class="o">}</span>
+
+    <span class="kd">private</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">printTest</span><span class="o">(</span><span class="nc">Printable</span> <span class="n">printable</span><span class="o">)</span> <span class="o">{</span>
+
+        <span class="n">printable</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">"string"</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+
+<span class="kd">interface</span> <span class="nc">printable</span> <span class="o">{</span>
+    <span class="kt">void</span> <span class="nf">print</span><span class="o">(</span><span class="nc">String</span> <span class="n">string</span><span class="o">);</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>위 코드의 printTest 메서드는 인자가 Printable이다. 그래서 main 메서드에서 호출될 때 들어오는 인자는 람다식이다. 이런 방식이 람다식으로 인자를 전달하는 방법이다.</p>
+
+<h2 id="람다가-필요한-순간은">람다가 필요한 순간은?</h2>
+<p>그러면 무작정 람다를 남발하면 될까? 가독성이 높아지니까? 아니다. 람다가 필요한 순간에 적절하게 사용해야 한다. 그럼 람다는 언제 필요할까? 람다식은 기능(메서드) 하나가 필요한 상황에 사용할 수 있다. 무슨 말이냐. 어떤 객체의 메서드가 필요하면 인스턴스를 생성해서 전달해야 한다. 나는 기능 하난가 필요한데 인스턴스까지 생성해야 한다. 이 때 람다식으로 메서드만 전달할 수 있다.<br /></p>
+
+<h2 id="람다식의-다양한-표현">람다식의 다양한 표현</h2>
+<p>람다식은 어디까지 생략할 수 있을까? 매개 변수랑 메서드의 몸체가 각각 하나라면 중괄호와 소괄호의 생략이 가능하다.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">test</span><span class="o">{</span>
+    <span class="nc">Printable</span> <span class="n">printable</span> <span class="o">=</span> <span class="n">s</span> <span class="o">-&gt;</span> <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">s</span><span class="o">);</span> 
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>하지만 매개변수와 메서드의 몸체가 둘 이상인 경우 중괄호와 소괄호는 생략할 수 없다.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">test</span> <span class="o">{</span>
+    <span class="nc">Calculate</span> <span class="n">calculate</span> <span class="o">=</span> <span class="o">(</span><span class="n">a</span><span class="o">,</span> <span class="n">b</span><span class="o">)</span> <span class="o">-&gt;</span> <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">a</span><span class="o">+</span><span class="n">b</span><span class="o">);</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>return문은 중괄호가 생략불가이다. 하지만 연산 결과가 남으면 별도로 생략해도 된다. 주로 생략해서 사용한다.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">test</span> <span class="o">{</span>
+    <span class="nc">Calculate</span> <span class="n">calculate</span> <span class="o">=</span> <span class="o">(</span><span class="n">a</span><span class="o">,</span> <span class="n">b</span><span class="o">)</span> <span class="o">-&gt;</span> <span class="o">{</span><span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="o">};</span>
+    <span class="nc">Calculate</span> <span class="n">calculate</span> <span class="o">=</span> <span class="o">(</span><span class="n">a</span><span class="o">,</span> <span class="n">b</span><span class="o">)</span> <span class="o">-&gt;</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="o">;</span>
+
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>매개 변수가 없을 때는 빈괄호로 명시를 해줘야 한다.</p>
+
+<h3 id="함수형-인터페이스와-어노테이션funtionalinterface">함수형 인터페이스와 어노테이션(@FuntionalInterface)</h3>
+<p>함수형 인터페이스는 추상메서드가 하나인 인터페이스를 말한다. 그냥 메서드가 여러개 있어도 되지만 추상메서드는 하나만 존재해야 한다. 어노테이션을 통해 컴파일러에게 이 인터페이스가 함수형 인터페이스인지 확인을 부탁할 수 있다. @FuntionalInterface 이다.</p>
+
+<h3 id="람다식과-제네릭">람다식과 제네릭</h3>
+<p>인터페이스가 제네릭 기반이라 하여 특별히 신경 쓸 부분은 없다. 타입 인자가 결정되면 추상 메서드의 T는 결정이 된다.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+          <p class="page__date"><strong><i aria-hidden="true" class="fas fa-fw fa-calendar-alt"></i> Updated:</strong> <time datetime="2020-02-09T00:00:00+09:00">February 9, 2020</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a class="btn btn--twitter" href="https://twitter.com/intent/tweet?text=Java+++lambda%20http%3A%2F%2Flocalhost%3A4000%2FJava-Lambda%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i aria-hidden="true" class="fab fa-fw fa-twitter"></i><span> Twitter</span></a>
+
+  <a class="btn btn--facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FJava-Lambda%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i aria-hidden="true" class="fab fa-fw fa-facebook"></i><span> Facebook</span></a>
+
+  <a class="btn btn--linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2FJava-Lambda%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i aria-hidden="true" class="fab fa-fw fa-linkedin"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a class="pagination--pager" href="/%EA%B3%BC%EA%B1%B0%EC%9D%98-%EB%82%98%EB%A5%BC-%EB%B3%B4%EB%8A%94-%EA%B8%B0%EB%B6%84/" title="과거의 나를 보는 기분
+">Previous</a>
+    
+    
+      <a class="pagination--pager" href="/Java-TDD-&-Junit(ongoing)/" title="Java   tdd &amp; junit(ongoing)
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/%EC%B2%A0%ED%95%99-Feminism-4-4/" rel="permalink">철학   feminism 4 4
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">개요
+김은주의 페미니즘 의 수업 내용과 내 생각을 정리한 글.
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/%EC%B2%A0%ED%95%99-Feminism-%EA%B0%95%EC%9D%98-%EC%88%98%EA%B0%95-%ED%9B%84/" rel="permalink">철학   feminism 강의 수강 후
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">개요
+김은주의 페미니즘 강의를 모두 수강한 후 느낀점
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/Linux-ubuntu-%EC%82%AC%EC%9A%A9%EB%B2%95/" rel="permalink">Linux   ubuntu 사용법
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">한글 설정
+
+  language support에 들어가서 자동으로 필요한 파일을 다운 받는다.
+  region &amp; language에 들어가서 input sources에 korean(Hangul)을 추가한다.
+  keyboard에 들어가서 switch to next input...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/" rel="permalink">책 정리   데이터베이스 첫걸음
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">목차
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div class="page__footer" id="footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i aria-hidden="true" class="fas fa-fw fa-rss-square"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 HYUNJUN. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

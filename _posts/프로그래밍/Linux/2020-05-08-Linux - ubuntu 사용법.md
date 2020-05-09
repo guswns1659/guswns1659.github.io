@@ -80,21 +80,8 @@ echo $PATH
 
 ### agnoster new line 설정하기 
 
-```shell script
-prompt_end() {
-  if [[ -n $CURRENT_BG ]]; then
-      print -n "%{%k%F{$CURRENT_BG}%}$SEGMENT_SEPARATOR"
-  else
-      print -n "%{%k%}"
-  fi
-
-  print -n "%{%f%}"
-  CURRENT_BG='' 
-
-  #Adds the new line and ➜ as the start character.
-  printf "\n ➜";
-}
-```
+- 원래 코드를 작성했는데 github.io에 올릴 때 에러가 나서 아래 사이트로 대체.
+[참고 사이트](https://wayhome25.github.io/etc/2017/03/12/zsh-alias/)
 
 ## 터미널 프롬프트 설정
 - .bashrc:16: command not found: shopt
@@ -105,10 +92,8 @@ prompt_end() {
 참고 : [https://the-illusionist.me/49](https://the-illusionist.me/49)
 
 - 아래 코드를 vim ~/.zshrc 맨 마지막에 넣고 wq!로 저장한다. 
+- 원래 코드가 있었으나 github.io 문제로 위 사이트로 대체. 그대로 따라하면 된다. 
 
-```shell script
-prompt_context() { if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then prompt_segment black default "%(!.%{%F{yellow}%}.)$USER" fi }  
-```
 
 - 그 뒤 source ~/.zshrc 실행하면 바로 적용. 
 

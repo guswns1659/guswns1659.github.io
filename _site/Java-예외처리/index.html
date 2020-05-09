@@ -1,0 +1,588 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.19.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Java   예외처리 - 매일 꾸준히!</title>
+<meta content="[참고 : 윤성우의 열혈 JAVA 프로그래밍]  " name="description">
+
+
+  <meta content="HYUNJUN" name="author">
+
+
+<meta content="article" property="og:type">
+<meta content="en_US" property="og:locale">
+<meta content="매일 꾸준히!" property="og:site_name">
+<meta content="Java   예외처리" property="og:title">
+<meta content="http://localhost:4000/Java-%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC/" property="og:url">
+
+
+  <meta content="[참고 : 윤성우의 열혈 JAVA 프로그래밍]  " property="og:description">
+
+
+
+
+
+
+
+  <meta content="2020-02-05T00:00:00+09:00" property="article:published_time">
+
+
+
+
+
+  
+
+  
+
+
+<link href="http://localhost:4000/Java-%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC/" rel="canonical">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "HYUNJUN",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" rel="alternate" title="매일 꾸준히! Feed" type="application/atom+xml">
+
+<!-- https://t.co/dKP3o1e -->
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link href="/assets/css/main.css" rel="stylesheet">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a class="screen-reader-shortcut" href="#site-nav">Skip to primary navigation</a></li>
+    <li><a class="screen-reader-shortcut" href="#main">Skip to content</a></li>
+    <li><a class="screen-reader-shortcut" href="#footer">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav class="greedy-nav" id="site-nav">
+        
+        <a class="site-title" href="/">
+          매일 꾸준히!
+          
+        </a>
+        <ul class="visible-links"></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">HYUNJUN</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>자바 백엔드 개발자를 준비하고 있습니다. 아직 검색, 메뉴 기능이 없습니다.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i aria-hidden="true" class="fas fa-fw fa-map-marker-alt"></i> <span itemprop="name">Seoul</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta content="Java   예외처리" itemprop="headline">
+    <meta content="[참고 : 윤성우의 열혈 JAVA 프로그래밍]" itemprop="description">
+    <meta content="2020-02-05T00:00:00+09:00" itemprop="datePublished">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" id="page-title" itemprop="headline">Java   예외처리
+</h1>
+          
+            <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  2 minute read
+
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>[참고 : 윤성우의 열혈 JAVA 프로그래밍]</p>
+
+<h2 id="예외란">예외란</h2>
+<p>프로그램 실행 중에 발생하는 예외적인 상황을 줄여서 예외라고 한다. 문법의 오류가 아니라 실행 중간에 발생하는 정상적이지 않는 상황을 말한다.</p>
+
+<h2 id="예외-처리란-예외-클래스의-인스턴스를-처리하는-것">예외 처리란 예외 클래스의 인스턴스를 처리하는 것</h2>
+<p>자바는 예외 상황별로 그 상황을 알리기 위한 클래스를 정의하고 있다. 이러한 클래스를 가르켜 예외 클래스라고 한다. 예외가 발생하면 가상머신은 그 예외 클래스의 인스턴스를 생성한다. 만약 사용자가 예외 클래스의 인스턴스를 처리한다면 프로그램은 종료하지 않는다. 보통 try - catch문을 통해 예외 처리를 한다.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">test</span> <span class="o">{</span>
+    <span class="k">try</span> <span class="o">{</span>
+        <span class="c1">// 예외 관찰 영역</span>
+    <span class="o">}</span> <span class="k">catch</span><span class="o">(</span><span class="nc">Exception</span> <span class="n">name</span><span class="o">)</span> <span class="o">{</span>
+        <span class="c1">// 예외 처리 영역 </span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>위 코드의 try 영역에서 예외가 발생하면 그 예외 인스턴스가 catch메서드의 매개변수로 들어간다. 예외가 발생하면 그 이후 코드는 실행되지 않고 바로 catch로 넘어간다.</p>
+
+<h2 id="예외처리-책임-전가">예외처리 책임 전가</h2>
+<p>예외 클래스의 최상위 클래스는 java.lang.Throwable이다. 이 클래스에는 발생한 예외의 정보를 알 수 있는 메서드가 정의되어 있는데, 대표적인 메서드는 public String getMessage(), public void printStackTrace() 이다. <br />
+만약 프로그램이 main() -&gt; method1() -&gt; method2() 순서로 실행된다고 하자. 만약 맨 마지막에 실행되는 method2()에서 예외가 발생하면 그 예외 인스턴스를 method2()를 호출한 method1()으로 넘긴다. 그 다음은 main()으로 보낸다. 각 예외 인스턴스를 전가할 때 예외처리를 하지 않으면 최종적으로 가상머신까지 넘어가 가상머신이 처리한다. 이렇게 되면 프로그램은 종료된다.</p>
+
+<h2 id="예외-클래스의-구분">예외 클래스의 구분</h2>
+<p>예외 클래스의 최상위 클래스는 Throwable이다. 이를 상속하는 예외 클래스는 3가지이다.</p>
+<ul>
+  <li>Error 클래스를 상속하는 예외 클래스</li>
+  <li>Exception클래스를 상속하는 예외 클래스</li>
+  <li>RuntimeException을 상속하는 예외 클래스, RuntimeException은 Exception 클래스를 상속한다.
+이 중 Error 예외 클래스는 예외를 넘어서서 Error이다. 가상머신에 문제가 생겼다거나, 컴퓨터가 물리적으로 문제가 생겼을 때 발생한다. 이 때 예외처리를 하는 것이 아니라 문제 발생원인을 살펴봐야 한다.<br />
+RuntimeException 클래스를 상속하는 클래스는 ‘ArithmeticException’, ‘ClassCastException’ 등이 있다.</li>
+</ul>
+
+<h2 id="exception을-상속하는-예외-클래스의-예외처리">Exception을 상속하는 예외 클래스의 예외처리</h2>
+<p>Error를 상속하거나 RuntimeException을 상속하는 예외의 발생은 코드 작성 과정에서 특별히 무언가를 하지 않아도 된다. 그러나 Exception을 상속하는 예외의 발생에 대해서는 try ~~ catch문 또한 throws 선언을 통해서 예외의 처리를 넘긴다는 표시를 꼭 해야 한다. ex) IOException</p>
+
+<h2 id="사용자가-정의하는-예외">사용자가 정의하는 예외</h2>
+<p>사용자가 직접 예외클래스를 지정할 수 있다. 이 때 Exception을 상속해야 한다.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">ReadAgeException</span> <span class="kd">extends</span> <span class="nc">Exception</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="nf">ReadAgeException</span><span class="o">()</span> <span class="o">{</span>
+        <span class="kd">super</span><span class="o">(</span><span class="s">"유효하지 않은 나이가 입력되었습니다."</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>위 코드에서 예외가 발생하면 슈퍼 타입을 생성하면서 정의한 예외처리 메세지를 보낸다. 그 때 예외 인스턴스에서 getMessage()를 사용하면 저 예외 메세지가 출력된다.</p>
+
+<h2 id="try--catch--resources문">try ~~ catch ~~ resources문</h2>
+<p>try ~~ resources문은 종료가 필요한 객체를 사용할 때 자동으로 종료를 해주는 문법이다. IO스트림을 사용한 후에 close()를 무조건 해줘야 하는데 try ~~ resources문을 사용하면 자동으로 close() 된다.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">java.io.BufferedWriter</span><span class="o">;</span>
+<span class="kd">class</span> <span class="nc">TryWithResouce</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">){</span>
+      <span class="nc">Path</span> <span class="n">file</span> <span class="o">=</span> <span class="nc">Paths</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="s">"C:\\javastudy\\Simple.txt"</span><span class="o">);</span>
+      
+      <span class="k">try</span> <span class="o">(</span><span class="nc">BufferedWriter</span> <span class="n">writer</span> 
+                <span class="o">=</span> <span class="nc">Files</span><span class="o">.</span><span class="na">newBufferedWriter</span><span class="o">(</span><span class="n">file</span><span class="o">)</span> <span class="o">)</span> <span class="o">{</span>
+          <span class="n">writer</span><span class="o">.</span><span class="na">write</span><span class="o">(</span><span class="sc">'A'</span><span class="o">);</span>
+          <span class="n">writer</span><span class="o">.</span><span class="na">write</span><span class="o">(</span><span class="sc">'B'</span><span class="o">);</span>
+      <span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="n">java</span><span class="o">.</span><span class="na">io</span><span class="o">.</span><span class="na">IOException</span> <span class="n">e</span><span class="o">)</span> <span class="o">{</span>
+          <span class="n">e</span><span class="o">.</span><span class="na">printStackTrace</span><span class="o">();</span>
+      <span class="o">}</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>위 코드에서 try(resources)가 실행되면 자동으로 close()가 작동된다. 하지만 close()이외에 메서드는 작동하지 않는다.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+          <p class="page__date"><strong><i aria-hidden="true" class="fas fa-fw fa-calendar-alt"></i> Updated:</strong> <time datetime="2020-02-05T00:00:00+09:00">February 5, 2020</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a class="btn btn--twitter" href="https://twitter.com/intent/tweet?text=Java+++%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC%20http%3A%2F%2Flocalhost%3A4000%2FJava-%25EC%2598%2588%25EC%2599%25B8%25EC%25B2%2598%25EB%25A6%25AC%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i aria-hidden="true" class="fab fa-fw fa-twitter"></i><span> Twitter</span></a>
+
+  <a class="btn btn--facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FJava-%25EC%2598%2588%25EC%2599%25B8%25EC%25B2%2598%25EB%25A6%25AC%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i aria-hidden="true" class="fab fa-fw fa-facebook"></i><span> Facebook</span></a>
+
+  <a class="btn btn--linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2FJava-%25EC%2598%2588%25EC%2599%25B8%25EC%25B2%2598%25EB%25A6%25AC%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i aria-hidden="true" class="fab fa-fw fa-linkedin"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a class="pagination--pager" href="/%EB%A7%88%EC%9D%8C%EC%9D%80-%EC%95%84%EB%8A%94%EB%8D%B0-%EB%AA%B8%EC%9D%B4-%EC%95%88-%EC%9B%80%EC%A7%81%EC%9D%BC-%EB%95%8C/" title="마음은 아는데 몸이 안 움직일 때
+">Previous</a>
+    
+    
+      <a class="pagination--pager" href="/Java-Optional/" title="Java   optional
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/%EC%B2%A0%ED%95%99-Feminism-4-4/" rel="permalink">철학   feminism 4 4
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">개요
+김은주의 페미니즘 의 수업 내용과 내 생각을 정리한 글.
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/%EC%B2%A0%ED%95%99-Feminism-%EA%B0%95%EC%9D%98-%EC%88%98%EA%B0%95-%ED%9B%84/" rel="permalink">철학   feminism 강의 수강 후
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">개요
+김은주의 페미니즘 강의를 모두 수강한 후 느낀점
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/Linux-ubuntu-%EC%82%AC%EC%9A%A9%EB%B2%95/" rel="permalink">Linux   ubuntu 사용법
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">한글 설정
+
+  language support에 들어가서 자동으로 필요한 파일을 다운 받는다.
+  region &amp; language에 들어가서 input sources에 korean(Hangul)을 추가한다.
+  keyboard에 들어가서 switch to next input...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/" rel="permalink">책 정리   데이터베이스 첫걸음
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">목차
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div class="page__footer" id="footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i aria-hidden="true" class="fas fa-fw fa-rss-square"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 HYUNJUN. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

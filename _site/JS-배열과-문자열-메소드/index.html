@@ -1,0 +1,571 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.19.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Js   배열과 문자열 메소드 - 매일 꾸준히!</title>
+<meta content=" 목차    배열의 메소드   switch-case문   " name="description">
+
+
+  <meta content="HYUNJUN" name="author">
+
+
+<meta content="article" property="og:type">
+<meta content="en_US" property="og:locale">
+<meta content="매일 꾸준히!" property="og:site_name">
+<meta content="Js   배열과 문자열 메소드" property="og:title">
+<meta content="http://localhost:4000/JS-%EB%B0%B0%EC%97%B4%EA%B3%BC-%EB%AC%B8%EC%9E%90%EC%97%B4-%EB%A9%94%EC%86%8C%EB%93%9C/" property="og:url">
+
+
+  <meta content=" 목차    배열의 메소드   switch-case문   " property="og:description">
+
+
+
+
+
+
+
+  <meta content="2019-11-23T00:00:00+09:00" property="article:published_time">
+
+
+
+
+
+  
+
+  
+
+
+<link href="http://localhost:4000/JS-%EB%B0%B0%EC%97%B4%EA%B3%BC-%EB%AC%B8%EC%9E%90%EC%97%B4-%EB%A9%94%EC%86%8C%EB%93%9C/" rel="canonical">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "HYUNJUN",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" rel="alternate" title="매일 꾸준히! Feed" type="application/atom+xml">
+
+<!-- https://t.co/dKP3o1e -->
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link href="/assets/css/main.css" rel="stylesheet">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a class="screen-reader-shortcut" href="#site-nav">Skip to primary navigation</a></li>
+    <li><a class="screen-reader-shortcut" href="#main">Skip to content</a></li>
+    <li><a class="screen-reader-shortcut" href="#footer">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav class="greedy-nav" id="site-nav">
+        
+        <a class="site-title" href="/">
+          매일 꾸준히!
+          
+        </a>
+        <ul class="visible-links"></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">HYUNJUN</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>자바 백엔드 개발자를 준비하고 있습니다. 아직 검색, 메뉴 기능이 없습니다.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i aria-hidden="true" class="fas fa-fw fa-map-marker-alt"></i> <span itemprop="name">Seoul</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta content="Js   배열과 문자열 메소드" itemprop="headline">
+    <meta content="목차  배열의 메소드  switch-case문" itemprop="description">
+    <meta content="2019-11-23T00:00:00+09:00" itemprop="datePublished">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" id="page-title" itemprop="headline">Js   배열과 문자열 메소드
+</h1>
+          
+            <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  less than 1 minute read
+
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        
+<h1 id="목차">목차</h1>
+<ul>
+  <li>배열의 메소드</li>
+  <li>switch-case문</li>
+</ul>
+
+<h2 id="배열의-메소드">배열의 메소드</h2>
+<p>배열의 메소드를 살펴보자. 메소드를 알고 있으면 상황에 따라 유용하다. 하지만 처음부터 달달 외울 필요는 없다고 생각한다. 분명 필요할 때가 올텐데 그 때 배워도 된다. 한번 살펴보자</p>
+
+<h3 id="concat-join-indexof-lastindexof">concat(), join(), indexOf(), lastIndexOf()</h3>
+
+<ul>
+  <li>concat() : 배열 합칠 때 사용한다.</li>
+  <li>join() : 파이썬에선 못 봤던 메소드다. 배열을 문자열로 바꿀 때 사용한다.
+    <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">];</span>
+  <span class="nx">a</span><span class="p">.</span><span class="nx">join</span><span class="p">();</span>
+  <span class="nx">a</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">1,2,3</span><span class="dl">"</span><span class="p">;</span> <span class="c1">// 기본은 배열 그대로 문자열로 만든다. </span>
+  <span class="nx">a</span><span class="p">.</span><span class="nx">join</span><span class="p">(</span><span class="dl">"</span><span class="s2"> </span><span class="dl">"</span><span class="p">);</span>
+  <span class="nx">a</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">1 2 3</span><span class="dl">"</span> <span class="c1">// 인자에 따라 원소 사이에 인자를 붙여서 문자열로 만든다.</span>
+</code></pre></div>    </div>
+  </li>
+  <li>indexOf(), lastIndexOf() : 배열의 원소를 넣으면 인덱스를 출력한다. 없으면 -1이다.</li>
+</ul>
+
+<h3 id="slice-splice-split">slice(), splice(), split()</h3>
+<p>무슨 삼형제 같다. S로 시작하는..</p>
+
+<ul>
+  <li>slice() : 의미대로 배열을 잘라낸다. 다만 배열의 형태가 바뀌지 않는다.</li>
+  <li>splice() : 배열을 진짜로 잘라낸다. 배열의 형태를 바꾸니까 문자열에는 없다.</li>
+  <li>split() : 문자열을 배열로 만들고 싶을 때 사용한다.</li>
+</ul>
+
+<h2 id="switch-case문">switch-case문</h2>
+<p>자주 사용되는 조건문은 아니다. 하지만 if문이 반복적으로 사용될 때 유용하다고 한다. if문이랑 비슷한 구석이 있다.</p>
+
+<h3 id="문법">문법</h3>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">value</span><span class="p">;</span>
+<span class="k">switch</span><span class="p">(</span><span class="nx">value</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">case</span> <span class="err">값</span><span class="mi">1</span><span class="p">:</span>
+    <span class="c1">//value == 값1일 경우 실행할 코드</span>
+    <span class="k">break</span><span class="p">;</span>
+    <span class="k">case</span> <span class="err">값</span><span class="mi">2</span><span class="p">:</span>
+    <span class="c1">//value == 값2일 경우 실행할 코드</span>
+    <span class="k">break</span><span class="p">;</span>
+    <span class="c1">//...</span>
+    <span class="nl">default</span><span class="p">:</span>
+    <span class="c1">//위쪽에 해당되지 않는 경우 실행할 코드</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+          <p class="page__date"><strong><i aria-hidden="true" class="fas fa-fw fa-calendar-alt"></i> Updated:</strong> <time datetime="2019-11-23T00:00:00+09:00">November 23, 2019</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a class="btn btn--twitter" href="https://twitter.com/intent/tweet?text=Js+++%EB%B0%B0%EC%97%B4%EA%B3%BC+%EB%AC%B8%EC%9E%90%EC%97%B4+%EB%A9%94%EC%86%8C%EB%93%9C%20http%3A%2F%2Flocalhost%3A4000%2FJS-%25EB%25B0%25B0%25EC%2597%25B4%25EA%25B3%25BC-%25EB%25AC%25B8%25EC%259E%2590%25EC%2597%25B4-%25EB%25A9%2594%25EC%2586%258C%25EB%2593%259C%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i aria-hidden="true" class="fab fa-fw fa-twitter"></i><span> Twitter</span></a>
+
+  <a class="btn btn--facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FJS-%25EB%25B0%25B0%25EC%2597%25B4%25EA%25B3%25BC-%25EB%25AC%25B8%25EC%259E%2590%25EC%2597%25B4-%25EB%25A9%2594%25EC%2586%258C%25EB%2593%259C%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i aria-hidden="true" class="fab fa-fw fa-facebook"></i><span> Facebook</span></a>
+
+  <a class="btn btn--linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2FJS-%25EB%25B0%25B0%25EC%2597%25B4%25EA%25B3%25BC-%25EB%25AC%25B8%25EC%259E%2590%25EC%2597%25B4-%25EB%25A9%2594%25EC%2586%258C%25EB%2593%259C%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i aria-hidden="true" class="fab fa-fw fa-linkedin"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a class="pagination--pager" href="/JS-%EA%B0%9D%EC%B2%B4/" title="Js   객체
+">Previous</a>
+    
+    
+      <a class="pagination--pager" href="/Java-%EA%B8%B0%EB%B3%B8%EC%9E%90%EB%A3%8C%ED%98%95/" title="Java   기본자료형
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/%EC%B2%A0%ED%95%99-Feminism-4-4/" rel="permalink">철학   feminism 4 4
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">개요
+김은주의 페미니즘 의 수업 내용과 내 생각을 정리한 글.
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/%EC%B2%A0%ED%95%99-Feminism-%EA%B0%95%EC%9D%98-%EC%88%98%EA%B0%95-%ED%9B%84/" rel="permalink">철학   feminism 강의 수강 후
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">개요
+김은주의 페미니즘 강의를 모두 수강한 후 느낀점
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/Linux-ubuntu-%EC%82%AC%EC%9A%A9%EB%B2%95/" rel="permalink">Linux   ubuntu 사용법
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">한글 설정
+
+  language support에 들어가서 자동으로 필요한 파일을 다운 받는다.
+  region &amp; language에 들어가서 input sources에 korean(Hangul)을 추가한다.
+  keyboard에 들어가서 switch to next input...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/" rel="permalink">책 정리   데이터베이스 첫걸음
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">목차
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div class="page__footer" id="footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i aria-hidden="true" class="fas fa-fw fa-rss-square"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 HYUNJUN. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,488 +1,1226 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator>
-    <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml"/>
-    <link href="http://localhost:4000/" rel="alternate" type="text/html"/>
-    <updated>2020-05-09T21:28:46+09:00</updated>
-    <id>http://localhost:4000/feed.xml</id>
-    <title type="html">매일 꾸준히!</title>
-    <subtitle>An amazing website.</subtitle>
-    <author>
-        <name>HYUNJUN</name>
-    </author>
-    <entry>
-        <title type="html">철학 feminism 강의 수강 후</title>
-        <link href="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-%EA%B0%95%EC%9D%98-%EC%88%98%EA%B0%95-%ED%9B%84/"
-              rel="alternate" type="text/html" title=" 철학   feminism 강의 수강 후"/>
-        <published>2020-05-09T00:00:00+09:00</published>
-        <updated>2020-05-09T00:00:00+09:00</updated>
-        <id>
-            http://localhost:4000/%20%EC%B2%A0%ED%95%99%20-%20Feminism%20%EA%B0%95%EC%9D%98%20%EC%88%98%EA%B0%95%20%ED%9B%84
-        </id>
-        <content type="html"
-                 xml:base="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-%EA%B0%95%EC%9D%98-%EC%88%98%EA%B0%95-%ED%9B%84/">
-            &lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
-            &lt;p&gt;&lt;a href=&quot;http://www.artnstudy.com/n_Lecture/?LessonIdx=ejkim001&amp;amp;LessonPart=philosophy&quot;&gt;김은주의
-            페미니즘&lt;/a&gt; 강의를 모두 수강한 후 느낀점&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-09T22:28:47+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">매일 꾸준히!</title><subtitle>An amazing website.</subtitle><author><name>HYUNJUN</name></author><entry><title type="html">철학 feminism 강의 수강 후</title><link href="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-%EA%B0%95%EC%9D%98-%EC%88%98%EA%B0%95-%ED%9B%84/" rel="alternate" type="text/html" title=" 철학   feminism 강의 수강 후" /><published>2020-05-09T00:00:00+09:00</published><updated>2020-05-09T00:00:00+09:00</updated><id>http://localhost:4000/%20%EC%B2%A0%ED%95%99%20-%20Feminism%20%EA%B0%95%EC%9D%98%20%EC%88%98%EA%B0%95%20%ED%9B%84</id><content type="html" xml:base="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-%EA%B0%95%EC%9D%98-%EC%88%98%EA%B0%95-%ED%9B%84/">&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.artnstudy.com/n_Lecture/?LessonIdx=ejkim001&amp;amp;LessonPart=philosophy&quot;&gt;김은주의 페미니즘&lt;/a&gt; 강의를 모두 수강한 후 느낀점&lt;/p&gt;
 
-            &lt;h2 id=&quot;내-생각&quot;&gt;내 생각&lt;/h2&gt;
-            &lt;p&gt;올해 1월부터 한 주에 1강씩 수강했던 페미니즘 강의를 모두 수강했다. 호기심에 시작했던 강의였고 꾸준히 수강한 뒤 목표를 달성해서 뿌듯하다. 강의 수강한 지금 나는 어떻게
-            가치관이 변화했을까?에 대한 답을 해보려 한다. &lt;br /&gt;
-            당연하다고 생각했던 여성의 권리에 대해서 이전보다 예민하게 인식할 수 있게 됐다. 강사의 말 중 기억남는 말이 있다. “페미니스트로 살면 마냥 행복하진 않다. 남들이 비난을 할수도 있고 사소한
-            모든 것들이 불편하게 느껴진다”는 말이다. 오랜 시간 당연하게 받아드렸던 요소들이 당연한 것이 아니라는 깨달음은 사람을 크게 변화시킨다. 아직도 과도기이다. 여성의 권리가 남성과 동등해지기
-            위해선 여러 분야에서 많은 노력이 필요하다. 김은주 강사가 말한 것처럼 여성이 직접 말할 수 있게 내 삶 속에서 돕고 싶다.&lt;/p&gt;
-        </content>
-        <author>
-            <name>HYUNJUN</name>
-        </author>
-        <summary type="html">개요 김은주의 페미니즘 강의를 모두 수강한 후 느낀점</summary>
-    </entry>
-    <entry>
-        <title type="html">철학 feminism 4 4</title>
-        <link href="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-4-4/" rel="alternate" type="text/html"
-              title="철학   feminism 4 4"/>
-        <published>2020-05-09T00:00:00+09:00</published>
-        <updated>2020-05-09T00:00:00+09:00</updated>
-        <id>http://localhost:4000/%EC%B2%A0%ED%95%99%20-%20Feminism%204-4</id>
-        <content type="html" xml:base="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-4-4/">&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
-            &lt;p&gt;&lt;a href=&quot;http://www.artnstudy.com/n_Lecture/?LessonIdx=ejkim001&amp;amp;LessonPart=philosophy&quot;&gt;김은주의
-            페미니즘&lt;/a&gt; 의 수업 내용과 내 생각을 정리한 글.&lt;/p&gt;
+&lt;h2 id=&quot;내-생각&quot;&gt;내 생각&lt;/h2&gt;
+&lt;p&gt;올해 1월부터 한 주에 1강씩 수강했던 페미니즘 강의를 모두 수강했다. 호기심에 시작했던 강의였고 꾸준히 수강한 뒤 목표를 달성해서 뿌듯하다. 강의 수강한 지금 나는 어떻게 가치관이 변화했을까?에 대한 답을 해보려 한다. &lt;br /&gt;
+당연하다고 생각했던 여성의 권리에 대해서 이전보다 예민하게 인식할 수 있게 됐다. 강사의 말 중 기억남는 말이 있다. “페미니스트로 살면 마냥 행복하진 않다. 남들이 비난을 할수도 있고 사소한 모든 것들이 불편하게 느껴진다”는 말이다. 오랜 시간 당연하게 받아드렸던 요소들이 당연한 것이 아니라는 깨달음은 사람을 크게 변화시킨다. 아직도 과도기이다. 여성의 권리가 남성과 동등해지기 위해선 여러 분야에서 많은 노력이 필요하다. 김은주 강사가 말한 것처럼 여성이 직접 말할 수 있게 내 삶 속에서 돕고 싶다.&lt;/p&gt;</content><author><name>HYUNJUN</name></author><summary type="html">개요 김은주의 페미니즘 강의를 모두 수강한 후 느낀점</summary></entry><entry><title type="html">철학 feminism 4 4</title><link href="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-4-4/" rel="alternate" type="text/html" title="철학   feminism 4 4" /><published>2020-05-09T00:00:00+09:00</published><updated>2020-05-09T00:00:00+09:00</updated><id>http://localhost:4000/%EC%B2%A0%ED%95%99%20-%20Feminism%204-4</id><content type="html" xml:base="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-4-4/">&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.artnstudy.com/n_Lecture/?LessonIdx=ejkim001&amp;amp;LessonPart=philosophy&quot;&gt;김은주의 페미니즘&lt;/a&gt; 의 수업 내용과 내 생각을 정리한 글.&lt;/p&gt;
 
-            &lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
-            &lt;ul&gt;
-            &lt;li&gt;여성의 행복은 남자를 잘 만나는 것?&lt;/li&gt;
-            &lt;/ul&gt;
+&lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;여성의 행복은 남자를 잘 만나는 것?&lt;/li&gt;
+&lt;/ul&gt;
 
-            &lt;h2 id=&quot;여성의-행복은-남자를-잘-만나는-것&quot;&gt;여성의 행복은 남자를 잘 만나는 것?&lt;/h2&gt;
-            &lt;p&gt;보부아르는 다양한 반론에 대해서 생각했다. 어떤 사람들은 이렇게 말할 수 있다. “왜 이렇게 힘들게 살아가느냐. 페미니스트로 살아가니 사회에서 욕 먹고 사람들이 싫어하는 것
-            아니냐. 그냥 단순하게 여자로써 잘 꾸미고 좋은 남자 만나서 결혼하면 행복하지 않겠느냐”라고 누군가는 말할 수 있다. 이 때 보부아르는 질문한다. 행복의 기준이 무엇인지. 누군가는 저런 삶이
-            행복할 수 있겠지만 사람마다 행복의 기준은 다르기 때문에 행복을 규정할 수 없다는 것.&lt;/p&gt;
+&lt;h2 id=&quot;여성의-행복은-남자를-잘-만나는-것&quot;&gt;여성의 행복은 남자를 잘 만나는 것?&lt;/h2&gt;
+&lt;p&gt;보부아르는 다양한 반론에 대해서 생각했다. 어떤 사람들은 이렇게 말할 수 있다. “왜 이렇게 힘들게 살아가느냐. 페미니스트로 살아가니 사회에서 욕 먹고 사람들이 싫어하는 것 아니냐. 그냥 단순하게 여자로써 잘 꾸미고 좋은 남자 만나서 결혼하면 행복하지 않겠느냐”라고 누군가는 말할 수 있다. 이 때 보부아르는 질문한다. 행복의 기준이 무엇인지. 누군가는 저런 삶이 행복할 수 있겠지만 사람마다 행복의 기준은 다르기 때문에 행복을 규정할 수 없다는 것.&lt;/p&gt;
 
-            &lt;h2 id=&quot;내-생각&quot;&gt;내 생각&lt;/h2&gt;
-            &lt;p&gt;마지막 강의였다. &lt;a href=&quot;https://guswns1659.tistory.com/232&quot;&gt;전체 강의에 대한 느낌점&lt;/a&gt;을 기록한
-            글로 대신하려고 한다.&lt;/p&gt;
-        </content>
-        <author>
-            <name>HYUNJUN</name>
-        </author>
-        <summary type="html">개요 김은주의 페미니즘 의 수업 내용과 내 생각을 정리한 글.</summary>
-    </entry>
-    <entry>
-        <title type="html">책 정리 데이터베이스 첫걸음</title>
-        <link href="http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/"
-              rel="alternate" type="text/html" title="책 정리   데이터베이스 첫걸음"/>
-        <published>2020-05-08T00:00:00+09:00</published>
-        <updated>2020-05-08T00:00:00+09:00</updated>
-        <id>
-            http://localhost:4000/%EC%B1%85%20%EC%A0%95%EB%A6%AC%20-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%B2%AB%EA%B1%B8%EC%9D%8C
-        </id>
-        <content type="html"
-                 xml:base="http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/">
-            &lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
+&lt;h2 id=&quot;내-생각&quot;&gt;내 생각&lt;/h2&gt;
+&lt;p&gt;마지막 강의였다. &lt;a href=&quot;https://guswns1659.tistory.com/232&quot;&gt;전체 강의에 대한 느낌점&lt;/a&gt;을 기록한 글로 대신하려고 한다.&lt;/p&gt;</content><author><name>HYUNJUN</name></author><summary type="html">개요 김은주의 페미니즘 의 수업 내용과 내 생각을 정리한 글.</summary></entry><entry><title type="html">책 정리 데이터베이스 첫걸음</title><link href="http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/" rel="alternate" type="text/html" title="책 정리   데이터베이스 첫걸음" /><published>2020-05-08T00:00:00+09:00</published><updated>2020-05-08T00:00:00+09:00</updated><id>http://localhost:4000/%EC%B1%85%20%EC%A0%95%EB%A6%AC%20-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%B2%AB%EA%B1%B8%EC%9D%8C</id><content type="html" xml:base="http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/">&lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
 
-            &lt;h2 id=&quot;3-데이터베이스에-얽힌-돈-이야기&quot;&gt;3. 데이터베이스에 얽힌 돈 이야기&lt;/h2&gt;
-            &lt;ul&gt;
-            &lt;li&gt;EOSL이란
-            &lt;ul&gt;
-            &lt;li&gt;End Of Service Life이다. 서비스의 지원이 얼마나 남았는 지 알려주는 지표이다.&lt;/li&gt;
-            &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;h2 id=&quot;4-데이터베이스와-아키텍쳐-구성&quot;&gt;4. 데이터베이스와 아키텍쳐 구성&lt;/h2&gt;
-            &lt;ul&gt;
-            &lt;li&gt;Stand-alone 이란
-            &lt;ul&gt;
-            &lt;li&gt;DB가 네트워크에 접속하지 않고 물리적으로 독립되어 운영되는 상태&lt;/li&gt;
-            &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;li&gt;Web 3계층이란
-            &lt;ul&gt;
-            &lt;li&gt;클라이언트 요청을 처리하는 계층이 3개이다. 서버 계층 - 어플리케이션 계층 - DB 계층.&lt;/li&gt;
-            &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;li&gt;클러스터란
-            &lt;ul&gt;
-            &lt;li&gt;복수의 컴포넌트(사물)로 한 가지 기능을 담당하는 의미&lt;/li&gt;
-            &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;li&gt;신뢰성(Reliability)과 가용성(Availability)의 차이
-            &lt;ul&gt;
-            &lt;li&gt;신뢰성 : 하드웨어나 소프트웨어가 고장나는 빈도.&lt;/li&gt;
-            &lt;li&gt;가용성 : 사용자가 하드웨어나 소프트웨어를 사용할 수 있는 정&lt;/li&gt;
-            &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;/ul&gt;
-        </content>
-        <author>
-            <name>HYUNJUN</name>
-        </author>
-        <summary type="html">목차</summary>
-    </entry>
-    <entry>
-        <title type="html">철학 feminism 4 3</title>
-        <link href="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-4-3/" rel="alternate" type="text/html"
-              title="철학   feminism 4 3"/>
-        <published>2020-04-25T00:00:00+09:00</published>
-        <updated>2020-04-25T00:00:00+09:00</updated>
-        <id>http://localhost:4000/%EC%B2%A0%ED%95%99%20-%20Feminism%204-3</id>
-        <content type="html" xml:base="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-4-3/">&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
-            &lt;p&gt;&lt;a href=&quot;http://www.artnstudy.com/n_Lecture/?LessonIdx=ejkim001&amp;amp;LessonPart=philosophy&quot;&gt;김은주의
-            페미니즘&lt;/a&gt; 의 수업 내용과 내 생각을 정리한 글.&lt;/p&gt;
-
-            &lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
-            &lt;ul&gt;
-            &lt;li&gt;타자인 여성의 투쟁은 없는가?&lt;/li&gt;
-            &lt;li&gt;페미니즘에서 구체적인 사례가 나오는 이유&lt;/li&gt;
-            &lt;li&gt;내생각&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;h2 id=&quot;타자인-여성의-투쟁은-없는가&quot;&gt;타자인 여성의 투쟁은 없는가?&lt;/h2&gt;
-            &lt;p&gt;보부아르는 여성이 타자로 억압을 받아왔지만 투쟁은 없었다고 말한다. 이 점이 다른 투쟁과 다른 점이라고 말한다. 예를 들어, 부르주아는 주체로 존재하고 프롤레타리아는 주체에
-            반하는 타자로 존재했다. 프롤레타리아는 이 타자로써 받는 차별과 억압을 참을 수 없기 때문에 격렬한 투쟁을 벌였다. 이처럼 주체와 타자의 관계는 투쟁이 존재한다. &lt;br /&gt;
-            하지만 오랜 시간 타자로 존재해온 여성이 남성에 대해 투쟁을 한 적이 없다고한다. 오히려 계급 투쟁보다 훨씬 원초적인 갈등임에도 불구하고. 보부아르는 이 점을 지적한다.&lt;/p&gt;
-
-            &lt;h2 id=&quot;페미니즘에서-구체적인-사례가-나오는-이유&quot;&gt;페미니즘에서 구체적인 사례가 나오는 이유&lt;/h2&gt;
-            &lt;p&gt;김은주 강사에 따르면 세간에는 페미니즘이 철학인가?라는 질문이 있다고 한다. 철학은 모든 인류에게 해당하는 주제에 대해서 이야기를 해야 하는데 페미니즘은 여성에 국한되고 구체적인
-            개인적인 사례에 의존하는 학문이 아니냐는 주장이다. &lt;br /&gt;
-            페미니즘이 구체적인 사례를 이야기하는 이유는 이 주장이 더욱 피부에 와닷기 때문이다. 원론적인 이야기보단 우리의 삶 속에서 여성이 겪는 차별과 억압을 그 당사자들이 이야기하는 주장은 힘이 있다.
-            그렇기에 페미니즘의 출발은 자신의 경험을 이야기할 수 있게 하는 점과 그 이야기를 경청하는 것에서 시작한다.&lt;/p&gt;
-
-            &lt;h2 id=&quot;내생각&quot;&gt;내생각&lt;/h2&gt;
-            &lt;p&gt;페미니즘의 시작은 여성들의 이야기할 수 있게 도와주는 것. 정말 중요한 출발점이다. 그 동안 하지 못했던 그들의 이야기를 듣는 것. 아직 사회가 적극적으로 들어주지 못한다면 나
-            한 사람이라도 그들의 이야기를 들을 수 있도록 노력하고 싶다. &lt;br /&gt;
-            김은주 강사는 말한다. 페메니스트로 사는 건 마냥 행복하지 않다고 말이다. 이전에는 무관심했지만 페미니스트가 되면 사회의 불합리함이 너무나 잘 보인다고 한다. 이런 삶이 마냥 쉽지는 않다고
-            한다. 그냥 사회에 순응하며 살아가는 게 마음은 편하지 않을까 싶지만, 마음이 편한 건 타협을 하는 것이 아닐까. 내가 김은주 강사의 삶을 모르지만, 그녀의 노력이 있기 때문에 이 사회가 조금
-            더 여성의 권리에 관심을 갖게 되었다고 생각한다. 지금 내가 그녀의 강의를 보는 것처럼.&lt;/p&gt;
-        </content>
-        <author>
-            <name>HYUNJUN</name>
-        </author>
-        <summary type="html">개요 김은주의 페미니즘 의 수업 내용과 내 생각을 정리한 글.</summary>
-    </entry>
-    <entry>
-        <title type="html">철학 feminism 4 2</title>
-        <link href="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-4-2/" rel="alternate" type="text/html"
-              title="철학   feminism 4 2"/>
-        <published>2020-04-18T00:00:00+09:00</published>
-        <updated>2020-04-18T00:00:00+09:00</updated>
-        <id>http://localhost:4000/%EC%B2%A0%ED%95%99%20-%20Feminism%204-2</id>
-        <content type="html" xml:base="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-4-2/">&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
-            &lt;p&gt;&lt;a href=&quot;http://www.artnstudy.com/n_Lecture/?LessonIdx=ejkim001&amp;amp;LessonPart=philosophy&quot;&gt;김은주의
-            페미니즘&lt;/a&gt; 의 수업 내용과 내 생각을 정리한 글.&lt;/p&gt;
-
-            &lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
-            &lt;ul&gt;
-            &lt;li&gt;프로이트에 대한 보부아르의 비판&lt;/li&gt;
-            &lt;li&gt;페미니즘의 출발점&lt;/li&gt;
-            &lt;li&gt;내 생각&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;h2 id=&quot;프로이트에-대한-보부아르의-비판&quot;&gt;프로이트에 대한 보부아르의 비판&lt;/h2&gt;
-            &lt;p&gt;프로이트는 정신분석학에서 이런 말을 한다. 여성은 남성의 페니스를 선망하는 욕망을 가지고 있다. 일명 페니스 엔비(Pennis envy)가 있다고 한다. 여성은 페니스가 없기
-            때문에 페니스를 갖기 위해 시기와 질투가 본능적으로 있다는 말. 이 주장에 대해 보부아르는 여성을 본능적으로 규정짓는 것에 대해 비판한다.&lt;/p&gt;
-
-            &lt;h2 id=&quot;페미니즘의-출발점&quot;&gt;페미니즘의 출발점&lt;/h2&gt;
-            &lt;p&gt;남녀가 동등한 위치가 아니라 비대칭적인 위치라는 것을 인식하고 교정하려는 노력이 페미니즘의 출발점이라고 한다.&lt;/p&gt;
-
-            &lt;h2 id=&quot;내-생각&quot;&gt;내 생각&lt;/h2&gt;
-            &lt;p&gt;여성은 만들어진다는 보부아르의 주장은 강력하다. 정말 그런가 의문이 들지만 우리의 삶 속에서 조용하게 스며들고 있는 가치관이다. 여성은 자궁이 있고 아이를 낳기 때문에 누군가를
-            보호하고 상냥할 것이다. 혹은 해야 한다는 가치관. 여성은 시기와 질투가 기본적으로 있다는 가치관 등. 우리 삶 속에서 만들어진 여성의 상은 존재한다. 보부아르는 여성을 생물학적으로 규정하는
-            가치관을 우선 끊고 싶었던 것 같다.&lt;/p&gt;
-        </content>
-        <author>
-            <name>HYUNJUN</name>
-        </author>
-        <summary type="html">개요 김은주의 페미니즘 의 수업 내용과 내 생각을 정리한 글.</summary>
-    </entry>
-    <entry>
-        <title type="html">책 정리 모두의 네트워크</title>
-        <link href="http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%AA%A8%EB%91%90%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"
-              rel="alternate" type="text/html" title="책 정리   모두의 네트워크"/>
-        <published>2020-04-17T00:00:00+09:00</published>
-        <updated>2020-04-17T00:00:00+09:00</updated>
-        <id>
-            http://localhost:4000/%EC%B1%85%20%EC%A0%95%EB%A6%AC%20-%20%EB%AA%A8%EB%91%90%EC%9D%98%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC
-        </id>
-        <content type="html"
-                 xml:base="http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%AA%A8%EB%91%90%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/">
-            &lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
-            &lt;ul&gt;
-            &lt;li&gt;네트워크 첫 걸음&lt;/li&gt;
-            &lt;li&gt;네트워크의 기본 규칙&lt;/li&gt;
-            &lt;li&gt;물리 계층 : 테이터를 전기 신호로 변환하기&lt;/li&gt;
-            &lt;li&gt;테이터 링크 계층 : 랜에서 데이터 전송하기&lt;/li&gt;
-            &lt;li&gt;네트워크 계층 : 목적지에 데이터 전달하기&lt;/li&gt;
-            &lt;li&gt;전송 게층 : 신뢰할 수 있는 데이터 전송하기&lt;/li&gt;
-            &lt;li&gt;응용 계층 : 애플리케이션에 데이터 전송하기&lt;/li&gt;
-            &lt;li&gt;네트워크의 전체 흐름 살펴보기&lt;/li&gt;
-            &lt;li&gt;무선 랜 이해하기&lt;/li&gt;
-            &lt;/ul&gt;
-
-            &lt;h2 id=&quot;1장-네트워크-첫-걸음&quot;&gt;1장 네트워크 첫 걸음&lt;/h2&gt;
-            &lt;ul&gt;
-            &lt;li&gt;컴퓨터는 0과 1만 인식할 수 있는데 어떻게 문자를 표현할 수 있을까?
-            &lt;ul&gt;
-            &lt;li&gt;아스키(American Standard Code for Information Interchange)라는 문자 코드가 있기 때문에 각 문자를 숫자에 대응했다.&lt;/li&gt;
-            &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;li&gt;DMZ의 역할은 무엇인가?
+&lt;h2 id=&quot;3-데이터베이스에-얽힌-돈-이야기&quot;&gt;3. 데이터베이스에 얽힌 돈 이야기&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;EOSL이란
     &lt;ul&gt;
-      &lt;li&gt;Demilitarized Zone의 약자이다. 외부에 공개하는 네트워크를 말한다. 외부에서 회사 홈페이지를 접근하거나 메일 보내려면 외부에 서버를 노출해야 한다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;On-premise란 무엇인가?
-    &lt;ul&gt;
-      &lt;li&gt;회사 내부에서 물리적인 서버를 운영하는 것을 말한다. 반대말은 클라우드 서비스.&lt;/li&gt;
+      &lt;li&gt;End Of Service Life이다. 서비스의 지원이 얼마나 남았는 지 알려주는 지표이다.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;2장-네트워크의-기본-규칙&quot;&gt;2장 네트워크의 기본 규칙&lt;/h2&gt;
+&lt;h2 id=&quot;4-데이터베이스와-아키텍쳐-구성&quot;&gt;4. 데이터베이스와 아키텍쳐 구성&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;OSI 모델에 대해 간략히 설명하시오.
+  &lt;li&gt;Stand-alone 이란
     &lt;ul&gt;
-      &lt;li&gt;네트워크의 기본 구조를 응,표,세,전,네,데,물 계층으로 나눈다. 두 개의 컴퓨터가 서로 통신할 수 있는 규칙을 말한다.&lt;/li&gt;
+      &lt;li&gt;DB가 네트워크에 접속하지 않고 물리적으로 독립되어 운영되는 상태&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Web 3계층이란
+    &lt;ul&gt;
+      &lt;li&gt;클라이언트 요청을 처리하는 계층이 3개이다. 서버 계층 - 어플리케이션 계층 - DB 계층.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;클러스터란
+    &lt;ul&gt;
+      &lt;li&gt;복수의 컴포넌트(사물)로 한 가지 기능을 담당하는 의미&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;신뢰성(Reliability)과 가용성(Availability)의 차이
+    &lt;ul&gt;
+      &lt;li&gt;신뢰성 : 하드웨어나 소프트웨어가 고장나는 빈도.&lt;/li&gt;
+      &lt;li&gt;가용성 : 사용자가 하드웨어나 소프트웨어를 사용할 수 있는 정&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">목차</summary></entry><entry><title type="html">Linux ubuntu 사용법</title><link href="http://localhost:4000/Linux-ubuntu-%EC%82%AC%EC%9A%A9%EB%B2%95/" rel="alternate" type="text/html" title="Linux   ubuntu 사용법" /><published>2020-05-08T00:00:00+09:00</published><updated>2020-05-08T00:00:00+09:00</updated><id>http://localhost:4000/Linux%20-%20ubuntu%20%EC%82%AC%EC%9A%A9%EB%B2%95</id><content type="html" xml:base="http://localhost:4000/Linux-ubuntu-%EC%82%AC%EC%9A%A9%EB%B2%95/">&lt;h2 id=&quot;한글-설정&quot;&gt;한글 설정&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;language support에 들어가서 자동으로 필요한 파일을 다운 받는다.&lt;/li&gt;
+  &lt;li&gt;region &amp;amp; language에 들어가서 input sources에 korean(Hangul)을 추가한다.&lt;/li&gt;
+  &lt;li&gt;keyboard에 들어가서 switch to next input source에서 한/영 키로 변경한다.
+    &lt;h3 id=&quot;tweak-사용&quot;&gt;tweak 사용&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Then open GNOME Tweaks (gnome-tweaks).&lt;/li&gt;
+  &lt;li&gt;Select Keyboard &amp;amp; Mouse tab&lt;/li&gt;
+  &lt;li&gt;Click Additional Layout Options button&lt;/li&gt;
+  &lt;li&gt;Expand Switching to another layout&lt;/li&gt;
+  &lt;li&gt;Select Ctrl + Shift here
+&lt;a href=&quot;https://askubuntu.com/questions/1029588/18-04-ctrlshift-to-change-language&quot;&gt;출처 : https://askubuntu.com/questions/1029588/18-04-ctrlshift-to-change-language&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;uim-설정-하는-법&quot;&gt;Uim 설정 하는 법&lt;/h3&gt;
+&lt;p&gt;한글 밀리는 거 해결하려고 이것저것 설치하다가 갑자기 한글 자소 구분이 안되서 결국 UIM으로 설치 완료.. 
+나중에 정리할 예정 ! 아래 출처
+&lt;a href=&quot;http://progtrend.blogspot.com/2018/06/ubuntu-1804-uim.html&quot;&gt;http://progtrend.blogspot.com/2018/06/ubuntu-1804-uim.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;마우스-오른쪽-클릭-안될-때&quot;&gt;마우스 오른쪽 클릭 안될 때&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;우분투의 기본 설정은 터치 패드에 두 손가락으로 클릭하면 된다.&lt;/li&gt;
+  &lt;li&gt;오른쪽 클릭이 작동하기 위해선 software center에서 GNOME Tweaks를 설치한다.&lt;/li&gt;
+  &lt;li&gt;Keyboard &amp;amp; Mouse -&amp;gt; Mouse Click Emulation -&amp;gt; Area 클릭&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;java-설치-및-java_home-path-지정&quot;&gt;java 설치 및 JAVA_HOME, PATH 지정&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.theserverside.com/video/5-steps-for-an-easy-JDK-13-install-on-Ubuntu&quot;&gt;영상 참고: 5분 짜리 영상&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;운영체제에 맞게 jdk8 tar.gz파일을 다운받는다. &lt;a href=&quot;https://www.oracle.com/java/technologies/javase-jdk8-downloads.html&quot;&gt;여기서 다운&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;압축 파일을 푼 후 압축을 푼 파일을 /opt로 이동한다. sudo mv jdk8~~ /opt&lt;/li&gt;
+  &lt;li&gt;아래처럼 자바 환경변수를 설정할 shell 파일을 만들고 환경변수 명령을 입력한다&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;```shell script
+jdk13@ubuntu:$ sudo tee /etc/profile.d/jdk8env.sh «EOF
+export JAVA_HOME=/opt/jdk-1.8.0_241
+export PATH=$PATH$JAVA_HOME/bin
+EOF&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+- source 명령으로 sh파일을 실행한다. 
+
+```shell script
+$ source /etc/profile.d/jdk8env.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;잘 지정됐는지 확인한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;shell script
+echo $JAVA_HOME
+echo $PATH
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;java -version 입력하면 jdk 없다고 하는데 intelliJ에서 프로젝트 구조에서 jdk 직접 설정하면 된다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;file-찾는-방법&quot;&gt;file 찾는 방법&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;sudo apt-get install locate&lt;/li&gt;
+  &lt;li&gt;sudo updatedb&lt;/li&gt;
+  &lt;li&gt;locate [fileName
+    &lt;h3 id=&quot;whereis-파일명&quot;&gt;whereis 파일명&lt;/h3&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;file-확장자-찾는-법&quot;&gt;file 확장자 찾는 법&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;file [fileName]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;단축키&quot;&gt;단축키&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ctrl + Alt + T : 바탕화면에서 터미널을 실행&lt;/li&gt;
+  &lt;li&gt;Ctrl + Shift + T : 터미널내에서 새탭으로 터미널을 실행&lt;/li&gt;
+  &lt;li&gt;Ctrl + Shift + N : 터미널내에서 새로운 터미널을 실행&lt;/li&gt;
+  &lt;li&gt;Ctrl + Shift + W : 탭으로 실행된 터미널을 종료&lt;/li&gt;
+  &lt;li&gt;Ctrl + Shift + Q : 현재 터미널을 종료(탭포함)&lt;/li&gt;
+  &lt;li&gt;Ctrl + Shift + F : 터미널내에 문자열검색&lt;/li&gt;
+  &lt;li&gt;Alt + 숫자 : 탭간에 이동&lt;/li&gt;
+  &lt;li&gt;Ctrl + PageUp/PageDown : 다음/이전 탭으로 이동&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;terminal에-oh-my-zsh-추가하기&quot;&gt;Terminal에 oh-my-zsh 추가하기&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;글 참고 : &lt;a href=&quot;https://dev.to/mskian/install-z-shell-oh-my-zsh-on-ubuntu-1804-lts-4cm4&quot;&gt;https://dev.to/mskian/install-z-shell-oh-my-zsh-on-ubuntu-1804-lts-4cm4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;위 글대로 하되 테마 설정 완료 한 후 &lt;a href=&quot;https://github.com/ohmyzsh/ohmyzsh/issues/8038&quot;&gt;이 글 참고해서 실행하기&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ohmyzsh-테마-설정&quot;&gt;oh.my.zsh 테마 설정&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;cd ~&lt;/li&gt;
+  &lt;li&gt;cd .oh-my-zsh/themes&lt;/li&gt;
+  &lt;li&gt;vim agnoster.zsh-theme 들어간 뒤 필요한 테마 설정&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;agnoster-new-line-설정하기&quot;&gt;agnoster new line 설정하기&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;원래 코드를 작성했는데 github.io에 올릴 때 에러가 나서 아래 사이트로 대체.
+&lt;a href=&quot;https://wayhome25.github.io/etc/2017/03/12/zsh-alias/&quot;&gt;참고 사이트&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;터미널-프롬프트-설정&quot;&gt;터미널 프롬프트 설정&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;.bashrc:16: command not found: shopt
+    &lt;ul&gt;
+      &lt;li&gt;zsh가 기본 설정인데 예전 bashrc를 설정하려고 할 때 나는 에러라고 함.&lt;/li&gt;
+      &lt;li&gt;참고 : &lt;a href=&quot;https://stackoverflow.com/questions/26616003/shopt-command-not-found-in-bashrc-after-shell-updation&quot;&gt;https://stackoverflow.com/questions/26616003/shopt-command-not-found-in-bashrc-after-shell-updation&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;3장-물리-계층의-역할과-랜-카드의-구조&quot;&gt;3장 물리 계층의 역할과 랜 카드의 구조&lt;/h2&gt;
+&lt;h2 id=&quot;터미널-프롬프트-이름-지우는-방법&quot;&gt;터미널 프롬프트 이름 지우는 방법&lt;/h2&gt;
+&lt;p&gt;참고 : &lt;a href=&quot;https://the-illusionist.me/49&quot;&gt;https://the-illusionist.me/49&lt;/a&gt;&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;물리 계층은 무엇인가?
+  &lt;li&gt;아래 코드를 vim ~/.zshrc 맨 마지막에 넣고 wq!로 저장한다.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;원래 코드가 있었으나 github.io 문제로 위 사이트로 대체. 그대로 따라하면 된다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;그 뒤 source ~/.zshrc 실행하면 바로 적용.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;auto-suggestions-적용하는-법&quot;&gt;auto-suggestions 적용하는 법&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;참고 : &lt;a href=&quot;https://nachwon.github.io/how-to-install-zsh-plugins/&quot;&gt;https://nachwon.github.io/how-to-install-zsh-plugins/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fzf-적용하는-법&quot;&gt;FzF 적용하는 법&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;참고 : &lt;a href=&quot;https://medium.com/harrythegreat/fzf%EB%A1%9C-zsh-%ED%84%B0%EB%AF%B8%EB%84%90-%EB%8D%94-%EA%B0%95%EB%A0%A5%ED%95%98%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-730c20eb496b&quot;&gt;https://medium.com/harrythegreat/fzf%EB%A1%9C-zsh-%ED%84%B0%EB%AF%B8%EB%84%90-%EB%8D%94-%EA%B0%95%EB%A0%A5%ED%95%98%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-730c20eb496b&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;좋은 기능으로 보이는데 초보인데 벌써 사용하고 싶진 않다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;유용한-zsh-플러그인-6가지&quot;&gt;유용한 zsh 플러그인 6가지.&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;주소 : &lt;a href=&quot;https://medium.com/harrythegreat/zsh%EC%99%80-%ED%95%A8%EA%BB%98-%EC%82%AC%EC%9A%A9%ED%95%A0-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8-%EC%B6%94%EC%B2%9C-6%EA%B0%80%EC%A7%80-8f9b8b7f3c24&quot;&gt;https://medium.com/harrythegreat/zsh%EC%99%80-%ED%95%A8%EA%BB%98-%EC%82%AC%EC%9A%A9%ED%95%A0-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8-%EC%B6%94%EC%B2%9C-6%EA%B0%80%EC%A7%80-8f9b8b7f3c24&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ubuntu에-git-설치하기&quot;&gt;Ubuntu에 git 설치하기&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;sudo apt update&lt;/li&gt;
+  &lt;li&gt;sudo apt install git&lt;/li&gt;
+  &lt;li&gt;git –version // 버전확인&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;기본-터미널-설정-바꾸기&quot;&gt;기본 터미널 설정 바꾸기&lt;/h2&gt;
+&lt;h3 id=&quot;솔라리스-어두움---녹색-글씨&quot;&gt;솔라리스 어두움 - 녹색 글씨&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;단점 : autoSuggestion 글씨 색깔이랑 배경이랑 같아서 안보임.. -&amp;gt; 글씨 못 바꾸나?&lt;/li&gt;
+  &lt;li&gt;최초 터미널 크기 100열 / 24행&lt;/li&gt;
+  &lt;li&gt;사용자 지정 글꼴 : DejaVu Sans Mono Book 15&lt;/li&gt;
+  &lt;li&gt;배경의 내장 팔레트 : 솔라리스 어두움을 기본으로 한 뒤 글씨 색깔은 #30E688(녹색계열)&lt;/li&gt;
+  &lt;li&gt;투명한 배경 사용 : 없음 (완전 불투명)&lt;/li&gt;
+  &lt;li&gt;내장 팔레트 : 솔라리스&lt;/li&gt;
+  &lt;li&gt;프로파일 저장도 가능.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;블루투스이-on이-안될-때&quot;&gt;블루투스이 on이 안될 때&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;갑자기 블루투스가 off 된 뒤 on으로 안된다.&lt;/li&gt;
+  &lt;li&gt;bluez라는 프로그램을 설치하고 다시 껐다가 켠다.&lt;/li&gt;
+  &lt;li&gt;참고 : &lt;a href=&quot;https://askubuntu.com/questions/1036195/bluetooth-doesnt-work-after-resuming-from-sleep-ubuntu-18-04-lts&quot;&gt;https://askubuntu.com/questions/1036195/bluetooth-doesnt-work-after-resuming-from-sleep-ubuntu-18-04-lts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;사진-편집-프로그램-shutter-설치법&quot;&gt;사진 편집 프로그램, Shutter 설치법&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;참고 : &lt;a href=&quot;https://webnautes.tistory.com/513&quot;&gt;https://webnautes.tistory.com/513&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;우분투-1804에서-듀얼모니터-설정&quot;&gt;우분투 18.04에서 듀얼모니터 설정&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;setting -&amp;gt; display로 들어간다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;메인-화면-정하기&quot;&gt;메인 화면 정하기&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;주요 디스플레이를 설정&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;모니터-위치-변경하기&quot;&gt;모니터 위치 변경하기.&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;모니터 하나를 클릭한 뒤 이동시킨다.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">한글 설정 language support에 들어가서 자동으로 필요한 파일을 다운 받는다. region &amp;amp; language에 들어가서 input sources에 korean(Hangul)을 추가한다. keyboard에 들어가서 switch to next input source에서 한/영 키로 변경한다. tweak 사용 Then open GNOME Tweaks (gnome-tweaks). Select Keyboard &amp;amp; Mouse tab Click Additional Layout Options button Expand Switching to another layout Select Ctrl + Shift here 출처 : https://askubuntu.com/questions/1029588/18-04-ctrlshift-to-change-language</summary></entry><entry><title type="html">Git til</title><link href="http://localhost:4000/Git-TIL/" rel="alternate" type="text/html" title="Git   til" /><published>2020-05-01T00:00:00+09:00</published><updated>2020-05-01T00:00:00+09:00</updated><id>http://localhost:4000/Git%20-%20TIL</id><content type="html" xml:base="http://localhost:4000/Git-TIL/">&lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;개인 공부&lt;/li&gt;
+  &lt;li&gt;유용한 git 명령&lt;/li&gt;
+  &lt;li&gt;호눅스 리뷰&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;핵심&quot;&gt;핵심&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Git은 변경사항만 저장하지 않고 모든 파일을 저장한다.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cvcs와-dvcs의-차이&quot;&gt;CVCS와 DVCS의 차이&lt;/h2&gt;
+&lt;p&gt;CVCS는 중앙 버전 관리 시스템으로 중앙 서버가 버전 관리를 진행하고 사용자는 파일을 받아서 사용한다.(Check out) 하지만 CVCS의 단점은 만약 중앙 서버가 고장난다면 버전 관리 시스템을 사용할 수 없다.&lt;br /&gt; 
+DVCS는 분산 버전 관리 시스템이다. 사용자는 파일 하나만 복사해서 사용하는 것이 아니라 버전 관리 데이터 베이스를 전부 복사한다. DVCS의 장점은 만약 서버가 다운되더라도 사용자는 버전 관리 시스템을 유지할 수 있다.&lt;/p&gt;
+
+&lt;h2 id=&quot;git과-다른-vcs의-차이점--스냅샷&quot;&gt;Git과 다른 VCS의 차이점 : 스냅샷&lt;/h2&gt;
+&lt;p&gt;기존 VCS와 GIT의 가장 큰 차이점은 GIT이 커밋에 바뀐 것만 저장하는 것이 아니라 전체 코드를 저장한다는 것입니다. 전체 파일을 저장하면 비효율적이지 않을까?라는 의문이 들 수 있다. 하지만 차이점만 저장하게 되면 이전 버전을 보여줄 때 맨 처음 커밋까지 가야지 버전의 온전한 모습을 볼 수 있다. git은 그냥 이전 버전과 차이점만 비교하면 된다.&lt;/p&gt;
+
+&lt;p&gt;snapshot의 정의 : a piece of information or short description that gives an understanding of a situation at a particular time 
+&lt;a href=&quot;https://dictionary.cambridge.org/dictionary/english/snapshot&quot;&gt;https://dictionary.cambridge.org/dictionary/english/snapshot&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;git과 기존의 VCS의 차이점은 GIT은 버전 관리를 스냅샷을 기준으로 한다는 점이다. 그럼 기존 VCS와 차이점은 무엇이냐. 기존 VCS는 바뀐 파일의 변화를 기록한다. 하지만 GIT은 파일을 저장하지 않고 파일의 마지막 그 순간을 스냅샷으로 관리한다. 만약 파일이 변경되지 않았다면 이전 파일에 대한 링크(주소)만 저장한다.&lt;/p&gt;
+
+&lt;h3 id=&quot;git의-체크섬-이용&quot;&gt;git의 체크섬 이용&lt;/h3&gt;
+&lt;p&gt;checkSum의 정의 : a digit representing the sum of the correct digits in a piece of stored or transmitted digital data, against which later comparisons can be made to detect errors in the data. (올바른 파일이라는 디지털 표식인데 숫자로 이루어져있다.)&lt;/p&gt;
+
+&lt;p&gt;git은 데이터를 저장하기 전에 checksum을 만들고 데이터를 저장한다. checksum을 만들기 위해 SHA-1 해시 값을 이용한다. 파일 저장 시 해시 값으로 저장한다.&lt;/p&gt;
+
+&lt;h3 id=&quot;git의-다섯가지-상태&quot;&gt;GIT의 다섯가지 상태&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Untracked : git이 추적하지 않는 상태. 처음 생성 후 add를 안한 파일&lt;/li&gt;
+  &lt;li&gt;Unmodified : commit 된 후 다시 워킹 디렉토리에 온 상태&lt;/li&gt;
+  &lt;li&gt;Modified : 파일 수정만 하고 add를 안 한 상태&lt;/li&gt;
+  &lt;li&gt;Staged : commit할 예정인 상태&lt;/li&gt;
+  &lt;li&gt;Committed : 수정한 파일을 로컬 저장소에 저장을 완료한 상태&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;git-용어&quot;&gt;git 용어&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;init : 현재 디렉토리를 git 저장소로 만듦&lt;/li&gt;
+  &lt;li&gt;local : git으로 관리하는 저장소를 의미&lt;/li&gt;
+  &lt;li&gt;remote : git 저장소를 네트워크에 원격으로 저장한 저장소&lt;/li&gt;
+  &lt;li&gt;clone : 기존에 존재하는 git저장소를 복사해 새로운 git 저장소를 만드는 명령어&lt;/li&gt;
+  &lt;li&gt;checkout : 원하는 커밋으로 이동하는 것. 주로 브랜치 이동할 때 사용한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;git-터미널-명령어&quot;&gt;git 터미널 명령어&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;init
     &lt;ul&gt;
-      &lt;li&gt;네트워크를 통해 전송되는 데이터를 전기 신호로 변환하는 계층이다. 랜카드를 통해 바꾼다.&lt;/li&gt;
+      &lt;li&gt;git init&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;UTP와 STP의 차이는?
+  &lt;li&gt;git log&lt;/li&gt;
+  &lt;li&gt;add
     &lt;ul&gt;
-      &lt;li&gt;UTP는 쉴드가 없어서 노이즈가 발생할 수 있고, STP는 쉴드가 있어서 노이즈를 예방한다.&lt;/li&gt;
+      &lt;li&gt;git add test.txt&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;다이렉트 케이블과 크로스 케이블의 차이는?
+  &lt;li&gt;commit
     &lt;ul&gt;
-      &lt;li&gt;다이렉트 케이블은 랜선을 같은 순서로 연결한 케이블이고 크로스 케이블은 1,2번 구리선을 상대방 3,6번에 연결한 케이블이다.&lt;/li&gt;
+      &lt;li&gt;git commit -a&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;허브는 무엇인가?
+  &lt;li&gt;checkout (커밋 변경하는 것)
+  -git checkout 5813bb5
     &lt;ul&gt;
-      &lt;li&gt;전기 신호를 정형하고 증폭하는 역할을 한다. 모든 신호를 연결된 모든 컴퓨터에 전달한다.&lt;/li&gt;
+      &lt;li&gt;돌아가려는 커밋의 checksum 앞 7자리를 적는다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;git remote add origin https://github.com/guswns1659/iTshirt.git
+    &lt;ul&gt;
+      &lt;li&gt;현재 로컬저장소에게 원격저장소 주소를 알려준다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;git push origin master
+    &lt;ul&gt;
+      &lt;li&gt;가장 최신 커밋을 원격저장소에 push 한다.
+-clone&lt;/li&gt;
+      &lt;li&gt;$ git clone https://github.com/guswns1659/Feedback Feedback22
+        &lt;ul&gt;
+          &lt;li&gt;remote 저장소 Feedback22에 복사한다.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;$ git clone https://github.com/guswns1659/Feedback .
+        &lt;ul&gt;
+          &lt;li&gt;remote 저장소를 현재 폴더에 저장한다. 한 칸 띄고 . 누른다.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;pull
+    &lt;ul&gt;
+      &lt;li&gt;git pull origin master&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;tag 만들고 푸시하기
+    &lt;ul&gt;
+      &lt;li&gt;git tag tagname&lt;/li&gt;
+      &lt;li&gt;git push origin tagname&lt;/li&gt;
+      &lt;li&gt;git tag -d tagname : 태그 지우기
+&lt;a href=&quot;https://git-scm.com/book/en/v2/Git-Basics-Tagging&quot;&gt;출처 : https://git-scm.com/book/en/v2/Git-Basics-Tagging&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;4장-데이터-링크-계층--랜에서-데이터-전송하기&quot;&gt;4장 데이터 링크 계층 : 랜에서 데이터 전송하기&lt;/h2&gt;
+&lt;h2 id=&quot;브랜치-merge-rebase-pull-request에-대해서&quot;&gt;브랜치, merge, rebase, pull request에 대해서&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;데이터 링크 계층은 무엇인가?
+  &lt;li&gt;브랜치 : 최신 커밋을 가르키는 포인터이다. 브랜치를 만들면 커밋 로그가 마치 길처럼 새롭게 만들어진다.&lt;/li&gt;
+  &lt;li&gt;HEAD : 현재 git이 바라보는 브랜치를 말한다. checkout을 통해 브랜치를 이동할 수 있다.&lt;/li&gt;
+  &lt;li&gt;Pull Request : 의미대로 pull을 요청하는 것이다. 내 브랜치를 당신의 브랜치에 병합해도 될까요?라고 물어보는 것이다.&lt;/li&gt;
+  &lt;li&gt;Fetch : 원격저장소나 브랜치의 변경사항을 업데이트하는 것이다. 한마디로 새로고침. 이력만 변경하지 코드가 merge되는 것은 아니다.&lt;/li&gt;
+  &lt;li&gt;Rebase : 의미는 병합할 base를 다시 지정하는 것이다. merge할 경우 merge commit이 생기기 때문에 브랜치가 지저분하지만 rebase를 하면 base 브랜치 위에 브랜치를 올리기 때문에 브랜치가 깔끔해진다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;merge&quot;&gt;merge&lt;/h3&gt;
+&lt;p&gt;merge는 두 브랜치를 합치는 작업이다. 만약 두 브랜치가 같은 내용을 수정했다면 충돌이 일어나서 어떤 브랜치의 파일을 사용할 건지 지정해줘야 한다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;merge commit : merge가 성공해 두 브랜치가 합쳐진 커밋을 말한다.&lt;/li&gt;
+  &lt;li&gt;fast-forward : 의미는 빨리감기인데, 만약 한 브랜치가 다른 브랜치의 모든 변경사항을 가지고 있다면 병합되는 커밋이 그냥 빨리 감기로 미래로 간 느낌이다&lt;/li&gt;
+  &lt;li&gt;충돌 : 두 브랜치가 동일한 지점을 변경할 때 발생한다. 사용자가 직접 충돌 사항을 조정해야 한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;유용한-git-명령&quot;&gt;유용한 git 명령&lt;/h2&gt;
+&lt;h3 id=&quot;amend-커밋-수정하기&quot;&gt;amend (커밋 수정하기)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;로컬저장소 : 어떤 파일을 커밋한 뒤, 수정할 부분이 생겼다. 이 때 다시 커밋하지 말고 수정할 부분 수정한 뒤에 add한다. 그 뒤 git commit –amend 명령 입력하면 커밋이 덮어쓴다.&lt;/li&gt;
+  &lt;li&gt;원격저장소 : 로컬에서 마찬가지로 파일 수정 후에 add하고 git commit –amend로 커밋한다. 그 뒤 git push -f 원격저장소명 브랜치명 입력한다. 강제 푸시를 하기 때문에 나혼자 쓰는 브랜치에만 적용한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;cherry-pick&quot;&gt;cherry-pick&lt;/h3&gt;
+&lt;p&gt;다른 브랜치에서 하나의 커밋만 병합하고 싶을 때 ! 톡 떼서 가져오는 느낌. 똑같은 커밋을 가져오지 않고 다른 커밋을 복사한다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;git checkout 브랜치명 (병합할 base 브랜치)&lt;/li&gt;
+  &lt;li&gt;git cherry-pick 커밋명 (커밋 checksum 4자리 입력가능)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;reset-unstaging&quot;&gt;reset, unstaging&lt;/h3&gt;
+&lt;p&gt;옛날 커밋으로 브랜치를 되돌리는 방법이지만 정확하게는 원하는 커밋으로 오고 갈 수 있는 기능이다. 지운 커밋으로도 갈 수 있다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;git reflog&lt;/li&gt;
+  &lt;li&gt;git reset –soft a51a : 커밋을 되돌리되 stage에 남긴다. 부드러운 reset&lt;/li&gt;
+  &lt;li&gt;git reset –mixed a51a : 커밋을 되돌리되 untracked 파일로 남긴다. hard와 soft를 섞은 resset&lt;/li&gt;
+  &lt;li&gt;git reset –hard a51a : 커밋을 되돌리되 파일을 지운다. 딱딱한 reset.&lt;/li&gt;
+  &lt;li&gt;스테이지에서 내리는 명령 : git reset&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;revert&quot;&gt;revert&lt;/h3&gt;
+&lt;p&gt;변경사항을 되돌리는 커밋을 만드는 명령&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;git revert a51a : 파일의 변경사항을 되돌리는 커밋이다. 만약 변경 사항이 없다면 clean하다고 말한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;상대-참조&quot;&gt;상대 참조&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;HEAD^ : 현재 HEAD의 부모 커밋으로 이동&lt;/li&gt;
+  &lt;li&gt;HEAD~3 : 현재 HEAD로 부터 부모 3번째&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;우분투에서-push할-때-github계정-저장하는-법&quot;&gt;우분투에서 push할 때 GitHub계정 저장하는 법&lt;/h2&gt;
+&lt;h3 id=&quot;영구-저장&quot;&gt;영구 저장&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;git config credential.helper store&lt;/li&gt;
+  &lt;li&gt;git push 처음할 때 아이디와 패스워드 저장
+    &lt;h3 id=&quot;임시-저장-cache&quot;&gt;임시 저장 (cache)&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;git config credential.helper “cache –timeout=30”&lt;/li&gt;
+  &lt;li&gt;git push
+    &lt;h3 id=&quot;git-인증-초기화&quot;&gt;git 인증 초기화&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;git config –unset credential.helper&lt;/li&gt;
+  &lt;li&gt;file ~/.git-credentials&lt;/li&gt;
+  &lt;li&gt;rm ~/.git-credentials&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;터미널에서-한글-파일-출력-안될-때&quot;&gt;터미널에서 한글 파일 출력 안될 때&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;git config –global core.quotepath off (전체 저장소)&lt;/li&gt;
+  &lt;li&gt;git config core.quotepath off (해당 저장소)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;깃허브-꿀팁&quot;&gt;깃허브 꿀팁&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;크롬 확장프로그램 : octotree&lt;/li&gt;
+  &lt;li&gt;파일 찾을 때 : T&lt;/li&gt;
+  &lt;li&gt;history 보고 싶을 때 : github 뒤에 -history.netlify.com 붙여준다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;터미널이나-소스트리-깃-크라켄에서-remote-log가-적용안될-때&quot;&gt;터미널이나 소스트리, 깃 크라켄에서 remote log가 적용안될 때&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;vim .git/config 로 들어간다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;```shell script
+[remote “origin”]
+      url = …
+      fetch = +refs/heads/&lt;em&gt;:refs/remotes/origin/&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+- fetch하는 branch를 *로 바꾼다. 
+
+## 원격 브랜치를 지우고 싶을 때 ! 
+- git push -d &amp;lt;원격 저장소 이름&amp;gt; &amp;lt;브랜치 이름&amp;gt; ex) git push -d origin step2 
+
+## git remote 
+- remote 이름 변경 : git remote rename origin destination
+- git remote remove &amp;lt;origin 이름&amp;gt;
+- git remote add &amp;lt;origin 이름&amp;gt; &amp;lt;주소&amp;gt;
+
+## 원격저장소 브랜치 가져오고 싶을 때 
+- git remote update (git fetch도 될 듯?)
+- git checkout -t origin/dev
+
+## .gitconfig 안 보일 때
+- 원래 경로는 ~/.gitconfig인데 alias 설정이 명령으로 안되서 파일을 찾으려는데 계속 안보였다. 
+- 확실한 해답은 모르겠는데 git config --global alial.br branch 같이 간단한 명령 지정하고 컴퓨터 껏다 켜보기. 
+- 한참 찾았는데 안되서 포기하다가 다음날 해보니 되네?.. 
+
+## git alias 설정
+[참고 URL : https://stackoverflow.com/questions/1057564/pretty-git-branch-graphs](https://stackoverflow.com/questions/1057564/pretty-git-branch-graphs)
+### 1. 명령어 방식 
+- git config --global alias.lg &amp;lt;명령어&amp;gt; ex) git config --global alias.lg log --all --decorate --oneline --graph
+### 2. config 파일 수정 
+- ~/.gitconfig 파일을 수정한다. 종종 .gitconfig 파일이 없는 경우가 있는데 그 땐 위 명령어로 한다. 
+- [alias]에 추가 
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;[alias]
+    lg : log –all –decorate –oneline –graph&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+- 사용할 땐 아래처럼 입력
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;git lg
+```&lt;/p&gt;
+
+&lt;h2 id=&quot;git-editor를-vim으로-변경하는-법&quot;&gt;git editor를 vim으로 변경하는 법&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-my-choice-for-commits&quot;&gt;참고 : URL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;git config –global core.editor “vim”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;repository에서-issue-추가하는-법&quot;&gt;Repository에서 issue 추가하는 법&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Settings -&amp;gt; Features -&amp;gt; issues 체크&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;호눅스-리뷰&quot;&gt;호눅스 리뷰&lt;/h2&gt;
+&lt;h3 id=&quot;코딩-학습-방법&quot;&gt;코딩 학습 방법&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;혼자서 성장하는 방법은 comport zone을 조금씩 벗어나며 성장해야 한다.&lt;/li&gt;
+  &lt;li&gt;학습 목표는 git에 대한 이해이다. 구현이 목적이 아니다. 구현이 못 한다고 좌절하지 말자. ex) 주짓수를 4년 배운 호눅스.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;git-용어-설명&quot;&gt;git 용어 설명&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;commit : 게임의 save point이다.&lt;/li&gt;
+  &lt;li&gt;init : 로컬 저장소 .git를 만든다.&lt;/li&gt;
+  &lt;li&gt;checkout : commit을 local에서 꺼내서 workingDir에 꺼내는 작업이다.&lt;/li&gt;
+  &lt;li&gt;add : workingDir에 있는 파일을 stage에 올려 commit할 준비를 한다.&lt;/li&gt;
+  &lt;li&gt;push : 마지막 커밋을 remote에 저장하는 명령어이다.&lt;/li&gt;
+  &lt;li&gt;snapShot : 현재 하드디스크의 현재 상태를 순간으로 저장하는 것이다.&lt;/li&gt;
+  &lt;li&gt;local : commit을 모아 놓은 저장소이다.&lt;/li&gt;
+  &lt;li&gt;checkSUm : 파일의 내용을 가지고 만들어진다. 40자리 hash 값이 있다. 파일의 비교가 가능하다. (블랍이라고도 한다.) add를 할 때 만들어진다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;작동-방식&quot;&gt;작동 방식&lt;/h3&gt;
+&lt;h4 id=&quot;commit&quot;&gt;commit&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;commit하면 stage에 파일이 사라지지 않는다. 왜냐하면 stage에 파일을 지우지 않으면 pull이나 다른 파일을 사용할 때 편하다.&lt;/li&gt;
+  &lt;li&gt;그럼 commit하면 이전 commit이 덮어지는 것 아닌가? 그럼 어떻게 이전 commit 시점으로 돌아갈까? 바로 commit에는 부모commit가 있어서 부모 commit을 타고 올라가면 된다.&lt;/li&gt;
+  &lt;li&gt;일반 사용자에게 폴더는 최종 파일이 저장되는 곳이다. 파일에서 쓰고 고치는 건 마치 놀이터에서 노는 것이다. 최종 저장이 안되기 때문이다. 하지만 git에게는 오히려 폴더는 놀이터이다. commit 해야 최종 저장이 된다.&lt;/li&gt;
+  &lt;li&gt;커밋 메세지는 자세하게 작성한다. 코드는 2시간이고 커밋은 5분이면 작성한다.&lt;/li&gt;
+  &lt;li&gt;commit은 트리 객체가 있다. 트리 객체 안에 트리도 있을 수 있고, 파일도 있을 수 있다.&lt;/li&gt;
+  &lt;li&gt;git은 내용이 같은 파일을 다시 stage에 올리지 않는다. 즉, checkSum을 만들지 않는다. 그대로 이용한다.&lt;/li&gt;
+  &lt;li&gt;git은 변경 사항을 저장하지 않는다. 전체를 저장한다. 왜 그렇게 할까? 변경사항만 저장하면 checkout할 때 그 상태로 찾을 때 처음부터 차근차근 차이점을 비교하며 찾아야 한다. 전체를 저장하면 그 파일을 그대로 가져오면 된다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;나머지&quot;&gt;나머지&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;깨끗하다는 의미는 working dir과 stage와 Head commit이 같은 상태를 말한다.&lt;/li&gt;
+  &lt;li&gt;head가 master가 아닌 git를 가르키게 하면 좋지 않는 사용법이다.&lt;/li&gt;
+  &lt;li&gt;git은 local과 remote 저장소의 차이가 없다. 로컬 저장소도 remote 저장소로 만들 수 있다.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">목차 개인 공부 유용한 git 명령 호눅스 리뷰</summary></entry><entry><title type="html">철학 feminism 4 3</title><link href="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-4-3/" rel="alternate" type="text/html" title="철학   feminism 4 3" /><published>2020-04-25T00:00:00+09:00</published><updated>2020-04-25T00:00:00+09:00</updated><id>http://localhost:4000/%EC%B2%A0%ED%95%99%20-%20Feminism%204-3</id><content type="html" xml:base="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-4-3/">&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.artnstudy.com/n_Lecture/?LessonIdx=ejkim001&amp;amp;LessonPart=philosophy&quot;&gt;김은주의 페미니즘&lt;/a&gt; 의 수업 내용과 내 생각을 정리한 글.&lt;/p&gt;
+
+&lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;타자인 여성의 투쟁은 없는가?&lt;/li&gt;
+  &lt;li&gt;페미니즘에서 구체적인 사례가 나오는 이유&lt;/li&gt;
+  &lt;li&gt;내생각&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;타자인-여성의-투쟁은-없는가&quot;&gt;타자인 여성의 투쟁은 없는가?&lt;/h2&gt;
+&lt;p&gt;보부아르는 여성이 타자로 억압을 받아왔지만 투쟁은 없었다고 말한다. 이 점이 다른 투쟁과 다른 점이라고 말한다. 예를 들어, 부르주아는 주체로 존재하고 프롤레타리아는 주체에 반하는 타자로 존재했다. 프롤레타리아는 이 타자로써 받는 차별과 억압을 참을 수 없기 때문에 격렬한 투쟁을 벌였다. 이처럼 주체와 타자의 관계는 투쟁이 존재한다. &lt;br /&gt;
+하지만 오랜 시간 타자로 존재해온 여성이 남성에 대해 투쟁을 한 적이 없다고한다. 오히려 계급 투쟁보다 훨씬 원초적인 갈등임에도 불구하고. 보부아르는 이 점을 지적한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;페미니즘에서-구체적인-사례가-나오는-이유&quot;&gt;페미니즘에서 구체적인 사례가 나오는 이유&lt;/h2&gt;
+&lt;p&gt;김은주 강사에 따르면 세간에는 페미니즘이 철학인가?라는 질문이 있다고 한다. 철학은 모든 인류에게 해당하는 주제에 대해서 이야기를 해야 하는데 페미니즘은 여성에 국한되고 구체적인 개인적인 사례에 의존하는 학문이 아니냐는 주장이다. &lt;br /&gt;
+페미니즘이 구체적인 사례를 이야기하는 이유는 이 주장이 더욱 피부에 와닷기 때문이다. 원론적인 이야기보단 우리의 삶 속에서 여성이 겪는 차별과 억압을 그 당사자들이 이야기하는 주장은 힘이 있다. 그렇기에 페미니즘의 출발은 자신의 경험을 이야기할 수 있게 하는 점과 그 이야기를 경청하는 것에서 시작한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;내생각&quot;&gt;내생각&lt;/h2&gt;
+&lt;p&gt;페미니즘의 시작은 여성들의 이야기할 수 있게 도와주는 것. 정말 중요한 출발점이다. 그 동안 하지 못했던 그들의 이야기를 듣는 것. 아직 사회가 적극적으로 들어주지 못한다면 나 한 사람이라도 그들의 이야기를 들을 수 있도록 노력하고 싶다. &lt;br /&gt;
+김은주 강사는 말한다. 페메니스트로 사는 건 마냥 행복하지 않다고 말이다. 이전에는 무관심했지만 페미니스트가 되면 사회의 불합리함이 너무나 잘 보인다고 한다. 이런 삶이 마냥 쉽지는 않다고 한다. 그냥 사회에 순응하며 살아가는 게 마음은 편하지 않을까 싶지만, 마음이 편한 건 타협을 하는 것이 아닐까. 내가 김은주 강사의 삶을 모르지만, 그녀의 노력이 있기 때문에 이 사회가 조금 더 여성의 권리에 관심을 갖게 되었다고 생각한다. 지금 내가 그녀의 강의를 보는 것처럼.&lt;/p&gt;</content><author><name>HYUNJUN</name></author><summary type="html">개요 김은주의 페미니즘 의 수업 내용과 내 생각을 정리한 글.</summary></entry><entry><title type="html">Spring environment</title><link href="http://localhost:4000/Spring-Environment/" rel="alternate" type="text/html" title="Spring   environment" /><published>2020-04-23T00:00:00+09:00</published><updated>2020-04-23T00:00:00+09:00</updated><id>http://localhost:4000/Spring%20-%20Environment</id><content type="html" xml:base="http://localhost:4000/Spring-Environment/">&lt;h2 id=&quot;1-개요&quot;&gt;1. 개요&lt;/h2&gt;
+&lt;p&gt;Environment는 ApplicationContext을 통해 여러 빈을 모아 하나의 프로파일로 만들어진 환경을 말한다. 각 개발 단계에서 필요한 빈들을 프로파일로 묶고 필요할 때만 사용할 수 있다. 내가 프로파일을 지정해야 그 프로파일 속 여러개의 빈을 사용할 수 있다.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-프로파일&quot;&gt;2. 프로파일&lt;/h2&gt;
+&lt;h3 id=&quot;21-프로파일-만드는-법&quot;&gt;2.1 프로파일 만드는 법&lt;/h3&gt;
+&lt;h4 id=&quot;211-configuration을-통한-설정&quot;&gt;2.1.1 Configuration을 통한 설정&lt;/h4&gt;
+&lt;p&gt;여러개의 빈이 모인 환경을 말한다. 아래와 같이 사용한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Configuration&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@Profile&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;test&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;TestConfiguration&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nd&quot;&gt;@Bean&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;BookRepository&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;bookRepository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;HyunjunRepository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;만약, BookService에서 BookRepository를 주입받으려면 에러가 발생한다. test라는 프로파일을 지정하지 않았기 때문이다.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Service&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;BookService&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nd&quot;&gt;@Autowired&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;BookRepository&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bookRepository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;printBookRepository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bookRepository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;빈을 찾을 수 없다는 아래의 에러 문구가 뜬다.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;Field&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bookRepository&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;spring&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;springcore&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;BookService&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;required&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bean&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;spring&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;springcore&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;BookRepository&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;that&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;could&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;be&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;found&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;212-bean에-직접-등록하는-법&quot;&gt;2.1.2 Bean에 직접 등록하는 법&lt;/h4&gt;
+&lt;p&gt;매번 Configuration으로 프로파일을 지정하면 불편하다. 보통 Configuration으로 빈을 등록하지 않기 때문에 어노테이션을통해 빈을 등록할 때 프로파일을 지정할 수 있다. 아래 코드를 보자.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Repository&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@Profile&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;test&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HyunjunRepository&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;implements&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;BookRepository&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;22-특정-프로파일-사용하는-법&quot;&gt;2.2 특정 프로파일 사용하는 법&lt;/h3&gt;
+&lt;h4 id=&quot;221-active-profiles-사용&quot;&gt;2.2.1 active profiles 사용&lt;/h4&gt;
+&lt;p&gt;IntelliJ 우측 상단에 망치 표시 옆 아래 화살표 클릭해서 edit Springapplication을 들어간다. -&amp;gt; 현재 실행중인 application의 Configuration 혹은 SpringBoot-&amp;gt; active profile에 ‘test’라 지정.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/guswns1659/Writing/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/Spring/picture/spring%EC%97%90%EC%84%9C%20edit%20configuration%20%ED%95%98%EB%8A%94%20%EB%B2%95.png&quot; alt=&quot;editconfiguration&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/guswns1659/Writing/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/Spring/picture/spring%20edit%20configuration%EC%97%90%EC%84%9C%20active%20%EC%98%81%EC%97%AD.png&quot; alt=&quot;Springboot active 영역&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;222-vm-option-사용&quot;&gt;2.2.2 VM option 사용&lt;/h4&gt;
+&lt;p&gt;VM option에 -Dspring.profiles.active=”test” 입력한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/guswns1659/Writing/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/Spring/picture/vm%20option%EC%9C%BC%EB%A1%9C%20profile%20%EC%A7%80%EC%A0%95%ED%95%98%EB%8A%94%20%EB%B2%95.png&quot; alt=&quot;vm option 사용해서 profile 지정&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;3-프로퍼티&quot;&gt;3. 프로퍼티&lt;/h2&gt;
+&lt;p&gt;정확히 개념을 이해하진 못했다. Environment 속에 프로퍼티를 설정하면 필요할 때 가져다 쓸 수 있다고 한다. 설정하는 방법은 다양한데 어디서 설정했느냐에 따라 우선순위가 달라진다고 한다. 프로퍼티가 호출될 때 우선순위가 높은 곳에서 등록한 프로퍼티가 출력된다. &lt;del&gt;조금 더 공부가 필요&lt;/del&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;31-설정하는-법&quot;&gt;3.1 설정하는 법&lt;/h2&gt;
+&lt;h3 id=&quot;311-vm-option&quot;&gt;3.1.1 VM Option&lt;/h3&gt;
+&lt;p&gt;VM Option에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-Dapp.name=spring5&lt;/code&gt;처럼 설정한다. 이후 사용하려면 ApplicationContext 내에 Environment를 이용해서 꺼낸다. 아래 코드 참고.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Component&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;BookServiceRunner&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;implements&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ApplicationRunner&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;nd&quot;&gt;@Autowired&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;ApplicationContext&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;applicationContext&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;nd&quot;&gt;@Autowired&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;BookService&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bookService&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;nd&quot;&gt;@Override&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;ApplicationArguments&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;Environment&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;environment&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;applicationContext&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getEnvironment&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;environment&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getProperty&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;app.name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;312-appproperties을-이용한-파일-설정&quot;&gt;3.1.2 app.properties을 이용한 파일 설정&lt;/h4&gt;
+&lt;p&gt;resource 폴더에 app.properties 파일을 생성한 뒤 app.about=spring을 지정한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;about&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;spring&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;이후 @Configuration이 있는 파일로 가서 @PropertySource(“classpath:/app.properties”)를 설정한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@SpringBootApplication&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@PropertySource&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;classpath:/app.properties&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SpringcoreApplication&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;SpringApplication&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SpringcoreApplication&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;호출해본다.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Component&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;BookServiceRunner&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;implements&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ApplicationRunner&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;nd&quot;&gt;@Autowired&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;ApplicationContext&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;applicationContext&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;nd&quot;&gt;@Autowired&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;BookService&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bookService&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;nd&quot;&gt;@Override&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;ApplicationArguments&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;Environment&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;environment&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;applicationContext&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getEnvironment&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;environment&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getProperty&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;app.name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;environment&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getProperty&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;app.about&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>HYUNJUN</name></author><summary type="html">1. 개요 Environment는 ApplicationContext을 통해 여러 빈을 모아 하나의 프로파일로 만들어진 환경을 말한다. 각 개발 단계에서 필요한 빈들을 프로파일로 묶고 필요할 때만 사용할 수 있다. 내가 프로파일을 지정해야 그 프로파일 속 여러개의 빈을 사용할 수 있다.</summary></entry><entry><title type="html">Spring 빈의 스코프</title><link href="http://localhost:4000/Spring-%EB%B9%88%EC%9D%98-%EC%8A%A4%EC%BD%94%ED%94%84/" rel="alternate" type="text/html" title="Spring   빈의 스코프" /><published>2020-04-23T00:00:00+09:00</published><updated>2020-04-23T00:00:00+09:00</updated><id>http://localhost:4000/Spring%20-%20%EB%B9%88%EC%9D%98%20%EC%8A%A4%EC%BD%94%ED%94%84</id><content type="html" xml:base="http://localhost:4000/Spring-%EB%B9%88%EC%9D%98-%EC%8A%A4%EC%BD%94%ED%94%84/">&lt;h2 id=&quot;1-개요&quot;&gt;1. 개요&lt;/h2&gt;
+&lt;p&gt;스프링에서 생성되는 빈들은 스코프(범위)가 정해져있다. 여기서 범위란 애플리케이션에서 존재하는 해당 빈의 인스턴스 개수라 생각할 수 있다. 크게 싱글톤과 프로토타입으로 나눠진다.&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;빈의 스코프&lt;/dt&gt;
+  &lt;dd&gt;ioC컨테이너 생성된 빈의 인스턴스 개수, 범위를 의미한다. 크게 싱글톤과 프로토타입으로 나눠진다.
+    &lt;ol&gt;
+      &lt;li&gt;싱글톤과 프로토타입
+1.1 싱글톤
+        &lt;ul&gt;
+          &lt;li&gt;싱글톤으로 생성된 빈은 인스턴스가 하나만 만들어진다. 빈이 사용될 땐 이 하나의 인스턴스만 참조한다.
+1.2 프로토타입
+1.3 프로토타입을 싱글톤에서 사용할 때&lt;/li&gt;
+          &lt;li&gt;싱글톤 빈을 여러개 만들면 프로토타입 빈 인스턴스가 매번 새로 생겨야 하는데 하나의 인스턴스만 사용하게된다.
+1.3.1 해결책
+프로토타입을 상속하는 프록시 타입으로 프로토타입을 감씨준다. 싱글톤 빈에서 직접 프로토타입 빈을 참조하지 않기 때문에 새로운 인스턴스가 생길 수 있다.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;질문
+        &lt;ul&gt;
+          &lt;li&gt;대부분의 스코프가 싱글톤이라고 하는데, 스프링 전체에서 싱글톤을 쓰면 부수효과가 날 가능성은 없는가?
+가능성이 당연히 있다. 멀티쓰레드 환경에서는 예상 못한 부수효과가 발생할 수 있다. 이 때 동기화 혹은 락을 이용해 부수효과가 일어나지 않게 사용해야 한다. (edited)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/dd&gt;
+&lt;/dl&gt;</content><author><name>HYUNJUN</name></author><summary type="html">1. 개요 스프링에서 생성되는 빈들은 스코프(범위)가 정해져있다. 여기서 범위란 애플리케이션에서 존재하는 해당 빈의 인스턴스 개수라 생각할 수 있다. 크게 싱글톤과 프로토타입으로 나눠진다.</summary></entry><entry><title type="html">Ec2 &amp;amp; nignx 배포</title><link href="http://localhost:4000/EC2-&-Nignx-%EB%B0%B0%ED%8F%AC/" rel="alternate" type="text/html" title="Ec2 &amp; nignx 배포" /><published>2020-04-23T00:00:00+09:00</published><updated>2020-04-23T00:00:00+09:00</updated><id>http://localhost:4000/EC2%20&amp;%20Nignx%20%EB%B0%B0%ED%8F%AC</id><content type="html" xml:base="http://localhost:4000/EC2-&amp;-Nignx-%EB%B0%B0%ED%8F%AC/">&lt;h1 id=&quot;배포-인프라-만들기&quot;&gt;배포 인프라 만들기&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-ec2-서버&quot;&gt;1. EC2 서버&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;AWS에서 EC2 만들기.&lt;/li&gt;
+  &lt;li&gt;EC2에서 보안그룹에서 포트 열어주기
     &lt;ul&gt;
-      &lt;li&gt;네트워크 장비 간에 신호를 주고 받는 규칙을 정하는 계층이다.&lt;/li&gt;
+      &lt;li&gt;HTTP: 80&lt;/li&gt;
+      &lt;li&gt;SSH: 22&lt;/li&gt;
+      &lt;li&gt;MYSQL/Aurora: 3306&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;CSMA/CD이란?
-    &lt;ul&gt;
-      &lt;li&gt;허브에서 데이터가 충돌나지 않게 하는 규칙을 말한다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;MAC 주소란?
-    &lt;ul&gt;
-      &lt;li&gt;랜 카드에 있는 컴퓨터의 물리 주소를 말한다. 전 세계에서 유일무이하다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;스위치의 동작원리는?
-    &lt;ul&gt;
-      &lt;li&gt;허브처럼 목적지 컴퓨터로 데이터를 보내지만 특정 컴퓨터에만 전송할 수 있다. 내부에 맥 주소 테이블이 있어서 스위치에 연결된 맥주소를 가지고 있다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;ARP란?
-    &lt;ul&gt;
-      &lt;li&gt;Address Resoultion Protocol의 약자이다. 목적지의 ip주소로 mac 주소를 알아내는 규칙이다. mac 주소를 알아야 데이터를 전기신호로 바꿀 수 있기 때문이다. 이후 메모리에 ARP 테이블이 있어서 목적지 ip와 mac 주소를 저장한다.&lt;/li&gt;
-    &lt;/ul&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;2-서버-초기-세팅&quot;&gt;2. 서버 초기 세팅&lt;/h2&gt;
+
+&lt;h3 id=&quot;0-패키지-업데이트&quot;&gt;0. 패키지 업데이트&lt;/h3&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt update
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;1-java-8설치&quot;&gt;&lt;strong&gt;1. JAVA 8설치&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;자바 버전 확인 -&amp;gt; 자바 버전이 7이하일 경우 삭제 후 8설치&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt remove java-1.7.0-openjdk
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;openjdk-8-jdk
+&lt;span class=&quot;c&quot;&gt;# Java8로 변경&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; /usr/sbin/alternatives &lt;span class=&quot;nt&quot;&gt;--config&lt;/span&gt; java   
+그리고 난 후 2를 엔터한다.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;2-타임존-변경&quot;&gt;&lt;strong&gt;2. 타임존 변경&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo rm&lt;/span&gt; /etc/localtime
+&lt;span class=&quot;nb&quot;&gt;sudo ln&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; /usr/share/zoneinfo/Asia/Seoul /etc/localtime
+&lt;span class=&quot;c&quot;&gt;# 확인&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;3-mysql-세팅&quot;&gt;3. MySQL 세팅&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-mysql-설치&quot;&gt;1. MySQL 설치&lt;/h3&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;mysql-server
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;2-mysql-root-접속&quot;&gt;2. MySQL root 접속&lt;/h3&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;mysql &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; root
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;3-mysql-한글설정&quot;&gt;3. MySQL 한글설정&lt;/h3&gt;
+
+&lt;h3 id=&quot;3-1-characterset-확인&quot;&gt;3-1. characterset 확인&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-mysql&quot;&gt;mysql&amp;gt; status
+Server characterset: latin1
+Db characterset:     latin1
+Client characterset: utf8
+Conn. characterset:	 utf8
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;3-2-etcmysqlmycnf-에-설정-추가&quot;&gt;3-2. /etc/mysql/my.cnf 에 설정 추가&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; [client]
+ default-character-set = utf8
+ [mysqld]
+ init_connect = SET collation_connection = utf8_general_ci
+ init_connect = SET NAMES utf8
+ character-set-server = utf8
+ collation-server = utf8_general_ci
+ [mysqldump]
+ default-character-set = utf8
+ [mysql]
+ default-character-set = utf8
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;321-외부접속-설정-etcmysqlmysqlconfdmysqldcnf&quot;&gt;3.2.1 외부접속 설정 /etc/mysql/mysql.conf.d/mysqld.cnf&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;bind-address = 0.0.0.0으로 설정하거나 주석처리&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# Instead of skip-networking the default is now to listen only on&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# localhost which is more compatible and is not less secure.&lt;/span&gt;
+bind-address          &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; 0.0.0.0
+&lt;span class=&quot;c&quot;&gt;#&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# * Fine Tuning&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#&lt;/span&gt;
+key_buffer_size         &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; 16M
+max_allowed_packet      &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; 16M
+thread_stack            &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; 192K
+thread_cache_size       &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; 8
+&lt;span class=&quot;c&quot;&gt;# This replaces the startup script and checks MyISAM tables if needed&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;MySQL 재접속&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;service mysql restart
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;3-3-characterset-확인&quot;&gt;3-3. characterset 확인&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-mysql&quot;&gt;mysql&amp;gt; status
+Server characterset:utf8
+Db characterset:	utf8
+Client characterset:utf8
+Conn. characterset:	utf8
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;4-유저-설정&quot;&gt;4. 유저 설정&lt;/h3&gt;
+
+&lt;h3 id=&quot;41-유저-확인&quot;&gt;4.1 유저 확인&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-mysql&quot;&gt;mysql&amp;gt; use mysql; 
+Reading table information for completion of table and column names You can turn off this feature to get a quicker startup with -A
+
+Database changed 
+mysql&amp;gt; select user, host from user;
++------------------+-----------+
+| user             | host      |
++------------------+-----------+
+| analyzer         | %         |
+| root             | 127.0.0.1 |
+| root             | ::1       | 
+| debian-sys-maint | localhost |
+| root             | localhost |
++------------------+-----------+
+5 rows in set (0.00 sec)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;42-유저-추가&quot;&gt;4.2 유저 추가&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-mysql&quot;&gt;# 유니코드 UTF-8적용
+CREATE DATABASE mydb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+create user 'sunny'@'%' identified by '비밀번호';
+GRANT ALL ON mydb.* TO 'sunny'@'%';
+# 모든권한 갖기 
+grant all privileges on *.* to 'sunny'@'%';
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;4-nginx-세팅&quot;&gt;4. nginx 세팅&lt;/h2&gt;
+
+&lt;h3 id=&quot;nginx-설치&quot;&gt;Nginx 설치&lt;/h3&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;nginx
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;service nginx start
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;nginx-실행이-잘-되었는지-확인하기&quot;&gt;Nginx 실행이 잘 되었는지 확인하기&lt;/h3&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ps &lt;span class=&quot;nt&quot;&gt;-ef&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;grep &lt;/span&gt;nginx
+root     24628     1  0 16:42 ?        00:00:00 nginx: master process /usr/sbin/nginx 
+&lt;span class=&quot;nt&quot;&gt;-g&lt;/span&gt; daemon on&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; master_process on&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+www-data 24630 24628  0 16:42 ?        00:00:00 nginx: worker process
+ubuntu   24965  1612  0 16:46 pts/0    00:00:00 &lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;auto nginx
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;nginx-스프링부트-프로젝트-연결하기리버스-프록시&quot;&gt;Nginx 스프링부트 프로젝트 연결하기(리버스 프록시)&lt;/h3&gt;
+
+&lt;h2 id=&quot;nginx-reverse-proxy-설정&quot;&gt;NginX Reverse Proxy 설정&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;설정 파일 수정&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo vi /etc/nginx/sites-available/default&lt;/code&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;        # Add index.php to the list if you are using PHP
+        index index.html index.htm index.nginx-debian.html;
+  
+        server_name _;
+  
+        location / {
+                # First attempt to serve request as file, then
+                # as directory, then fall back to displaying a 404.
+                try_files $uri $uri/ =404;
+        }
+  
+        location /api/ {
+                rewrite ^/api(/.*)$ $1 break; # url에서 api 뒤에 있는 URL을 전부 그대로 사용.
+                # ip/api/blahblah로 들어온 요청은 ip/blahblah로 Spring에 전달됩니다.
+                proxy_pass http://localhost:8080;
+        }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;해당 내용으로 수정하고&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo service nginx restart&lt;/code&gt; 실행&lt;/p&gt;
+
+    &lt;p&gt;spring에 보내는 요청이 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/api&lt;/code&gt;를 통해서 80포트에서 정상적으로 전달되는지 확인.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;5장-네트워크-계층--목적지에-데이터-전달하기&quot;&gt;5장 네트워크 계층 : 목적지에 데이터 전달하기&lt;/h2&gt;
+&lt;p&gt;이렇게 설정하면 api라고 경로를 지정해야 8080포트로 요청이 전달됩니다.&lt;/p&gt;
+
+&lt;p&gt;물론 api는 Spring에서 지정해주지 않아도, rewrite로 경로가 지정됩니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;nginx-프론트-산출물-저장하는-경로&quot;&gt;NginX 프론트 산출물 저장하는 경로&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/var/www/html&lt;/code&gt;&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;네트워크 계층은 무엇인가?
-    &lt;ul&gt;
-      &lt;li&gt;네트워크 간의 통신을 가능하게 하는 계층.&lt;/li&gt;
-    &lt;/ul&gt;
+  &lt;li&gt;리버스 프록시 설정 후 다시 접속&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;service nginx restart
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;5-mysql과-intellij-연결&quot;&gt;5. MySQL과 intellij 연결&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;AWS EC2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;보안그룹 -&amp;gt; 인바운드 규칙&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;유형&lt;/th&gt;
+      &lt;th&gt;프로토콜&lt;/th&gt;
+      &lt;th&gt;포트 범위&lt;/th&gt;
+      &lt;th&gt;소스&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;MYSQL/Aurora&lt;/td&gt;
+      &lt;td&gt;TCP&lt;/td&gt;
+      &lt;td&gt;3306&lt;/td&gt;
+      &lt;td&gt;0.0.0.0&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;gradle 빌드&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-groovy highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;compile&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;group:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'mysql'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;name:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'mysql-connector-java'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;version:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'8.0.17'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;properties&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-properties highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;py&quot;&gt;spring.datasource.driver-class-name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;com.mysql.cj.jdbc.Driver&lt;/span&gt;
+&lt;span class=&quot;py&quot;&gt;spring.datasource.url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;jdbc:mysql://ip주소:3306/데이터베이스이름?serverTimezone=UTC&amp;amp;characterEncoding=UTF-8&lt;/span&gt;
+&lt;span class=&quot;py&quot;&gt;spring.datasource.username&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;데이터베이스 유저&lt;/span&gt;
+&lt;span class=&quot;py&quot;&gt;spring.datasource.password&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;비밀번호&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;intellij database 연결&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kses1010/img/master/data-base.png&quot; alt=&quot;01&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Host: ip주소 = 탄력적 IP&lt;/p&gt;
+
+&lt;p&gt;User: 데이터베이스 유저 / password: 비밀번호&lt;/p&gt;
+
+&lt;p&gt;URL: 자동으로 매칭해줌.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kses1010/img/master/data-base1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;serverTimezone: UTC로 설정. 여기서도 +9:00으로 되는지는 모르겠음&lt;/p&gt;
+
+&lt;h2 id=&quot;6-스프링부트-빌드&quot;&gt;6. 스프링부트 빌드&lt;/h2&gt;
+
+&lt;h2 id=&quot;gradlew-이용하여-빌드하기&quot;&gt;./gradlew 이용하여 빌드하기&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;git 프로젝트 폴더로 이동한다. 해당 폴더에는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;src&lt;/code&gt; 폴더와 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gradlew&lt;/code&gt; 파일이 존재하여야 한다.&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;라우팅이란 무엇인가?
-    &lt;ul&gt;
-      &lt;li&gt;라우터가 목적지 네트워크로 어떤 경로로 갈 지 정하는 기술을 말한다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;IP란 무엇인가?
-    &lt;ul&gt;
-      &lt;li&gt;어떤 네트워크의 어떤 컴퓨터인지 나타내는 네트워크 주소이다. 네트워크 ID와 호스트 ID로 나눠진다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;네트워크 주소와 브로드캐스트 주소
-    &lt;ul&gt;
-      &lt;li&gt;네트워크 주소는 호스트ID가 0인 ip를 말한다. 전체 네트워크의 대표 주소를 말한다. 브로드캐스트 주소는 호스트 ID가 255인 ip를 말한다. 네트워크 내 모든 컴퓨터에 송신할 때 사용한다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;서브넷이란 무엇인가?
-    &lt;ul&gt;
-      &lt;li&gt;하나의 네트워크를 작은 서브 네트워크로 나누는 것을 의미한다. 호스트가 많은 네트워크에 브로드캐스트를 할 경우 자원이 많이 소모되니 네트워크를 나눠서 브로드캐스팅을 할 수 있다.&lt;/li&gt;
-      &lt;li&gt;호스트ID에서 서브넷ID를 가져간다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;기본 게이트웨이란 무엇인가?
-    &lt;ul&gt;
-      &lt;li&gt;다른 네트워크로 데이터를 전송할 필요한 출입문?(ip주소)라고 한다. 보통 호스트ID 1번을 기본 게이트웨이로 한다.&lt;/li&gt;
-    &lt;/ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;다음의 명령어를 통해 gradlew에 권한을 부여한다. 참고로 gradlew는 gradle이 설치되지 않아도 프로젝트를 실행할 수 있도록 해주는 gradle wrapper라고 한다.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;6장-전송-계층--신뢰할-수-있는-데이터-전송하기&quot;&gt;6장 전송 계층 : 신뢰할 수 있는 데이터 전송하기&lt;/h2&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo chmod &lt;/span&gt;777 ./gradlew
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;연결형 통신과 비연결형 통신의 차이는?
-            &lt;ul&gt;
-            &lt;li&gt;연결형 통신은 안전하고 신뢰있게 데이터를 전송하고, 비연결형 통신은 빠르고 효율적으로 데이터를 전송하는 방식.&lt;/li&gt;
-            &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;li&gt;TCP 헤더 속 코드비트의 역할과 SYN, ACK, FIN의 역할은?
-            &lt;ul&gt;
-            &lt;li&gt;코드비트는 두 컴퓨터의 연결을 확립할 때 사용하는 프로토콜이다. SYN은 연결 요청, ACK은 연결 확립, FIN은 연결 종료를 뜻한다.
-            &lt;ul&gt;
-            &lt;li&gt;SYN : synchronisation flag&lt;/li&gt;
-            &lt;li&gt;ACK : acknowlegement flag&lt;/li&gt;
-            &lt;li&gt;FIN : finished flag&lt;/li&gt;
-            &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;li&gt;포트번호이란?
-            &lt;ul&gt;
-            &lt;li&gt;각 애플리케이션을 구분하는 번호이다.&lt;/li&gt;
-            &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;/ul&gt;
-        </content>
-        <author>
-            <name>HYUNJUN</name>
-        </author>
-        <summary type="html">목차 네트워크 첫 걸음 네트워크의 기본 규칙 물리 계층 : 테이터를 전기 신호로 변환하기 테이터 링크 계층 : 랜에서 데이터 전송하기 네트워크 계층 : 목적지에
-            데이터 전달하기 전송 게층 : 신뢰할 수 있는 데이터 전송하기 응용 계층 : 애플리케이션에 데이터 전송하기 네트워크의 전체 흐름 살펴보기 무선 랜 이해하기
-        </summary>
-    </entry>
-    <entry>
-        <title type="html">철학 feminism 4 1</title>
-        <link href="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-4-1/" rel="alternate" type="text/html"
-              title="철학   feminism 4 1"/>
-        <published>2020-04-12T00:00:00+09:00</published>
-        <updated>2020-04-12T00:00:00+09:00</updated>
-        <id>http://localhost:4000/%EC%B2%A0%ED%95%99%20-%20Feminism%204-1</id>
-        <content type="html" xml:base="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-4-1/">&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
-            &lt;p&gt;&lt;a href=&quot;http://www.artnstudy.com/n_Lecture/?LessonIdx=ejkim001&amp;amp;LessonPart=philosophy&quot;&gt;김은주의
-            페미니즘&lt;/a&gt; 의 수업 내용과 내 생각을 정리한 글.&lt;/p&gt;
+  &lt;li&gt;다음의 명령어를 통해 gradlew 빌드를 실행한다. 참고로 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo ./gradlew test&lt;/code&gt;를 입력하면 테스트를 
+실시할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
 
-            &lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
-            &lt;ul&gt;
-            &lt;li&gt;제2의 성&lt;/li&gt;
-            &lt;li&gt;우리는 하나의 의미&lt;/li&gt;
-            &lt;li&gt;내 생각&lt;/li&gt;
-            &lt;/ul&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; ./gradlew build
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-            &lt;h2 id=&quot;제2의-성&quot;&gt;제2의 성&lt;/h2&gt;
-            &lt;p&gt;시몬 드 보부아르의 책이다. 페미니즘의 대표적인 책이지만 이 책을 다 읽은 사람은 많지 않다는 이야기도 나온다. 이 책의 1부에서는 역사 속에서 어떻게 여성이 타자로 존재했는지와
-            여성이 타자로 존재하는 것이 많은 여성들이 자라면서도 가치관을 형성하게 된다는 주장을 한다. 2부에서는 이런 가치관 아래서 여성은 어떻게 성장하는 가에 대해서 기록했다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;빌드가 되고 나면 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{프로젝트}/build/libs&lt;/code&gt; 안에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.jar&lt;/code&gt; 파일이 생기게 된다. 위의 경로로 아래의 명령어를 통해서 실행시킬 수 있다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;nohup 명령어는 터미널이 꺼지더라도 백그라운드로 톰캣이 실행될 수 있도록 해주는 명령어다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;nohup 없이 그냥 java -jar로 실행할 경우 터미널로 실행되지만, 터미널이 꺼지면 톰캣 서버도 멈추는 것 같다..&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-            &lt;h2 id=&quot;우리는-하나의-의이&quot;&gt;우리는 하나의 의이&lt;/h2&gt;
-            &lt;p&gt;보부아르는 타자가 있기 때문에 집단이 하나로 뭉칠 수 있다고 생각한다. 사람이 본능적으로 서로를 동등하고 같은 집단으로 생각하지 않고 바로 외부의 적(타자)가 있기 때문에 하나가
-            된다고 말하는 것. 예를 들어, 한일전을 한다고 하면 일본이라는 적을 두고 우리는 하나가 된다. 보부아르는 여성이 오랜 시간 타자로 존재했다고 말한다.&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# &amp;amp;이 중요!! &amp;amp;은 백그라운드로 실행할 때 주로 사용한다.&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;nohup &lt;/span&gt;java &lt;span class=&quot;nt&quot;&gt;-jar&lt;/span&gt; 해당 .jar파일 &amp;amp;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-            &lt;h2 id=&quot;내-생각&quot;&gt;내 생각&lt;/h2&gt;
-            &lt;p&gt;보부아르가 말한 제2의 성의 의미를 알 것 같다. 오랜 역사 속에서 주체가 아닌 타자로 존재한 여성은 제2의 성이었다. 제1의 성은 남자가 차지하고 있었다. 그렇기에 타자로
-            존재했던 여성이 받았던 불평등과 차별은 논의가 되지 않았다. 보부아르의 글이 중요한 이유는 너무나 당연하게 생각한 여성의 타자에 대해 의문을 제기하기 때문이다.&lt;/p&gt;
-        </content>
-        <author>
-            <name>HYUNJUN</name>
-        </author>
-        <summary type="html">개요 김은주의 페미니즘 의 수업 내용과 내 생각을 정리한 글.</summary>
-    </entry>
-    <entry>
-        <title type="html">책 리뷰 모두의 네트워크</title>
-        <link href="http://localhost:4000/%EC%B1%85-%EB%A6%AC%EB%B7%B0-%EB%AA%A8%EB%91%90%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"
-              rel="alternate" type="text/html" title="책 리뷰   모두의 네트워크"/>
-        <published>2020-04-07T00:00:00+09:00</published>
-        <updated>2020-04-07T00:00:00+09:00</updated>
-        <id>
-            http://localhost:4000/%EC%B1%85%20%EB%A6%AC%EB%B7%B0%20-%20%EB%AA%A8%EB%91%90%EC%9D%98%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC
-        </id>
-        <content type="html"
-                 xml:base="http://localhost:4000/%EC%B1%85-%EB%A6%AC%EB%B7%B0-%EB%AA%A8%EB%91%90%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/">
-            &lt;h2 id=&quot;기본-정보&quot;&gt;기본 정보&lt;/h2&gt;
-            &lt;ul&gt;
-            &lt;li&gt;지은이 : 미즈구치 카츠야&lt;/li&gt;
-            &lt;li&gt;옮긴이 : 이승룡&lt;/li&gt;
-            &lt;li&gt;출판사 : 길벗&lt;/li&gt;
-            &lt;li&gt;기간 : 2020.04.07 ~ 2020.00.00 (약 00일)&lt;/li&gt;
-            &lt;/ul&gt;
-        </content>
-        <author>
-            <name>HYUNJUN</name>
-        </author>
-        <summary type="html">기본 정보 지은이 : 미즈구치 카츠야 옮긴이 : 이승룡 출판사 : 길벗 기간 : 2020.04.07 ~ 2020.00.00 (약 00일)</summary>
-    </entry>
-    <entry>
-        <title type="html">철학 feminism 3 4</title>
-        <link href="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-3-4/" rel="alternate" type="text/html"
-              title="철학   feminism 3 4"/>
-        <published>2020-04-04T00:00:00+09:00</published>
-        <updated>2020-04-04T00:00:00+09:00</updated>
-        <id>http://localhost:4000/%EC%B2%A0%ED%95%99%20-%20Feminism%203-4</id>
-        <content type="html" xml:base="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-3-4/">&lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
-            &lt;ul&gt;
-            &lt;li&gt;자유가 없는 사회에서 권력을 탐낸다.&lt;/li&gt;
-            &lt;li&gt;내 생각
-            &lt;h2 id=&quot;자유가-없는-사회에서-권력을-탐낸다&quot;&gt;자유가 없는 사회에서 권력을 탐낸다.&lt;/h2&gt;
-            &lt;p&gt;밀의 주장은 자유론에 기반을 둔다. 여성의 종속이 옳지 않은 이유는 여성의 자유를 빼앗기 때문이다. 또한 개인이 자유로울 때 공동체 모두에게 이익인데, 여성이 종속되면 다양한
-            재능과 능력이 묻히기 때문에 그 공동체에도 불이익이다.
-            밀은 개인의 자유가 없는 사회에서 사람들은 남을 통제하기 위한 권력에 탐낸다고 했다. 자유롭지 않기 때문에 오히려 남을 통제함으로써 자유를 느끼고 싶어한다는 것. 그렇기에 개인에게 자유를
-            보장하는 것이 정말 중요하다고 이야기한다. 그래서 여성에게도 자유가 필요하다 말하는 것.&lt;/p&gt;
-            &lt;/li&gt;
-            &lt;/ul&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;아마 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nohup: ignoring input and appending output to ‘/home/ec2-user/nohup.out&lt;/code&gt; 라고 뜨고 아무것도 안나올 텐데 잠깐 기다려준 후 인스턴스에 접속하면 정상적으로 처리됨을 알 수 있다. 꼭 8080 포트를 붙여서 접속하도록 하자.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;만약에 그래도 안될 경우 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nohup.out&lt;/code&gt;에 관련 오류가 기록되어 있을 것이다. 다음의 명령어를 통해 파일에 접근해서 오류를 확인해본다.&lt;/p&gt;
 
-            &lt;h2 id=&quot;내-생각&quot;&gt;내 생각&lt;/h2&gt;
-            &lt;p&gt;오늘은 페미니즘에 대한 생각보단 페미니즘 강의를 들을 때 스쳐간 생각을 적어본다. 일주일에 1강씩 3달을 수강하니, 강의와 함께 책을 읽고 싶다는 생각이 든다. 특히, 밀의
-            여성의 종속. 강의를 듣고 강사의 말만 옮기는 일은 이제 내키지 않는다. 저자의 책을 읽고 그걸 내가 곱씹고 그 내용을 적는 게 좋을 것 같다.&lt;/p&gt;
-        </content>
-        <author>
-            <name>HYUNJUN</name>
-        </author>
-        <summary type="html">목차 자유가 없는 사회에서 권력을 탐낸다. 내 생각 자유가 없는 사회에서 권력을 탐낸다. 밀의 주장은 자유론에 기반을 둔다. 여성의 종속이 옳지 않은 이유는 여성의
-            자유를 빼앗기 때문이다. 또한 개인이 자유로울 때 공동체 모두에게 이익인데, 여성이 종속되면 다양한 재능과 능력이 묻히기 때문에 그 공동체에도 불이익이다. 밀은 개인의 자유가 없는 사회에서
-            사람들은 남을 통제하기 위한 권력에 탐낸다고 했다. 자유롭지 않기 때문에 오히려 남을 통제함으로써 자유를 느끼고 싶어한다는 것. 그렇기에 개인에게 자유를 보장하는 것이 정말 중요하다고
-            이야기한다. 그래서 여성에게도 자유가 필요하다 말하는 것.
-        </summary>
-    </entry>
-    <entry>
-        <title type="html">Til</title>
-        <link href="http://localhost:4000/TIl/" rel="alternate" type="text/html" title="Til"/>
-        <published>2020-04-01T00:00:00+09:00</published>
-        <updated>2020-04-01T00:00:00+09:00</updated>
-        <id>http://localhost:4000/TIl</id>
-        <content type="html" xml:base="http://localhost:4000/TIl/">&lt;h2 id=&quot;til&quot;&gt;TIL&lt;/h2&gt;
-            &lt;ul&gt;
-            &lt;li&gt;백기선씨 강의 보고 깃허브 Writing 저장소 관리가 필요하다는 생각이 든다. Writing이라는 저장소에 다양한 원고를 저장하고 있는데 Study라는 저장소로 만들어서
-            공부만 기록하는 저장소 만들까 생각 중.&lt;/li&gt;
-            &lt;li&gt;인터뷰의 질문 수준이 높다.
-            &lt;ul&gt;
-            &lt;li&gt;ex1) 프로젝트 마감은 다가오고 리소스는 없는 상황에 어떻게 했느냐.&lt;/li&gt;
-            &lt;li&gt;ex2) 지난 프로젝트의 아키텍쳐에 대해 설명해달라.&lt;/li&gt;
-            &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;li&gt;스프링을 제대로 공부하고 싶어서 토비 책 살까 했는데 백기선님 강의 보고 지금 수준이 알맞다는 걸 알았다. 다만, 눈으로 코드 읽지 말고 직접 코드 작성하고 블로그에 옮기기.&lt;/li&gt;
-            &lt;/ul&gt;
-        </content>
-        <author>
-            <name>HYUNJUN</name>
-        </author>
-        <summary type="html">TIL 백기선씨 강의 보고 깃허브 Writing 저장소 관리가 필요하다는 생각이 든다. Writing이라는 저장소에 다양한 원고를 저장하고 있는데 Study라는
-            저장소로 만들어서 공부만 기록하는 저장소 만들까 생각 중. 인터뷰의 질문 수준이 높다. ex1) 프로젝트 마감은 다가오고 리소스는 없는 상황에 어떻게 했느냐. ex2) 지난 프로젝트의 아키텍쳐에
-            대해 설명해달라. 스프링을 제대로 공부하고 싶어서 토비 책 살까 했는데 백기선님 강의 보고 지금 수준이 알맞다는 걸 알았다. 다만, 눈으로 코드 읽지 말고 직접 코드 작성하고 블로그에 옮기기.
-        </summary>
-    </entry>
-</feed>
+    &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vim nohup.out
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;재배포를-하고-싶을-경우-8080-포트를-kill하자&quot;&gt;재배포를 하고 싶을 경우 8080 포트를 kill하자&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;가끔 git pull해서 프로젝트의 수정사항을 가져온 후 다시 빌드하고자 하는 경우가 있을 것이다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;이 때에는 아래의 에러를 심심찮게 만날 수 있다.&lt;/p&gt;
+
+    &lt;h2 id=&quot;java&quot;&gt;```java&lt;/h2&gt;
+
+    &lt;p&gt;APPLICATION FAILED TO START&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Description:&lt;/p&gt;
+
+&lt;p&gt;Web server failed to start. Port 8080 was already in use.&lt;/p&gt;
+
+&lt;p&gt;Action:&lt;/p&gt;
+
+&lt;p&gt;Identify and stop the process that’s listening on port 8080 or configure this application to listen on another port.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+- 8080 포트에서 동작하는 프로세스를 죽이라고 하니까 다음을 진행한다.
+
+- 다음의 명령어를 통해 8080 포트에서 동작하는 프로세스를 확인한다.
+
+  ```shell
+  lsof -i:8080
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;다음의 명령어를 통해 8080 포트에서 동작하는 프로세스를 죽인다. 리스트가 보이지 않을 때까지 반복한다.&lt;/p&gt;
+
+    &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;kill&lt;/span&gt; &lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;lsof &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt;:8080&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;다음의 명령어를 사용하면 더 확실하게(?) 죽일 수 있다고 한다.&lt;/p&gt;
+
+    &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;kill&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-9&lt;/span&gt; &lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;lsof &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt;:8080&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;그-외&quot;&gt;그 외&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;만약 프론트 Static이 아닌 스프링부트 서버 url로 접근할 때 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;502 Bad Gateway&lt;/code&gt;가 떳을 경우엔 리버스 프록시 설정할 때 잘못 설정할 때이다. nginx 설정파일로 들어가서 고쳐보자.&lt;/li&gt;
+  &lt;li&gt;서버에서 스프링부트 배포 할 때 MySQL이 있을경우 꼭 properties에서 localhost(127.0.0.1)로 바꾸는걸 잊지말자.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-properties highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;py&quot;&gt;spring.datasource.driver-class-name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;com.mysql.cj.jdbc.Driver&lt;/span&gt;
+&lt;span class=&quot;py&quot;&gt;spring.datasource.url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;jdbc:mysql://localhost:3306/데이터베이스이름?serverTimezone=UTC&amp;amp;characterEncoding=UTF-8&lt;/span&gt;
+&lt;span class=&quot;py&quot;&gt;spring.datasource.username&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;데이터베이스 유저&lt;/span&gt;
+&lt;span class=&quot;py&quot;&gt;spring.datasource.password&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;비밀번호&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>HYUNJUN</name></author><summary type="html">배포 인프라 만들기</summary></entry><entry><title type="html">Jwt</title><link href="http://localhost:4000/JWT/" rel="alternate" type="text/html" title="Jwt" /><published>2020-04-20T00:00:00+09:00</published><updated>2020-04-20T00:00:00+09:00</updated><id>http://localhost:4000/JWT</id><content type="html" xml:base="http://localhost:4000/JWT/">&lt;h2 id=&quot;1-개요&quot;&gt;1. 개요&lt;/h2&gt;
+&lt;p&gt;JWT를 이용한 인증 방법 구현하기 위해 공부한 내용.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-개념&quot;&gt;2. 개념&lt;/h2&gt;
+&lt;p&gt;암호화된 Json 형식의 토큰을 의미한다. 주로 인증에 사용한다. session과 달리 매 요청마다 전달되기 때문에 서버의 부담이 줄어든다.&lt;/p&gt;
+
+&lt;h3 id=&quot;21-구조&quot;&gt;2.1 구조&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;아래 예시처럼 Header, Payload, Signature로 구분된다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- HEADER
+
+{
+
+ &quot;alg&quot;: &quot;HS256&quot;,
+ &quot;typ&quot;: &quot;JWT&quot;
+
+}
+
+- PAYLOAD:DATA
+
+{
+
+ &quot;sub&quot;: &quot;1234567890&quot;,
+
+ &quot;name&quot;: &quot;John Doe&quot;,
+
+ &quot;iat&quot;: 1516239022
+
+}
+
+- SIGNATURE
+
+HMACSHA256(
+  base64UrlEncode(header) + &quot;.&quot; +
+  base64UrlEncode(payload),
+  
+) secret base64 encoded
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;암호화되면 아래 구조로 바뀐다.
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;3-어떻게-동작하는가&quot;&gt;3. 어떻게 동작하는가?&lt;/h2&gt;
+&lt;h3 id=&quot;31-로그인-시-jwt-사용-과정&quot;&gt;3.1 로그인 시 JWT 사용 과정&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;클라이언트는 Post로 id와 password를 보낸다.&lt;/li&gt;
+  &lt;li&gt;서버는 id와 password 유효성을 확인하고 userId를 답은 JWT를 만든다.&lt;/li&gt;
+  &lt;li&gt;서버는 만든 jwt를 클라이언트에 전달한다.&lt;/li&gt;
+  &lt;li&gt;이후 로그인에는 클라이언트 요청에 JWT가 담아서 온다.&lt;/li&gt;
+  &lt;li&gt;서버는 JWT의 signature의 유효성을 검사한다.
+    &lt;ul class=&quot;task-list&quot;&gt;
+      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;유효성 검사가 jwt만들 때 넣었던 key인가?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;payload 속 사용자의 ID 추출한다.&lt;/li&gt;
+  &lt;li&gt;이 아이디가 로그인됐다는 것을 파악한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;jwt-토큰으로-만드는-법&quot;&gt;JWT 토큰으로 만드는 법&lt;/h3&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@GetMapping&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/hello&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;  
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;  
+  &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;A&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;  
+  &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;userId&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;guswns1659&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;  
+  &lt;span class=&quot;nc&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Object&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;gt;();&lt;/span&gt;  
+  &lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;typ&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;JWT&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;  
+  &lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alg&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;HS256&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;  
+  
+  &lt;span class=&quot;nc&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Object&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;payloads&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;gt;();&lt;/span&gt;  
+  &lt;span class=&quot;nc&quot;&gt;Long&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;expiredTime&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1000&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;60L&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;  
+  &lt;span class=&quot;nc&quot;&gt;Date&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;now&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;  
+  &lt;span class=&quot;n&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setTime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getTime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;expiredTime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;  
+  &lt;span class=&quot;n&quot;&gt;payloads&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;exp&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;  
+  &lt;span class=&quot;n&quot;&gt;payloads&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;userId&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;userId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;  
+  
+  &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;jwt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Jwts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;builder&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;  
+ &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setHeader&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;  
+ &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setClaims&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;payloads&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;  
+ &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;signWith&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SignatureAlgorithm&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;HS256&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getBytes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;())&lt;/span&gt;  
+ &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;compact&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;  
+  
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;jwt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;  
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;jwt-토큰을-parsing하는-법&quot;&gt;JWT 토큰을 Parsing하는 법&lt;/h3&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@GetMapping&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;jwtParsing&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;  
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;jwtParsing&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;  
+  &lt;span class=&quot;nc&quot;&gt;Claims&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;claims&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Jwts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;parser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;  
+ &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setSigningKey&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;A&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getBytes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;())&lt;/span&gt;  
+ &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;parseClaimsJws&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;jwt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;  
+ &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getBody&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;  
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;claims&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;userId&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;  
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;session과-차이점&quot;&gt;Session과 차이점&lt;/h2&gt;
+&lt;h3 id=&quot;1-session&quot;&gt;1. session&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Session에 정보가 많으면 메모리를 많이 잡아먹는다.&lt;/li&gt;
+  &lt;li&gt;정보가 적으면 자주 DB에 접근해야 하니 비용이 비싸다.
+    &lt;h3 id=&quot;2-차이점&quot;&gt;2. 차이점&lt;/h3&gt;
+    &lt;p&gt;Session을 이용하는 경우 처음 로그인할 때 쿠키에 로그인한 사용자의 세션id를 담아서 응답한다. 이 후 서버는 쿠키에 담긴 사용자의 세션id를 통해 로그인했다는 것을 파악한다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;jjwt-사용법&quot;&gt;jjwt 사용법&lt;/h2&gt;
+&lt;h3 id=&quot;parsing&quot;&gt;parsing&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;request&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;`http http:``//localhost``:8080``/parser``?jwt=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJTdG9ybXBhdGgiLCJzdWIiOiJtc2lsdmVybWFuIiwibmFtZSI6Ik1pY2FoIFNpbHZlcm1hbiIsInNjb3BlIjoiYWRtaW5zIiwiaWF0IjoxNDY2Nzk2ODIyLCJleHAiOjQ2MjI0NzA0MjJ9.kP0i_RvTAmI8mgpIkDFhRX3XthSdP-eqqFKGcU92ZIQ`
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;`@RequestMapping``(value =` `&quot;/parser&quot;``, method = GET)`
+
+`public` `JwtResponse parser(``@RequestParam` `String jwt)` `throws` `UnsupportedEncodingException {`
+
+`Jws&amp;lt;Claims&amp;gt; jws = Jwts.parser()`
+
+`.setSigningKeyResolver(secretService.getSigningKeyResolver())`
+
+`.parseClaimsJws(jwt);`
+
+`return` `new` `JwtResponse(jws);`
+
+`}`
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;컨트롤러에서-쿠키를-설정하고-보내는-법&quot;&gt;컨트롤러에서 쿠키를 설정하고 보내는 법&lt;/h2&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@RequestMapping(value=&quot;/some/path&quot;, method = RequestMethod.POST)public void ResponseEntity&amp;lt;?&amp;gt; someMethod(**HttpServletResponse response**) { Cookie myCookie = new Cookie(&quot;cookieName&quot;, cookieValue);  
+   myCookie.setMaxAge(쿠키 expiration 타임 (int));  
+   myCookie.setPath(&quot;/&quot;); // 모든 경로에서 접근 가능 하도록 설정 
+   response.addCookie(myCookie);  
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;인터셉트&quot;&gt;인터셉트&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;넘어오는 jwt를 키를 확인(유효성)을 확인한 뒤 일치하지 않는 키라면 예외처리하고 컨트롤러에 보내지 않는다.&lt;/li&gt;
+  &lt;li&gt;jwt를 header와 set-cookie 중 어디로 올 지, 모르니까 둘 다 확인해도 된다.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">1. 개요 JWT를 이용한 인증 방법 구현하기 위해 공부한 내용.</summary></entry></feed>

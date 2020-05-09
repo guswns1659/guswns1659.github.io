@@ -1,0 +1,672 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.19.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Jwt - 매일 꾸준히!</title>
+<meta content="1. 개요 JWT를 이용한 인증 방법 구현하기 위해 공부한 내용.  " name="description">
+
+
+  <meta content="HYUNJUN" name="author">
+
+
+<meta content="article" property="og:type">
+<meta content="en_US" property="og:locale">
+<meta content="매일 꾸준히!" property="og:site_name">
+<meta content="Jwt" property="og:title">
+<meta content="http://localhost:4000/JWT/" property="og:url">
+
+
+  <meta content="1. 개요 JWT를 이용한 인증 방법 구현하기 위해 공부한 내용.  " property="og:description">
+
+
+
+
+
+
+
+  <meta content="2020-04-20T00:00:00+09:00" property="article:published_time">
+
+
+
+
+
+  
+
+  
+
+
+<link href="http://localhost:4000/JWT/" rel="canonical">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "HYUNJUN",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" rel="alternate" title="매일 꾸준히! Feed" type="application/atom+xml">
+
+<!-- https://t.co/dKP3o1e -->
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link href="/assets/css/main.css" rel="stylesheet">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a class="screen-reader-shortcut" href="#site-nav">Skip to primary navigation</a></li>
+    <li><a class="screen-reader-shortcut" href="#main">Skip to content</a></li>
+    <li><a class="screen-reader-shortcut" href="#footer">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav class="greedy-nav" id="site-nav">
+        
+        <a class="site-title" href="/">
+          매일 꾸준히!
+          
+        </a>
+        <ul class="visible-links"></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">HYUNJUN</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>자바 백엔드 개발자를 준비하고 있습니다. 아직 검색, 메뉴 기능이 없습니다.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i aria-hidden="true" class="fas fa-fw fa-map-marker-alt"></i> <span itemprop="name">Seoul</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta content="Jwt" itemprop="headline">
+    <meta content="1. 개요JWT를 이용한 인증 방법 구현하기 위해 공부한 내용." itemprop="description">
+    <meta content="2020-04-20T00:00:00+09:00" itemprop="datePublished">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" id="page-title" itemprop="headline">Jwt
+</h1>
+          
+            <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  1 minute read
+
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h2 id="1-개요">1. 개요</h2>
+<p>JWT를 이용한 인증 방법 구현하기 위해 공부한 내용.</p>
+
+<h2 id="2-개념">2. 개념</h2>
+<p>암호화된 Json 형식의 토큰을 의미한다. 주로 인증에 사용한다. session과 달리 매 요청마다 전달되기 때문에 서버의 부담이 줄어든다.</p>
+
+<h3 id="21-구조">2.1 구조</h3>
+<ul>
+  <li>아래 예시처럼 Header, Payload, Signature로 구분된다.</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- HEADER
+
+{
+
+ "alg": "HS256",
+ "typ": "JWT"
+
+}
+
+- PAYLOAD:DATA
+
+{
+
+ "sub": "1234567890",
+
+ "name": "John Doe",
+
+ "iat": 1516239022
+
+}
+
+- SIGNATURE
+
+HMACSHA256(
+  base64UrlEncode(header) + "." +
+  base64UrlEncode(payload),
+  
+) secret base64 encoded
+</code></pre></div></div>
+
+<ul>
+  <li>암호화되면 아래 구조로 바뀐다.
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="3-어떻게-동작하는가">3. 어떻게 동작하는가?</h2>
+<h3 id="31-로그인-시-jwt-사용-과정">3.1 로그인 시 JWT 사용 과정</h3>
+<ul>
+  <li>클라이언트는 Post로 id와 password를 보낸다.</li>
+  <li>서버는 id와 password 유효성을 확인하고 userId를 답은 JWT를 만든다.</li>
+  <li>서버는 만든 jwt를 클라이언트에 전달한다.</li>
+  <li>이후 로그인에는 클라이언트 요청에 JWT가 담아서 온다.</li>
+  <li>서버는 JWT의 signature의 유효성을 검사한다.
+    <ul class="task-list">
+      <li class="task-list-item"><input checked="checked" class="task-list-item-checkbox" disabled="disabled" type="checkbox" />유효성 검사가 jwt만들 때 넣었던 key인가?</li>
+    </ul>
+  </li>
+  <li>payload 속 사용자의 ID 추출한다.</li>
+  <li>이 아이디가 로그인됐다는 것을 파악한다.</li>
+</ul>
+
+<h3 id="jwt-토큰으로-만드는-법">JWT 토큰으로 만드는 법</h3>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">@GetMapping</span><span class="o">(</span><span class="s">"/hello"</span><span class="o">)</span>  
+<span class="kd">public</span> <span class="nc">String</span> <span class="nf">hello</span><span class="o">()</span> <span class="o">{</span>  
+  <span class="nc">String</span> <span class="n">key</span> <span class="o">=</span> <span class="s">"A"</span><span class="o">;</span>  
+  <span class="nc">String</span> <span class="n">userId</span> <span class="o">=</span> <span class="s">"guswns1659"</span><span class="o">;</span>  
+  <span class="nc">Map</span><span class="o">&lt;</span><span class="nc">String</span><span class="o">,</span> <span class="nc">Object</span><span class="o">&gt;</span> <span class="n">headers</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">HashMap</span><span class="o">&lt;&gt;();</span>  
+  <span class="n">headers</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="s">"typ"</span><span class="o">,</span> <span class="s">"JWT"</span><span class="o">);</span>  
+  <span class="n">headers</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="s">"alg"</span><span class="o">,</span> <span class="s">"HS256"</span><span class="o">);</span>  
+  
+  <span class="nc">Map</span><span class="o">&lt;</span><span class="nc">String</span><span class="o">,</span> <span class="nc">Object</span><span class="o">&gt;</span> <span class="n">payloads</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">HashMap</span><span class="o">&lt;&gt;();</span>  
+  <span class="nc">Long</span> <span class="n">expiredTime</span> <span class="o">=</span> <span class="mi">1000</span> <span class="o">*</span> <span class="mi">60L</span><span class="o">;</span>  
+  <span class="nc">Date</span> <span class="n">now</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Date</span><span class="o">();</span>  
+  <span class="n">now</span><span class="o">.</span><span class="na">setTime</span><span class="o">(</span><span class="n">now</span><span class="o">.</span><span class="na">getTime</span><span class="o">()</span> <span class="o">+</span> <span class="n">expiredTime</span><span class="o">);</span>  
+  <span class="n">payloads</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="s">"exp"</span><span class="o">,</span> <span class="n">now</span><span class="o">);</span>  
+  <span class="n">payloads</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="s">"userId"</span><span class="o">,</span> <span class="n">userId</span><span class="o">);</span>  
+  
+  <span class="k">this</span><span class="o">.</span><span class="na">jwt</span> <span class="o">=</span> <span class="nc">Jwts</span><span class="o">.</span><span class="na">builder</span><span class="o">()</span>  
+ <span class="o">.</span><span class="na">setHeader</span><span class="o">(</span><span class="n">headers</span><span class="o">)</span>  
+ <span class="o">.</span><span class="na">setClaims</span><span class="o">(</span><span class="n">payloads</span><span class="o">)</span>  
+ <span class="o">.</span><span class="na">signWith</span><span class="o">(</span><span class="nc">SignatureAlgorithm</span><span class="o">.</span><span class="na">HS256</span><span class="o">,</span> <span class="n">key</span><span class="o">.</span><span class="na">getBytes</span><span class="o">())</span>  
+ <span class="o">.</span><span class="na">compact</span><span class="o">();</span>  
+  
+  <span class="k">return</span> <span class="k">this</span><span class="o">.</span><span class="na">jwt</span><span class="o">;</span>  
+<span class="o">}</span>
+</code></pre></div></div>
+
+<h3 id="jwt-토큰을-parsing하는-법">JWT 토큰을 Parsing하는 법</h3>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">@GetMapping</span><span class="o">(</span><span class="s">"jwtParsing"</span><span class="o">)</span>  
+<span class="kd">public</span> <span class="nc">String</span> <span class="nf">jwtParsing</span><span class="o">()</span> <span class="o">{</span>  
+  <span class="nc">Claims</span> <span class="n">claims</span> <span class="o">=</span> <span class="nc">Jwts</span><span class="o">.</span><span class="na">parser</span><span class="o">()</span>  
+ <span class="o">.</span><span class="na">setSigningKey</span><span class="o">(</span><span class="s">"A"</span><span class="o">.</span><span class="na">getBytes</span><span class="o">())</span>  
+ <span class="o">.</span><span class="na">parseClaimsJws</span><span class="o">(</span><span class="k">this</span><span class="o">.</span><span class="na">jwt</span><span class="o">)</span>  
+ <span class="o">.</span><span class="na">getBody</span><span class="o">();</span>  
+  <span class="k">return</span> <span class="n">claims</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="s">"userId"</span><span class="o">,</span> <span class="nc">String</span><span class="o">.</span><span class="na">class</span><span class="o">);</span>  
+<span class="o">}</span>
+</code></pre></div></div>
+
+<h2 id="session과-차이점">Session과 차이점</h2>
+<h3 id="1-session">1. session</h3>
+<ul>
+  <li>Session에 정보가 많으면 메모리를 많이 잡아먹는다.</li>
+  <li>정보가 적으면 자주 DB에 접근해야 하니 비용이 비싸다.
+    <h3 id="2-차이점">2. 차이점</h3>
+    <p>Session을 이용하는 경우 처음 로그인할 때 쿠키에 로그인한 사용자의 세션id를 담아서 응답한다. 이 후 서버는 쿠키에 담긴 사용자의 세션id를 통해 로그인했다는 것을 파악한다.</p>
+  </li>
+</ul>
+
+<h2 id="jjwt-사용법">jjwt 사용법</h2>
+<h3 id="parsing">parsing</h3>
+<ul>
+  <li>request</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>`http http:``//localhost``:8080``/parser``?jwt=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJTdG9ybXBhdGgiLCJzdWIiOiJtc2lsdmVybWFuIiwibmFtZSI6Ik1pY2FoIFNpbHZlcm1hbiIsInNjb3BlIjoiYWRtaW5zIiwiaWF0IjoxNDY2Nzk2ODIyLCJleHAiOjQ2MjI0NzA0MjJ9.kP0i_RvTAmI8mgpIkDFhRX3XthSdP-eqqFKGcU92ZIQ`
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>`@RequestMapping``(value =` `"/parser"``, method = GET)`
+
+`public` `JwtResponse parser(``@RequestParam` `String jwt)` `throws` `UnsupportedEncodingException {`
+
+`Jws&lt;Claims&gt; jws = Jwts.parser()`
+
+`.setSigningKeyResolver(secretService.getSigningKeyResolver())`
+
+`.parseClaimsJws(jwt);`
+
+`return` `new` `JwtResponse(jws);`
+
+`}`
+</code></pre></div></div>
+
+<h2 id="컨트롤러에서-쿠키를-설정하고-보내는-법">컨트롤러에서 쿠키를 설정하고 보내는 법</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@RequestMapping(value="/some/path", method = RequestMethod.POST)public void ResponseEntity&lt;?&gt; someMethod(**HttpServletResponse response**) { Cookie myCookie = new Cookie("cookieName", cookieValue);  
+   myCookie.setMaxAge(쿠키 expiration 타임 (int));  
+   myCookie.setPath("/"); // 모든 경로에서 접근 가능 하도록 설정 
+   response.addCookie(myCookie);  
+}
+</code></pre></div></div>
+
+<h2 id="인터셉트">인터셉트</h2>
+<ul>
+  <li>넘어오는 jwt를 키를 확인(유효성)을 확인한 뒤 일치하지 않는 키라면 예외처리하고 컨트롤러에 보내지 않는다.</li>
+  <li>jwt를 header와 set-cookie 중 어디로 올 지, 모르니까 둘 다 확인해도 된다.</li>
+</ul>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+          <p class="page__date"><strong><i aria-hidden="true" class="fas fa-fw fa-calendar-alt"></i> Updated:</strong> <time datetime="2020-04-20T00:00:00+09:00">April 20, 2020</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a class="btn btn--twitter" href="https://twitter.com/intent/tweet?text=Jwt%20http%3A%2F%2Flocalhost%3A4000%2FJWT%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i aria-hidden="true" class="fab fa-fw fa-twitter"></i><span> Twitter</span></a>
+
+  <a class="btn btn--facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FJWT%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i aria-hidden="true" class="fab fa-fw fa-facebook"></i><span> Facebook</span></a>
+
+  <a class="btn btn--linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2FJWT%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i aria-hidden="true" class="fab fa-fw fa-linkedin"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a class="pagination--pager" href="/%EC%B2%A0%ED%95%99-Feminism-4-2/" title="철학   feminism 4 2
+">Previous</a>
+    
+    
+      <a class="pagination--pager" href="/Spring-Environment/" title="Spring   environment
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/%EC%B2%A0%ED%95%99-Feminism-4-4/" rel="permalink">철학   feminism 4 4
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">개요
+김은주의 페미니즘 의 수업 내용과 내 생각을 정리한 글.
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/%EC%B2%A0%ED%95%99-Feminism-%EA%B0%95%EC%9D%98-%EC%88%98%EA%B0%95-%ED%9B%84/" rel="permalink">철학   feminism 강의 수강 후
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">개요
+김은주의 페미니즘 강의를 모두 수강한 후 느낀점
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/Linux-ubuntu-%EC%82%AC%EC%9A%A9%EB%B2%95/" rel="permalink">Linux   ubuntu 사용법
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">한글 설정
+
+  language support에 들어가서 자동으로 필요한 파일을 다운 받는다.
+  region &amp; language에 들어가서 input sources에 korean(Hangul)을 추가한다.
+  keyboard에 들어가서 switch to next input...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/" rel="permalink">책 정리   데이터베이스 첫걸음
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">목차
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div class="page__footer" id="footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i aria-hidden="true" class="fas fa-fw fa-rss-square"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 HYUNJUN. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,575 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.19.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Java   구구단 프로그램 - 매일 꾸준히!</title>
+<meta content="목차    Scanner 클래스   Array   method 선언과 호출   Class 사용법   " name="description">
+
+
+  <meta content="HYUNJUN" name="author">
+
+
+<meta content="article" property="og:type">
+<meta content="en_US" property="og:locale">
+<meta content="매일 꾸준히!" property="og:site_name">
+<meta content="Java   구구단 프로그램" property="og:title">
+<meta content="http://localhost:4000/Java-%EA%B5%AC%EA%B5%AC%EB%8B%A8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8/" property="og:url">
+
+
+  <meta content="목차    Scanner 클래스   Array   method 선언과 호출   Class 사용법   " property="og:description">
+
+
+
+
+
+
+
+  <meta content="2019-12-15T00:00:00+09:00" property="article:published_time">
+
+
+
+
+
+  
+
+  
+
+
+<link href="http://localhost:4000/Java-%EA%B5%AC%EA%B5%AC%EB%8B%A8-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8/" rel="canonical">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "HYUNJUN",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" rel="alternate" title="매일 꾸준히! Feed" type="application/atom+xml">
+
+<!-- https://t.co/dKP3o1e -->
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link href="/assets/css/main.css" rel="stylesheet">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a class="screen-reader-shortcut" href="#site-nav">Skip to primary navigation</a></li>
+    <li><a class="screen-reader-shortcut" href="#main">Skip to content</a></li>
+    <li><a class="screen-reader-shortcut" href="#footer">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav class="greedy-nav" id="site-nav">
+        
+        <a class="site-title" href="/">
+          매일 꾸준히!
+          
+        </a>
+        <ul class="visible-links"></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">HYUNJUN</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>자바 백엔드 개발자를 준비하고 있습니다. 아직 검색, 메뉴 기능이 없습니다.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i aria-hidden="true" class="fas fa-fw fa-map-marker-alt"></i> <span itemprop="name">Seoul</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta content="Java   구구단 프로그램" itemprop="headline">
+    <meta content="목차  Scanner 클래스  Array  method 선언과 호출  Class 사용법" itemprop="description">
+    <meta content="2019-12-15T00:00:00+09:00" itemprop="datePublished">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" id="page-title" itemprop="headline">Java   구구단 프로그램
+</h1>
+          
+            <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  1 minute read
+
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h2 id="목차">목차</h2>
+<ul>
+  <li>Scanner 클래스</li>
+  <li>Array</li>
+  <li>method 선언과 호출</li>
+  <li>Class 사용법</li>
+</ul>
+
+<h2 id="scanner-클래스">Scanner 클래스</h2>
+<p>JDK에 내장되어 있는 클래스이다.
+사용자에게 값을 입력받을 때 사용 가능하다.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">java.util.Scanner</span>
+<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"값을 입력해주세요"</span><span class="o">);</span>
+<span class="nc">Scanner</span> <span class="n">scanner</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Scanner</span><span class="o">(</span><span class="nc">System</span><span class="o">.</span><span class="na">in</span><span class="o">);</span>
+<span class="kt">int</span> <span class="n">num</span> <span class="o">=</span> <span class="n">scanner</span><span class="o">.</span><span class="na">nextInt</span><span class="o">();</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">코드설명</code></p>
+<ul>
+  <li>자료형은 객체이기에 new를 통해 scanner라는 이름의 Scanner를 만든다.</li>
+  <li>입력받은 값의 자료형을 설정할 수 있다. 만약 설정한 값이 아니면 에러 출력한다. 위 코드는 int로 설정</li>
+</ul>
+
+<h2 id="array">array</h2>
+<p>JS나 Python에 비해 array의 기능이 단순하다. 처음 선언할 때 길이를 지정해야 하고 수정할 수 없다.</p>
+
+<p><strong>배열 선언하는 법</strong></p>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span><span class="o">[]</span> <span class="n">arr</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="mi">9</span><span class="o">];</span>
+<span class="nc">String</span><span class="o">[]</span> <span class="n">arr2</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">String</span><span class="o">[</span><span class="mi">10</span><span class="o">];</span>
+<span class="kt">float</span><span class="o">[]</span> <span class="n">arr3</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">float</span><span class="o">[</span><span class="mi">11</span><span class="o">];</span>
+</code></pre></div></div>
+<h3 id="메소드-선언과-호출">메소드 선언과 호출</h3>
+<p>프로그램이 복잡해진다는 것은 기능이 많아진다는 말이다. 기능이 많아질 때 기능 별로 메소드를 만들면 코드가 훨씬 간결해진다.
+자바에서 메소드 선언은 JS나 Python과 다르게 return 값의<strong>자료형을 명시한다</strong>는 점이다. 과거에 자바 배울 땐 이런 점이 복잡하다고 느꼈는데 지금은 코드를 확실하게 만들어주는 것 같아 좋다.</p>
+
+<p><strong>메소드 선언하는 법(구구단)</strong></p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kt">int</span><span class="o">[]</span> <span class="nf">calculate</span><span class="o">(</span><span class="kt">int</span> <span class="n">times</span><span class="o">){</span>
+	<span class="kt">int</span><span class="o">[]</span> <span class="n">result</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="mi">9</span><span class="o">];</span>
+	<span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">result</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">i</span><span class="o">++){</span>
+		<span class="n">result</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">=</span> <span class="n">times</span> <span class="o">*</span> <span class="o">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="o">);</span>
+	<span class="o">}</span>
+	<span class="k">return</span> <span class="n">result</span><span class="o">;</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<h3 id="클래스-사용">클래스 사용</h3>
+<p>프로그램이 복잡해지며 하나의 클래스로는 코드 관리가 어려워진다. <del>눈알이 빠짐</del> 그래서 기능 별로 클래스를 나눠서 프로그램을 구성하면 훨씬 가독성이 좋아진다.
+main() 메소드는 모든 프로그램의 시작 메소드다.</p>
+
+<p>다른 클래스의 메소드를 가져올 땐 Gugudan.메소드명이라고 컴퓨터한테 알려줘야한다.</p>
+
+<h3 id="자바-컨벤션">자바 컨벤션</h3>
+<p>클래스는 대문자로 시작, 메소드는 소문자로 시작하는게 관례다.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+          <p class="page__date"><strong><i aria-hidden="true" class="fas fa-fw fa-calendar-alt"></i> Updated:</strong> <time datetime="2019-12-15T00:00:00+09:00">December 15, 2019</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a class="btn btn--twitter" href="https://twitter.com/intent/tweet?text=Java+++%EA%B5%AC%EA%B5%AC%EB%8B%A8+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%20http%3A%2F%2Flocalhost%3A4000%2FJava-%25EA%25B5%25AC%25EA%25B5%25AC%25EB%258B%25A8-%25ED%2594%2584%25EB%25A1%259C%25EA%25B7%25B8%25EB%259E%25A8%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i aria-hidden="true" class="fab fa-fw fa-twitter"></i><span> Twitter</span></a>
+
+  <a class="btn btn--facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FJava-%25EA%25B5%25AC%25EA%25B5%25AC%25EB%258B%25A8-%25ED%2594%2584%25EB%25A1%259C%25EA%25B7%25B8%25EB%259E%25A8%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i aria-hidden="true" class="fab fa-fw fa-facebook"></i><span> Facebook</span></a>
+
+  <a class="btn btn--linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2FJava-%25EA%25B5%25AC%25EA%25B5%25AC%25EB%258B%25A8-%25ED%2594%2584%25EB%25A1%259C%25EA%25B7%25B8%25EB%259E%25A8%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i aria-hidden="true" class="fab fa-fw fa-linkedin"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a class="pagination--pager" href="/Java-%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4-%EB%8B%A8%EC%B6%95%ED%82%A4/" title="Java   이클립스 단축키
+">Previous</a>
+    
+    
+      <a class="pagination--pager" href="/Java-Calendar-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/" title="Java   calendar 프로젝트
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/%EC%B2%A0%ED%95%99-Feminism-4-4/" rel="permalink">철학   feminism 4 4
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">개요
+김은주의 페미니즘 의 수업 내용과 내 생각을 정리한 글.
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/%EC%B2%A0%ED%95%99-Feminism-%EA%B0%95%EC%9D%98-%EC%88%98%EA%B0%95-%ED%9B%84/" rel="permalink">철학   feminism 강의 수강 후
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">개요
+김은주의 페미니즘 강의를 모두 수강한 후 느낀점
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/Linux-ubuntu-%EC%82%AC%EC%9A%A9%EB%B2%95/" rel="permalink">Linux   ubuntu 사용법
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">한글 설정
+
+  language support에 들어가서 자동으로 필요한 파일을 다운 받는다.
+  region &amp; language에 들어가서 input sources에 korean(Hangul)을 추가한다.
+  keyboard에 들어가서 switch to next input...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/" rel="permalink">책 정리   데이터베이스 첫걸음
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">목차
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div class="page__footer" id="footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i aria-hidden="true" class="fas fa-fw fa-rss-square"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 HYUNJUN. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

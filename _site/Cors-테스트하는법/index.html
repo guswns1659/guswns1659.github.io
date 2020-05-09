@@ -1,0 +1,614 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.19.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Cors 테스트하는법 - 매일 꾸준히!</title>
+<meta content="Cors 테스트 방법    https://www.popit.kr/curl-%EB%AA%85%EB%A0%B9%EC%96%B4%EB%A1%9C-%ED%95%98%EB%8A%94-%EC%B4%88%EA%B0%84%EB%8B%A8-cors-%ED%85%8C%EC%8A%A4%ED%8A%B8/   이 글을 참고해서 한다.     먼저 cURL을 다운 받는다.     1. 홈페이지에서 다운      https://curl.haxx.se/download.html     2. 터미널에서 다운     ```shell script sudo apt update  sudo apt upgrade      " name="description">
+
+
+  <meta content="HYUNJUN" name="author">
+
+
+<meta content="article" property="og:type">
+<meta content="en_US" property="og:locale">
+<meta content="매일 꾸준히!" property="og:site_name">
+<meta content="Cors 테스트하는법" property="og:title">
+<meta content="http://localhost:4000/Cors-%ED%85%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EB%8A%94%EB%B2%95/" property="og:url">
+
+
+  <meta content="Cors 테스트 방법    https://www.popit.kr/curl-%EB%AA%85%EB%A0%B9%EC%96%B4%EB%A1%9C-%ED%95%98%EB%8A%94-%EC%B4%88%EA%B0%84%EB%8B%A8-cors-%ED%85%8C%EC%8A%A4%ED%8A%B8/   이 글을 참고해서 한다.     먼저 cURL을 다운 받는다.     1. 홈페이지에서 다운      https://curl.haxx.se/download.html     2. 터미널에서 다운     ```shell script sudo apt update  sudo apt upgrade      " property="og:description">
+
+
+
+
+
+
+
+  <meta content="2020-04-08T00:00:00+09:00" property="article:published_time">
+
+
+
+
+
+  
+
+  
+
+
+<link href="http://localhost:4000/Cors-%ED%85%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EB%8A%94%EB%B2%95/" rel="canonical">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "HYUNJUN",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" rel="alternate" title="매일 꾸준히! Feed" type="application/atom+xml">
+
+<!-- https://t.co/dKP3o1e -->
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link href="/assets/css/main.css" rel="stylesheet">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a class="screen-reader-shortcut" href="#site-nav">Skip to primary navigation</a></li>
+    <li><a class="screen-reader-shortcut" href="#main">Skip to content</a></li>
+    <li><a class="screen-reader-shortcut" href="#footer">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav class="greedy-nav" id="site-nav">
+        
+        <a class="site-title" href="/">
+          매일 꾸준히!
+          
+        </a>
+        <ul class="visible-links"></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">HYUNJUN</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>자바 백엔드 개발자를 준비하고 있습니다. 아직 검색, 메뉴 기능이 없습니다.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i aria-hidden="true" class="fas fa-fw fa-map-marker-alt"></i> <span itemprop="name">Seoul</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta content="Cors 테스트하는법" itemprop="headline">
+    <meta content="Cors 테스트 방법  https://www.popit.kr/curl-%EB%AA%85%EB%A0%B9%EC%96%B4%EB%A1%9C-%ED%95%98%EB%8A%94-%EC%B4%88%EA%B0%84%EB%8B%A8-cors-%ED%85%8C%EC%8A%A4%ED%8A%B8/  이 글을 참고해서 한다.    먼저 cURL을 다운 받는다.    1. 홈페이지에서 다운    https://curl.haxx.se/download.html    2. 터미널에서 다운    ```shell scriptsudo apt update sudo apt upgrade  " itemprop="description">
+    <meta content="2020-04-08T00:00:00+09:00" itemprop="datePublished">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" id="page-title" itemprop="headline">Cors 테스트하는법
+</h1>
+          
+            <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  1 minute read
+
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h2 id="cors-테스트-방법">Cors 테스트 방법</h2>
+<ul>
+  <li><a href="https://www.popit.kr/curl-%EB%AA%85%EB%A0%B9%EC%96%B4%EB%A1%9C-%ED%95%98%EB%8A%94-%EC%B4%88%EA%B0%84%EB%8B%A8-cors-%ED%85%8C%EC%8A%A4%ED%8A%B8/">https://www.popit.kr/curl-%EB%AA%85%EB%A0%B9%EC%96%B4%EB%A1%9C-%ED%95%98%EB%8A%94-%EC%B4%88%EA%B0%84%EB%8B%A8-cors-%ED%85%8C%EC%8A%A4%ED%8A%B8/</a></li>
+  <li>이 글을 참고해서 한다.
+    <h3 id="먼저-curl을-다운-받는다">먼저 cURL을 다운 받는다.</h3>
+    <h4 id="1-홈페이지에서-다운">1. 홈페이지에서 다운</h4>
+  </li>
+  <li><a href="https://curl.haxx.se/download.html">https://curl.haxx.se/download.html</a>
+    <h4 id="2-터미널에서-다운">2. 터미널에서 다운</h4>
+    <p>```shell script
+sudo apt update 
+sudo apt upgrade</p>
+  </li>
+</ul>
+
+<p>sudo apt install curl
+curl –version</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+## 터미널에 아래 명령어를 입력한다. 
+- 아래 명령어 중 괄호 안에 있는 부분을 내 테스트에 맞게 변경한다. 
+- request 포트번호는 8080말고 5050 등 다른 걸로 하면 된다. 
+
+</code></pre></div></div>
+<p>// 요청하는 cURL 명령 
+curl \
+–verbose \
+–request OPTIONS \
+https://hyunjun.herokuapp.com/user-id-validation (Cors 확인하고 싶은 api 주소) \
+–header ‘Origin: http://localhost:8080’(request 하는 포트 번호) \
+–header ‘Access-Control-Request-Headers: Origin, Accept, Content-Type’ \
+–header ‘Access-Control-Request-Method: POST’
+–header ‘api-key: test-vas’</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+## 테스트 결과 
+- 성공하면 응답 결과로 &lt; HTTP/1.1 200 가 뜬다.
+- 실패하면 응답 결과로 403 등이 뜬다.  
+
+</code></pre></div></div>
+<p>// 성공시 나오는 response</p>
+<ul>
+  <li>Trying 52.71.209.91…</li>
+  <li>TCP_NODELAY set</li>
+  <li>Connected to hyunjun.herokuapp.com (52.71.209.91) port 443 (#0)</li>
+  <li>ALPN, offering h2</li>
+  <li>ALPN, offering http/1.1</li>
+  <li>successfully set certificate verify locations:</li>
+  <li>CAfile: /etc/ssl/certs/ca-certificates.crt
+  CApath: /etc/ssl/certs</li>
+  <li>TLSv1.3 (OUT), TLS handshake, Client hello (1):</li>
+  <li>TLSv1.3 (IN), TLS handshake, Server hello (2):</li>
+  <li>TLSv1.2 (IN), TLS handshake, Certificate (11):</li>
+  <li>TLSv1.2 (IN), TLS handshake, Server key exchange (12):</li>
+  <li>TLSv1.2 (IN), TLS handshake, Server finished (14):</li>
+  <li>TLSv1.2 (OUT), TLS handshake, Client key exchange (16):</li>
+  <li>TLSv1.2 (OUT), TLS change cipher, Client hello (1):</li>
+  <li>TLSv1.2 (OUT), TLS handshake, Finished (20):</li>
+  <li>TLSv1.2 (IN), TLS handshake, Finished (20):</li>
+  <li>SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256</li>
+  <li>ALPN, server did not agree to a protocol</li>
+  <li>Server certificate:</li>
+  <li>subject: C=US; ST=California; L=San Francisco; O=Heroku, Inc.; CN=*.herokuapp.com</li>
+  <li>start date: Apr 19 00:00:00 2017 GMT</li>
+  <li>expire date: Jun 22 12:00:00 2020 GMT</li>
+  <li>subjectAltName: host “hyunjun.herokuapp.com” matched cert’s “*.herokuapp.com”</li>
+  <li>issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA</li>
+  <li>SSL certificate verify ok.
+    <blockquote>
+      <p>OPTIONS /user-id-validation HTTP/1.1
+Host: hyunjun.herokuapp.com
+User-Agent: curl/7.58.0
+Accept: <em>/</em>
+Origin: http://localhost:5050
+Access-Control-Request-Headers: Origin, Accept, Content-Type
+Access-Control-Request-Method: POST</p>
+
+      <p>&lt; HTTP/1.1 200 
+&lt; Server: Cowboy
+&lt; Connection: keep-alive
+&lt; Vary: Origin
+&lt; Vary: Access-Control-Request-Method
+&lt; Vary: Access-Control-Request-Headers
+&lt; Access-Control-Allow-Origin: *
+&lt; Access-Control-Allow-Methods: GET,HEAD,POST
+&lt; Access-Control-Allow-Headers: Origin, Accept, Content-Type
+&lt; Access-Control-Max-Age: 1800
+&lt; Allow: GET, HEAD, POST, PUT, DELETE, TRACE, OPTIONS, PATCH
+&lt; Content-Length: 0
+&lt; Date: Thu, 26 Mar 2020 08:46:30 GMT
+&lt; Via: 1.1 vegur
+&lt;
+```</p>
+    </blockquote>
+  </li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+          <p class="page__date"><strong><i aria-hidden="true" class="fas fa-fw fa-calendar-alt"></i> Updated:</strong> <time datetime="2020-04-08T00:00:00+09:00">April 8, 2020</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a class="btn btn--twitter" href="https://twitter.com/intent/tweet?text=Cors+%ED%85%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EB%8A%94%EB%B2%95%20http%3A%2F%2Flocalhost%3A4000%2FCors-%25ED%2585%258C%25EC%258A%25A4%25ED%258A%25B8%25ED%2595%2598%25EB%258A%2594%25EB%25B2%2595%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i aria-hidden="true" class="fab fa-fw fa-twitter"></i><span> Twitter</span></a>
+
+  <a class="btn btn--facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FCors-%25ED%2585%258C%25EC%258A%25A4%25ED%258A%25B8%25ED%2595%2598%25EB%258A%2594%25EB%25B2%2595%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i aria-hidden="true" class="fab fa-fw fa-facebook"></i><span> Facebook</span></a>
+
+  <a class="btn btn--linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2FCors-%25ED%2585%258C%25EC%258A%25A4%25ED%258A%25B8%25ED%2595%2598%25EB%258A%2594%25EB%25B2%2595%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i aria-hidden="true" class="fab fa-fw fa-linkedin"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a class="pagination--pager" href="/%EC%B1%85-%EB%A6%AC%EB%B7%B0-%EB%AA%A8%EB%91%90%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/" title="책 리뷰   모두의 네트워크
+">Previous</a>
+    
+    
+      <a class="pagination--pager" href="/tree-%EC%84%A4%EC%B9%98%EB%B0%A9%EB%B2%95/" title="Tree 설치방법
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/%EC%B2%A0%ED%95%99-Feminism-4-4/" rel="permalink">철학   feminism 4 4
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">개요
+김은주의 페미니즘 의 수업 내용과 내 생각을 정리한 글.
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/%EC%B2%A0%ED%95%99-Feminism-%EA%B0%95%EC%9D%98-%EC%88%98%EA%B0%95-%ED%9B%84/" rel="permalink">철학   feminism 강의 수강 후
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">개요
+김은주의 페미니즘 강의를 모두 수강한 후 느낀점
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/Linux-ubuntu-%EC%82%AC%EC%9A%A9%EB%B2%95/" rel="permalink">Linux   ubuntu 사용법
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">한글 설정
+
+  language support에 들어가서 자동으로 필요한 파일을 다운 받는다.
+  region &amp; language에 들어가서 input sources에 korean(Hangul)을 추가한다.
+  keyboard에 들어가서 switch to next input...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/" rel="permalink">책 정리   데이터베이스 첫걸음
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">목차
+
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div class="page__footer" id="footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i aria-hidden="true" class="fas fa-fw fa-rss-square"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 HYUNJUN. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
