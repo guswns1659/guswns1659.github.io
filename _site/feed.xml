@@ -1,182 +1,362 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator>
-    <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml"/>
-    <link href="http://localhost:4000/" rel="alternate" type="text/html"/>
-    <updated>2020-05-09T21:04:25+09:00</updated>
-    <id>http://localhost:4000/feed.xml</id>
-    <title type="html">제목!!!</title>
-    <subtitle>An amazing website.</subtitle>
-    <author>
-        <name>Your Name</name>
-    </author>
-    <entry>
-        <title type="html">Edge Case: Many Tags</title>
-        <link href="http://localhost:4000/edge%20case/edge-case-many-tags/" rel="alternate" type="text/html"
-              title="Edge Case: Many Tags"/>
-        <published>2009-06-01T00:00:00+09:00</published>
-        <updated>2009-06-01T00:00:00+09:00</updated>
-        <id>http://localhost:4000/edge%20case/edge-case-many-tags</id>
-        <content type="html" xml:base="http://localhost:4000/edge%20case/edge-case-many-tags/">&lt;p&gt;This post has
-            many tags.&lt;/p&gt;
-        </content>
-        <author>
-            <name>Your Name</name>
-        </author>
-        <category term="8BIT"/>
-        <category term="alignment"/>
-        <category term="Articles"/>
-        <category term="captions"/>
-        <category term="categories"/>
-        <category term="chat"/>
-        <category term="comments"/>
-        <category term="content"/>
-        <category term="css"/>
-        <category term="dowork"/>
-        <category term="edge case"/>
-        <category term="embeds"/>
-        <category term="excerpt"/>
-        <category term="Fail"/>
-        <category term="featured image"/>
-        <category term="FTW"/>
-        <category term="Fun"/>
-        <category term="gallery"/>
-        <category term="html"/>
-        <category term="image"/>
-        <category term="Jekyll"/>
-        <category term="layout"/>
-        <category term="link"/>
-        <category term="Love"/>
-        <category term="markup"/>
-        <category term="Mothership"/>
-        <category term="Must Read"/>
-        <category term="Nailed It"/>
-        <category term="Pictures"/>
-        <category term="Post Formats"/>
-        <category term="quote"/>
-        <category term="standard"/>
-        <category term="Success"/>
-        <category term="Swagger"/>
-        <category term="Tags"/>
-        <category term="template"/>
-        <category term="title"/>
-        <category term="twitter"/>
-        <category term="Unseen"/>
-        <category term="video"/>
-        <category term="YouTube"/>
-        <summary type="html">This post has many tags.</summary>
-    </entry>
-    <entry>
-        <title type="html">Edge Case: Nested and Mixed Lists</title>
-        <link href="http://localhost:4000/edge%20case/edge-case-nested-and-mixed-lists/" rel="alternate"
-              type="text/html" title="Edge Case: Nested and Mixed Lists"/>
-        <published>2009-05-15T00:00:00+09:00</published>
-        <updated>2009-05-15T00:00:00+09:00</updated>
-        <id>http://localhost:4000/edge%20case/edge-case-nested-and-mixed-lists</id>
-        <content type="html" xml:base="http://localhost:4000/edge%20case/edge-case-nested-and-mixed-lists/">&lt;p&gt;Nested
-            and mixed lists are an interesting beast. It’s a corner case to make sure that&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-09T21:24:28+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">매일 꾸준히!</title><subtitle>An amazing website.</subtitle><author><name>HYUNJUN</name></author><entry><title type="html">책 정리 데이터베이스 첫걸음</title><link href="http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/" rel="alternate" type="text/html" title="책 정리   데이터베이스 첫걸음" /><published>2020-05-08T00:00:00+09:00</published><updated>2020-05-08T00:00:00+09:00</updated><id>http://localhost:4000/%EC%B1%85%20%EC%A0%95%EB%A6%AC%20-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%B2%AB%EA%B1%B8%EC%9D%8C</id><content type="html" xml:base="http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/">&lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
 
-            &lt;ul&gt;
-            &lt;li&gt;Lists within lists do not break the ordered list numbering order&lt;/li&gt;
-            &lt;li&gt;Your list styles go deep enough.&lt;/li&gt;
-            &lt;/ul&gt;
+&lt;h2 id=&quot;3-데이터베이스에-얽힌-돈-이야기&quot;&gt;3. 데이터베이스에 얽힌 돈 이야기&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;EOSL이란
+    &lt;ul&gt;
+      &lt;li&gt;End Of Service Life이다. 서비스의 지원이 얼마나 남았는 지 알려주는 지표이다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-            &lt;h3 id=&quot;ordered--unordered--ordered&quot;&gt;Ordered – Unordered – Ordered&lt;/h3&gt;
+&lt;h2 id=&quot;4-데이터베이스와-아키텍쳐-구성&quot;&gt;4. 데이터베이스와 아키텍쳐 구성&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Stand-alone 이란
+    &lt;ul&gt;
+      &lt;li&gt;DB가 네트워크에 접속하지 않고 물리적으로 독립되어 운영되는 상태&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Web 3계층이란
+    &lt;ul&gt;
+      &lt;li&gt;클라이언트 요청을 처리하는 계층이 3개이다. 서버 계층 - 어플리케이션 계층 - DB 계층.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;클러스터란
+    &lt;ul&gt;
+      &lt;li&gt;복수의 컴포넌트(사물)로 한 가지 기능을 담당하는 의미&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;신뢰성(Reliability)과 가용성(Availability)의 차이
+    &lt;ul&gt;
+      &lt;li&gt;신뢰성 : 하드웨어나 소프트웨어가 고장나는 빈도.&lt;/li&gt;
+      &lt;li&gt;가용성 : 사용자가 하드웨어나 소프트웨어를 사용할 수 있는 정&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">목차</summary></entry><entry><title type="html">책 정리 모두의 네트워크</title><link href="http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%AA%A8%EB%91%90%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/" rel="alternate" type="text/html" title="책 정리   모두의 네트워크" /><published>2020-04-17T00:00:00+09:00</published><updated>2020-04-17T00:00:00+09:00</updated><id>http://localhost:4000/%EC%B1%85%20%EC%A0%95%EB%A6%AC%20-%20%EB%AA%A8%EB%91%90%EC%9D%98%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC</id><content type="html" xml:base="http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%AA%A8%EB%91%90%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/">&lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;네트워크 첫 걸음&lt;/li&gt;
+  &lt;li&gt;네트워크의 기본 규칙&lt;/li&gt;
+  &lt;li&gt;물리 계층 : 테이터를 전기 신호로 변환하기&lt;/li&gt;
+  &lt;li&gt;테이터 링크 계층 : 랜에서 데이터 전송하기&lt;/li&gt;
+  &lt;li&gt;네트워크 계층 : 목적지에 데이터 전달하기&lt;/li&gt;
+  &lt;li&gt;전송 게층 : 신뢰할 수 있는 데이터 전송하기&lt;/li&gt;
+  &lt;li&gt;응용 계층 : 애플리케이션에 데이터 전송하기&lt;/li&gt;
+  &lt;li&gt;네트워크의 전체 흐름 살펴보기&lt;/li&gt;
+  &lt;li&gt;무선 랜 이해하기&lt;/li&gt;
+&lt;/ul&gt;
 
-            &lt;ol&gt;
-            &lt;li&gt;ordered item&lt;/li&gt;
-            &lt;li&gt;ordered item
-            &lt;ul&gt;
-            &lt;li&gt;&lt;strong&gt;unordered&lt;/strong&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;strong&gt;unordered&lt;/strong&gt;
-            &lt;ol&gt;
-            &lt;li&gt;ordered item&lt;/li&gt;
-            &lt;li&gt;ordered item&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;/li&gt;
-            &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;li&gt;ordered item&lt;/li&gt;
-            &lt;li&gt;ordered item&lt;/li&gt;
-            &lt;/ol&gt;
+&lt;h2 id=&quot;1장-네트워크-첫-걸음&quot;&gt;1장 네트워크 첫 걸음&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;컴퓨터는 0과 1만 인식할 수 있는데 어떻게 문자를 표현할 수 있을까?
+    &lt;ul&gt;
+      &lt;li&gt;아스키(American Standard Code for Information Interchange)라는 문자 코드가 있기 때문에 각 문자를 숫자에 대응했다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;DMZ의 역할은 무엇인가?
+    &lt;ul&gt;
+      &lt;li&gt;Demilitarized Zone의 약자이다. 외부에 공개하는 네트워크를 말한다. 외부에서 회사 홈페이지를 접근하거나 메일 보내려면 외부에 서버를 노출해야 한다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;On-premise란 무엇인가?
+    &lt;ul&gt;
+      &lt;li&gt;회사 내부에서 물리적인 서버를 운영하는 것을 말한다. 반대말은 클라우드 서비스.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-            &lt;h3 id=&quot;ordered--unordered--unordered&quot;&gt;Ordered – Unordered – Unordered&lt;/h3&gt;
+&lt;h2 id=&quot;2장-네트워크의-기본-규칙&quot;&gt;2장 네트워크의 기본 규칙&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;OSI 모델에 대해 간략히 설명하시오.
+    &lt;ul&gt;
+      &lt;li&gt;네트워크의 기본 구조를 응,표,세,전,네,데,물 계층으로 나눈다. 두 개의 컴퓨터가 서로 통신할 수 있는 규칙을 말한다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-            &lt;ol&gt;
-            &lt;li&gt;ordered item&lt;/li&gt;
-            &lt;li&gt;ordered item
-            &lt;ul&gt;
-            &lt;li&gt;&lt;strong&gt;unordered&lt;/strong&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;strong&gt;unordered&lt;/strong&gt;
-            &lt;ul&gt;
-            &lt;li&gt;unordered item&lt;/li&gt;
-            &lt;li&gt;unordered item&lt;/li&gt;
-            &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;li&gt;ordered item&lt;/li&gt;
-            &lt;li&gt;ordered item&lt;/li&gt;
-            &lt;/ol&gt;
+&lt;h2 id=&quot;3장-물리-계층의-역할과-랜-카드의-구조&quot;&gt;3장 물리 계층의 역할과 랜 카드의 구조&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;물리 계층은 무엇인가?
+    &lt;ul&gt;
+      &lt;li&gt;네트워크를 통해 전송되는 데이터를 전기 신호로 변환하는 계층이다. 랜카드를 통해 바꾼다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;UTP와 STP의 차이는?
+    &lt;ul&gt;
+      &lt;li&gt;UTP는 쉴드가 없어서 노이즈가 발생할 수 있고, STP는 쉴드가 있어서 노이즈를 예방한다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;다이렉트 케이블과 크로스 케이블의 차이는?
+    &lt;ul&gt;
+      &lt;li&gt;다이렉트 케이블은 랜선을 같은 순서로 연결한 케이블이고 크로스 케이블은 1,2번 구리선을 상대방 3,6번에 연결한 케이블이다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;허브는 무엇인가?
+    &lt;ul&gt;
+      &lt;li&gt;전기 신호를 정형하고 증폭하는 역할을 한다. 모든 신호를 연결된 모든 컴퓨터에 전달한다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-            &lt;h3 id=&quot;unordered--ordered--unordered&quot;&gt;Unordered – Ordered – Unordered&lt;/h3&gt;
+&lt;h2 id=&quot;4장-데이터-링크-계층--랜에서-데이터-전송하기&quot;&gt;4장 데이터 링크 계층 : 랜에서 데이터 전송하기&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;데이터 링크 계층은 무엇인가?
+    &lt;ul&gt;
+      &lt;li&gt;네트워크 장비 간에 신호를 주고 받는 규칙을 정하는 계층이다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;CSMA/CD이란?
+    &lt;ul&gt;
+      &lt;li&gt;허브에서 데이터가 충돌나지 않게 하는 규칙을 말한다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;MAC 주소란?
+    &lt;ul&gt;
+      &lt;li&gt;랜 카드에 있는 컴퓨터의 물리 주소를 말한다. 전 세계에서 유일무이하다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;스위치의 동작원리는?
+    &lt;ul&gt;
+      &lt;li&gt;허브처럼 목적지 컴퓨터로 데이터를 보내지만 특정 컴퓨터에만 전송할 수 있다. 내부에 맥 주소 테이블이 있어서 스위치에 연결된 맥주소를 가지고 있다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ARP란?
+    &lt;ul&gt;
+      &lt;li&gt;Address Resoultion Protocol의 약자이다. 목적지의 ip주소로 mac 주소를 알아내는 규칙이다. mac 주소를 알아야 데이터를 전기신호로 바꿀 수 있기 때문이다. 이후 메모리에 ARP 테이블이 있어서 목적지 ip와 mac 주소를 저장한다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-            &lt;ul&gt;
-            &lt;li&gt;unordered item&lt;/li&gt;
-            &lt;li&gt;unordered item
-            &lt;ol&gt;
-            &lt;li&gt;ordered&lt;/li&gt;
-            &lt;li&gt;ordered
-            &lt;ul&gt;
-            &lt;li&gt;unordered item&lt;/li&gt;
-            &lt;li&gt;unordered item&lt;/li&gt;
-            &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;/li&gt;
-            &lt;li&gt;unordered item&lt;/li&gt;
-            &lt;li&gt;unordered item&lt;/li&gt;
-            &lt;/ul&gt;
+&lt;h2 id=&quot;5장-네트워크-계층--목적지에-데이터-전달하기&quot;&gt;5장 네트워크 계층 : 목적지에 데이터 전달하기&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;네트워크 계층은 무엇인가?
+    &lt;ul&gt;
+      &lt;li&gt;네트워크 간의 통신을 가능하게 하는 계층.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;라우팅이란 무엇인가?
+    &lt;ul&gt;
+      &lt;li&gt;라우터가 목적지 네트워크로 어떤 경로로 갈 지 정하는 기술을 말한다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;IP란 무엇인가?
+    &lt;ul&gt;
+      &lt;li&gt;어떤 네트워크의 어떤 컴퓨터인지 나타내는 네트워크 주소이다. 네트워크 ID와 호스트 ID로 나눠진다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;네트워크 주소와 브로드캐스트 주소
+    &lt;ul&gt;
+      &lt;li&gt;네트워크 주소는 호스트ID가 0인 ip를 말한다. 전체 네트워크의 대표 주소를 말한다. 브로드캐스트 주소는 호스트 ID가 255인 ip를 말한다. 네트워크 내 모든 컴퓨터에 송신할 때 사용한다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;서브넷이란 무엇인가?
+    &lt;ul&gt;
+      &lt;li&gt;하나의 네트워크를 작은 서브 네트워크로 나누는 것을 의미한다. 호스트가 많은 네트워크에 브로드캐스트를 할 경우 자원이 많이 소모되니 네트워크를 나눠서 브로드캐스팅을 할 수 있다.&lt;/li&gt;
+      &lt;li&gt;호스트ID에서 서브넷ID를 가져간다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;기본 게이트웨이란 무엇인가?
+    &lt;ul&gt;
+      &lt;li&gt;다른 네트워크로 데이터를 전송할 필요한 출입문?(ip주소)라고 한다. 보통 호스트ID 1번을 기본 게이트웨이로 한다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-            &lt;h3 id=&quot;unordered--unordered--ordered&quot;&gt;Unordered – Unordered – Ordered&lt;/h3&gt;
+&lt;h2 id=&quot;6장-전송-계층--신뢰할-수-있는-데이터-전송하기&quot;&gt;6장 전송 계층 : 신뢰할 수 있는 데이터 전송하기&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;연결형 통신과 비연결형 통신의 차이는?
+    &lt;ul&gt;
+      &lt;li&gt;연결형 통신은 안전하고 신뢰있게 데이터를 전송하고, 비연결형 통신은 빠르고 효율적으로 데이터를 전송하는 방식.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;TCP 헤더 속 코드비트의 역할과 SYN, ACK, FIN의 역할은?
+    &lt;ul&gt;
+      &lt;li&gt;코드비트는 두 컴퓨터의 연결을 확립할 때 사용하는 프로토콜이다. SYN은 연결 요청, ACK은 연결 확립, FIN은 연결 종료를 뜻한다.
+        &lt;ul&gt;
+          &lt;li&gt;SYN : synchronisation flag&lt;/li&gt;
+          &lt;li&gt;ACK : acknowlegement flag&lt;/li&gt;
+          &lt;li&gt;FIN : finished flag&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;포트번호이란?
+    &lt;ul&gt;
+      &lt;li&gt;각 애플리케이션을 구분하는 번호이다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">목차 네트워크 첫 걸음 네트워크의 기본 규칙 물리 계층 : 테이터를 전기 신호로 변환하기 테이터 링크 계층 : 랜에서 데이터 전송하기 네트워크 계층 : 목적지에 데이터 전달하기 전송 게층 : 신뢰할 수 있는 데이터 전송하기 응용 계층 : 애플리케이션에 데이터 전송하기 네트워크의 전체 흐름 살펴보기 무선 랜 이해하기</summary></entry><entry><title type="html">책 리뷰 모두의 네트워크</title><link href="http://localhost:4000/%EC%B1%85-%EB%A6%AC%EB%B7%B0-%EB%AA%A8%EB%91%90%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/" rel="alternate" type="text/html" title="책 리뷰   모두의 네트워크" /><published>2020-04-07T00:00:00+09:00</published><updated>2020-04-07T00:00:00+09:00</updated><id>http://localhost:4000/%EC%B1%85%20%EB%A6%AC%EB%B7%B0%20-%20%EB%AA%A8%EB%91%90%EC%9D%98%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC</id><content type="html" xml:base="http://localhost:4000/%EC%B1%85-%EB%A6%AC%EB%B7%B0-%EB%AA%A8%EB%91%90%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/">&lt;h2 id=&quot;기본-정보&quot;&gt;기본 정보&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;지은이 : 미즈구치 카츠야&lt;/li&gt;
+  &lt;li&gt;옮긴이 : 이승룡&lt;/li&gt;
+  &lt;li&gt;출판사 : 길벗&lt;/li&gt;
+  &lt;li&gt;기간 : 2020.04.07 ~ 2020.00.00 (약 00일)&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">기본 정보 지은이 : 미즈구치 카츠야 옮긴이 : 이승룡 출판사 : 길벗 기간 : 2020.04.07 ~ 2020.00.00 (약 00일)</summary></entry><entry><title type="html">Til</title><link href="http://localhost:4000/TIl/" rel="alternate" type="text/html" title="Til" /><published>2020-04-01T00:00:00+09:00</published><updated>2020-04-01T00:00:00+09:00</updated><id>http://localhost:4000/TIl</id><content type="html" xml:base="http://localhost:4000/TIl/">&lt;h2 id=&quot;til&quot;&gt;TIL&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;백기선씨 강의 보고 깃허브 Writing 저장소 관리가 필요하다는 생각이 든다. Writing이라는 저장소에 다양한 원고를 저장하고 있는데 Study라는 저장소로 만들어서 공부만 기록하는 저장소 만들까 생각 중.&lt;/li&gt;
+  &lt;li&gt;인터뷰의 질문 수준이 높다.
+    &lt;ul&gt;
+      &lt;li&gt;ex1) 프로젝트 마감은 다가오고 리소스는 없는 상황에 어떻게 했느냐.&lt;/li&gt;
+      &lt;li&gt;ex2) 지난 프로젝트의 아키텍쳐에 대해 설명해달라.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;스프링을 제대로 공부하고 싶어서 토비 책 살까 했는데 백기선님 강의 보고 지금 수준이 알맞다는 걸 알았다. 다만, 눈으로 코드 읽지 말고 직접 코드 작성하고 블로그에 옮기기.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">TIL 백기선씨 강의 보고 깃허브 Writing 저장소 관리가 필요하다는 생각이 든다. Writing이라는 저장소에 다양한 원고를 저장하고 있는데 Study라는 저장소로 만들어서 공부만 기록하는 저장소 만들까 생각 중. 인터뷰의 질문 수준이 높다. ex1) 프로젝트 마감은 다가오고 리소스는 없는 상황에 어떻게 했느냐. ex2) 지난 프로젝트의 아키텍쳐에 대해 설명해달라. 스프링을 제대로 공부하고 싶어서 토비 책 살까 했는데 백기선님 강의 보고 지금 수준이 알맞다는 걸 알았다. 다만, 눈으로 코드 읽지 말고 직접 코드 작성하고 블로그에 옮기기.</summary></entry><entry><title type="html">Til</title><link href="http://localhost:4000/TIL/" rel="alternate" type="text/html" title="Til" /><published>2020-03-26T00:00:00+09:00</published><updated>2020-03-26T00:00:00+09:00</updated><id>http://localhost:4000/TIL</id><content type="html" xml:base="http://localhost:4000/TIL/">&lt;h1 id=&quot;회고&quot;&gt;회고&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;온라인으로 프로젝트를 진행하니 문제가 발생했을 때 대처가 느린 것 같다. 확실히 책임감이 줄어드는 것 같다. 보통 문제는 혼자서 해결할 수 없기에 최소 2명이서 발 빠르게 대처를 해야 한다. 그런데 한 명이 피드백이 느려지면 문제 해결이 멈춘다. 단지 온라인이라서 일 수 도 있지만 프로젝트를 어떻게 운영할 지에 대한 고민도 필요하다.&lt;/li&gt;
+  &lt;li&gt;프로젝트가 마치 회사의 업무처럼 느껴졌다. 반드시 해야만 하는 일이라서 구현에 노력하지만 내가 성장을 하고 있을까에 대한 고민. 개인적으로 작은 토이 프로젝트를 해볼까? 라는 생각도 했다. 하지만 지금 프로젝트도 충분히 배울 게 많다. 이번 프로젝트에서 배운 것들을 정리하는 게 현 상황에선 최선이다. 토이 프로젝트는 아직은 과한 욕심이라는 생각이 든다.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">회고 온라인으로 프로젝트를 진행하니 문제가 발생했을 때 대처가 느린 것 같다. 확실히 책임감이 줄어드는 것 같다. 보통 문제는 혼자서 해결할 수 없기에 최소 2명이서 발 빠르게 대처를 해야 한다. 그런데 한 명이 피드백이 느려지면 문제 해결이 멈춘다. 단지 온라인이라서 일 수 도 있지만 프로젝트를 어떻게 운영할 지에 대한 고민도 필요하다. 프로젝트가 마치 회사의 업무처럼 느껴졌다. 반드시 해야만 하는 일이라서 구현에 노력하지만 내가 성장을 하고 있을까에 대한 고민. 개인적으로 작은 토이 프로젝트를 해볼까? 라는 생각도 했다. 하지만 지금 프로젝트도 충분히 배울 게 많다. 이번 프로젝트에서 배운 것들을 정리하는 게 현 상황에선 최선이다. 토이 프로젝트는 아직은 과한 욕심이라는 생각이 든다.</summary></entry><entry><title type="html">Til</title><link href="http://localhost:4000/TIL/" rel="alternate" type="text/html" title="Til" /><published>2020-03-25T00:00:00+09:00</published><updated>2020-03-25T00:00:00+09:00</updated><id>http://localhost:4000/TIL</id><content type="html" xml:base="http://localhost:4000/TIL/">&lt;h2 id=&quot;삽질&quot;&gt;삽질&lt;/h2&gt;
+&lt;h3 id=&quot;postman&quot;&gt;PostMan&lt;/h3&gt;
+&lt;p&gt;-PostMan 이용해 Mock server 생성하고 request가 오면 지정한 response를 반환하는 서비스 구축 중. user-id-vaildation은 되는데 email은 안됨. 
+	- [x] request body의 차인가 싶어서 시도&lt;br /&gt;
+	- [x] URL을 다시 확인하기. 
+	- [x] example의 method 차이였음. get이면 성공, post면 실패 -&amp;gt; url로 보는 건 get방식만 가능.&lt;/p&gt;
+&lt;h3 id=&quot;heroku로-api-배포&quot;&gt;Heroku로 API 배포&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;heroku로 중복 유효성 체크하는 API 배포가 안됨. 진이 정리한대로 하려는데 안된다.&lt;/li&gt;
+&lt;/ul&gt;
 
-            &lt;ul&gt;
-            &lt;li&gt;unordered item&lt;/li&gt;
-            &lt;li&gt;unordered item
-            &lt;ul&gt;
-            &lt;li&gt;unordered&lt;/li&gt;
-            &lt;li&gt;unordered
-            &lt;ol&gt;
-            &lt;li&gt;&lt;strong&gt;ordered item&lt;/strong&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;strong&gt;ordered item&lt;/strong&gt;&lt;/li&gt;
-            &lt;/ol&gt;
-            &lt;/li&gt;
-            &lt;/ul&gt;
-            &lt;/li&gt;
-            &lt;li&gt;unordered item&lt;/li&gt;
-            &lt;li&gt;unordered item&lt;/li&gt;
-            &lt;/ul&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;subtree&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;push&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prefix&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;BE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;heroku&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;master&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;위 명령 입력하면&lt;/p&gt;
 
-            &lt;h3 id=&quot;task-lists&quot;&gt;Task Lists&lt;/h3&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;push&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;using:&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;heroku&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;master&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;To&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;https:&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//git.heroku.com/hyunjun2.git&lt;/span&gt;
+ &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rejected&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;        &lt;span class=&quot;mi&quot;&gt;24483&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;eac814fa6c7439560dd805f0e742447b94c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;master&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;non&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fast&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;forward&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nl&quot;&gt;error:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;레퍼런스를&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;https:&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//git.heroku.com/hyunjun2.git'에 푸시하는데 실패했습니다&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;힌트&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;현재&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;브랜치의&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;끝이&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;리모트&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;브랜치보다&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;뒤에&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;있으므로&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;업데이트가&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;힌트&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;거부되었습니다&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;이&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;브랜치를&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;체크아웃하고&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;푸시하기&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;전에&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;힌트&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pull&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;등&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;명령으로&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;리모트&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;변경&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;사항을&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;포함하십시오&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;힌트&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;자세한&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;정보는&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;push&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;help&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'의&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Note&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;about&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fast&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;forwards&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;부분을&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;힌트&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;참고하십시오&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-            &lt;ul class=&quot;task-list&quot;&gt;
-            &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot;
-            disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Finish my changes&lt;/li&gt;
-            &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot;
-            disabled=&quot;disabled&quot; /&gt;Push my commits to GitHub&lt;/li&gt;
-            &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot;
-            disabled=&quot;disabled&quot; /&gt;Open a pull request&lt;/li&gt;
-            &lt;/ul&gt;
-        </content>
-        <author>
-            <name>Your Name</name>
-        </author>
-        <category term="content"/>
-        <category term="css"/>
-        <category term="edge case"/>
-        <category term="lists"/>
-        <category term="markup"/>
-        <summary type="html">Nested and mixed lists are an interesting beast. It’s a corner case to make sure that
-        </summary>
-    </entry>
-</feed>
+&lt;p&gt;위와 같은 에러를 줘서 권한 문제인가 싶다. 
+git pull heroku master를 해도 안된다.&lt;/p&gt;
+
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;헤로쿠 홈페이지에서 권한을 해결해본다.&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;heroku clone 명령으로 해본다.
+    &lt;ul&gt;
+      &lt;li&gt;클론하니 마지막으로 배포한 저장소를 가져온다. 프로젝트 저장소에 했다면 큰일 날뻔.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;새로 만든다.
+    &lt;ul class=&quot;task-list&quot;&gt;
+      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;헤로쿠 홈페이지에서 회원가입한다.&lt;/li&gt;
+      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;기존에 heroku가 저장된 저장소에서 heroku login으로 user를 바꾼다.&lt;/li&gt;
+      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;heroku git:remote -a &amp;lt;헤로쿠 앱 이름&amp;gt;&lt;/code&gt;으로 heroku remote를 변경한다. 기존에 있다면 덮어진다.&lt;/li&gt;
+      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;그 뒤 기존대로 하면 된다.&lt;/li&gt;
+      &lt;li class=&quot;task-list-item&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git subtree push --prefix BE heroku master&lt;/code&gt; 이명령하면 배포는 완료.&lt;/li&gt;
+      &lt;li class=&quot;task-list-item&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push heroku BE-Feature-007:master&lt;/code&gt; 이 명령하면 gradle이 없다고 함. 그래도 위 명령만 해도 배포는 잘된다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;jdbc&quot;&gt;JDBC&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;@Query를 설정하면 findByUserId의 return을 컬럼 하나만 할 수 있다. User 전체를 가져오면 비싼 연산이기 때문이다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cors-이슈&quot;&gt;Cors 이슈&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;cross origin resource Sharing : 웹페이지의 제한된 자원을 외부에서 접근할 수 있게 허용하는 것을 말한다.&lt;/li&gt;
+  &lt;li&gt;보안의 이슈로 외부 도메인에서 접근할 수 없는 경우가 있다. XMLHttpRequest가 막는다고 하는데 이걸 허용해주는 것이다.&lt;/li&gt;
+  &lt;li&gt;서버 단에서 해결하는 방법 : &lt;a href=&quot;http://jmlim.github.io/spring/2018/12/11/spring-boot-crossorigin/&quot;&gt;http://jmlim.github.io/spring/2018/12/11/spring-boot-crossorigin/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;클라이언트가 해결하는 방법 : https://cors-anywhere.herokuapp.com/hyunjun.herokuapp.com/user-id-vaildation 처럼 앞에  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cors-anywhere.herokuapp.com&lt;/code&gt;으로 지정한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;회고&quot;&gt;회고&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;시작 하기 전에 모든 기술을 알고 시작할 수는 없다. 먼저 기능 구현을 시작하고 막히는 부분이 있을 때마다 기술을 배우고 찾아본다.&lt;/li&gt;
+  &lt;li&gt;어제 회고대로 막히는 부분이 있더라도 급급하게 찾지 않고 시간을 정했다. 1시간 정도 정하고 도중에 에러 메세지, 시도한 해결방법, 시도할 방법들을 기록하고 체크하면서 했다. 확실히 시간이 단축되고 에너지가 덜 쓰인다.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">삽질 PostMan -PostMan 이용해 Mock server 생성하고 request가 오면 지정한 response를 반환하는 서비스 구축 중. user-id-vaildation은 되는데 email은 안됨. - [x] request body의 차인가 싶어서 시도 - [x] URL을 다시 확인하기. - [x] example의 method 차이였음. get이면 성공, post면 실패 -&amp;gt; url로 보는 건 get방식만 가능. Heroku로 API 배포 heroku로 중복 유효성 체크하는 API 배포가 안됨. 진이 정리한대로 하려는데 안된다.</summary></entry><entry><title type="html">Til</title><link href="http://localhost:4000/TIL/" rel="alternate" type="text/html" title="Til" /><published>2020-03-24T00:00:00+09:00</published><updated>2020-03-24T00:00:00+09:00</updated><id>http://localhost:4000/TIL</id><content type="html" xml:base="http://localhost:4000/TIL/">&lt;h1 id=&quot;회고&quot;&gt;회고&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;팀 그라운드 룰 설정
+    &lt;ul&gt;
+      &lt;li&gt;온라인으로 진행하지만 시간을 정하니 모임은 수월하다는 걸 느낌.&lt;/li&gt;
+      &lt;li&gt;커밋 방식, JSON, URL 방식을 팀원들이랑 정했다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;프로젝트 개발환경 셋팅
+    &lt;ul&gt;
+      &lt;li&gt;Jdbc 셋팅에 시간을 엄청 썼다. 시간이야 쓸 수 있지만 아쉬운 점은 기록을 안했다는 점이다. 초조해지니 주먹구구식으로 어떻게든 해결하려고 노력한다. 그러다 시간은 2~3시간이 지나간다. 이쯤 되면 내가 뭘했는지 기억이 안난다. 이것저것 했지만 남은 것은 없는 상태.. 오늘 이걸 느꼈다. 시간 50분으로 정해서 1시간 단위로 끊고 플래너에 기록하자. 에러메세지도 빼먹지 말고..!!!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">회고 팀 그라운드 룰 설정 온라인으로 진행하지만 시간을 정하니 모임은 수월하다는 걸 느낌. 커밋 방식, JSON, URL 방식을 팀원들이랑 정했다. 프로젝트 개발환경 셋팅 Jdbc 셋팅에 시간을 엄청 썼다. 시간이야 쓸 수 있지만 아쉬운 점은 기록을 안했다는 점이다. 초조해지니 주먹구구식으로 어떻게든 해결하려고 노력한다. 그러다 시간은 2~3시간이 지나간다. 이쯤 되면 내가 뭘했는지 기억이 안난다. 이것저것 했지만 남은 것은 없는 상태.. 오늘 이걸 느꼈다. 시간 50분으로 정해서 1시간 단위로 끊고 플래너에 기록하자. 에러메세지도 빼먹지 말고..!!!</summary></entry><entry><title type="html">Til</title><link href="http://localhost:4000/TIL/" rel="alternate" type="text/html" title="Til" /><published>2020-03-22T00:00:00+09:00</published><updated>2020-03-22T00:00:00+09:00</updated><id>http://localhost:4000/TIL</id><content type="html" xml:base="http://localhost:4000/TIL/">&lt;h1 id=&quot;오늘-할-일&quot;&gt;오늘 할 일&lt;/h1&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;그라운드룰 정하기&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;호눅스 수업&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;swagger&quot;&gt;Swagger&lt;/h2&gt;
+&lt;h3 id=&quot;swagger란&quot;&gt;Swagger란?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;클라이언트 개발자와 백엔드 개발자가 소통하는 방법을 기록한 API 명세서&lt;/li&gt;
+  &lt;li&gt;OpenApi : RestAPI를 위한 표준 명세 규격을 의미. 어떻게 데이터 타입으로 주고 받을지 소통하는 방법.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;spring-boot에서-사용법&quot;&gt;Spring boot에서 사용법&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Swagger 라이브러리 추가하기&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;compile&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;group:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;io&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;springfox&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;name:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;springfox&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;swagger2&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;version:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.9&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;  
+&lt;span class=&quot;n&quot;&gt;compile&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;group:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;io&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;springfox&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;name:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;springfox&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;swagger&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ui&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;version:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.9&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Spring이 시작되는 어플리케이션에 @EnableSwagger2를 붙인다.&lt;/li&gt;
+  &lt;li&gt;관련 설정을 추가한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Bean&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Docket&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;swaggerApi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Docket&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;DocumentationType&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;SWAGGER_2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;apiInfo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;swaggerInfo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()).&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;select&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;apis&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;RequestHandlerSelectors&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;any&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;())&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;paths&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;PathSelectors&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;ant&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/api/**&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ApiInfo&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;swaggerInfo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;ApiInfoBuilder&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Spring API Documentation&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Java Q&amp;amp;A API&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;코드스쿼드 Java-qna API 문서&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;license&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Sunny&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Controller의 리턴값을 view로 하면 swagger에서 view로 보내준다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;swaggerhub-이용하는-방법&quot;&gt;SwaggerHub 이용하는 방법&lt;/h3&gt;</content><author><name>HYUNJUN</name></author><summary type="html">오늘 할 일 그라운드룰 정하기 호눅스 수업</summary></entry><entry><title type="html">Til</title><link href="http://localhost:4000/TIL/" rel="alternate" type="text/html" title="Til" /><published>2020-03-21T00:00:00+09:00</published><updated>2020-03-21T00:00:00+09:00</updated><id>http://localhost:4000/TIL</id><content type="html" xml:base="http://localhost:4000/TIL/">&lt;h2 id=&quot;til&quot;&gt;TIL&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;QnA 게시판 반복
+    &lt;ul&gt;
+      &lt;li&gt;자체 요구 사항
+        &lt;ul class=&quot;task-list&quot;&gt;
+          &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;테스트는 PostMan 활용하기&lt;/li&gt;
+          &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;개발 환경 설정 및 중요한 사항은 각 step README에 빠짐없이 정리&lt;/li&gt;
+          &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;리팩토링은 Result 방법 사용해서 하기.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;반복할 때 Test Code를 작성할까 고민했지만 Postman만 사용하기로 결정. 이유는 시간은 부족한데 Test에 익숙하지 않아서 배우는 시간이 필요.&lt;/li&gt;
+      &lt;li&gt;repeat-java-qna 저장소 생성 후 진행.&lt;/li&gt;
+      &lt;li&gt;Postman으로 테스트하니 훨~~씬 생산성이 높아졌다. 유저나 질문 생성할 때 값이 지정되어 있으니 매번 입력 안해도 된다.. 한번 고생을 하고 나니 기술의 중요성이 느껴진다..!!!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">TIL QnA 게시판 반복 자체 요구 사항 테스트는 PostMan 활용하기 개발 환경 설정 및 중요한 사항은 각 step README에 빠짐없이 정리 리팩토링은 Result 방법 사용해서 하기. 반복할 때 Test Code를 작성할까 고민했지만 Postman만 사용하기로 결정. 이유는 시간은 부족한데 Test에 익숙하지 않아서 배우는 시간이 필요. repeat-java-qna 저장소 생성 후 진행. Postman으로 테스트하니 훨~~씬 생산성이 높아졌다. 유저나 질문 생성할 때 값이 지정되어 있으니 매번 입력 안해도 된다.. 한번 고생을 하고 나니 기술의 중요성이 느껴진다..!!!</summary></entry><entry><title type="html">책리뷰 do it 알고리즘 자바편</title><link href="http://localhost:4000/%EC%B1%85%EB%A6%AC%EB%B7%B0-Do-it-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%9E%90%EB%B0%94%ED%8E%B8/" rel="alternate" type="text/html" title="책리뷰   do it 알고리즘 자바편" /><published>2020-03-20T00:00:00+09:00</published><updated>2020-03-20T00:00:00+09:00</updated><id>http://localhost:4000/%EC%B1%85%EB%A6%AC%EB%B7%B0%20-%20Do%20it%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9E%90%EB%B0%94%ED%8E%B8</id><content type="html" xml:base="http://localhost:4000/%EC%B1%85%EB%A6%AC%EB%B7%B0-Do-it-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%9E%90%EB%B0%94%ED%8E%B8/">&lt;h2 id=&quot;기본-정보&quot;&gt;기본 정보&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;지은이 : 보요 시바타&lt;/li&gt;
+  &lt;li&gt;옮긴이 : 강민&lt;/li&gt;
+  &lt;li&gt;출판사 : 위키북스&lt;/li&gt;
+  &lt;li&gt;기간 : 2020.01.27 ~ 2020.03.20 (약 50일)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;1독 기간이 대략 50일이 소요됐다. 목표는 2월 안에 끝내고 싶었는데 예상보다 지연됐다. 이유는 여러가지가 있다. 책 내용이 어려워지면서 손에서 멀어지기도 했고, 발 수술하고 입원하면서 생활패턴이 무너지면서 책을 못 읽었다. 이유가 어떻게 됐든 1독을 완료했다는 점은 뿌듯하다.&lt;br /&gt;
+개념을 다지기 위해 읽은 책이다. 다 읽은 지금도 명확하게 자료구조가 다 떠오르진 않지만 기본 자료구조들이 어떻게 구현되는 지 이해된다. 직접 자바로 코드를 작성하면서 더욱 자료구조와 친해졌던 계기가 됐다. 알고리즘 문제 풀이를 시작했다. 기본 문제부터 차근차근 알고리즘과 만나야겠다.&lt;br /&gt;
+책에 대한 리뷰를 간략하게 해보자. 시중 알고리즘, 자료구조 책 중에 자바로 설명하는 책이 많지 없다. 많아야 3개 정도였다. 종류가 많지 않아서 서점에 가서 하나씩 읽어봤고 그 중 이 책을 선택했다. Do it이라는 브랜드 신뢰도 있고 책의 서문도 마음에 들었다. &lt;del&gt;책의 내용보다 서문을?&lt;/del&gt; 책의 서문에 “준마는 하루에 천리를 가지만 둔마도 열흘 동안 부지런히 가면 천리를 갈 수 있다.”라는 순자의 말이 적혀있다. 멋진 말이다.&lt;br /&gt;
+아쉬운 점은 이 책에 모든 자료구조를 100% 이해하지 못해서 아쉽다. 챕터5까지는 코드를 따로 작성하며 착실히 했는데 이후 내용은 어려워서 착실하게 하지 못했다. 그래도 1독을 했다는 뿌듯함은 가진다.&lt;/p&gt;</content><author><name>HYUNJUN</name></author><summary type="html">기본 정보 지은이 : 보요 시바타 옮긴이 : 강민 출판사 : 위키북스 기간 : 2020.01.27 ~ 2020.03.20 (약 50일)</summary></entry></feed>
