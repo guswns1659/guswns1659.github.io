@@ -509,10 +509,22 @@ var store = [{
         "url": "http://localhost:4000/Java-I.O(%EC%9E%85%EB%A0%A5-&-%EC%B6%9C%EB%A0%A5)/",
         "teaser": null
       },{
+        "title": "Chrome   단축키",
+        "excerpt":"Tab     Ctrl + tab : 다음 tab으로 이동   Ctrl + Shift + tab : 이전 tab으로 이동  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/Chrome-%EB%8B%A8%EC%B6%95%ED%82%A4/",
+        "teaser": null
+      },{
         "title": "Excel   사용법 및 단축키",
         "excerpt":"   Shift + F3 : 함수마법사   반올림, 올림, 내림 함수            ROUND(number, num_digit) : 반올림       ROUNDDOWN(number, num_digit) : 소수점 자리수 버리는 함수           지우기 -&gt; 서식 지우기 : 서식 지운다.   엑셀 선택한 셀에 값을 키보드로 수정하는 방법 : F2        가운데 맞춤 : Alt + H + C2       증가  ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/Excel-%EC%82%AC%EC%9A%A9%EB%B2%95-%EB%B0%8F-%EB%8B%A8%EC%B6%95%ED%82%A4/",
+        "teaser": null
+      },{
+        "title": "수학",
+        "excerpt":"유리수와 무리수 유리수 : rational number로 분수, 비율로 나타낼 수 있는 수 무리수 : irrational number로 분수, 비율로 나타낼 수 없는 수 유리수 + 무리수 : 실수 실수 : real number로 실직선 위에 표현되는 수 허수 : imaginary number로 상상의수 실직선 위에 표현되지 않는 수 실수 + 허수 : 복소수...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%EC%88%98%ED%95%99/",
         "teaser": null
       },{
         "title": "책 리뷰   퍼센트, 내 삶을 바꾼 특별한 도구",
@@ -1269,6 +1281,12 @@ var store = [{
         "excerpt":"한글 설정 language support에 들어가서 자동으로 필요한 파일을 다운 받는다. region &amp; language에 들어가서 input sources에 korean(Hangul)을 추가한다. keyboard에 들어가서 switch to next input source에서 한/영 키로 변경한다. tweak 사용 Then open GNOME Tweaks (gnome-tweaks). Select Keyboard &amp; Mouse tab Click Additional Layout Options button Expand Switching to another layout...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/Linux-ubuntu-%EC%82%AC%EC%9A%A9%EB%B2%95/",
+        "teaser": null
+      },{
+        "title": "다시 도전한다는 것의 의미",
+        "excerpt":"다시 도전한다는 것은 포기하지 않는다는 자세다. 포기하지 않으면 언젠가 내가 원하는 결과를 얻게 된다. 오늘 깃허브 블로그를 개설하면서 느낀 점이다. 작년 말부터 깃허브 블로그를 하고 싶었다. 하지만 기술이 어려워 진입 장벽이 있었다. 진입 장벽을 넘지 못하고 티스토리로 개설했다. 하지만 한쪽에 언젠가 도전하리라는 마음이 있었다. 올해 1월 코드스쿼드를 다니면서 본격적으로 개발자...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%EB%8B%A4%EC%8B%9C-%EB%8F%84%EC%A0%84%ED%95%9C%EB%8B%A4%EB%8A%94-%EA%B2%83%EC%9D%98-%EC%9D%98%EB%AF%B8/",
         "teaser": null
       },{
         "title": " 철학   feminism 강의 수강 후",
