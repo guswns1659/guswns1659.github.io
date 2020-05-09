@@ -1,58 +1,232 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-09T21:24:28+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">매일 꾸준히!</title><subtitle>An amazing website.</subtitle><author><name>HYUNJUN</name></author><entry><title type="html">책 정리 데이터베이스 첫걸음</title><link href="http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/" rel="alternate" type="text/html" title="책 정리   데이터베이스 첫걸음" /><published>2020-05-08T00:00:00+09:00</published><updated>2020-05-08T00:00:00+09:00</updated><id>http://localhost:4000/%EC%B1%85%20%EC%A0%95%EB%A6%AC%20-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%B2%AB%EA%B1%B8%EC%9D%8C</id><content type="html" xml:base="http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/">&lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator>
+    <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml"/>
+    <link href="http://localhost:4000/" rel="alternate" type="text/html"/>
+    <updated>2020-05-09T21:28:46+09:00</updated>
+    <id>http://localhost:4000/feed.xml</id>
+    <title type="html">매일 꾸준히!</title>
+    <subtitle>An amazing website.</subtitle>
+    <author>
+        <name>HYUNJUN</name>
+    </author>
+    <entry>
+        <title type="html">철학 feminism 강의 수강 후</title>
+        <link href="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-%EA%B0%95%EC%9D%98-%EC%88%98%EA%B0%95-%ED%9B%84/"
+              rel="alternate" type="text/html" title=" 철학   feminism 강의 수강 후"/>
+        <published>2020-05-09T00:00:00+09:00</published>
+        <updated>2020-05-09T00:00:00+09:00</updated>
+        <id>
+            http://localhost:4000/%20%EC%B2%A0%ED%95%99%20-%20Feminism%20%EA%B0%95%EC%9D%98%20%EC%88%98%EA%B0%95%20%ED%9B%84
+        </id>
+        <content type="html"
+                 xml:base="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-%EA%B0%95%EC%9D%98-%EC%88%98%EA%B0%95-%ED%9B%84/">
+            &lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
+            &lt;p&gt;&lt;a href=&quot;http://www.artnstudy.com/n_Lecture/?LessonIdx=ejkim001&amp;amp;LessonPart=philosophy&quot;&gt;김은주의
+            페미니즘&lt;/a&gt; 강의를 모두 수강한 후 느낀점&lt;/p&gt;
 
-&lt;h2 id=&quot;3-데이터베이스에-얽힌-돈-이야기&quot;&gt;3. 데이터베이스에 얽힌 돈 이야기&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;EOSL이란
-    &lt;ul&gt;
-      &lt;li&gt;End Of Service Life이다. 서비스의 지원이 얼마나 남았는 지 알려주는 지표이다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+            &lt;h2 id=&quot;내-생각&quot;&gt;내 생각&lt;/h2&gt;
+            &lt;p&gt;올해 1월부터 한 주에 1강씩 수강했던 페미니즘 강의를 모두 수강했다. 호기심에 시작했던 강의였고 꾸준히 수강한 뒤 목표를 달성해서 뿌듯하다. 강의 수강한 지금 나는 어떻게
+            가치관이 변화했을까?에 대한 답을 해보려 한다. &lt;br /&gt;
+            당연하다고 생각했던 여성의 권리에 대해서 이전보다 예민하게 인식할 수 있게 됐다. 강사의 말 중 기억남는 말이 있다. “페미니스트로 살면 마냥 행복하진 않다. 남들이 비난을 할수도 있고 사소한
+            모든 것들이 불편하게 느껴진다”는 말이다. 오랜 시간 당연하게 받아드렸던 요소들이 당연한 것이 아니라는 깨달음은 사람을 크게 변화시킨다. 아직도 과도기이다. 여성의 권리가 남성과 동등해지기
+            위해선 여러 분야에서 많은 노력이 필요하다. 김은주 강사가 말한 것처럼 여성이 직접 말할 수 있게 내 삶 속에서 돕고 싶다.&lt;/p&gt;
+        </content>
+        <author>
+            <name>HYUNJUN</name>
+        </author>
+        <summary type="html">개요 김은주의 페미니즘 강의를 모두 수강한 후 느낀점</summary>
+    </entry>
+    <entry>
+        <title type="html">철학 feminism 4 4</title>
+        <link href="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-4-4/" rel="alternate" type="text/html"
+              title="철학   feminism 4 4"/>
+        <published>2020-05-09T00:00:00+09:00</published>
+        <updated>2020-05-09T00:00:00+09:00</updated>
+        <id>http://localhost:4000/%EC%B2%A0%ED%95%99%20-%20Feminism%204-4</id>
+        <content type="html" xml:base="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-4-4/">&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
+            &lt;p&gt;&lt;a href=&quot;http://www.artnstudy.com/n_Lecture/?LessonIdx=ejkim001&amp;amp;LessonPart=philosophy&quot;&gt;김은주의
+            페미니즘&lt;/a&gt; 의 수업 내용과 내 생각을 정리한 글.&lt;/p&gt;
 
-&lt;h2 id=&quot;4-데이터베이스와-아키텍쳐-구성&quot;&gt;4. 데이터베이스와 아키텍쳐 구성&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Stand-alone 이란
-    &lt;ul&gt;
-      &lt;li&gt;DB가 네트워크에 접속하지 않고 물리적으로 독립되어 운영되는 상태&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Web 3계층이란
-    &lt;ul&gt;
-      &lt;li&gt;클라이언트 요청을 처리하는 계층이 3개이다. 서버 계층 - 어플리케이션 계층 - DB 계층.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;클러스터란
-    &lt;ul&gt;
-      &lt;li&gt;복수의 컴포넌트(사물)로 한 가지 기능을 담당하는 의미&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;신뢰성(Reliability)과 가용성(Availability)의 차이
-    &lt;ul&gt;
-      &lt;li&gt;신뢰성 : 하드웨어나 소프트웨어가 고장나는 빈도.&lt;/li&gt;
-      &lt;li&gt;가용성 : 사용자가 하드웨어나 소프트웨어를 사용할 수 있는 정&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">목차</summary></entry><entry><title type="html">책 정리 모두의 네트워크</title><link href="http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%AA%A8%EB%91%90%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/" rel="alternate" type="text/html" title="책 정리   모두의 네트워크" /><published>2020-04-17T00:00:00+09:00</published><updated>2020-04-17T00:00:00+09:00</updated><id>http://localhost:4000/%EC%B1%85%20%EC%A0%95%EB%A6%AC%20-%20%EB%AA%A8%EB%91%90%EC%9D%98%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC</id><content type="html" xml:base="http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%AA%A8%EB%91%90%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/">&lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;네트워크 첫 걸음&lt;/li&gt;
-  &lt;li&gt;네트워크의 기본 규칙&lt;/li&gt;
-  &lt;li&gt;물리 계층 : 테이터를 전기 신호로 변환하기&lt;/li&gt;
-  &lt;li&gt;테이터 링크 계층 : 랜에서 데이터 전송하기&lt;/li&gt;
-  &lt;li&gt;네트워크 계층 : 목적지에 데이터 전달하기&lt;/li&gt;
-  &lt;li&gt;전송 게층 : 신뢰할 수 있는 데이터 전송하기&lt;/li&gt;
-  &lt;li&gt;응용 계층 : 애플리케이션에 데이터 전송하기&lt;/li&gt;
-  &lt;li&gt;네트워크의 전체 흐름 살펴보기&lt;/li&gt;
-  &lt;li&gt;무선 랜 이해하기&lt;/li&gt;
-&lt;/ul&gt;
+            &lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
+            &lt;ul&gt;
+            &lt;li&gt;여성의 행복은 남자를 잘 만나는 것?&lt;/li&gt;
+            &lt;/ul&gt;
 
-&lt;h2 id=&quot;1장-네트워크-첫-걸음&quot;&gt;1장 네트워크 첫 걸음&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;컴퓨터는 0과 1만 인식할 수 있는데 어떻게 문자를 표현할 수 있을까?
-    &lt;ul&gt;
-      &lt;li&gt;아스키(American Standard Code for Information Interchange)라는 문자 코드가 있기 때문에 각 문자를 숫자에 대응했다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;DMZ의 역할은 무엇인가?
+            &lt;h2 id=&quot;여성의-행복은-남자를-잘-만나는-것&quot;&gt;여성의 행복은 남자를 잘 만나는 것?&lt;/h2&gt;
+            &lt;p&gt;보부아르는 다양한 반론에 대해서 생각했다. 어떤 사람들은 이렇게 말할 수 있다. “왜 이렇게 힘들게 살아가느냐. 페미니스트로 살아가니 사회에서 욕 먹고 사람들이 싫어하는 것
+            아니냐. 그냥 단순하게 여자로써 잘 꾸미고 좋은 남자 만나서 결혼하면 행복하지 않겠느냐”라고 누군가는 말할 수 있다. 이 때 보부아르는 질문한다. 행복의 기준이 무엇인지. 누군가는 저런 삶이
+            행복할 수 있겠지만 사람마다 행복의 기준은 다르기 때문에 행복을 규정할 수 없다는 것.&lt;/p&gt;
+
+            &lt;h2 id=&quot;내-생각&quot;&gt;내 생각&lt;/h2&gt;
+            &lt;p&gt;마지막 강의였다. &lt;a href=&quot;https://guswns1659.tistory.com/232&quot;&gt;전체 강의에 대한 느낌점&lt;/a&gt;을 기록한
+            글로 대신하려고 한다.&lt;/p&gt;
+        </content>
+        <author>
+            <name>HYUNJUN</name>
+        </author>
+        <summary type="html">개요 김은주의 페미니즘 의 수업 내용과 내 생각을 정리한 글.</summary>
+    </entry>
+    <entry>
+        <title type="html">책 정리 데이터베이스 첫걸음</title>
+        <link href="http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/"
+              rel="alternate" type="text/html" title="책 정리   데이터베이스 첫걸음"/>
+        <published>2020-05-08T00:00:00+09:00</published>
+        <updated>2020-05-08T00:00:00+09:00</updated>
+        <id>
+            http://localhost:4000/%EC%B1%85%20%EC%A0%95%EB%A6%AC%20-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%B2%AB%EA%B1%B8%EC%9D%8C
+        </id>
+        <content type="html"
+                 xml:base="http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/">
+            &lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
+
+            &lt;h2 id=&quot;3-데이터베이스에-얽힌-돈-이야기&quot;&gt;3. 데이터베이스에 얽힌 돈 이야기&lt;/h2&gt;
+            &lt;ul&gt;
+            &lt;li&gt;EOSL이란
+            &lt;ul&gt;
+            &lt;li&gt;End Of Service Life이다. 서비스의 지원이 얼마나 남았는 지 알려주는 지표이다.&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;h2 id=&quot;4-데이터베이스와-아키텍쳐-구성&quot;&gt;4. 데이터베이스와 아키텍쳐 구성&lt;/h2&gt;
+            &lt;ul&gt;
+            &lt;li&gt;Stand-alone 이란
+            &lt;ul&gt;
+            &lt;li&gt;DB가 네트워크에 접속하지 않고 물리적으로 독립되어 운영되는 상태&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Web 3계층이란
+            &lt;ul&gt;
+            &lt;li&gt;클라이언트 요청을 처리하는 계층이 3개이다. 서버 계층 - 어플리케이션 계층 - DB 계층.&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;클러스터란
+            &lt;ul&gt;
+            &lt;li&gt;복수의 컴포넌트(사물)로 한 가지 기능을 담당하는 의미&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;신뢰성(Reliability)과 가용성(Availability)의 차이
+            &lt;ul&gt;
+            &lt;li&gt;신뢰성 : 하드웨어나 소프트웨어가 고장나는 빈도.&lt;/li&gt;
+            &lt;li&gt;가용성 : 사용자가 하드웨어나 소프트웨어를 사용할 수 있는 정&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+        <author>
+            <name>HYUNJUN</name>
+        </author>
+        <summary type="html">목차</summary>
+    </entry>
+    <entry>
+        <title type="html">철학 feminism 4 3</title>
+        <link href="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-4-3/" rel="alternate" type="text/html"
+              title="철학   feminism 4 3"/>
+        <published>2020-04-25T00:00:00+09:00</published>
+        <updated>2020-04-25T00:00:00+09:00</updated>
+        <id>http://localhost:4000/%EC%B2%A0%ED%95%99%20-%20Feminism%204-3</id>
+        <content type="html" xml:base="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-4-3/">&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
+            &lt;p&gt;&lt;a href=&quot;http://www.artnstudy.com/n_Lecture/?LessonIdx=ejkim001&amp;amp;LessonPart=philosophy&quot;&gt;김은주의
+            페미니즘&lt;/a&gt; 의 수업 내용과 내 생각을 정리한 글.&lt;/p&gt;
+
+            &lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
+            &lt;ul&gt;
+            &lt;li&gt;타자인 여성의 투쟁은 없는가?&lt;/li&gt;
+            &lt;li&gt;페미니즘에서 구체적인 사례가 나오는 이유&lt;/li&gt;
+            &lt;li&gt;내생각&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;h2 id=&quot;타자인-여성의-투쟁은-없는가&quot;&gt;타자인 여성의 투쟁은 없는가?&lt;/h2&gt;
+            &lt;p&gt;보부아르는 여성이 타자로 억압을 받아왔지만 투쟁은 없었다고 말한다. 이 점이 다른 투쟁과 다른 점이라고 말한다. 예를 들어, 부르주아는 주체로 존재하고 프롤레타리아는 주체에
+            반하는 타자로 존재했다. 프롤레타리아는 이 타자로써 받는 차별과 억압을 참을 수 없기 때문에 격렬한 투쟁을 벌였다. 이처럼 주체와 타자의 관계는 투쟁이 존재한다. &lt;br /&gt;
+            하지만 오랜 시간 타자로 존재해온 여성이 남성에 대해 투쟁을 한 적이 없다고한다. 오히려 계급 투쟁보다 훨씬 원초적인 갈등임에도 불구하고. 보부아르는 이 점을 지적한다.&lt;/p&gt;
+
+            &lt;h2 id=&quot;페미니즘에서-구체적인-사례가-나오는-이유&quot;&gt;페미니즘에서 구체적인 사례가 나오는 이유&lt;/h2&gt;
+            &lt;p&gt;김은주 강사에 따르면 세간에는 페미니즘이 철학인가?라는 질문이 있다고 한다. 철학은 모든 인류에게 해당하는 주제에 대해서 이야기를 해야 하는데 페미니즘은 여성에 국한되고 구체적인
+            개인적인 사례에 의존하는 학문이 아니냐는 주장이다. &lt;br /&gt;
+            페미니즘이 구체적인 사례를 이야기하는 이유는 이 주장이 더욱 피부에 와닷기 때문이다. 원론적인 이야기보단 우리의 삶 속에서 여성이 겪는 차별과 억압을 그 당사자들이 이야기하는 주장은 힘이 있다.
+            그렇기에 페미니즘의 출발은 자신의 경험을 이야기할 수 있게 하는 점과 그 이야기를 경청하는 것에서 시작한다.&lt;/p&gt;
+
+            &lt;h2 id=&quot;내생각&quot;&gt;내생각&lt;/h2&gt;
+            &lt;p&gt;페미니즘의 시작은 여성들의 이야기할 수 있게 도와주는 것. 정말 중요한 출발점이다. 그 동안 하지 못했던 그들의 이야기를 듣는 것. 아직 사회가 적극적으로 들어주지 못한다면 나
+            한 사람이라도 그들의 이야기를 들을 수 있도록 노력하고 싶다. &lt;br /&gt;
+            김은주 강사는 말한다. 페메니스트로 사는 건 마냥 행복하지 않다고 말이다. 이전에는 무관심했지만 페미니스트가 되면 사회의 불합리함이 너무나 잘 보인다고 한다. 이런 삶이 마냥 쉽지는 않다고
+            한다. 그냥 사회에 순응하며 살아가는 게 마음은 편하지 않을까 싶지만, 마음이 편한 건 타협을 하는 것이 아닐까. 내가 김은주 강사의 삶을 모르지만, 그녀의 노력이 있기 때문에 이 사회가 조금
+            더 여성의 권리에 관심을 갖게 되었다고 생각한다. 지금 내가 그녀의 강의를 보는 것처럼.&lt;/p&gt;
+        </content>
+        <author>
+            <name>HYUNJUN</name>
+        </author>
+        <summary type="html">개요 김은주의 페미니즘 의 수업 내용과 내 생각을 정리한 글.</summary>
+    </entry>
+    <entry>
+        <title type="html">철학 feminism 4 2</title>
+        <link href="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-4-2/" rel="alternate" type="text/html"
+              title="철학   feminism 4 2"/>
+        <published>2020-04-18T00:00:00+09:00</published>
+        <updated>2020-04-18T00:00:00+09:00</updated>
+        <id>http://localhost:4000/%EC%B2%A0%ED%95%99%20-%20Feminism%204-2</id>
+        <content type="html" xml:base="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-4-2/">&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
+            &lt;p&gt;&lt;a href=&quot;http://www.artnstudy.com/n_Lecture/?LessonIdx=ejkim001&amp;amp;LessonPart=philosophy&quot;&gt;김은주의
+            페미니즘&lt;/a&gt; 의 수업 내용과 내 생각을 정리한 글.&lt;/p&gt;
+
+            &lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
+            &lt;ul&gt;
+            &lt;li&gt;프로이트에 대한 보부아르의 비판&lt;/li&gt;
+            &lt;li&gt;페미니즘의 출발점&lt;/li&gt;
+            &lt;li&gt;내 생각&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;h2 id=&quot;프로이트에-대한-보부아르의-비판&quot;&gt;프로이트에 대한 보부아르의 비판&lt;/h2&gt;
+            &lt;p&gt;프로이트는 정신분석학에서 이런 말을 한다. 여성은 남성의 페니스를 선망하는 욕망을 가지고 있다. 일명 페니스 엔비(Pennis envy)가 있다고 한다. 여성은 페니스가 없기
+            때문에 페니스를 갖기 위해 시기와 질투가 본능적으로 있다는 말. 이 주장에 대해 보부아르는 여성을 본능적으로 규정짓는 것에 대해 비판한다.&lt;/p&gt;
+
+            &lt;h2 id=&quot;페미니즘의-출발점&quot;&gt;페미니즘의 출발점&lt;/h2&gt;
+            &lt;p&gt;남녀가 동등한 위치가 아니라 비대칭적인 위치라는 것을 인식하고 교정하려는 노력이 페미니즘의 출발점이라고 한다.&lt;/p&gt;
+
+            &lt;h2 id=&quot;내-생각&quot;&gt;내 생각&lt;/h2&gt;
+            &lt;p&gt;여성은 만들어진다는 보부아르의 주장은 강력하다. 정말 그런가 의문이 들지만 우리의 삶 속에서 조용하게 스며들고 있는 가치관이다. 여성은 자궁이 있고 아이를 낳기 때문에 누군가를
+            보호하고 상냥할 것이다. 혹은 해야 한다는 가치관. 여성은 시기와 질투가 기본적으로 있다는 가치관 등. 우리 삶 속에서 만들어진 여성의 상은 존재한다. 보부아르는 여성을 생물학적으로 규정하는
+            가치관을 우선 끊고 싶었던 것 같다.&lt;/p&gt;
+        </content>
+        <author>
+            <name>HYUNJUN</name>
+        </author>
+        <summary type="html">개요 김은주의 페미니즘 의 수업 내용과 내 생각을 정리한 글.</summary>
+    </entry>
+    <entry>
+        <title type="html">책 정리 모두의 네트워크</title>
+        <link href="http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%AA%A8%EB%91%90%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"
+              rel="alternate" type="text/html" title="책 정리   모두의 네트워크"/>
+        <published>2020-04-17T00:00:00+09:00</published>
+        <updated>2020-04-17T00:00:00+09:00</updated>
+        <id>
+            http://localhost:4000/%EC%B1%85%20%EC%A0%95%EB%A6%AC%20-%20%EB%AA%A8%EB%91%90%EC%9D%98%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC
+        </id>
+        <content type="html"
+                 xml:base="http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%AA%A8%EB%91%90%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/">
+            &lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
+            &lt;ul&gt;
+            &lt;li&gt;네트워크 첫 걸음&lt;/li&gt;
+            &lt;li&gt;네트워크의 기본 규칙&lt;/li&gt;
+            &lt;li&gt;물리 계층 : 테이터를 전기 신호로 변환하기&lt;/li&gt;
+            &lt;li&gt;테이터 링크 계층 : 랜에서 데이터 전송하기&lt;/li&gt;
+            &lt;li&gt;네트워크 계층 : 목적지에 데이터 전달하기&lt;/li&gt;
+            &lt;li&gt;전송 게층 : 신뢰할 수 있는 데이터 전송하기&lt;/li&gt;
+            &lt;li&gt;응용 계층 : 애플리케이션에 데이터 전송하기&lt;/li&gt;
+            &lt;li&gt;네트워크의 전체 흐름 살펴보기&lt;/li&gt;
+            &lt;li&gt;무선 랜 이해하기&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;h2 id=&quot;1장-네트워크-첫-걸음&quot;&gt;1장 네트워크 첫 걸음&lt;/h2&gt;
+            &lt;ul&gt;
+            &lt;li&gt;컴퓨터는 0과 1만 인식할 수 있는데 어떻게 문자를 표현할 수 있을까?
+            &lt;ul&gt;
+            &lt;li&gt;아스키(American Standard Code for Information Interchange)라는 문자 코드가 있기 때문에 각 문자를 숫자에 대응했다.&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;DMZ의 역할은 무엇인가?
     &lt;ul&gt;
       &lt;li&gt;Demilitarized Zone의 약자이다. 외부에 공개하는 네트워크를 말한다. 외부에서 회사 홈페이지를 접근하거나 메일 보내려면 외부에 서버를 노출해야 한다.&lt;/li&gt;
     &lt;/ul&gt;
@@ -164,199 +338,151 @@
 &lt;h2 id=&quot;6장-전송-계층--신뢰할-수-있는-데이터-전송하기&quot;&gt;6장 전송 계층 : 신뢰할 수 있는 데이터 전송하기&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;연결형 통신과 비연결형 통신의 차이는?
-    &lt;ul&gt;
-      &lt;li&gt;연결형 통신은 안전하고 신뢰있게 데이터를 전송하고, 비연결형 통신은 빠르고 효율적으로 데이터를 전송하는 방식.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;TCP 헤더 속 코드비트의 역할과 SYN, ACK, FIN의 역할은?
-    &lt;ul&gt;
-      &lt;li&gt;코드비트는 두 컴퓨터의 연결을 확립할 때 사용하는 프로토콜이다. SYN은 연결 요청, ACK은 연결 확립, FIN은 연결 종료를 뜻한다.
-        &lt;ul&gt;
-          &lt;li&gt;SYN : synchronisation flag&lt;/li&gt;
-          &lt;li&gt;ACK : acknowlegement flag&lt;/li&gt;
-          &lt;li&gt;FIN : finished flag&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;포트번호이란?
-    &lt;ul&gt;
-      &lt;li&gt;각 애플리케이션을 구분하는 번호이다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">목차 네트워크 첫 걸음 네트워크의 기본 규칙 물리 계층 : 테이터를 전기 신호로 변환하기 테이터 링크 계층 : 랜에서 데이터 전송하기 네트워크 계층 : 목적지에 데이터 전달하기 전송 게층 : 신뢰할 수 있는 데이터 전송하기 응용 계층 : 애플리케이션에 데이터 전송하기 네트워크의 전체 흐름 살펴보기 무선 랜 이해하기</summary></entry><entry><title type="html">책 리뷰 모두의 네트워크</title><link href="http://localhost:4000/%EC%B1%85-%EB%A6%AC%EB%B7%B0-%EB%AA%A8%EB%91%90%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/" rel="alternate" type="text/html" title="책 리뷰   모두의 네트워크" /><published>2020-04-07T00:00:00+09:00</published><updated>2020-04-07T00:00:00+09:00</updated><id>http://localhost:4000/%EC%B1%85%20%EB%A6%AC%EB%B7%B0%20-%20%EB%AA%A8%EB%91%90%EC%9D%98%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC</id><content type="html" xml:base="http://localhost:4000/%EC%B1%85-%EB%A6%AC%EB%B7%B0-%EB%AA%A8%EB%91%90%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/">&lt;h2 id=&quot;기본-정보&quot;&gt;기본 정보&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;지은이 : 미즈구치 카츠야&lt;/li&gt;
-  &lt;li&gt;옮긴이 : 이승룡&lt;/li&gt;
-  &lt;li&gt;출판사 : 길벗&lt;/li&gt;
-  &lt;li&gt;기간 : 2020.04.07 ~ 2020.00.00 (약 00일)&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">기본 정보 지은이 : 미즈구치 카츠야 옮긴이 : 이승룡 출판사 : 길벗 기간 : 2020.04.07 ~ 2020.00.00 (약 00일)</summary></entry><entry><title type="html">Til</title><link href="http://localhost:4000/TIl/" rel="alternate" type="text/html" title="Til" /><published>2020-04-01T00:00:00+09:00</published><updated>2020-04-01T00:00:00+09:00</updated><id>http://localhost:4000/TIl</id><content type="html" xml:base="http://localhost:4000/TIl/">&lt;h2 id=&quot;til&quot;&gt;TIL&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;백기선씨 강의 보고 깃허브 Writing 저장소 관리가 필요하다는 생각이 든다. Writing이라는 저장소에 다양한 원고를 저장하고 있는데 Study라는 저장소로 만들어서 공부만 기록하는 저장소 만들까 생각 중.&lt;/li&gt;
-  &lt;li&gt;인터뷰의 질문 수준이 높다.
-    &lt;ul&gt;
-      &lt;li&gt;ex1) 프로젝트 마감은 다가오고 리소스는 없는 상황에 어떻게 했느냐.&lt;/li&gt;
-      &lt;li&gt;ex2) 지난 프로젝트의 아키텍쳐에 대해 설명해달라.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;스프링을 제대로 공부하고 싶어서 토비 책 살까 했는데 백기선님 강의 보고 지금 수준이 알맞다는 걸 알았다. 다만, 눈으로 코드 읽지 말고 직접 코드 작성하고 블로그에 옮기기.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">TIL 백기선씨 강의 보고 깃허브 Writing 저장소 관리가 필요하다는 생각이 든다. Writing이라는 저장소에 다양한 원고를 저장하고 있는데 Study라는 저장소로 만들어서 공부만 기록하는 저장소 만들까 생각 중. 인터뷰의 질문 수준이 높다. ex1) 프로젝트 마감은 다가오고 리소스는 없는 상황에 어떻게 했느냐. ex2) 지난 프로젝트의 아키텍쳐에 대해 설명해달라. 스프링을 제대로 공부하고 싶어서 토비 책 살까 했는데 백기선님 강의 보고 지금 수준이 알맞다는 걸 알았다. 다만, 눈으로 코드 읽지 말고 직접 코드 작성하고 블로그에 옮기기.</summary></entry><entry><title type="html">Til</title><link href="http://localhost:4000/TIL/" rel="alternate" type="text/html" title="Til" /><published>2020-03-26T00:00:00+09:00</published><updated>2020-03-26T00:00:00+09:00</updated><id>http://localhost:4000/TIL</id><content type="html" xml:base="http://localhost:4000/TIL/">&lt;h1 id=&quot;회고&quot;&gt;회고&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;온라인으로 프로젝트를 진행하니 문제가 발생했을 때 대처가 느린 것 같다. 확실히 책임감이 줄어드는 것 같다. 보통 문제는 혼자서 해결할 수 없기에 최소 2명이서 발 빠르게 대처를 해야 한다. 그런데 한 명이 피드백이 느려지면 문제 해결이 멈춘다. 단지 온라인이라서 일 수 도 있지만 프로젝트를 어떻게 운영할 지에 대한 고민도 필요하다.&lt;/li&gt;
-  &lt;li&gt;프로젝트가 마치 회사의 업무처럼 느껴졌다. 반드시 해야만 하는 일이라서 구현에 노력하지만 내가 성장을 하고 있을까에 대한 고민. 개인적으로 작은 토이 프로젝트를 해볼까? 라는 생각도 했다. 하지만 지금 프로젝트도 충분히 배울 게 많다. 이번 프로젝트에서 배운 것들을 정리하는 게 현 상황에선 최선이다. 토이 프로젝트는 아직은 과한 욕심이라는 생각이 든다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">회고 온라인으로 프로젝트를 진행하니 문제가 발생했을 때 대처가 느린 것 같다. 확실히 책임감이 줄어드는 것 같다. 보통 문제는 혼자서 해결할 수 없기에 최소 2명이서 발 빠르게 대처를 해야 한다. 그런데 한 명이 피드백이 느려지면 문제 해결이 멈춘다. 단지 온라인이라서 일 수 도 있지만 프로젝트를 어떻게 운영할 지에 대한 고민도 필요하다. 프로젝트가 마치 회사의 업무처럼 느껴졌다. 반드시 해야만 하는 일이라서 구현에 노력하지만 내가 성장을 하고 있을까에 대한 고민. 개인적으로 작은 토이 프로젝트를 해볼까? 라는 생각도 했다. 하지만 지금 프로젝트도 충분히 배울 게 많다. 이번 프로젝트에서 배운 것들을 정리하는 게 현 상황에선 최선이다. 토이 프로젝트는 아직은 과한 욕심이라는 생각이 든다.</summary></entry><entry><title type="html">Til</title><link href="http://localhost:4000/TIL/" rel="alternate" type="text/html" title="Til" /><published>2020-03-25T00:00:00+09:00</published><updated>2020-03-25T00:00:00+09:00</updated><id>http://localhost:4000/TIL</id><content type="html" xml:base="http://localhost:4000/TIL/">&lt;h2 id=&quot;삽질&quot;&gt;삽질&lt;/h2&gt;
-&lt;h3 id=&quot;postman&quot;&gt;PostMan&lt;/h3&gt;
-&lt;p&gt;-PostMan 이용해 Mock server 생성하고 request가 오면 지정한 response를 반환하는 서비스 구축 중. user-id-vaildation은 되는데 email은 안됨. 
-	- [x] request body의 차인가 싶어서 시도&lt;br /&gt;
-	- [x] URL을 다시 확인하기. 
-	- [x] example의 method 차이였음. get이면 성공, post면 실패 -&amp;gt; url로 보는 건 get방식만 가능.&lt;/p&gt;
-&lt;h3 id=&quot;heroku로-api-배포&quot;&gt;Heroku로 API 배포&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;heroku로 중복 유효성 체크하는 API 배포가 안됨. 진이 정리한대로 하려는데 안된다.&lt;/li&gt;
-&lt;/ul&gt;
+            &lt;ul&gt;
+            &lt;li&gt;연결형 통신은 안전하고 신뢰있게 데이터를 전송하고, 비연결형 통신은 빠르고 효율적으로 데이터를 전송하는 방식.&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;TCP 헤더 속 코드비트의 역할과 SYN, ACK, FIN의 역할은?
+            &lt;ul&gt;
+            &lt;li&gt;코드비트는 두 컴퓨터의 연결을 확립할 때 사용하는 프로토콜이다. SYN은 연결 요청, ACK은 연결 확립, FIN은 연결 종료를 뜻한다.
+            &lt;ul&gt;
+            &lt;li&gt;SYN : synchronisation flag&lt;/li&gt;
+            &lt;li&gt;ACK : acknowlegement flag&lt;/li&gt;
+            &lt;li&gt;FIN : finished flag&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;포트번호이란?
+            &lt;ul&gt;
+            &lt;li&gt;각 애플리케이션을 구분하는 번호이다.&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+        <author>
+            <name>HYUNJUN</name>
+        </author>
+        <summary type="html">목차 네트워크 첫 걸음 네트워크의 기본 규칙 물리 계층 : 테이터를 전기 신호로 변환하기 테이터 링크 계층 : 랜에서 데이터 전송하기 네트워크 계층 : 목적지에
+            데이터 전달하기 전송 게층 : 신뢰할 수 있는 데이터 전송하기 응용 계층 : 애플리케이션에 데이터 전송하기 네트워크의 전체 흐름 살펴보기 무선 랜 이해하기
+        </summary>
+    </entry>
+    <entry>
+        <title type="html">철학 feminism 4 1</title>
+        <link href="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-4-1/" rel="alternate" type="text/html"
+              title="철학   feminism 4 1"/>
+        <published>2020-04-12T00:00:00+09:00</published>
+        <updated>2020-04-12T00:00:00+09:00</updated>
+        <id>http://localhost:4000/%EC%B2%A0%ED%95%99%20-%20Feminism%204-1</id>
+        <content type="html" xml:base="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-4-1/">&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
+            &lt;p&gt;&lt;a href=&quot;http://www.artnstudy.com/n_Lecture/?LessonIdx=ejkim001&amp;amp;LessonPart=philosophy&quot;&gt;김은주의
+            페미니즘&lt;/a&gt; 의 수업 내용과 내 생각을 정리한 글.&lt;/p&gt;
 
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;subtree&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;push&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prefix&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;BE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;heroku&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;master&lt;/span&gt; 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;위 명령 입력하면&lt;/p&gt;
+            &lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
+            &lt;ul&gt;
+            &lt;li&gt;제2의 성&lt;/li&gt;
+            &lt;li&gt;우리는 하나의 의미&lt;/li&gt;
+            &lt;li&gt;내 생각&lt;/li&gt;
+            &lt;/ul&gt;
 
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;push&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;using:&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;heroku&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;master&lt;/span&gt;
-&lt;span class=&quot;nc&quot;&gt;To&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;https:&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//git.heroku.com/hyunjun2.git&lt;/span&gt;
- &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rejected&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;        &lt;span class=&quot;mi&quot;&gt;24483&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;eac814fa6c7439560dd805f0e742447b94c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;master&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;non&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fast&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;forward&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;nl&quot;&gt;error:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;레퍼런스를&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;https:&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//git.heroku.com/hyunjun2.git'에 푸시하는데 실패했습니다&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;힌트&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;현재&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;브랜치의&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;끝이&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;리모트&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;브랜치보다&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;뒤에&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;있으므로&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;업데이트가&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;힌트&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;거부되었습니다&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;이&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;브랜치를&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;체크아웃하고&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;푸시하기&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;전에&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;힌트&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pull&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;등&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;명령으로&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;리모트&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;변경&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;사항을&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;포함하십시오&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;힌트&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;자세한&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;정보는&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;push&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;help&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'의&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Note&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;about&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fast&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;forwards&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;부분을&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;힌트&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;참고하십시오&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+            &lt;h2 id=&quot;제2의-성&quot;&gt;제2의 성&lt;/h2&gt;
+            &lt;p&gt;시몬 드 보부아르의 책이다. 페미니즘의 대표적인 책이지만 이 책을 다 읽은 사람은 많지 않다는 이야기도 나온다. 이 책의 1부에서는 역사 속에서 어떻게 여성이 타자로 존재했는지와
+            여성이 타자로 존재하는 것이 많은 여성들이 자라면서도 가치관을 형성하게 된다는 주장을 한다. 2부에서는 이런 가치관 아래서 여성은 어떻게 성장하는 가에 대해서 기록했다.&lt;/p&gt;
 
-&lt;p&gt;위와 같은 에러를 줘서 권한 문제인가 싶다. 
-git pull heroku master를 해도 안된다.&lt;/p&gt;
+            &lt;h2 id=&quot;우리는-하나의-의이&quot;&gt;우리는 하나의 의이&lt;/h2&gt;
+            &lt;p&gt;보부아르는 타자가 있기 때문에 집단이 하나로 뭉칠 수 있다고 생각한다. 사람이 본능적으로 서로를 동등하고 같은 집단으로 생각하지 않고 바로 외부의 적(타자)가 있기 때문에 하나가
+            된다고 말하는 것. 예를 들어, 한일전을 한다고 하면 일본이라는 적을 두고 우리는 하나가 된다. 보부아르는 여성이 오랜 시간 타자로 존재했다고 말한다.&lt;/p&gt;
 
-&lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;헤로쿠 홈페이지에서 권한을 해결해본다.&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;heroku clone 명령으로 해본다.
-    &lt;ul&gt;
-      &lt;li&gt;클론하니 마지막으로 배포한 저장소를 가져온다. 프로젝트 저장소에 했다면 큰일 날뻔.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;새로 만든다.
-    &lt;ul class=&quot;task-list&quot;&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;헤로쿠 홈페이지에서 회원가입한다.&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;기존에 heroku가 저장된 저장소에서 heroku login으로 user를 바꾼다.&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;heroku git:remote -a &amp;lt;헤로쿠 앱 이름&amp;gt;&lt;/code&gt;으로 heroku remote를 변경한다. 기존에 있다면 덮어진다.&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;그 뒤 기존대로 하면 된다.&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git subtree push --prefix BE heroku master&lt;/code&gt; 이명령하면 배포는 완료.&lt;/li&gt;
-      &lt;li class=&quot;task-list-item&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push heroku BE-Feature-007:master&lt;/code&gt; 이 명령하면 gradle이 없다고 함. 그래도 위 명령만 해도 배포는 잘된다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+            &lt;h2 id=&quot;내-생각&quot;&gt;내 생각&lt;/h2&gt;
+            &lt;p&gt;보부아르가 말한 제2의 성의 의미를 알 것 같다. 오랜 역사 속에서 주체가 아닌 타자로 존재한 여성은 제2의 성이었다. 제1의 성은 남자가 차지하고 있었다. 그렇기에 타자로
+            존재했던 여성이 받았던 불평등과 차별은 논의가 되지 않았다. 보부아르의 글이 중요한 이유는 너무나 당연하게 생각한 여성의 타자에 대해 의문을 제기하기 때문이다.&lt;/p&gt;
+        </content>
+        <author>
+            <name>HYUNJUN</name>
+        </author>
+        <summary type="html">개요 김은주의 페미니즘 의 수업 내용과 내 생각을 정리한 글.</summary>
+    </entry>
+    <entry>
+        <title type="html">책 리뷰 모두의 네트워크</title>
+        <link href="http://localhost:4000/%EC%B1%85-%EB%A6%AC%EB%B7%B0-%EB%AA%A8%EB%91%90%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"
+              rel="alternate" type="text/html" title="책 리뷰   모두의 네트워크"/>
+        <published>2020-04-07T00:00:00+09:00</published>
+        <updated>2020-04-07T00:00:00+09:00</updated>
+        <id>
+            http://localhost:4000/%EC%B1%85%20%EB%A6%AC%EB%B7%B0%20-%20%EB%AA%A8%EB%91%90%EC%9D%98%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC
+        </id>
+        <content type="html"
+                 xml:base="http://localhost:4000/%EC%B1%85-%EB%A6%AC%EB%B7%B0-%EB%AA%A8%EB%91%90%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/">
+            &lt;h2 id=&quot;기본-정보&quot;&gt;기본 정보&lt;/h2&gt;
+            &lt;ul&gt;
+            &lt;li&gt;지은이 : 미즈구치 카츠야&lt;/li&gt;
+            &lt;li&gt;옮긴이 : 이승룡&lt;/li&gt;
+            &lt;li&gt;출판사 : 길벗&lt;/li&gt;
+            &lt;li&gt;기간 : 2020.04.07 ~ 2020.00.00 (약 00일)&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+        <author>
+            <name>HYUNJUN</name>
+        </author>
+        <summary type="html">기본 정보 지은이 : 미즈구치 카츠야 옮긴이 : 이승룡 출판사 : 길벗 기간 : 2020.04.07 ~ 2020.00.00 (약 00일)</summary>
+    </entry>
+    <entry>
+        <title type="html">철학 feminism 3 4</title>
+        <link href="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-3-4/" rel="alternate" type="text/html"
+              title="철학   feminism 3 4"/>
+        <published>2020-04-04T00:00:00+09:00</published>
+        <updated>2020-04-04T00:00:00+09:00</updated>
+        <id>http://localhost:4000/%EC%B2%A0%ED%95%99%20-%20Feminism%203-4</id>
+        <content type="html" xml:base="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-3-4/">&lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
+            &lt;ul&gt;
+            &lt;li&gt;자유가 없는 사회에서 권력을 탐낸다.&lt;/li&gt;
+            &lt;li&gt;내 생각
+            &lt;h2 id=&quot;자유가-없는-사회에서-권력을-탐낸다&quot;&gt;자유가 없는 사회에서 권력을 탐낸다.&lt;/h2&gt;
+            &lt;p&gt;밀의 주장은 자유론에 기반을 둔다. 여성의 종속이 옳지 않은 이유는 여성의 자유를 빼앗기 때문이다. 또한 개인이 자유로울 때 공동체 모두에게 이익인데, 여성이 종속되면 다양한
+            재능과 능력이 묻히기 때문에 그 공동체에도 불이익이다.
+            밀은 개인의 자유가 없는 사회에서 사람들은 남을 통제하기 위한 권력에 탐낸다고 했다. 자유롭지 않기 때문에 오히려 남을 통제함으로써 자유를 느끼고 싶어한다는 것. 그렇기에 개인에게 자유를
+            보장하는 것이 정말 중요하다고 이야기한다. 그래서 여성에게도 자유가 필요하다 말하는 것.&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;/ul&gt;
 
-&lt;h2 id=&quot;jdbc&quot;&gt;JDBC&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;@Query를 설정하면 findByUserId의 return을 컬럼 하나만 할 수 있다. User 전체를 가져오면 비싼 연산이기 때문이다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;cors-이슈&quot;&gt;Cors 이슈&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;cross origin resource Sharing : 웹페이지의 제한된 자원을 외부에서 접근할 수 있게 허용하는 것을 말한다.&lt;/li&gt;
-  &lt;li&gt;보안의 이슈로 외부 도메인에서 접근할 수 없는 경우가 있다. XMLHttpRequest가 막는다고 하는데 이걸 허용해주는 것이다.&lt;/li&gt;
-  &lt;li&gt;서버 단에서 해결하는 방법 : &lt;a href=&quot;http://jmlim.github.io/spring/2018/12/11/spring-boot-crossorigin/&quot;&gt;http://jmlim.github.io/spring/2018/12/11/spring-boot-crossorigin/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;클라이언트가 해결하는 방법 : https://cors-anywhere.herokuapp.com/hyunjun.herokuapp.com/user-id-vaildation 처럼 앞에  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cors-anywhere.herokuapp.com&lt;/code&gt;으로 지정한다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;회고&quot;&gt;회고&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;시작 하기 전에 모든 기술을 알고 시작할 수는 없다. 먼저 기능 구현을 시작하고 막히는 부분이 있을 때마다 기술을 배우고 찾아본다.&lt;/li&gt;
-  &lt;li&gt;어제 회고대로 막히는 부분이 있더라도 급급하게 찾지 않고 시간을 정했다. 1시간 정도 정하고 도중에 에러 메세지, 시도한 해결방법, 시도할 방법들을 기록하고 체크하면서 했다. 확실히 시간이 단축되고 에너지가 덜 쓰인다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">삽질 PostMan -PostMan 이용해 Mock server 생성하고 request가 오면 지정한 response를 반환하는 서비스 구축 중. user-id-vaildation은 되는데 email은 안됨. - [x] request body의 차인가 싶어서 시도 - [x] URL을 다시 확인하기. - [x] example의 method 차이였음. get이면 성공, post면 실패 -&amp;gt; url로 보는 건 get방식만 가능. Heroku로 API 배포 heroku로 중복 유효성 체크하는 API 배포가 안됨. 진이 정리한대로 하려는데 안된다.</summary></entry><entry><title type="html">Til</title><link href="http://localhost:4000/TIL/" rel="alternate" type="text/html" title="Til" /><published>2020-03-24T00:00:00+09:00</published><updated>2020-03-24T00:00:00+09:00</updated><id>http://localhost:4000/TIL</id><content type="html" xml:base="http://localhost:4000/TIL/">&lt;h1 id=&quot;회고&quot;&gt;회고&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;팀 그라운드 룰 설정
-    &lt;ul&gt;
-      &lt;li&gt;온라인으로 진행하지만 시간을 정하니 모임은 수월하다는 걸 느낌.&lt;/li&gt;
-      &lt;li&gt;커밋 방식, JSON, URL 방식을 팀원들이랑 정했다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;프로젝트 개발환경 셋팅
-    &lt;ul&gt;
-      &lt;li&gt;Jdbc 셋팅에 시간을 엄청 썼다. 시간이야 쓸 수 있지만 아쉬운 점은 기록을 안했다는 점이다. 초조해지니 주먹구구식으로 어떻게든 해결하려고 노력한다. 그러다 시간은 2~3시간이 지나간다. 이쯤 되면 내가 뭘했는지 기억이 안난다. 이것저것 했지만 남은 것은 없는 상태.. 오늘 이걸 느꼈다. 시간 50분으로 정해서 1시간 단위로 끊고 플래너에 기록하자. 에러메세지도 빼먹지 말고..!!!&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">회고 팀 그라운드 룰 설정 온라인으로 진행하지만 시간을 정하니 모임은 수월하다는 걸 느낌. 커밋 방식, JSON, URL 방식을 팀원들이랑 정했다. 프로젝트 개발환경 셋팅 Jdbc 셋팅에 시간을 엄청 썼다. 시간이야 쓸 수 있지만 아쉬운 점은 기록을 안했다는 점이다. 초조해지니 주먹구구식으로 어떻게든 해결하려고 노력한다. 그러다 시간은 2~3시간이 지나간다. 이쯤 되면 내가 뭘했는지 기억이 안난다. 이것저것 했지만 남은 것은 없는 상태.. 오늘 이걸 느꼈다. 시간 50분으로 정해서 1시간 단위로 끊고 플래너에 기록하자. 에러메세지도 빼먹지 말고..!!!</summary></entry><entry><title type="html">Til</title><link href="http://localhost:4000/TIL/" rel="alternate" type="text/html" title="Til" /><published>2020-03-22T00:00:00+09:00</published><updated>2020-03-22T00:00:00+09:00</updated><id>http://localhost:4000/TIL</id><content type="html" xml:base="http://localhost:4000/TIL/">&lt;h1 id=&quot;오늘-할-일&quot;&gt;오늘 할 일&lt;/h1&gt;
-&lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;그라운드룰 정하기&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;호눅스 수업&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;swagger&quot;&gt;Swagger&lt;/h2&gt;
-&lt;h3 id=&quot;swagger란&quot;&gt;Swagger란?&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;클라이언트 개발자와 백엔드 개발자가 소통하는 방법을 기록한 API 명세서&lt;/li&gt;
-  &lt;li&gt;OpenApi : RestAPI를 위한 표준 명세 규격을 의미. 어떻게 데이터 타입으로 주고 받을지 소통하는 방법.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;spring-boot에서-사용법&quot;&gt;Spring boot에서 사용법&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Swagger 라이브러리 추가하기&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;compile&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;group:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;io&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;springfox&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;name:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;springfox&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;swagger2&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;version:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.9&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;  
-&lt;span class=&quot;n&quot;&gt;compile&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;group:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;io&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;springfox&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;name:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;springfox&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;swagger&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ui&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;version:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.9&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Spring이 시작되는 어플리케이션에 @EnableSwagger2를 붙인다.&lt;/li&gt;
-  &lt;li&gt;관련 설정을 추가한다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Bean&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Docket&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;swaggerApi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Docket&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;DocumentationType&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;SWAGGER_2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;apiInfo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;swaggerInfo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()).&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;select&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
-                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;apis&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;RequestHandlerSelectors&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;any&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;())&lt;/span&gt;
-                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;paths&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;PathSelectors&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;ant&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/api/**&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt;
-                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-
-    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ApiInfo&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;swaggerInfo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;ApiInfoBuilder&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Spring API Documentation&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Java Q&amp;amp;A API&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;코드스쿼드 Java-qna API 문서&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;license&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Sunny&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Controller의 리턴값을 view로 하면 swagger에서 view로 보내준다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;swaggerhub-이용하는-방법&quot;&gt;SwaggerHub 이용하는 방법&lt;/h3&gt;</content><author><name>HYUNJUN</name></author><summary type="html">오늘 할 일 그라운드룰 정하기 호눅스 수업</summary></entry><entry><title type="html">Til</title><link href="http://localhost:4000/TIL/" rel="alternate" type="text/html" title="Til" /><published>2020-03-21T00:00:00+09:00</published><updated>2020-03-21T00:00:00+09:00</updated><id>http://localhost:4000/TIL</id><content type="html" xml:base="http://localhost:4000/TIL/">&lt;h2 id=&quot;til&quot;&gt;TIL&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;QnA 게시판 반복
-    &lt;ul&gt;
-      &lt;li&gt;자체 요구 사항
-        &lt;ul class=&quot;task-list&quot;&gt;
-          &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;테스트는 PostMan 활용하기&lt;/li&gt;
-          &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;개발 환경 설정 및 중요한 사항은 각 step README에 빠짐없이 정리&lt;/li&gt;
-          &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;리팩토링은 Result 방법 사용해서 하기.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;반복할 때 Test Code를 작성할까 고민했지만 Postman만 사용하기로 결정. 이유는 시간은 부족한데 Test에 익숙하지 않아서 배우는 시간이 필요.&lt;/li&gt;
-      &lt;li&gt;repeat-java-qna 저장소 생성 후 진행.&lt;/li&gt;
-      &lt;li&gt;Postman으로 테스트하니 훨~~씬 생산성이 높아졌다. 유저나 질문 생성할 때 값이 지정되어 있으니 매번 입력 안해도 된다.. 한번 고생을 하고 나니 기술의 중요성이 느껴진다..!!!&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">TIL QnA 게시판 반복 자체 요구 사항 테스트는 PostMan 활용하기 개발 환경 설정 및 중요한 사항은 각 step README에 빠짐없이 정리 리팩토링은 Result 방법 사용해서 하기. 반복할 때 Test Code를 작성할까 고민했지만 Postman만 사용하기로 결정. 이유는 시간은 부족한데 Test에 익숙하지 않아서 배우는 시간이 필요. repeat-java-qna 저장소 생성 후 진행. Postman으로 테스트하니 훨~~씬 생산성이 높아졌다. 유저나 질문 생성할 때 값이 지정되어 있으니 매번 입력 안해도 된다.. 한번 고생을 하고 나니 기술의 중요성이 느껴진다..!!!</summary></entry><entry><title type="html">책리뷰 do it 알고리즘 자바편</title><link href="http://localhost:4000/%EC%B1%85%EB%A6%AC%EB%B7%B0-Do-it-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%9E%90%EB%B0%94%ED%8E%B8/" rel="alternate" type="text/html" title="책리뷰   do it 알고리즘 자바편" /><published>2020-03-20T00:00:00+09:00</published><updated>2020-03-20T00:00:00+09:00</updated><id>http://localhost:4000/%EC%B1%85%EB%A6%AC%EB%B7%B0%20-%20Do%20it%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9E%90%EB%B0%94%ED%8E%B8</id><content type="html" xml:base="http://localhost:4000/%EC%B1%85%EB%A6%AC%EB%B7%B0-Do-it-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%9E%90%EB%B0%94%ED%8E%B8/">&lt;h2 id=&quot;기본-정보&quot;&gt;기본 정보&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;지은이 : 보요 시바타&lt;/li&gt;
-  &lt;li&gt;옮긴이 : 강민&lt;/li&gt;
-  &lt;li&gt;출판사 : 위키북스&lt;/li&gt;
-  &lt;li&gt;기간 : 2020.01.27 ~ 2020.03.20 (약 50일)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;1독 기간이 대략 50일이 소요됐다. 목표는 2월 안에 끝내고 싶었는데 예상보다 지연됐다. 이유는 여러가지가 있다. 책 내용이 어려워지면서 손에서 멀어지기도 했고, 발 수술하고 입원하면서 생활패턴이 무너지면서 책을 못 읽었다. 이유가 어떻게 됐든 1독을 완료했다는 점은 뿌듯하다.&lt;br /&gt;
-개념을 다지기 위해 읽은 책이다. 다 읽은 지금도 명확하게 자료구조가 다 떠오르진 않지만 기본 자료구조들이 어떻게 구현되는 지 이해된다. 직접 자바로 코드를 작성하면서 더욱 자료구조와 친해졌던 계기가 됐다. 알고리즘 문제 풀이를 시작했다. 기본 문제부터 차근차근 알고리즘과 만나야겠다.&lt;br /&gt;
-책에 대한 리뷰를 간략하게 해보자. 시중 알고리즘, 자료구조 책 중에 자바로 설명하는 책이 많지 없다. 많아야 3개 정도였다. 종류가 많지 않아서 서점에 가서 하나씩 읽어봤고 그 중 이 책을 선택했다. Do it이라는 브랜드 신뢰도 있고 책의 서문도 마음에 들었다. &lt;del&gt;책의 내용보다 서문을?&lt;/del&gt; 책의 서문에 “준마는 하루에 천리를 가지만 둔마도 열흘 동안 부지런히 가면 천리를 갈 수 있다.”라는 순자의 말이 적혀있다. 멋진 말이다.&lt;br /&gt;
-아쉬운 점은 이 책에 모든 자료구조를 100% 이해하지 못해서 아쉽다. 챕터5까지는 코드를 따로 작성하며 착실히 했는데 이후 내용은 어려워서 착실하게 하지 못했다. 그래도 1독을 했다는 뿌듯함은 가진다.&lt;/p&gt;</content><author><name>HYUNJUN</name></author><summary type="html">기본 정보 지은이 : 보요 시바타 옮긴이 : 강민 출판사 : 위키북스 기간 : 2020.01.27 ~ 2020.03.20 (약 50일)</summary></entry></feed>
+            &lt;h2 id=&quot;내-생각&quot;&gt;내 생각&lt;/h2&gt;
+            &lt;p&gt;오늘은 페미니즘에 대한 생각보단 페미니즘 강의를 들을 때 스쳐간 생각을 적어본다. 일주일에 1강씩 3달을 수강하니, 강의와 함께 책을 읽고 싶다는 생각이 든다. 특히, 밀의
+            여성의 종속. 강의를 듣고 강사의 말만 옮기는 일은 이제 내키지 않는다. 저자의 책을 읽고 그걸 내가 곱씹고 그 내용을 적는 게 좋을 것 같다.&lt;/p&gt;
+        </content>
+        <author>
+            <name>HYUNJUN</name>
+        </author>
+        <summary type="html">목차 자유가 없는 사회에서 권력을 탐낸다. 내 생각 자유가 없는 사회에서 권력을 탐낸다. 밀의 주장은 자유론에 기반을 둔다. 여성의 종속이 옳지 않은 이유는 여성의
+            자유를 빼앗기 때문이다. 또한 개인이 자유로울 때 공동체 모두에게 이익인데, 여성이 종속되면 다양한 재능과 능력이 묻히기 때문에 그 공동체에도 불이익이다. 밀은 개인의 자유가 없는 사회에서
+            사람들은 남을 통제하기 위한 권력에 탐낸다고 했다. 자유롭지 않기 때문에 오히려 남을 통제함으로써 자유를 느끼고 싶어한다는 것. 그렇기에 개인에게 자유를 보장하는 것이 정말 중요하다고
+            이야기한다. 그래서 여성에게도 자유가 필요하다 말하는 것.
+        </summary>
+    </entry>
+    <entry>
+        <title type="html">Til</title>
+        <link href="http://localhost:4000/TIl/" rel="alternate" type="text/html" title="Til"/>
+        <published>2020-04-01T00:00:00+09:00</published>
+        <updated>2020-04-01T00:00:00+09:00</updated>
+        <id>http://localhost:4000/TIl</id>
+        <content type="html" xml:base="http://localhost:4000/TIl/">&lt;h2 id=&quot;til&quot;&gt;TIL&lt;/h2&gt;
+            &lt;ul&gt;
+            &lt;li&gt;백기선씨 강의 보고 깃허브 Writing 저장소 관리가 필요하다는 생각이 든다. Writing이라는 저장소에 다양한 원고를 저장하고 있는데 Study라는 저장소로 만들어서
+            공부만 기록하는 저장소 만들까 생각 중.&lt;/li&gt;
+            &lt;li&gt;인터뷰의 질문 수준이 높다.
+            &lt;ul&gt;
+            &lt;li&gt;ex1) 프로젝트 마감은 다가오고 리소스는 없는 상황에 어떻게 했느냐.&lt;/li&gt;
+            &lt;li&gt;ex2) 지난 프로젝트의 아키텍쳐에 대해 설명해달라.&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;스프링을 제대로 공부하고 싶어서 토비 책 살까 했는데 백기선님 강의 보고 지금 수준이 알맞다는 걸 알았다. 다만, 눈으로 코드 읽지 말고 직접 코드 작성하고 블로그에 옮기기.&lt;/li&gt;
+            &lt;/ul&gt;
+        </content>
+        <author>
+            <name>HYUNJUN</name>
+        </author>
+        <summary type="html">TIL 백기선씨 강의 보고 깃허브 Writing 저장소 관리가 필요하다는 생각이 든다. Writing이라는 저장소에 다양한 원고를 저장하고 있는데 Study라는
+            저장소로 만들어서 공부만 기록하는 저장소 만들까 생각 중. 인터뷰의 질문 수준이 높다. ex1) 프로젝트 마감은 다가오고 리소스는 없는 상황에 어떻게 했느냐. ex2) 지난 프로젝트의 아키텍쳐에
+            대해 설명해달라. 스프링을 제대로 공부하고 싶어서 토비 책 살까 했는데 백기선님 강의 보고 지금 수준이 알맞다는 걸 알았다. 다만, 눈으로 코드 읽지 말고 직접 코드 작성하고 블로그에 옮기기.
+        </summary>
+    </entry>
+</feed>
