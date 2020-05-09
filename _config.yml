@@ -95,7 +95,7 @@ analytics:
 author:
   name: "HYUNJUN"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "자바 백엔드 개발자를 준비하고 있습니다."
+  bio: "자바 백엔드 개발자를 준비하고 있습니다. 아직 검색, 메뉴 기능이 없습니다."
   location: "Seoul"
   email:
   links:
