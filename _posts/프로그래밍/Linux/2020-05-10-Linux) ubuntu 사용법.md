@@ -132,10 +132,16 @@ echo $PATH
 - 참고 : [https://webnautes.tistory.com/513](https://webnautes.tistory.com/513)
 
 ## 우분투 18.04에서 듀얼모니터 설정
-- setting -> display로 들어간다. 
+- setting -> 장치 -> 디스플레이(display)로 들어간다. 
 
 ### 메인 화면 정하기 
 - 주요 디스플레이를 설정
 
 ### 모니터 위치 변경하기.
 - 모니터 하나를 클릭한 뒤 이동시킨다.
+
+## 화면 잠금 시간 설정
+- 2가지 방법이 있는데 뭐가 정확한지는 헷갈린다.
+- setting -> 개인정보 -> 화면잠금 클릭 후 시간 설정
+- setting -> 전원 -> 절전 -> 빈화면 시간 설정
+
