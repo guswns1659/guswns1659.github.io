@@ -145,3 +145,7 @@ echo $PATH
 - setting -> 개인정보 -> 화면잠금 클릭 후 시간 설정
 - setting -> 전원 -> 절전 -> 빈화면 시간 설정
 
+## logiteck K380의 F1 ~ F12 키를 기본키로 바꾸는 법
+- [이 사이트](https://github.com/jergusg/k380-function-keys-conf)의 README를 따라서 차근차근 한다. 
+- 중간에 `make install` 명령이 안 먹히면 `sudo make install`로 시도
+
