@@ -863,6 +863,12 @@ var store = [{
         "url": "http://localhost:4000/DataStructure-DoublyLinkedList/",
         "teaser": null
       },{
+        "title": "Til",
+        "excerpt":"회고 남현욱님의 취미로 하는 알고리즘 문제풀이 영상을 시청했다. 알고리즘을 공부로만 생각했던 나지만 현욱님은 재미있어서 하신다고 한다. 최근 조영호 작가님도 글쓰는 일이 재밌어서 하신다고 한다. 나도 공부로 느끼지 말고 알고리즘과 글쓰기에 재미를 느끼며 해봐야겠다. 이동욱님의 블로그 기억보단 기록을과 이현주님의 블로그 초보몽키의 개발공부로그을 돌아다녔다. 두 분의 블로그를 보면서 내 블로그도 업그레이드를 하고...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/TIL/",
+        "teaser": null
+      },{
         "title": "책 정리 순서",
         "excerpt":"주의사항 : 책 정리는 블로그 올릴 때 비공개로 한다. 저작권 문제 발생 가능.   1. 1독하며 중요한 키워드를 밑줄친다.   2. 1독한 키워드를 내가 이해한 언어로 적어본다. 어려울 땐 책보기.  ","categories": [],
         "tags": [],
@@ -873,12 +879,6 @@ var store = [{
         "excerpt":"목차 사람을 사랑한 기술 자바와 절차적/구조적 프로그래밍 자바와 객체 지향 자바가 확장한 객체 지향 객체 지향 설계 5원칙 - SOLID 스프링이 사랑한 디자인 패턴 스프링 삼각형과 설정 정보 스프링 MVC를 이용한 게시판 구축 자바 8 람다와 인터페이스 스펙 변화 1. 사람을 사랑한 기술 필자를 의지는 하되 믿지는 말자. 인간은 사랑을...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%9E%90%EB%B0%94-%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5%EC%9D%98-%EC%9B%90%EB%A6%AC%EC%99%80-%EC%9D%B4%ED%95%B4/",
-        "teaser": null
-      },{
-        "title": "Til",
-        "excerpt":"회고 남현욱님의 취미로 하는 알고리즘 문제풀이 영상을 시청했다. 알고리즘을 공부로만 생각했던 나지만 현욱님은 재미있어서 하신다고 한다. 최근 조영호 작가님도 글쓰는 일이 재밌어서 하신다고 한다. 나도 공부로 느끼지 말고 알고리즘과 글쓰기에 재미를 느끼며 해봐야겠다. 이동욱님의 블로그 기억보단 기록을과 이현주님의 블로그 초보몽키의 개발공부로그을 돌아다녔다. 두 분의 블로그를 보면서 내 블로그도 업그레이드를 하고...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/TIL/",
         "teaser": null
       },{
         "title": "Git   내 local에서 remote branch가 fetch 안될 때 (안 보일때)",
@@ -1037,16 +1037,16 @@ var store = [{
         "url": "http://localhost:4000/TIL/",
         "teaser": null
       },{
-        "title": "책리뷰   do it 알고리즘 자바편",
-        "excerpt":"기본 정보 지은이 : 보요 시바타 옮긴이 : 강민 출판사 : 위키북스 기간 : 2020.01.27 ~ 2020.03.20 (약 50일) 1독 기간이 대략 50일이 소요됐다. 목표는 2월 안에 끝내고 싶었는데 예상보다 지연됐다. 이유는 여러가지가 있다. 책 내용이 어려워지면서 손에서 멀어지기도 했고, 발 수술하고 입원하면서 생활패턴이 무너지면서 책을 못 읽었다. 이유가 어떻게...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/%EC%B1%85%EB%A6%AC%EB%B7%B0-Do-it-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%9E%90%EB%B0%94%ED%8E%B8/",
-        "teaser": null
-      },{
         "title": "Til",
         "excerpt":"회고 자료구조 ‘Do it 알고리즘 자바편’ 1독 완료 및 책리뷰 원고 작성 백기선 스프링 강의 오늘 수강 스프링 빈 의존성 주입 스프링 AOP 프록시 패턴 Spring MVC 테스트 코드 치명적인 단점 MVC 테스트는 Controller가 작동을 하는 지 안하는 지만 체크할 뿐 서버에서 제대로 동작하는 지는 알 수 없다. 만약 컨트롤러가...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/TIL/",
+        "teaser": null
+      },{
+        "title": "책리뷰   do it 알고리즘 자바편",
+        "excerpt":"기본 정보 지은이 : 보요 시바타 옮긴이 : 강민 출판사 : 위키북스 기간 : 2020.01.27 ~ 2020.03.20 (약 50일) 1독 기간이 대략 50일이 소요됐다. 목표는 2월 안에 끝내고 싶었는데 예상보다 지연됐다. 이유는 여러가지가 있다. 책 내용이 어려워지면서 손에서 멀어지기도 했고, 발 수술하고 입원하면서 생활패턴이 무너지면서 책을 못 읽었다. 이유가 어떻게...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%EC%B1%85%EB%A6%AC%EB%B7%B0-Do-it-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%9E%90%EB%B0%94%ED%8E%B8/",
         "teaser": null
       },{
         "title": "Til",
@@ -1271,18 +1271,6 @@ var store = [{
         "url": "http://localhost:4000/Git-TIL/",
         "teaser": null
       },{
-        "title": "책 정리   데이터베이스 첫걸음",
-        "excerpt":"목차 3. 데이터베이스에 얽힌 돈 이야기 EOSL이란 End Of Service Life이다. 서비스의 지원이 얼마나 남았는 지 알려주는 지표이다. 4. 데이터베이스와 아키텍쳐 구성 Stand-alone 이란 DB가 네트워크에 접속하지 않고 물리적으로 독립되어 운영되는 상태 Web 3계층이란 클라이언트 요청을 처리하는 계층이 3개이다. 서버 계층 - 어플리케이션 계층 - DB 계층. 클러스터란 복수의 컴포넌트(사물)로...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/",
-        "teaser": null
-      },{
-        "title": "Linux   ubuntu 사용법",
-        "excerpt":"한글 설정 language support에 들어가서 자동으로 필요한 파일을 다운 받는다. region &amp; language에 들어가서 input sources에 korean(Hangul)을 추가한다. keyboard에 들어가서 switch to next input source에서 한/영 키로 변경한다. tweak 사용 Then open GNOME Tweaks (gnome-tweaks). Select Keyboard &amp; Mouse tab Click Additional Layout Options button Expand Switching to another layout...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/Linux-ubuntu-%EC%82%AC%EC%9A%A9%EB%B2%95/",
-        "teaser": null
-      },{
         "title": "다시 도전한다는 것의 의미",
         "excerpt":"다시 도전한다는 것은 포기하지 않는다는 자세다. 포기하지 않으면 언젠가 내가 원하는 결과를 얻게 된다. 오늘 깃허브 블로그를 개설하면서 느낀 점이다. 작년 말부터 깃허브 블로그를 하고 싶었다. 하지만 기술이 어려워 진입 장벽이 있었다. 진입 장벽을 넘지 못하고 티스토리로 개설했다. 하지만 한쪽에 언젠가 도전하리라는 마음이 있었다. 올해 1월 코드스쿼드를 다니면서 본격적으로 개발자...","categories": [],
         "tags": [],
@@ -1305,5 +1293,101 @@ var store = [{
         "excerpt":"스프링부트와 Mysql 연동할 때 에러 ‘script’ must not be null or empty 원인 : application.property에 data.sql을 설정했는데 아무런 쿼리를 적지 않았을 때 java.sql.SQLSyntaxErrorException: Unknown column ‘card.category’ in ‘where clause’ 원인 : 테이블 생성 및 쿼리문을 잘못 작성한 경우이다. 이럴 땐 차근차근 살펴보며 해결해야 한다. git merge할 때 충돌났을 때 merge를...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/TIL/",
+        "teaser": null
+      },{
+        "title": "Til",
+        "excerpt":"TIL 아직은 조금 더 열심히 살아도 될 것 같다. 살아야만 하고. 열정이 있다면 시작은 할 수 있지만 목표를 달성하려면 일관성, 꾸준함이 있어야 한다. @JsonProperty(“nameForJson”) Json필드를 위한 이름을 지정할 수 있다. properties로 필요 데이터를 관리하는 법 application.properties를 생성한다. 2가지 사용 방법 @Value(“${user.comment}”)처럼 필드명에 지정한다. propertyClass를 생성한다. @Component @ConfigurationProperties(\"user\") Controller 혹은 Service에서...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/TIL/",
+        "teaser": null
+      },{
+        "title": "20.05.12) til : spring",
+        "excerpt":"Spring Post 요청은 RequestBody에 데이터가 무조건 들어가야 함. 안 그럼 아래처럼 에러가 발생 { \"timestamp\": \"2020-05-12T02:14:12.899+0000\", \"status\": 400, \"error\": \"Bad Request\", \"message\": \"Required request body is missing: public com.codesquad.baseball10.web.dto.TeamChoiceResponseDto com.codesquad.baseball10.web.controller.MockController.getTeamChoice(java.lang.String)\", \"path\": \"/mock/1\" } RestTemplate postForEntity() 사용할 때 테스트할 때 requestBody는 HashMap으로 만들어서 restTemplate에 넣어준다. Map&lt;String, Long&gt; requestBody = new HashMap&lt;&gt;();...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/20.05.12)-TIL-Spring/",
+        "teaser": null
+      },{
+        "title": "학습의 주도권을 내게로",
+        "excerpt":"박재성님의 강의를 듣고 현재의 안주하지 않고 내 상황을 돌아보게 해주는 영상이 있어 감사하다. 프로그래밍 학습곡선을 보여주셨다. 코드스쿼드 맨 처음 알아볼 때도 봤던 곡선인데 현재 내가 보기에도 좋은 자료다. 지금 내 위치는 저 곡선에서 어디일까. 지금 내 기분은 어떤지 박재성님이 물어봤다. 나는 부담을 느끼고 있다. 배워야할 기술을 남아있고, 배운 지식도 아직...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%ED%95%99%EC%8A%B5%EC%9D%98-%EC%A3%BC%EB%8F%84%EA%B6%8C%EC%9D%84-%EB%82%B4%EA%B2%8C%EB%A1%9C/",
+        "teaser": null
+      },{
+        "title": "20.05.13) til : 자바지기(박재성)님 특강",
+        "excerpt":"커넥트 재단의 방구석 토크 버스킹 신청하고 싶다. SW 공부법에 대해서 정리해야 하는데 어떤 이야기를 적어볼까. IntelliJ에 DB를 연결한 뒤 통합테스트를 하면 DB에 연동된다. 테스트 코드라도 application.properties에 schema.sql, data.sql이 있으면 실제로 DB에서 동작한다. 자바지기 QnA 현업에서 일하시다가 교육자로 업을 변경하셨다. 당시 큰 고민이 있으셨을텐데 어떤 점이 끌려서 변경하셨는지 여쭤봤다. 정답은 없다고...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/20.05.13)-TIL-%EC%9E%90%EB%B0%94%EC%A7%80%EA%B8%B0(%EB%B0%95%EC%9E%AC%EC%84%B1)%EB%8B%98-%ED%8A%B9%EA%B0%95/",
+        "teaser": null
+      },{
+        "title": "20.05.14) til : 프로젝트 진행 시",
+        "excerpt":"기능의 로직을 노트에 적었다면 반드시 문서화하기 당시에 떠오른 로직은 기록하지 않으면 기억할 수 없기 때문이다. HttpServletRequest의 setAttribute는 header에 담기는가? Header나 body에 담기지 않고 Request 객체에 속성으로 담기는 것 같다. DB를 조회할 때 Aggregation root를 꺼내서 List 내부의 객체를 순회하면서 찾는 게 추천되는 방법인지? 에러 원인 파악하고 싶을 때 logger.error() 보다...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/20.05.14)-TIL-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%A7%84%ED%96%89-%EC%8B%9C/",
+        "teaser": null
+      },{
+        "title": "20주 check list",
+        "excerpt":"Driver SUN 10 MON 11 TUE 12 WED 13 THR 14 FRI 15 SAT 16 Total 7시 기상 X O X O X X X 1 알고리즘 X O X O X X X 2 Instagram O O O X X X X 3 복습 주기 X X X X...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/20%EC%A3%BC-Check-List/",
+        "teaser": null
+      },{
+        "title": "20.05.15) til : 프로젝트 기능 구현 실패 원인",
+        "excerpt":"프로젝트 기능 구현 실패 원인     테이블 설계 지연   복잡한 로직을 한번에 처리하려 했음. 공 한번 던졌을 때 발생하는 로직을 나눠서 기능 구현을 해야 했는데 그걸 못했다.   깃허브 OAuth     로그인 성공하면 RediretView로 넘기는데, cookie를 담으려면 cookie.setPath(“/”)로 전역으로 쿠키를 전달한다.   리버스 프록시 적용 시 cookie.setPath(“/”) 적용 필수.  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/20.05.15)-TIL-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B8%B0%EB%8A%A5-%EA%B5%AC%ED%98%84-%EC%8B%A4%ED%8C%A8-%EC%9B%90%EC%9D%B8/",
+        "teaser": null
+      },{
+        "title": "자바지기께 2가지 질문을 했다.",
+        "excerpt":"삶 속에서 자극과 울림을 주는 사람을 만날 기회는 흔치 않다. 그분들의 여러 가지 경험이 내가 성장하는데 큰 거름이 될 수 있길 바란다. 계획하지 않았던 우연한 만남이지만 본인의 이야기를 진솔하게 이야기해주신 자바지기께 감사드린다. 질문이 오고 가는 순간은 적지 않고 경청했던 터라 최대한 기억해서 작성했습니다 코드스쿼드에 자바지기님이 찾아오셨다. 단순히 마스터들과 점심 드시러...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%EC%9E%90%EB%B0%94%EC%A7%80%EA%B8%B0%EA%BB%98-2%EA%B0%80%EC%A7%80-%EC%A7%88%EB%AC%B8%EC%9D%84-%ED%96%88%EB%8B%A4",
+        "teaser": null
+      },{
+        "title": "20.05.16 til : 차별화된 포트폴리오 고민",
+        "excerpt":"포트폴리오 템플릿 만들면 프로젝트 끝날 때마다 적용하기     꼭 끝나고 한번에 적지 않아도 프로젝트 중간 점검할 때도 미리 적을 수 있다.   Gradle 및 Nginx 버전 확인     gradle -&gt; wrapper -&gt; gradle-wrapper.properties 확인   설치된 컴퓨터에서 Nginx -v 입력.  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/20.05.16-TIL-%EC%B0%A8%EB%B3%84%ED%99%94%EB%90%9C-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EA%B3%A0%EB%AF%BC/",
+        "teaser": null
+      },{
+        "title": "철학) 라깡과 헤겔 사이",
+        "excerpt":"개요 플라톤아카데미 - 슬라보예 지젝-라깡과 헤겔 사이 강의를 수강하며 기록한 글 지젝의 키워드 사이란 사유 불가능한 것의 사유을 의미. 사유 불가능한 것을 어떻게 사유할 것인가에 대한 질문. 사후성이란 어떤 철학은 사후에 이해가 된다는 의미. 이 강의에선 라깡 이후에야 헤겔을 이해할 수 있다. 틈이란 지젝은 현실은 완전하지 않은 전체이기 때문에 틈이...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%EC%B2%A0%ED%95%99)-%EB%9D%BC%EA%B9%A1%EA%B3%BC-%ED%97%A4%EA%B2%94-%EC%82%AC%EC%9D%B4/",
+        "teaser": null
+      },{
+        "title": "Baseball 포트폴리오",
+        "excerpt":"구조 제목 Hello World! 야구 게임 프로젝트 목차 제작동기 개발환경 설계 구조 Frond-End Back-End 피드백 제작동기 복잡한 야구 게임 구현을 통해 데이터 베이스 설계 능력 향상. 로그인 기능을 위한 기술, OAuth2에 대한 이해도 향상. 개발환경 기술 스펙 Spring Boot 2.2.6 JDK 1.8 Junit4 Mysql 5.8 Gradle 6.3 AWS ec2 AWS...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/Baseball-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4/",
+        "teaser": null
+      },{
+        "title": "포트폴리오 양식",
+        "excerpt":"개요  포트폴리오 양식을 설명한 글   컨셉 : 블랙앤화이트, 심플   구조     제목   제작동기   개발환경   설계구조   Front-End : 사진 첨부   BackEnd            사진 첨부       타 프로젝트와의 차별된 기능!                    왜 이 기능 넣은 이유, 왜 필요한지.                       기능 구현 중 어려웠던 점 1~2가지                    왜 어려웠는지           어떻게 해결하려 했는지                           피드백  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EC%96%91%EC%8B%9D/",
+        "teaser": null
+      },{
+        "title": "Linux) ubuntu 사용법",
+        "excerpt":"한글 설정 language support에 들어가서 자동으로 필요한 파일을 다운 받는다. region &amp; language에 들어가서 input sources에 korean(Hangul)을 추가한다. keyboard에 들어가서 switch to next input source에서 한/영 키로 변경한다. tweak 사용 Then open GNOME Tweaks (gnome-tweaks). Select Keyboard &amp; Mouse tab Click Additional Layout Options button Expand Switching to another layout...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/Linux)-ubuntu-%EC%82%AC%EC%9A%A9%EB%B2%95/",
+        "teaser": null
+      },{
+        "title": "20.05.17) 형식적인 피드백 그만하기",
+        "excerpt":"형식적인 피드백 그만하자. 피드백은 아쉬운 점을 돌아보고 그걸 개선하기 위한 ‘행동’이 나와야 한다. 여기서 핵심은 행동이다. 매주 주간 피드백을 하고있다. 주간 피드백을 하면 그 다음주에는 그 피드백을 매번 생각하며 같은 실수를 반복하지 않기 위해 노력해야 한다. 하지만 나는 주간 피드백을 그 다음주에도 생각하고 있지 않는 것 같다. 단지 피드백을 위한...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/20.05.17)-%ED%98%95%EC%8B%9D%EC%A0%81%EC%9D%B8-%ED%94%BC%EB%93%9C%EB%B0%B1-%EA%B7%B8%EB%A7%8C%ED%95%98%EA%B8%B0/",
+        "teaser": null
+      },{
+        "title": "21주 check list",
+        "excerpt":"Driver SUN 10 MON 11 TUE 12 WED 13 THR 14 FRI 15 SAT 16 Total 7시 기상 X X             알고리즘 X               Instagram X               복습 주기 X      ...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/21%EC%A3%BC-Check-List/",
+        "teaser": null
+      },{
+        "title": "책 정리   데이터베이스 첫걸음",
+        "excerpt":"개요 데이터베이스 첫걸음을 읽고 정리한 글. 인출 위주 학습법을 참고해서 읽는 것에서 끝나지 않고 지식을 꺼내며 정리한 글. 목차 1. 데이터베이스란 데이터베이스에게 요구되는 기능 4가지는 무엇인가? 1.데이터의 검색과 갱신이다. 방대한 데이터 속 사용자가 검색하고 싶은 데이터를 제공하는 기능을 가지고 있으며, 그 데이터의 등록, 수정 및 삭제도 가능하다. 2.동시성 제어이다. 개인...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/",
         "teaser": null
       }]

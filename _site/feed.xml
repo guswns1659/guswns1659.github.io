@@ -1,59 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-10T23:13:37+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">매일 꾸준히!</title><subtitle>An amazing website.</subtitle><author><name>HYUNJUN</name></author><entry><title type="html">Til</title><link href="http://localhost:4000/TIL/" rel="alternate" type="text/html" title="Til" /><published>2020-05-10T00:00:00+09:00</published><updated>2020-05-10T00:00:00+09:00</updated><id>http://localhost:4000/TIL</id><content type="html" xml:base="http://localhost:4000/TIL/">&lt;h2 id=&quot;스프링부트와-mysql-연동할-때-에러&quot;&gt;스프링부트와 Mysql 연동할 때 에러&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;‘script’ must not be null or empty
-    &lt;ul&gt;
-      &lt;li&gt;원인 : application.property에 data.sql을 설정했는데 아무런 쿼리를 적지 않았을 때&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;java.sql.SQLSyntaxErrorException: Unknown column ‘card.category’ in ‘where clause’
-    &lt;ul&gt;
-      &lt;li&gt;원인 : 테이블 생성 및 쿼리문을 잘못 작성한 경우이다. 이럴 땐 차근차근 살펴보며 해결해야 한다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;git-merge할-때-충돌났을-때-merge를-취소하고-싶을-때&quot;&gt;git merge할 때 충돌났을 때 merge를 취소하고 싶을 때&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;git merge –abort&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;arraysbinarysearch&quot;&gt;Arrays.binarySearch&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;탐색하는 값이 없을 경우 몇번째 위치에 들어갈 수 있는지 음수로 알려준다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Main&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;  
-  &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;  
-  &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arrays&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;};&lt;/span&gt;  
-  &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Arrays&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;binarySearch&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arrays&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;  
-  &lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;result : &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// -3  &lt;/span&gt;
- &lt;span class=&quot;o&quot;&gt;}}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>HYUNJUN</name></author><summary type="html">스프링부트와 Mysql 연동할 때 에러 ‘script’ must not be null or empty 원인 : application.property에 data.sql을 설정했는데 아무런 쿼리를 적지 않았을 때 java.sql.SQLSyntaxErrorException: Unknown column ‘card.category’ in ‘where clause’ 원인 : 테이블 생성 및 쿼리문을 잘못 작성한 경우이다. 이럴 땐 차근차근 살펴보며 해결해야 한다.</summary></entry><entry><title type="html">다시 도전한다는 것의 의미</title><link href="http://localhost:4000/%EB%8B%A4%EC%8B%9C-%EB%8F%84%EC%A0%84%ED%95%9C%EB%8B%A4%EB%8A%94-%EA%B2%83%EC%9D%98-%EC%9D%98%EB%AF%B8/" rel="alternate" type="text/html" title="다시 도전한다는 것의 의미" /><published>2020-05-09T00:00:00+09:00</published><updated>2020-05-09T00:00:00+09:00</updated><id>http://localhost:4000/%EB%8B%A4%EC%8B%9C%20%EB%8F%84%EC%A0%84%ED%95%9C%EB%8B%A4%EB%8A%94%20%EA%B2%83%EC%9D%98%20%EC%9D%98%EB%AF%B8</id><content type="html" xml:base="http://localhost:4000/%EB%8B%A4%EC%8B%9C-%EB%8F%84%EC%A0%84%ED%95%9C%EB%8B%A4%EB%8A%94-%EA%B2%83%EC%9D%98-%EC%9D%98%EB%AF%B8/">&lt;p&gt;다시 도전한다는 것은 포기하지 않는다는 자세다. 포기하지 않으면 언젠가 내가 원하는 결과를 얻게 된다. 오늘 깃허브 블로그를 개설하면서 느낀 점이다. 작년 말부터 깃허브 블로그를 하고 싶었다. 하지만 기술이 어려워 진입 장벽이 있었다. 진입 장벽을 넘지 못하고 티스토리로 개설했다. 하지만 한쪽에 언젠가 도전하리라는 마음이 있었다.&lt;/p&gt;
-
-&lt;p&gt;올해 1월 코드스쿼드를 다니면서 본격적으로 개발자 준비를 시작했다. 자바, 스프링, 객체지향 등 다양한 컴퓨팅 지식이 쌓이면서 자신감이 붙었다. 그러다 4월쯤 다시 깃허브 블로그에 도전했다. 당시 티스토리 사용할 때 단점이 있었다. 원고와 블로그 글을 따로 관리해야 한다는 점이었다.&lt;/p&gt;
-
-&lt;p&gt;주말에 시간을 빼서 다시 도전했다. 이번엔 작년과 달리 jekyll 등 깃허브 블로그를 개설하는 데 필요한 기술들에 대해 이해를 할 수 있었다. 하지만 그 날도 개설은 했지만 포스팅하는 방법을 알지 못해서 포기했다. 이미 5시간 동안 에너지를 쏟아 넣은 상태라 더 할 힘이 없었다.&lt;/p&gt;
-
-&lt;p&gt;그로부터 한 달이 지난 오늘. 드디어 깃허브 블로그를 개설했다. 아직 검색이나 네비게이션 기능이 없는 부족한 블로그이지만 성공적으로 개설했다. 한 7개월 동안 바랬던 작은 소망이 이루어졌다. 다시 도전한다는 것. 그 순간엔 포기할 수 있다. 하지만 언젠가 다시 도전한다면 결과는 나오게 되어있다. 느릴 수는 있지만 언젠가 내가 원하는 목표는 이룰 수 있다는 점. 다시금 느낀다.&lt;/p&gt;</content><author><name>HYUNJUN</name></author><summary type="html">다시 도전한다는 것은 포기하지 않는다는 자세다. 포기하지 않으면 언젠가 내가 원하는 결과를 얻게 된다. 오늘 깃허브 블로그를 개설하면서 느낀 점이다. 작년 말부터 깃허브 블로그를 하고 싶었다. 하지만 기술이 어려워 진입 장벽이 있었다. 진입 장벽을 넘지 못하고 티스토리로 개설했다. 하지만 한쪽에 언젠가 도전하리라는 마음이 있었다.</summary></entry><entry><title type="html">철학 feminism 강의 수강 후</title><link href="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-%EA%B0%95%EC%9D%98-%EC%88%98%EA%B0%95-%ED%9B%84/" rel="alternate" type="text/html" title=" 철학   feminism 강의 수강 후" /><published>2020-05-09T00:00:00+09:00</published><updated>2020-05-09T00:00:00+09:00</updated><id>http://localhost:4000/%20%EC%B2%A0%ED%95%99%20-%20Feminism%20%EA%B0%95%EC%9D%98%20%EC%88%98%EA%B0%95%20%ED%9B%84</id><content type="html" xml:base="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-%EA%B0%95%EC%9D%98-%EC%88%98%EA%B0%95-%ED%9B%84/">&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.artnstudy.com/n_Lecture/?LessonIdx=ejkim001&amp;amp;LessonPart=philosophy&quot;&gt;김은주의 페미니즘&lt;/a&gt; 강의를 모두 수강한 후 느낀점&lt;/p&gt;
-
-&lt;h2 id=&quot;내-생각&quot;&gt;내 생각&lt;/h2&gt;
-&lt;p&gt;올해 1월부터 한 주에 1강씩 수강했던 페미니즘 강의를 모두 수강했다. 호기심에 시작했던 강의였고 꾸준히 수강한 뒤 목표를 달성해서 뿌듯하다. 강의 수강한 지금 나는 어떻게 가치관이 변화했을까?에 대한 답을 해보려 한다. &lt;br /&gt;
-당연하다고 생각했던 여성의 권리에 대해서 이전보다 예민하게 인식할 수 있게 됐다. 강사의 말 중 기억남는 말이 있다. “페미니스트로 살면 마냥 행복하진 않다. 남들이 비난을 할수도 있고 사소한 모든 것들이 불편하게 느껴진다”는 말이다. 오랜 시간 당연하게 받아드렸던 요소들이 당연한 것이 아니라는 깨달음은 사람을 크게 변화시킨다. 아직도 과도기이다. 여성의 권리가 남성과 동등해지기 위해선 여러 분야에서 많은 노력이 필요하다. 김은주 강사가 말한 것처럼 여성이 직접 말할 수 있게 내 삶 속에서 돕고 싶다.&lt;/p&gt;</content><author><name>HYUNJUN</name></author><summary type="html">개요 김은주의 페미니즘 강의를 모두 수강한 후 느낀점</summary></entry><entry><title type="html">철학 feminism 4 4</title><link href="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-4-4/" rel="alternate" type="text/html" title="철학   feminism 4 4" /><published>2020-05-09T00:00:00+09:00</published><updated>2020-05-09T00:00:00+09:00</updated><id>http://localhost:4000/%EC%B2%A0%ED%95%99%20-%20Feminism%204-4</id><content type="html" xml:base="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-4-4/">&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.artnstudy.com/n_Lecture/?LessonIdx=ejkim001&amp;amp;LessonPart=philosophy&quot;&gt;김은주의 페미니즘&lt;/a&gt; 의 수업 내용과 내 생각을 정리한 글.&lt;/p&gt;
-
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-19T23:42:15+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">매일 꾸준히!</title><subtitle>An amazing website.</subtitle><author><name>HYUNJUN</name></author><entry><title type="html">책 정리 데이터베이스 첫걸음</title><link href="http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/" rel="alternate" type="text/html" title="책 정리   데이터베이스 첫걸음" /><published>2020-05-19T00:00:00+09:00</published><updated>2020-05-19T00:00:00+09:00</updated><id>http://localhost:4000/%EC%B1%85%20%EC%A0%95%EB%A6%AC%20-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%B2%AB%EA%B1%B8%EC%9D%8C</id><content type="html" xml:base="http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/">&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
+&lt;p&gt;데이터베이스 첫걸음을 읽고 정리한 글. &lt;a href=&quot;&quot;&gt;인출 위주 학습법&lt;/a&gt;을 참고해서 읽는 것에서 끝나지 않고 지식을 꺼내며 정리한 글.&lt;/p&gt;
 &lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-데이터베이스란&quot;&gt;1. 데이터베이스란&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;여성의 행복은 남자를 잘 만나는 것?&lt;/li&gt;
+  &lt;li&gt;데이터베이스에게 요구되는 기능 4가지는 무엇인가?
+    &lt;ul&gt;
+      &lt;li&gt;1.데이터의 검색과 갱신이다. 방대한 데이터 속 사용자가 검색하고 싶은 데이터를 제공하는 기능을 가지고 있으며, 그 데이터의 등록, 수정 및 삭제도 가능하다.&lt;/li&gt;
+      &lt;li&gt;2.동시성 제어이다. 개인 주소록과 다르게 데이터베이스는 여러 사용자가 접근한다. 여러 사용자가 하나의 데이터를 동시에 수정할 때 안전하게 수정할 수 있는 방법이 필요하다. 보통 누군가 수정하고 있다면 다른 사용자는 수정할 수 없게 막아 놓는다.&lt;/li&gt;
+      &lt;li&gt;3.장애 대응이다. 데이터베이스는 장애에 강하게 대응할 수 있어야 한다. 수많은 데이터가 사라지지 않게 장애에 대응하는 것도 데이터베이스의 기능이다.&lt;/li&gt;
+      &lt;li&gt;4.보안이다. 데이터베이스 내부에는 기밀이 보장되어야 하는 데이터가 존재할 수 있기 때문에 보안을 강하게 유지해야 한다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;DBMS와 데이터베이스의 차이는 무엇인가요?
+    &lt;ul&gt;
+      &lt;li&gt;데이터베이스는 기능과 구조를 나타낸 추상적인 개념이고 DBMS는 이걸 구현한 구체적인 소프트웨어이다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;소프트웨어&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;여성의-행복은-남자를-잘-만나는-것&quot;&gt;여성의 행복은 남자를 잘 만나는 것?&lt;/h2&gt;
-&lt;p&gt;보부아르는 다양한 반론에 대해서 생각했다. 어떤 사람들은 이렇게 말할 수 있다. “왜 이렇게 힘들게 살아가느냐. 페미니스트로 살아가니 사회에서 욕 먹고 사람들이 싫어하는 것 아니냐. 그냥 단순하게 여자로써 잘 꾸미고 좋은 남자 만나서 결혼하면 행복하지 않겠느냐”라고 누군가는 말할 수 있다. 이 때 보부아르는 질문한다. 행복의 기준이 무엇인지. 누군가는 저런 삶이 행복할 수 있겠지만 사람마다 행복의 기준은 다르기 때문에 행복을 규정할 수 없다는 것.&lt;/p&gt;
-
-&lt;h2 id=&quot;내-생각&quot;&gt;내 생각&lt;/h2&gt;
-&lt;p&gt;마지막 강의였다. &lt;a href=&quot;https://guswns1659.tistory.com/232&quot;&gt;전체 강의에 대한 느낌점&lt;/a&gt;을 기록한 글로 대신하려고 한다.&lt;/p&gt;</content><author><name>HYUNJUN</name></author><summary type="html">개요 김은주의 페미니즘 의 수업 내용과 내 생각을 정리한 글.</summary></entry><entry><title type="html">책 정리 데이터베이스 첫걸음</title><link href="http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/" rel="alternate" type="text/html" title="책 정리   데이터베이스 첫걸음" /><published>2020-05-08T00:00:00+09:00</published><updated>2020-05-08T00:00:00+09:00</updated><id>http://localhost:4000/%EC%B1%85%20%EC%A0%95%EB%A6%AC%20-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%B2%AB%EA%B1%B8%EC%9D%8C</id><content type="html" xml:base="http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/">&lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
-
-&lt;h2 id=&quot;3-데이터베이스에-얽힌-돈-이야기&quot;&gt;3. 데이터베이스에 얽힌 돈 이야기&lt;/h2&gt;
+&lt;h3 id=&quot;3-데이터베이스에-얽힌-돈-이야기&quot;&gt;3. 데이터베이스에 얽힌 돈 이야기&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;EOSL이란
     &lt;ul&gt;
@@ -62,7 +29,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;4-데이터베이스와-아키텍쳐-구성&quot;&gt;4. 데이터베이스와 아키텍쳐 구성&lt;/h2&gt;
+&lt;h3 id=&quot;4-데이터베이스와-아키텍쳐-구성&quot;&gt;4. 데이터베이스와 아키텍쳐 구성&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;Stand-alone 이란
     &lt;ul&gt;
@@ -85,7 +52,297 @@
       &lt;li&gt;가용성 : 사용자가 하드웨어나 소프트웨어를 사용할 수 있는 정&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">목차</summary></entry><entry><title type="html">Linux ubuntu 사용법</title><link href="http://localhost:4000/Linux-ubuntu-%EC%82%AC%EC%9A%A9%EB%B2%95/" rel="alternate" type="text/html" title="Linux   ubuntu 사용법" /><published>2020-05-08T00:00:00+09:00</published><updated>2020-05-08T00:00:00+09:00</updated><id>http://localhost:4000/Linux%20-%20ubuntu%20%EC%82%AC%EC%9A%A9%EB%B2%95</id><content type="html" xml:base="http://localhost:4000/Linux-ubuntu-%EC%82%AC%EC%9A%A9%EB%B2%95/">&lt;h2 id=&quot;한글-설정&quot;&gt;한글 설정&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">개요 데이터베이스 첫걸음을 읽고 정리한 글. 인출 위주 학습법을 참고해서 읽는 것에서 끝나지 않고 지식을 꺼내며 정리한 글. 목차</summary></entry><entry><title type="html">21주 check list</title><link href="http://localhost:4000/21%EC%A3%BC-Check-List/" rel="alternate" type="text/html" title="21주 check list" /><published>2020-05-18T00:00:00+09:00</published><updated>2020-05-18T00:00:00+09:00</updated><id>http://localhost:4000/21%EC%A3%BC%20Check%20List</id><content type="html" xml:base="http://localhost:4000/21%EC%A3%BC-Check-List/">&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Driver&lt;/th&gt;
+      &lt;th&gt;SUN 10&lt;/th&gt;
+      &lt;th&gt;MON 11&lt;/th&gt;
+      &lt;th&gt;TUE 12&lt;/th&gt;
+      &lt;th&gt;WED 13&lt;/th&gt;
+      &lt;th&gt;THR 14&lt;/th&gt;
+      &lt;th&gt;FRI 15&lt;/th&gt;
+      &lt;th&gt;SAT 16&lt;/th&gt;
+      &lt;th&gt;Total&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7시 기상&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;알고리즘&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Instagram&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;복습 주기&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;하루 정리&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;TIL 업로드&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;루테인&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;피드백&quot;&gt;피드백&lt;/h2&gt;</content><author><name>HYUNJUN</name></author><summary type="html">Driver SUN 10 MON 11 TUE 12 WED 13 THR 14 FRI 15 SAT 16 Total 7시 기상 X X             알고리즘 X               Instagram X               복습 주기 X               하루 정리 X               TIL 업로드 X               루테인 O              </summary></entry><entry><title type="html">20.05.17) 형식적인 피드백 그만하기</title><link href="http://localhost:4000/20.05.17)-%ED%98%95%EC%8B%9D%EC%A0%81%EC%9D%B8-%ED%94%BC%EB%93%9C%EB%B0%B1-%EA%B7%B8%EB%A7%8C%ED%95%98%EA%B8%B0/" rel="alternate" type="text/html" title="20.05.17) 형식적인 피드백 그만하기" /><published>2020-05-17T00:00:00+09:00</published><updated>2020-05-17T00:00:00+09:00</updated><id>http://localhost:4000/20.05.17)%20%ED%98%95%EC%8B%9D%EC%A0%81%EC%9D%B8%20%ED%94%BC%EB%93%9C%EB%B0%B1%20%EA%B7%B8%EB%A7%8C%ED%95%98%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/20.05.17)-%ED%98%95%EC%8B%9D%EC%A0%81%EC%9D%B8-%ED%94%BC%EB%93%9C%EB%B0%B1-%EA%B7%B8%EB%A7%8C%ED%95%98%EA%B8%B0/">&lt;p&gt;형식적인 피드백 그만하자. 피드백은 아쉬운 점을 돌아보고 그걸 개선하기 위한 ‘행동’이 나와야 한다. 여기서 핵심은 행동이다.&lt;/p&gt;
+
+&lt;p&gt;매주 주간 피드백을 하고있다. 주간 피드백을 하면 그 다음주에는 그 피드백을 매번 생각하며 같은 실수를 반복하지 않기 위해 노력해야 한다. 하지만 나는 주간 피드백을 그 다음주에도 생각하고 있지 않는 것 같다. 단지 피드백을 위한 피드백을 하게 된다. 단지 그 순간을 위해서만 피드백을 하는 모습이 보인다.&lt;/p&gt;</content><author><name>HYUNJUN</name></author><summary type="html">형식적인 피드백 그만하자. 피드백은 아쉬운 점을 돌아보고 그걸 개선하기 위한 ‘행동’이 나와야 한다. 여기서 핵심은 행동이다.</summary></entry><entry><title type="html">20.05.16 til : 차별화된 포트폴리오 고민</title><link href="http://localhost:4000/20.05.16-TIL-%EC%B0%A8%EB%B3%84%ED%99%94%EB%90%9C-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EA%B3%A0%EB%AF%BC/" rel="alternate" type="text/html" title="20.05.16 til : 차별화된 포트폴리오 고민" /><published>2020-05-16T00:00:00+09:00</published><updated>2020-05-16T00:00:00+09:00</updated><id>http://localhost:4000/20.05.16%20TIL%20:%20%EC%B0%A8%EB%B3%84%ED%99%94%EB%90%9C%20%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%20%EA%B3%A0%EB%AF%BC</id><content type="html" xml:base="http://localhost:4000/20.05.16-TIL-%EC%B0%A8%EB%B3%84%ED%99%94%EB%90%9C-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EA%B3%A0%EB%AF%BC/">&lt;h3 id=&quot;포트폴리오-템플릿-만들면-프로젝트-끝날-때마다-적용하기&quot;&gt;포트폴리오 템플릿 만들면 프로젝트 끝날 때마다 적용하기&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;꼭 끝나고 한번에 적지 않아도 프로젝트 중간 점검할 때도 미리 적을 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;gradle-및-nginx-버전-확인&quot;&gt;Gradle 및 Nginx 버전 확인&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;gradle -&amp;gt; wrapper -&amp;gt; gradle-wrapper.properties 확인&lt;/li&gt;
+  &lt;li&gt;설치된 컴퓨터에서 Nginx -v 입력.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">포트폴리오 템플릿 만들면 프로젝트 끝날 때마다 적용하기 꼭 끝나고 한번에 적지 않아도 프로젝트 중간 점검할 때도 미리 적을 수 있다.</summary></entry><entry><title type="html">철학) 라깡과 헤겔 사이</title><link href="http://localhost:4000/%EC%B2%A0%ED%95%99)-%EB%9D%BC%EA%B9%A1%EA%B3%BC-%ED%97%A4%EA%B2%94-%EC%82%AC%EC%9D%B4/" rel="alternate" type="text/html" title="철학) 라깡과 헤겔 사이" /><published>2020-05-16T00:00:00+09:00</published><updated>2020-05-16T00:00:00+09:00</updated><id>http://localhost:4000/%EC%B2%A0%ED%95%99)%20%EB%9D%BC%EA%B9%A1%EA%B3%BC%20%ED%97%A4%EA%B2%94%20%EC%82%AC%EC%9D%B4</id><content type="html" xml:base="http://localhost:4000/%EC%B2%A0%ED%95%99)-%EB%9D%BC%EA%B9%A1%EA%B3%BC-%ED%97%A4%EA%B2%94-%EC%82%AC%EC%9D%B4/">&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://platonacademy.org/&quot;&gt;플라톤아카데미 - 슬라보예 지젝-라깡과 헤겔 사이 강의&lt;/a&gt;를 수강하며 기록한 글&lt;/p&gt;
+
+&lt;h2 id=&quot;지젝의-키워드&quot;&gt;지젝의 키워드&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;사이란
+    &lt;ul&gt;
+      &lt;li&gt;사유 불가능한 것의 사유을 의미. 사유 불가능한 것을 어떻게 사유할 것인가에 대한 질문.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;사후성이란
+    &lt;ul&gt;
+      &lt;li&gt;어떤 철학은 사후에 이해가 된다는 의미. 이 강의에선 라깡 이후에야 헤겔을 이해할 수 있다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;틈이란
+    &lt;ul&gt;
+      &lt;li&gt;지젝은 현실은 완전하지 않은 전체이기 때문에 틈이 존재한다고 생각한다. 틈이 있고 그 틈에서 주체가 자유로운 행위를 할 수 있다. 지젝은 그 틈을 드러내는 것이 목표이다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;지젝의 리딩
+    &lt;ul&gt;
+      &lt;li&gt;지젝의 리딩은 하나의 체계의 내부 모순을 발견하는 과정이다. 지젝의 고유한 주장으로 어떤 철학 체계를 비판하는 것이 아니라 스스로의 체계안에서 모순이 발생하는 지점을 발견하는 행위.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;코기토
+    &lt;ul&gt;
+      &lt;li&gt;빈공간. 데카르트가 발견했지만 덮어버린 무언가.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;검색이-필요한-키워드&quot;&gt;검색이 필요한 키워드&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%9E%90%ED%81%AC_%EB%8D%B0%EB%A6%AC%EB%8B%A4&quot;&gt;자크 데리다&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;철학과 문학과 사이에서 서성거렸다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">개요 플라톤아카데미 - 슬라보예 지젝-라깡과 헤겔 사이 강의를 수강하며 기록한 글</summary></entry><entry><title type="html">Baseball 포트폴리오</title><link href="http://localhost:4000/Baseball-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4/" rel="alternate" type="text/html" title="Baseball 포트폴리오" /><published>2020-05-16T00:00:00+09:00</published><updated>2020-05-16T00:00:00+09:00</updated><id>http://localhost:4000/Baseball%20%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4</id><content type="html" xml:base="http://localhost:4000/Baseball-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4/">&lt;h2 id=&quot;구조&quot;&gt;구조&lt;/h2&gt;
+&lt;h3 id=&quot;제목&quot;&gt;제목&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Hello World!&lt;/li&gt;
+  &lt;li&gt;야구 게임 프로젝트
+    &lt;h3 id=&quot;목차&quot;&gt;목차&lt;/h3&gt;
+    &lt;ol&gt;
+      &lt;li&gt;제작동기&lt;/li&gt;
+      &lt;li&gt;개발환경&lt;/li&gt;
+      &lt;li&gt;설계 구조&lt;/li&gt;
+      &lt;li&gt;Frond-End&lt;/li&gt;
+      &lt;li&gt;Back-End&lt;/li&gt;
+      &lt;li&gt;피드백
+        &lt;h3 id=&quot;제작동기&quot;&gt;제작동기&lt;/h3&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;복잡한 야구 게임 구현을 통해 데이터 베이스 설계 능력 향상.&lt;/li&gt;
+  &lt;li&gt;로그인 기능을 위한 기술, OAuth2에 대한 이해도 향상.
+    &lt;h3 id=&quot;개발환경&quot;&gt;개발환경&lt;/h3&gt;
+    &lt;h4 id=&quot;기술-스펙&quot;&gt;기술 스펙&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Spring Boot 2.2.6&lt;/li&gt;
+  &lt;li&gt;JDK 1.8&lt;/li&gt;
+  &lt;li&gt;Junit4&lt;/li&gt;
+  &lt;li&gt;Mysql 5.8&lt;/li&gt;
+  &lt;li&gt;Gradle 6.3&lt;/li&gt;
+  &lt;li&gt;AWS ec2&lt;/li&gt;
+  &lt;li&gt;AWS RDS&lt;/li&gt;
+  &lt;li&gt;Nginx 1.14.0&lt;/li&gt;
+  &lt;li&gt;GitHub OAuth2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;선택-이유&quot;&gt;선택 이유&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;내장 톰캣으로 편한 배포를 하기 위해 스프링부트 사용.&lt;/li&gt;
+  &lt;li&gt;최근 각광받는 AWS 클라우드 플랫폼을 사용하기 위함.&lt;/li&gt;
+  &lt;li&gt;사용자 정보를 저장하는 부담을 줄이는 OAuth2 기술 사용하기 위함.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;설계구조&quot;&gt;설계구조&lt;/h3&gt;
+&lt;h4 id=&quot;테이블-설계&quot;&gt;테이블 설계&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Team은 Player 테이블과 1 : N 관계.&lt;/li&gt;
+  &lt;li&gt;&lt;img src=&quot;/home/hyunjun/Repository/guswns1659.github.io/_posts/커리어/포트폴리오/BaseballImages/테이블설계.png&quot; alt=&quot;테이블 설계&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;front-end&quot;&gt;Front-End&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;로그인 화면 사진1&lt;/li&gt;
+  &lt;li&gt;팀 선택&lt;/li&gt;
+  &lt;li&gt;팀 매칭&lt;/li&gt;
+  &lt;li&gt;공 던지기&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;backend&quot;&gt;BackEnd&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;아래 주요 기능 처리하는 코드 사진 첨부.
+    &lt;h4 id=&quot;주요-기능-1--github-oauth2&quot;&gt;주요 기능 1 : Github OAuth2&lt;/h4&gt;
+  &lt;/li&gt;
+  &lt;li&gt;기능 필요성 :
+    &lt;ul&gt;
+      &lt;li&gt;최근 많은 웹사이트에서 적용하고 있는 기술이라 사용하고 싶었다.&lt;/li&gt;
+      &lt;li&gt;사용자 데이터를 직접 저장하지 않고도 신원 확인 가능하기에 서버 부담이 감소&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;구현 중 어려웠던 점 :
+    &lt;ul&gt;
+      &lt;li&gt;클라이언트 개발자에게 사용자 정보 담은 쿠키가 넘어가지 않는 문제.&lt;/li&gt;
+      &lt;li&gt;Nginx의 리버스 프록시를 적용했기 때문에 도중에 쿠키가 사라지는 현상.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;해결방법 :
+    &lt;ul&gt;
+      &lt;li&gt;쿠키의 Path를 전역으로 지정. Cookie.setPath(“/”)
+        &lt;h4 id=&quot;주요-기능-2--어플리케이션-서버와-db-서버-분리&quot;&gt;주요 기능 2 : 어플리케이션 서버와 DB 서버 분리&lt;/h4&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;기능 필요성 :
+    &lt;ul&gt;
+      &lt;li&gt;기존엔 웹 어플리케이션과 DB가 하나의 컴퓨터(AWS의 EC2)에 공존.&lt;/li&gt;
+      &lt;li&gt;EC2의 성능이 좋지 않아 어플리케이션 동작 시 서버 다운되는 현상 발생&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;구현 중 어려웠던 점 :
+    &lt;ul&gt;
+      &lt;li&gt;보안을 높이기 위해 DB 서버는 인터넷이 안되는 VPC에 적용하려 했으나 기능 구현 시 DB 접근이 어려워지는 문제 발생&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;해결방법 :
+    &lt;ul&gt;
+      &lt;li&gt;DB 서버에 인터넷을 연결.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;피드백&quot;&gt;피드백&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;책과 강의를 통한 DB 설계에 대한 꾸준한 공부
+    &lt;ul&gt;
+      &lt;li&gt;DB 설계가 어려워서 핵심 기능 구현할 때 해당 테이블에 접근하는 로직이 너무나 복잡했다. 프로그램의 복잡도가 올라가는 현상이 발생했다.&lt;/li&gt;
+      &lt;li&gt;배우는 상황에서 DB 설계는 어려운 게 당연한데, 다른 기능 구현을 하지 않고 계속 붙들고 있으니 프로젝트 기능 구현이 늦어졌다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;복잡한 기능 구현은 작은 단위로 나누는 연습
+    &lt;ul&gt;
+      &lt;li&gt;공 던지는 로직은 여러가지 경우의 수가 발생하는 로직이다. 하지만 한번에 모든 로직을 처리하려고 하니 기능 구현이 너무나 어려웠다. 실제로 마감기한을 맞추지 못하고 일부 기능 구현을 포기했다.&lt;/li&gt;
+      &lt;li&gt;이후엔 복잡한 기능은 작은 단위로 나누고 구현하는 연습을 시도해보기.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;TDD 기반 프로젝트 개발
+    &lt;ul&gt;
+      &lt;li&gt;이번 프로젝트에 Junit4 기반 TDD를 시도했다. 테스트 코드를 작성하니 해당 테스트만 통과하면 되기에 기능 구현이 편리했다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>HYUNJUN</name></author><summary type="html">구조 제목 Hello World! 야구 게임 프로젝트 목차 제작동기 개발환경 설계 구조 Frond-End Back-End 피드백 제작동기 복잡한 야구 게임 구현을 통해 데이터 베이스 설계 능력 향상. 로그인 기능을 위한 기술, OAuth2에 대한 이해도 향상. 개발환경 기술 스펙 Spring Boot 2.2.6 JDK 1.8 Junit4 Mysql 5.8 Gradle 6.3 AWS ec2 AWS RDS Nginx 1.14.0 GitHub OAuth2</summary></entry><entry><title type="html">포트폴리오 양식</title><link href="http://localhost:4000/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EC%96%91%EC%8B%9D/" rel="alternate" type="text/html" title="포트폴리오 양식" /><published>2020-05-16T00:00:00+09:00</published><updated>2020-05-16T00:00:00+09:00</updated><id>http://localhost:4000/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%20%EC%96%91%EC%8B%9D</id><content type="html" xml:base="http://localhost:4000/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EC%96%91%EC%8B%9D/">&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
+&lt;p&gt;포트폴리오 양식을 설명한 글&lt;/p&gt;
+
+&lt;h2 id=&quot;컨셉--블랙앤화이트-심플&quot;&gt;컨셉 : 블랙앤화이트, 심플&lt;/h2&gt;
+
+&lt;h2 id=&quot;구조&quot;&gt;구조&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;제목&lt;/li&gt;
+  &lt;li&gt;제작동기&lt;/li&gt;
+  &lt;li&gt;개발환경&lt;/li&gt;
+  &lt;li&gt;설계구조&lt;/li&gt;
+  &lt;li&gt;Front-End : 사진 첨부&lt;/li&gt;
+  &lt;li&gt;BackEnd
+    &lt;ul&gt;
+      &lt;li&gt;사진 첨부&lt;/li&gt;
+      &lt;li&gt;타 프로젝트와의 차별된 기능!
+        &lt;ul&gt;
+          &lt;li&gt;왜 이 기능 넣은 이유, 왜 필요한지.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;기능 구현 중 어려웠던 점 1~2가지
+        &lt;ul&gt;
+          &lt;li&gt;왜 어려웠는지&lt;/li&gt;
+          &lt;li&gt;어떻게 해결하려 했는지&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;피드백&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">개요 포트폴리오 양식을 설명한 글</summary></entry><entry><title type="html">Linux) ubuntu 사용법</title><link href="http://localhost:4000/Linux)-ubuntu-%EC%82%AC%EC%9A%A9%EB%B2%95/" rel="alternate" type="text/html" title="Linux) ubuntu 사용법" /><published>2020-05-16T00:00:00+09:00</published><updated>2020-05-16T00:00:00+09:00</updated><id>http://localhost:4000/Linux)%20ubuntu%20%EC%82%AC%EC%9A%A9%EB%B2%95</id><content type="html" xml:base="http://localhost:4000/Linux)-ubuntu-%EC%82%AC%EC%9A%A9%EB%B2%95/">&lt;h2 id=&quot;한글-설정&quot;&gt;한글 설정&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;language support에 들어가서 자동으로 필요한 파일을 다운 받는다.&lt;/li&gt;
   &lt;li&gt;region &amp;amp; language에 들어가서 input sources에 korean(Hangul)을 추가한다.&lt;/li&gt;
@@ -262,7 +519,7 @@ echo $PATH
 
 &lt;h2 id=&quot;우분투-1804에서-듀얼모니터-설정&quot;&gt;우분투 18.04에서 듀얼모니터 설정&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;setting -&amp;gt; display로 들어간다.&lt;/li&gt;
+  &lt;li&gt;setting -&amp;gt; 장치 -&amp;gt; 디스플레이(display)로 들어간다.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;메인-화면-정하기&quot;&gt;메인 화면 정하기&lt;/h3&gt;
@@ -273,450 +530,128 @@ echo $PATH
 &lt;h3 id=&quot;모니터-위치-변경하기&quot;&gt;모니터 위치 변경하기.&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;모니터 하나를 클릭한 뒤 이동시킨다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">한글 설정 language support에 들어가서 자동으로 필요한 파일을 다운 받는다. region &amp;amp; language에 들어가서 input sources에 korean(Hangul)을 추가한다. keyboard에 들어가서 switch to next input source에서 한/영 키로 변경한다. tweak 사용 Then open GNOME Tweaks (gnome-tweaks). Select Keyboard &amp;amp; Mouse tab Click Additional Layout Options button Expand Switching to another layout Select Ctrl + Shift here 출처 : https://askubuntu.com/questions/1029588/18-04-ctrlshift-to-change-language</summary></entry><entry><title type="html">Git til</title><link href="http://localhost:4000/Git-TIL/" rel="alternate" type="text/html" title="Git   til" /><published>2020-05-01T00:00:00+09:00</published><updated>2020-05-01T00:00:00+09:00</updated><id>http://localhost:4000/Git%20-%20TIL</id><content type="html" xml:base="http://localhost:4000/Git-TIL/">&lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;개인 공부&lt;/li&gt;
-  &lt;li&gt;유용한 git 명령&lt;/li&gt;
-  &lt;li&gt;호눅스 리뷰&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;핵심&quot;&gt;핵심&lt;/h2&gt;
+&lt;h2 id=&quot;화면-잠금-시간-설정&quot;&gt;화면 잠금 시간 설정&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Git은 변경사항만 저장하지 않고 모든 파일을 저장한다.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;2가지 방법이 있는데 뭐가 정확한지는 헷갈린다.&lt;/li&gt;
+  &lt;li&gt;setting -&amp;gt; 개인정보 -&amp;gt; 화면잠금 클릭 후 시간 설정&lt;/li&gt;
+  &lt;li&gt;setting -&amp;gt; 전원 -&amp;gt; 절전 -&amp;gt; 빈화면 시간 설정&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;cvcs와-dvcs의-차이&quot;&gt;CVCS와 DVCS의 차이&lt;/h2&gt;
-&lt;p&gt;CVCS는 중앙 버전 관리 시스템으로 중앙 서버가 버전 관리를 진행하고 사용자는 파일을 받아서 사용한다.(Check out) 하지만 CVCS의 단점은 만약 중앙 서버가 고장난다면 버전 관리 시스템을 사용할 수 없다.&lt;br /&gt; 
-DVCS는 분산 버전 관리 시스템이다. 사용자는 파일 하나만 복사해서 사용하는 것이 아니라 버전 관리 데이터 베이스를 전부 복사한다. DVCS의 장점은 만약 서버가 다운되더라도 사용자는 버전 관리 시스템을 유지할 수 있다.&lt;/p&gt;
-
-&lt;h2 id=&quot;git과-다른-vcs의-차이점--스냅샷&quot;&gt;Git과 다른 VCS의 차이점 : 스냅샷&lt;/h2&gt;
-&lt;p&gt;기존 VCS와 GIT의 가장 큰 차이점은 GIT이 커밋에 바뀐 것만 저장하는 것이 아니라 전체 코드를 저장한다는 것입니다. 전체 파일을 저장하면 비효율적이지 않을까?라는 의문이 들 수 있다. 하지만 차이점만 저장하게 되면 이전 버전을 보여줄 때 맨 처음 커밋까지 가야지 버전의 온전한 모습을 볼 수 있다. git은 그냥 이전 버전과 차이점만 비교하면 된다.&lt;/p&gt;
-
-&lt;p&gt;snapshot의 정의 : a piece of information or short description that gives an understanding of a situation at a particular time 
-&lt;a href=&quot;https://dictionary.cambridge.org/dictionary/english/snapshot&quot;&gt;https://dictionary.cambridge.org/dictionary/english/snapshot&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;git과 기존의 VCS의 차이점은 GIT은 버전 관리를 스냅샷을 기준으로 한다는 점이다. 그럼 기존 VCS와 차이점은 무엇이냐. 기존 VCS는 바뀐 파일의 변화를 기록한다. 하지만 GIT은 파일을 저장하지 않고 파일의 마지막 그 순간을 스냅샷으로 관리한다. 만약 파일이 변경되지 않았다면 이전 파일에 대한 링크(주소)만 저장한다.&lt;/p&gt;
-
-&lt;h3 id=&quot;git의-체크섬-이용&quot;&gt;git의 체크섬 이용&lt;/h3&gt;
-&lt;p&gt;checkSum의 정의 : a digit representing the sum of the correct digits in a piece of stored or transmitted digital data, against which later comparisons can be made to detect errors in the data. (올바른 파일이라는 디지털 표식인데 숫자로 이루어져있다.)&lt;/p&gt;
-
-&lt;p&gt;git은 데이터를 저장하기 전에 checksum을 만들고 데이터를 저장한다. checksum을 만들기 위해 SHA-1 해시 값을 이용한다. 파일 저장 시 해시 값으로 저장한다.&lt;/p&gt;
-
-&lt;h3 id=&quot;git의-다섯가지-상태&quot;&gt;GIT의 다섯가지 상태&lt;/h3&gt;
+&lt;h2 id=&quot;logitech-k380의-f1--f12-키를-기본키로-바꾸는-법&quot;&gt;logitech K380의 F1 ~ F12 키를 기본키로 바꾸는 법&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;Untracked : git이 추적하지 않는 상태. 처음 생성 후 add를 안한 파일&lt;/li&gt;
-  &lt;li&gt;Unmodified : commit 된 후 다시 워킹 디렉토리에 온 상태&lt;/li&gt;
-  &lt;li&gt;Modified : 파일 수정만 하고 add를 안 한 상태&lt;/li&gt;
-  &lt;li&gt;Staged : commit할 예정인 상태&lt;/li&gt;
-  &lt;li&gt;Committed : 수정한 파일을 로컬 저장소에 저장을 완료한 상태&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jergusg/k380-function-keys-conf&quot;&gt;이 사이트&lt;/a&gt;의 README를 따라서 차근차근 한다.&lt;/li&gt;
+  &lt;li&gt;중간에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;make install&lt;/code&gt; 명령이 안 먹히면 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo make install&lt;/code&gt;로 시도&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">한글 설정 language support에 들어가서 자동으로 필요한 파일을 다운 받는다. region &amp;amp; language에 들어가서 input sources에 korean(Hangul)을 추가한다. keyboard에 들어가서 switch to next input source에서 한/영 키로 변경한다. tweak 사용 Then open GNOME Tweaks (gnome-tweaks). Select Keyboard &amp;amp; Mouse tab Click Additional Layout Options button Expand Switching to another layout Select Ctrl + Shift here 출처 : https://askubuntu.com/questions/1029588/18-04-ctrlshift-to-change-language</summary></entry><entry><title type="html">20주 check list</title><link href="http://localhost:4000/20%EC%A3%BC-Check-List/" rel="alternate" type="text/html" title="20주 check list" /><published>2020-05-15T00:00:00+09:00</published><updated>2020-05-15T00:00:00+09:00</updated><id>http://localhost:4000/20%EC%A3%BC%20Check%20List</id><content type="html" xml:base="http://localhost:4000/20%EC%A3%BC-Check-List/">&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Driver&lt;/th&gt;
+      &lt;th&gt;SUN 10&lt;/th&gt;
+      &lt;th&gt;MON 11&lt;/th&gt;
+      &lt;th&gt;TUE 12&lt;/th&gt;
+      &lt;th&gt;WED 13&lt;/th&gt;
+      &lt;th&gt;THR 14&lt;/th&gt;
+      &lt;th&gt;FRI 15&lt;/th&gt;
+      &lt;th&gt;SAT 16&lt;/th&gt;
+      &lt;th&gt;Total&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7시 기상&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;알고리즘&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Instagram&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;복습 주기&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;하루 정리&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;TIL 업로드&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;루테인&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;피드백&quot;&gt;피드백&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;기상은 평소대로 완전 무너짐 -&amp;gt; 아침에 운동 시간으로 일찍 깨기&lt;/li&gt;
+  &lt;li&gt;알고리즘은 꾸준히 풀기로 했으면서 다시 무너졌다. 프로젝트가 바빴지만 주말에도 손대지 못한 점은 잘못 -&amp;gt; 꾸준함이 없으면 목표를 달성하지 못한다.&lt;/li&gt;
+  &lt;li&gt;인스타도 100days 달성한 후론 많이 뜸해졌다. 코딩은 했다면 사진을 찍어서 올리자. 그게 꾸준함을 인식하는 길이다.&lt;/li&gt;
+  &lt;li&gt;기록도 잘하자. TIL 업로드 모두 달성했는데 기록을 보니 4로 기록됨..&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">Driver SUN 10 MON 11 TUE 12 WED 13 THR 14 FRI 15 SAT 16 Total 7시 기상 X O X O X X X 1 알고리즘 X O X O X X X 2 Instagram O O O X X X X 3 복습 주기 X X X X X X X 0 하루 정리 O O X X X X X 2 TIL 업로드 O O O O O O O 7 루테인 O O O O O X O 6</summary></entry><entry><title type="html">20.05.15) til : 프로젝트 기능 구현 실패 원인</title><link href="http://localhost:4000/20.05.15)-TIL-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B8%B0%EB%8A%A5-%EA%B5%AC%ED%98%84-%EC%8B%A4%ED%8C%A8-%EC%9B%90%EC%9D%B8/" rel="alternate" type="text/html" title="20.05.15) til : 프로젝트 기능 구현 실패 원인" /><published>2020-05-15T00:00:00+09:00</published><updated>2020-05-15T00:00:00+09:00</updated><id>http://localhost:4000/20.05.15)%20TIL%20:%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B8%B0%EB%8A%A5%20%EA%B5%AC%ED%98%84%20%EC%8B%A4%ED%8C%A8%20%EC%9B%90%EC%9D%B8</id><content type="html" xml:base="http://localhost:4000/20.05.15)-TIL-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B8%B0%EB%8A%A5-%EA%B5%AC%ED%98%84-%EC%8B%A4%ED%8C%A8-%EC%9B%90%EC%9D%B8/">&lt;h3 id=&quot;프로젝트-기능-구현-실패-원인&quot;&gt;프로젝트 기능 구현 실패 원인&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;테이블 설계 지연&lt;/li&gt;
+  &lt;li&gt;복잡한 로직을 한번에 처리하려 했음. 공 한번 던졌을 때 발생하는 로직을 나눠서 기능 구현을 해야 했는데 그걸 못했다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;git-용어&quot;&gt;git 용어&lt;/h3&gt;
+&lt;h3 id=&quot;깃허브-oauth&quot;&gt;깃허브 OAuth&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;init : 현재 디렉토리를 git 저장소로 만듦&lt;/li&gt;
-  &lt;li&gt;local : git으로 관리하는 저장소를 의미&lt;/li&gt;
-  &lt;li&gt;remote : git 저장소를 네트워크에 원격으로 저장한 저장소&lt;/li&gt;
-  &lt;li&gt;clone : 기존에 존재하는 git저장소를 복사해 새로운 git 저장소를 만드는 명령어&lt;/li&gt;
-  &lt;li&gt;checkout : 원하는 커밋으로 이동하는 것. 주로 브랜치 이동할 때 사용한다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;git-터미널-명령어&quot;&gt;git 터미널 명령어&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;init
-    &lt;ul&gt;
-      &lt;li&gt;git init&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;git log&lt;/li&gt;
-  &lt;li&gt;add
-    &lt;ul&gt;
-      &lt;li&gt;git add test.txt&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;commit
-    &lt;ul&gt;
-      &lt;li&gt;git commit -a&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;checkout (커밋 변경하는 것)
-  -git checkout 5813bb5
-    &lt;ul&gt;
-      &lt;li&gt;돌아가려는 커밋의 checksum 앞 7자리를 적는다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;git remote add origin https://github.com/guswns1659/iTshirt.git
-    &lt;ul&gt;
-      &lt;li&gt;현재 로컬저장소에게 원격저장소 주소를 알려준다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;git push origin master
-    &lt;ul&gt;
-      &lt;li&gt;가장 최신 커밋을 원격저장소에 push 한다.
--clone&lt;/li&gt;
-      &lt;li&gt;$ git clone https://github.com/guswns1659/Feedback Feedback22
-        &lt;ul&gt;
-          &lt;li&gt;remote 저장소 Feedback22에 복사한다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;$ git clone https://github.com/guswns1659/Feedback .
-        &lt;ul&gt;
-          &lt;li&gt;remote 저장소를 현재 폴더에 저장한다. 한 칸 띄고 . 누른다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;pull
-    &lt;ul&gt;
-      &lt;li&gt;git pull origin master&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;tag 만들고 푸시하기
-    &lt;ul&gt;
-      &lt;li&gt;git tag tagname&lt;/li&gt;
-      &lt;li&gt;git push origin tagname&lt;/li&gt;
-      &lt;li&gt;git tag -d tagname : 태그 지우기
-&lt;a href=&quot;https://git-scm.com/book/en/v2/Git-Basics-Tagging&quot;&gt;출처 : https://git-scm.com/book/en/v2/Git-Basics-Tagging&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;브랜치-merge-rebase-pull-request에-대해서&quot;&gt;브랜치, merge, rebase, pull request에 대해서&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;브랜치 : 최신 커밋을 가르키는 포인터이다. 브랜치를 만들면 커밋 로그가 마치 길처럼 새롭게 만들어진다.&lt;/li&gt;
-  &lt;li&gt;HEAD : 현재 git이 바라보는 브랜치를 말한다. checkout을 통해 브랜치를 이동할 수 있다.&lt;/li&gt;
-  &lt;li&gt;Pull Request : 의미대로 pull을 요청하는 것이다. 내 브랜치를 당신의 브랜치에 병합해도 될까요?라고 물어보는 것이다.&lt;/li&gt;
-  &lt;li&gt;Fetch : 원격저장소나 브랜치의 변경사항을 업데이트하는 것이다. 한마디로 새로고침. 이력만 변경하지 코드가 merge되는 것은 아니다.&lt;/li&gt;
-  &lt;li&gt;Rebase : 의미는 병합할 base를 다시 지정하는 것이다. merge할 경우 merge commit이 생기기 때문에 브랜치가 지저분하지만 rebase를 하면 base 브랜치 위에 브랜치를 올리기 때문에 브랜치가 깔끔해진다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;merge&quot;&gt;merge&lt;/h3&gt;
-&lt;p&gt;merge는 두 브랜치를 합치는 작업이다. 만약 두 브랜치가 같은 내용을 수정했다면 충돌이 일어나서 어떤 브랜치의 파일을 사용할 건지 지정해줘야 한다.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;merge commit : merge가 성공해 두 브랜치가 합쳐진 커밋을 말한다.&lt;/li&gt;
-  &lt;li&gt;fast-forward : 의미는 빨리감기인데, 만약 한 브랜치가 다른 브랜치의 모든 변경사항을 가지고 있다면 병합되는 커밋이 그냥 빨리 감기로 미래로 간 느낌이다&lt;/li&gt;
-  &lt;li&gt;충돌 : 두 브랜치가 동일한 지점을 변경할 때 발생한다. 사용자가 직접 충돌 사항을 조정해야 한다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;유용한-git-명령&quot;&gt;유용한 git 명령&lt;/h2&gt;
-&lt;h3 id=&quot;amend-커밋-수정하기&quot;&gt;amend (커밋 수정하기)&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;로컬저장소 : 어떤 파일을 커밋한 뒤, 수정할 부분이 생겼다. 이 때 다시 커밋하지 말고 수정할 부분 수정한 뒤에 add한다. 그 뒤 git commit –amend 명령 입력하면 커밋이 덮어쓴다.&lt;/li&gt;
-  &lt;li&gt;원격저장소 : 로컬에서 마찬가지로 파일 수정 후에 add하고 git commit –amend로 커밋한다. 그 뒤 git push -f 원격저장소명 브랜치명 입력한다. 강제 푸시를 하기 때문에 나혼자 쓰는 브랜치에만 적용한다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;cherry-pick&quot;&gt;cherry-pick&lt;/h3&gt;
-&lt;p&gt;다른 브랜치에서 하나의 커밋만 병합하고 싶을 때 ! 톡 떼서 가져오는 느낌. 똑같은 커밋을 가져오지 않고 다른 커밋을 복사한다.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;git checkout 브랜치명 (병합할 base 브랜치)&lt;/li&gt;
-  &lt;li&gt;git cherry-pick 커밋명 (커밋 checksum 4자리 입력가능)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;reset-unstaging&quot;&gt;reset, unstaging&lt;/h3&gt;
-&lt;p&gt;옛날 커밋으로 브랜치를 되돌리는 방법이지만 정확하게는 원하는 커밋으로 오고 갈 수 있는 기능이다. 지운 커밋으로도 갈 수 있다.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;git reflog&lt;/li&gt;
-  &lt;li&gt;git reset –soft a51a : 커밋을 되돌리되 stage에 남긴다. 부드러운 reset&lt;/li&gt;
-  &lt;li&gt;git reset –mixed a51a : 커밋을 되돌리되 untracked 파일로 남긴다. hard와 soft를 섞은 resset&lt;/li&gt;
-  &lt;li&gt;git reset –hard a51a : 커밋을 되돌리되 파일을 지운다. 딱딱한 reset.&lt;/li&gt;
-  &lt;li&gt;스테이지에서 내리는 명령 : git reset&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;revert&quot;&gt;revert&lt;/h3&gt;
-&lt;p&gt;변경사항을 되돌리는 커밋을 만드는 명령&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;git revert a51a : 파일의 변경사항을 되돌리는 커밋이다. 만약 변경 사항이 없다면 clean하다고 말한다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;상대-참조&quot;&gt;상대 참조&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;HEAD^ : 현재 HEAD의 부모 커밋으로 이동&lt;/li&gt;
-  &lt;li&gt;HEAD~3 : 현재 HEAD로 부터 부모 3번째&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;우분투에서-push할-때-github계정-저장하는-법&quot;&gt;우분투에서 push할 때 GitHub계정 저장하는 법&lt;/h2&gt;
-&lt;h3 id=&quot;영구-저장&quot;&gt;영구 저장&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;git config credential.helper store&lt;/li&gt;
-  &lt;li&gt;git push 처음할 때 아이디와 패스워드 저장
-    &lt;h3 id=&quot;임시-저장-cache&quot;&gt;임시 저장 (cache)&lt;/h3&gt;
-  &lt;/li&gt;
-  &lt;li&gt;git config credential.helper “cache –timeout=30”&lt;/li&gt;
-  &lt;li&gt;git push
-    &lt;h3 id=&quot;git-인증-초기화&quot;&gt;git 인증 초기화&lt;/h3&gt;
-  &lt;/li&gt;
-  &lt;li&gt;git config –unset credential.helper&lt;/li&gt;
-  &lt;li&gt;file ~/.git-credentials&lt;/li&gt;
-  &lt;li&gt;rm ~/.git-credentials&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;터미널에서-한글-파일-출력-안될-때&quot;&gt;터미널에서 한글 파일 출력 안될 때&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;git config –global core.quotepath off (전체 저장소)&lt;/li&gt;
-  &lt;li&gt;git config core.quotepath off (해당 저장소)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;깃허브-꿀팁&quot;&gt;깃허브 꿀팁&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;크롬 확장프로그램 : octotree&lt;/li&gt;
-  &lt;li&gt;파일 찾을 때 : T&lt;/li&gt;
-  &lt;li&gt;history 보고 싶을 때 : github 뒤에 -history.netlify.com 붙여준다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;터미널이나-소스트리-깃-크라켄에서-remote-log가-적용안될-때&quot;&gt;터미널이나 소스트리, 깃 크라켄에서 remote log가 적용안될 때&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;vim .git/config 로 들어간다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;```shell script
-[remote “origin”]
-      url = …
-      fetch = +refs/heads/&lt;em&gt;:refs/remotes/origin/&lt;/em&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-- fetch하는 branch를 *로 바꾼다. 
-
-## 원격 브랜치를 지우고 싶을 때 ! 
-- git push -d &amp;lt;원격 저장소 이름&amp;gt; &amp;lt;브랜치 이름&amp;gt; ex) git push -d origin step2 
-
-## git remote 
-- remote 이름 변경 : git remote rename origin destination
-- git remote remove &amp;lt;origin 이름&amp;gt;
-- git remote add &amp;lt;origin 이름&amp;gt; &amp;lt;주소&amp;gt;
-
-## 원격저장소 브랜치 가져오고 싶을 때 
-- git remote update (git fetch도 될 듯?)
-- git checkout -t origin/dev
-
-## .gitconfig 안 보일 때
-- 원래 경로는 ~/.gitconfig인데 alias 설정이 명령으로 안되서 파일을 찾으려는데 계속 안보였다. 
-- 확실한 해답은 모르겠는데 git config --global alial.br branch 같이 간단한 명령 지정하고 컴퓨터 껏다 켜보기. 
-- 한참 찾았는데 안되서 포기하다가 다음날 해보니 되네?.. 
-
-## git alias 설정
-[참고 URL : https://stackoverflow.com/questions/1057564/pretty-git-branch-graphs](https://stackoverflow.com/questions/1057564/pretty-git-branch-graphs)
-### 1. 명령어 방식 
-- git config --global alias.lg &amp;lt;명령어&amp;gt; ex) git config --global alias.lg log --all --decorate --oneline --graph
-### 2. config 파일 수정 
-- ~/.gitconfig 파일을 수정한다. 종종 .gitconfig 파일이 없는 경우가 있는데 그 땐 위 명령어로 한다. 
-- [alias]에 추가 
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;[alias]
-    lg : log –all –decorate –oneline –graph&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-- 사용할 땐 아래처럼 입력
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;git lg
-```&lt;/p&gt;
-
-&lt;h2 id=&quot;git-editor를-vim으로-변경하는-법&quot;&gt;git editor를 vim으로 변경하는 법&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-my-choice-for-commits&quot;&gt;참고 : URL&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;git config –global core.editor “vim”&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;repository에서-issue-추가하는-법&quot;&gt;Repository에서 issue 추가하는 법&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Settings -&amp;gt; Features -&amp;gt; issues 체크&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;호눅스-리뷰&quot;&gt;호눅스 리뷰&lt;/h2&gt;
-&lt;h3 id=&quot;코딩-학습-방법&quot;&gt;코딩 학습 방법&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;혼자서 성장하는 방법은 comport zone을 조금씩 벗어나며 성장해야 한다.&lt;/li&gt;
-  &lt;li&gt;학습 목표는 git에 대한 이해이다. 구현이 목적이 아니다. 구현이 못 한다고 좌절하지 말자. ex) 주짓수를 4년 배운 호눅스.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;git-용어-설명&quot;&gt;git 용어 설명&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;commit : 게임의 save point이다.&lt;/li&gt;
-  &lt;li&gt;init : 로컬 저장소 .git를 만든다.&lt;/li&gt;
-  &lt;li&gt;checkout : commit을 local에서 꺼내서 workingDir에 꺼내는 작업이다.&lt;/li&gt;
-  &lt;li&gt;add : workingDir에 있는 파일을 stage에 올려 commit할 준비를 한다.&lt;/li&gt;
-  &lt;li&gt;push : 마지막 커밋을 remote에 저장하는 명령어이다.&lt;/li&gt;
-  &lt;li&gt;snapShot : 현재 하드디스크의 현재 상태를 순간으로 저장하는 것이다.&lt;/li&gt;
-  &lt;li&gt;local : commit을 모아 놓은 저장소이다.&lt;/li&gt;
-  &lt;li&gt;checkSUm : 파일의 내용을 가지고 만들어진다. 40자리 hash 값이 있다. 파일의 비교가 가능하다. (블랍이라고도 한다.) add를 할 때 만들어진다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;작동-방식&quot;&gt;작동 방식&lt;/h3&gt;
-&lt;h4 id=&quot;commit&quot;&gt;commit&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;commit하면 stage에 파일이 사라지지 않는다. 왜냐하면 stage에 파일을 지우지 않으면 pull이나 다른 파일을 사용할 때 편하다.&lt;/li&gt;
-  &lt;li&gt;그럼 commit하면 이전 commit이 덮어지는 것 아닌가? 그럼 어떻게 이전 commit 시점으로 돌아갈까? 바로 commit에는 부모commit가 있어서 부모 commit을 타고 올라가면 된다.&lt;/li&gt;
-  &lt;li&gt;일반 사용자에게 폴더는 최종 파일이 저장되는 곳이다. 파일에서 쓰고 고치는 건 마치 놀이터에서 노는 것이다. 최종 저장이 안되기 때문이다. 하지만 git에게는 오히려 폴더는 놀이터이다. commit 해야 최종 저장이 된다.&lt;/li&gt;
-  &lt;li&gt;커밋 메세지는 자세하게 작성한다. 코드는 2시간이고 커밋은 5분이면 작성한다.&lt;/li&gt;
-  &lt;li&gt;commit은 트리 객체가 있다. 트리 객체 안에 트리도 있을 수 있고, 파일도 있을 수 있다.&lt;/li&gt;
-  &lt;li&gt;git은 내용이 같은 파일을 다시 stage에 올리지 않는다. 즉, checkSum을 만들지 않는다. 그대로 이용한다.&lt;/li&gt;
-  &lt;li&gt;git은 변경 사항을 저장하지 않는다. 전체를 저장한다. 왜 그렇게 할까? 변경사항만 저장하면 checkout할 때 그 상태로 찾을 때 처음부터 차근차근 차이점을 비교하며 찾아야 한다. 전체를 저장하면 그 파일을 그대로 가져오면 된다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;나머지&quot;&gt;나머지&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;깨끗하다는 의미는 working dir과 stage와 Head commit이 같은 상태를 말한다.&lt;/li&gt;
-  &lt;li&gt;head가 master가 아닌 git를 가르키게 하면 좋지 않는 사용법이다.&lt;/li&gt;
-  &lt;li&gt;git은 local과 remote 저장소의 차이가 없다. 로컬 저장소도 remote 저장소로 만들 수 있다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">목차 개인 공부 유용한 git 명령 호눅스 리뷰</summary></entry><entry><title type="html">철학 feminism 4 3</title><link href="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-4-3/" rel="alternate" type="text/html" title="철학   feminism 4 3" /><published>2020-04-25T00:00:00+09:00</published><updated>2020-04-25T00:00:00+09:00</updated><id>http://localhost:4000/%EC%B2%A0%ED%95%99%20-%20Feminism%204-3</id><content type="html" xml:base="http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-4-3/">&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.artnstudy.com/n_Lecture/?LessonIdx=ejkim001&amp;amp;LessonPart=philosophy&quot;&gt;김은주의 페미니즘&lt;/a&gt; 의 수업 내용과 내 생각을 정리한 글.&lt;/p&gt;
-
-&lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;타자인 여성의 투쟁은 없는가?&lt;/li&gt;
-  &lt;li&gt;페미니즘에서 구체적인 사례가 나오는 이유&lt;/li&gt;
-  &lt;li&gt;내생각&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;타자인-여성의-투쟁은-없는가&quot;&gt;타자인 여성의 투쟁은 없는가?&lt;/h2&gt;
-&lt;p&gt;보부아르는 여성이 타자로 억압을 받아왔지만 투쟁은 없었다고 말한다. 이 점이 다른 투쟁과 다른 점이라고 말한다. 예를 들어, 부르주아는 주체로 존재하고 프롤레타리아는 주체에 반하는 타자로 존재했다. 프롤레타리아는 이 타자로써 받는 차별과 억압을 참을 수 없기 때문에 격렬한 투쟁을 벌였다. 이처럼 주체와 타자의 관계는 투쟁이 존재한다. &lt;br /&gt;
-하지만 오랜 시간 타자로 존재해온 여성이 남성에 대해 투쟁을 한 적이 없다고한다. 오히려 계급 투쟁보다 훨씬 원초적인 갈등임에도 불구하고. 보부아르는 이 점을 지적한다.&lt;/p&gt;
-
-&lt;h2 id=&quot;페미니즘에서-구체적인-사례가-나오는-이유&quot;&gt;페미니즘에서 구체적인 사례가 나오는 이유&lt;/h2&gt;
-&lt;p&gt;김은주 강사에 따르면 세간에는 페미니즘이 철학인가?라는 질문이 있다고 한다. 철학은 모든 인류에게 해당하는 주제에 대해서 이야기를 해야 하는데 페미니즘은 여성에 국한되고 구체적인 개인적인 사례에 의존하는 학문이 아니냐는 주장이다. &lt;br /&gt;
-페미니즘이 구체적인 사례를 이야기하는 이유는 이 주장이 더욱 피부에 와닷기 때문이다. 원론적인 이야기보단 우리의 삶 속에서 여성이 겪는 차별과 억압을 그 당사자들이 이야기하는 주장은 힘이 있다. 그렇기에 페미니즘의 출발은 자신의 경험을 이야기할 수 있게 하는 점과 그 이야기를 경청하는 것에서 시작한다.&lt;/p&gt;
-
-&lt;h2 id=&quot;내생각&quot;&gt;내생각&lt;/h2&gt;
-&lt;p&gt;페미니즘의 시작은 여성들의 이야기할 수 있게 도와주는 것. 정말 중요한 출발점이다. 그 동안 하지 못했던 그들의 이야기를 듣는 것. 아직 사회가 적극적으로 들어주지 못한다면 나 한 사람이라도 그들의 이야기를 들을 수 있도록 노력하고 싶다. &lt;br /&gt;
-김은주 강사는 말한다. 페메니스트로 사는 건 마냥 행복하지 않다고 말이다. 이전에는 무관심했지만 페미니스트가 되면 사회의 불합리함이 너무나 잘 보인다고 한다. 이런 삶이 마냥 쉽지는 않다고 한다. 그냥 사회에 순응하며 살아가는 게 마음은 편하지 않을까 싶지만, 마음이 편한 건 타협을 하는 것이 아닐까. 내가 김은주 강사의 삶을 모르지만, 그녀의 노력이 있기 때문에 이 사회가 조금 더 여성의 권리에 관심을 갖게 되었다고 생각한다. 지금 내가 그녀의 강의를 보는 것처럼.&lt;/p&gt;</content><author><name>HYUNJUN</name></author><summary type="html">개요 김은주의 페미니즘 의 수업 내용과 내 생각을 정리한 글.</summary></entry><entry><title type="html">Spring environment</title><link href="http://localhost:4000/Spring-Environment/" rel="alternate" type="text/html" title="Spring   environment" /><published>2020-04-23T00:00:00+09:00</published><updated>2020-04-23T00:00:00+09:00</updated><id>http://localhost:4000/Spring%20-%20Environment</id><content type="html" xml:base="http://localhost:4000/Spring-Environment/">&lt;h2 id=&quot;1-개요&quot;&gt;1. 개요&lt;/h2&gt;
-&lt;p&gt;Environment는 ApplicationContext을 통해 여러 빈을 모아 하나의 프로파일로 만들어진 환경을 말한다. 각 개발 단계에서 필요한 빈들을 프로파일로 묶고 필요할 때만 사용할 수 있다. 내가 프로파일을 지정해야 그 프로파일 속 여러개의 빈을 사용할 수 있다.&lt;/p&gt;
-
-&lt;h2 id=&quot;2-프로파일&quot;&gt;2. 프로파일&lt;/h2&gt;
-&lt;h3 id=&quot;21-프로파일-만드는-법&quot;&gt;2.1 프로파일 만드는 법&lt;/h3&gt;
-&lt;h4 id=&quot;211-configuration을-통한-설정&quot;&gt;2.1.1 Configuration을 통한 설정&lt;/h4&gt;
-&lt;p&gt;여러개의 빈이 모인 환경을 말한다. 아래와 같이 사용한다.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Configuration&lt;/span&gt;
-&lt;span class=&quot;nd&quot;&gt;@Profile&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;test&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;TestConfiguration&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nd&quot;&gt;@Bean&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;BookRepository&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;bookRepository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;HyunjunRepository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;만약, BookService에서 BookRepository를 주입받으려면 에러가 발생한다. test라는 프로파일을 지정하지 않았기 때문이다.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Service&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;BookService&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nd&quot;&gt;@Autowired&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;BookRepository&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bookRepository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-
-    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;printBookRepository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bookRepository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getClass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;빈을 찾을 수 없다는 아래의 에러 문구가 뜬다.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;Field&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bookRepository&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;spring&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;springcore&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;BookService&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;required&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bean&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;spring&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;springcore&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;BookRepository&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;that&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;could&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;be&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;found&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;212-bean에-직접-등록하는-법&quot;&gt;2.1.2 Bean에 직접 등록하는 법&lt;/h4&gt;
-&lt;p&gt;매번 Configuration으로 프로파일을 지정하면 불편하다. 보통 Configuration으로 빈을 등록하지 않기 때문에 어노테이션을통해 빈을 등록할 때 프로파일을 지정할 수 있다. 아래 코드를 보자.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Repository&lt;/span&gt;
-&lt;span class=&quot;nd&quot;&gt;@Profile&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;test&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HyunjunRepository&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;implements&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;BookRepository&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;22-특정-프로파일-사용하는-법&quot;&gt;2.2 특정 프로파일 사용하는 법&lt;/h3&gt;
-&lt;h4 id=&quot;221-active-profiles-사용&quot;&gt;2.2.1 active profiles 사용&lt;/h4&gt;
-&lt;p&gt;IntelliJ 우측 상단에 망치 표시 옆 아래 화살표 클릭해서 edit Springapplication을 들어간다. -&amp;gt; 현재 실행중인 application의 Configuration 혹은 SpringBoot-&amp;gt; active profile에 ‘test’라 지정.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://github.com/guswns1659/Writing/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/Spring/picture/spring%EC%97%90%EC%84%9C%20edit%20configuration%20%ED%95%98%EB%8A%94%20%EB%B2%95.png&quot; alt=&quot;editconfiguration&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://github.com/guswns1659/Writing/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/Spring/picture/spring%20edit%20configuration%EC%97%90%EC%84%9C%20active%20%EC%98%81%EC%97%AD.png&quot; alt=&quot;Springboot active 영역&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;222-vm-option-사용&quot;&gt;2.2.2 VM option 사용&lt;/h4&gt;
-&lt;p&gt;VM option에 -Dspring.profiles.active=”test” 입력한다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://github.com/guswns1659/Writing/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/Spring/picture/vm%20option%EC%9C%BC%EB%A1%9C%20profile%20%EC%A7%80%EC%A0%95%ED%95%98%EB%8A%94%20%EB%B2%95.png&quot; alt=&quot;vm option 사용해서 profile 지정&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;3-프로퍼티&quot;&gt;3. 프로퍼티&lt;/h2&gt;
-&lt;p&gt;정확히 개념을 이해하진 못했다. Environment 속에 프로퍼티를 설정하면 필요할 때 가져다 쓸 수 있다고 한다. 설정하는 방법은 다양한데 어디서 설정했느냐에 따라 우선순위가 달라진다고 한다. 프로퍼티가 호출될 때 우선순위가 높은 곳에서 등록한 프로퍼티가 출력된다. &lt;del&gt;조금 더 공부가 필요&lt;/del&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;31-설정하는-법&quot;&gt;3.1 설정하는 법&lt;/h2&gt;
-&lt;h3 id=&quot;311-vm-option&quot;&gt;3.1.1 VM Option&lt;/h3&gt;
-&lt;p&gt;VM Option에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-Dapp.name=spring5&lt;/code&gt;처럼 설정한다. 이후 사용하려면 ApplicationContext 내에 Environment를 이용해서 꺼낸다. 아래 코드 참고.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Component&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;BookServiceRunner&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;implements&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ApplicationRunner&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-
-    &lt;span class=&quot;nd&quot;&gt;@Autowired&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;ApplicationContext&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;applicationContext&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-
-    &lt;span class=&quot;nd&quot;&gt;@Autowired&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;BookService&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bookService&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-
-    &lt;span class=&quot;nd&quot;&gt;@Override&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;ApplicationArguments&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;nc&quot;&gt;Environment&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;environment&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;applicationContext&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getEnvironment&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
-        &lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;environment&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getProperty&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;app.name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;312-appproperties을-이용한-파일-설정&quot;&gt;3.1.2 app.properties을 이용한 파일 설정&lt;/h4&gt;
-&lt;p&gt;resource 폴더에 app.properties 파일을 생성한 뒤 app.about=spring을 지정한다.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;about&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;spring&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;이후 @Configuration이 있는 파일로 가서 @PropertySource(“classpath:/app.properties”)를 설정한다.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@SpringBootApplication&lt;/span&gt;
-&lt;span class=&quot;nd&quot;&gt;@PropertySource&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;classpath:/app.properties&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SpringcoreApplication&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;nc&quot;&gt;SpringApplication&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SpringcoreApplication&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;호출해본다.&lt;/p&gt;
-
-&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Component&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;BookServiceRunner&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;implements&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ApplicationRunner&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-
-    &lt;span class=&quot;nd&quot;&gt;@Autowired&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;ApplicationContext&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;applicationContext&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-
-    &lt;span class=&quot;nd&quot;&gt;@Autowired&lt;/span&gt;
-    &lt;span class=&quot;nc&quot;&gt;BookService&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bookService&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-
-    &lt;span class=&quot;nd&quot;&gt;@Override&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;ApplicationArguments&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;nc&quot;&gt;Environment&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;environment&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;applicationContext&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getEnvironment&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
-        &lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;environment&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getProperty&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;app.name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
-        &lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;environment&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getProperty&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;app.about&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>HYUNJUN</name></author><summary type="html">1. 개요 Environment는 ApplicationContext을 통해 여러 빈을 모아 하나의 프로파일로 만들어진 환경을 말한다. 각 개발 단계에서 필요한 빈들을 프로파일로 묶고 필요할 때만 사용할 수 있다. 내가 프로파일을 지정해야 그 프로파일 속 여러개의 빈을 사용할 수 있다.</summary></entry><entry><title type="html">Spring 빈의 스코프</title><link href="http://localhost:4000/Spring-%EB%B9%88%EC%9D%98-%EC%8A%A4%EC%BD%94%ED%94%84/" rel="alternate" type="text/html" title="Spring   빈의 스코프" /><published>2020-04-23T00:00:00+09:00</published><updated>2020-04-23T00:00:00+09:00</updated><id>http://localhost:4000/Spring%20-%20%EB%B9%88%EC%9D%98%20%EC%8A%A4%EC%BD%94%ED%94%84</id><content type="html" xml:base="http://localhost:4000/Spring-%EB%B9%88%EC%9D%98-%EC%8A%A4%EC%BD%94%ED%94%84/">&lt;h2 id=&quot;1-개요&quot;&gt;1. 개요&lt;/h2&gt;
-&lt;p&gt;스프링에서 생성되는 빈들은 스코프(범위)가 정해져있다. 여기서 범위란 애플리케이션에서 존재하는 해당 빈의 인스턴스 개수라 생각할 수 있다. 크게 싱글톤과 프로토타입으로 나눠진다.&lt;/p&gt;
-
-&lt;dl&gt;
-  &lt;dt&gt;빈의 스코프&lt;/dt&gt;
-  &lt;dd&gt;ioC컨테이너 생성된 빈의 인스턴스 개수, 범위를 의미한다. 크게 싱글톤과 프로토타입으로 나눠진다.
-    &lt;ol&gt;
-      &lt;li&gt;싱글톤과 프로토타입
-1.1 싱글톤
-        &lt;ul&gt;
-          &lt;li&gt;싱글톤으로 생성된 빈은 인스턴스가 하나만 만들어진다. 빈이 사용될 땐 이 하나의 인스턴스만 참조한다.
-1.2 프로토타입
-1.3 프로토타입을 싱글톤에서 사용할 때&lt;/li&gt;
-          &lt;li&gt;싱글톤 빈을 여러개 만들면 프로토타입 빈 인스턴스가 매번 새로 생겨야 하는데 하나의 인스턴스만 사용하게된다.
-1.3.1 해결책
-프로토타입을 상속하는 프록시 타입으로 프로토타입을 감씨준다. 싱글톤 빈에서 직접 프로토타입 빈을 참조하지 않기 때문에 새로운 인스턴스가 생길 수 있다.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;질문
-        &lt;ul&gt;
-          &lt;li&gt;대부분의 스코프가 싱글톤이라고 하는데, 스프링 전체에서 싱글톤을 쓰면 부수효과가 날 가능성은 없는가?
-가능성이 당연히 있다. 멀티쓰레드 환경에서는 예상 못한 부수효과가 발생할 수 있다. 이 때 동기화 혹은 락을 이용해 부수효과가 일어나지 않게 사용해야 한다. (edited)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/dd&gt;
-&lt;/dl&gt;</content><author><name>HYUNJUN</name></author><summary type="html">1. 개요 스프링에서 생성되는 빈들은 스코프(범위)가 정해져있다. 여기서 범위란 애플리케이션에서 존재하는 해당 빈의 인스턴스 개수라 생각할 수 있다. 크게 싱글톤과 프로토타입으로 나눠진다.</summary></entry></feed>
+  &lt;li&gt;로그인 성공하면 RediretView로 넘기는데, cookie를 담으려면 cookie.setPath(“/”)로 전역으로 쿠키를 전달한다.&lt;/li&gt;
+  &lt;li&gt;리버스 프록시 적용 시 cookie.setPath(“/”) 적용 필수.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">프로젝트 기능 구현 실패 원인 테이블 설계 지연 복잡한 로직을 한번에 처리하려 했음. 공 한번 던졌을 때 발생하는 로직을 나눠서 기능 구현을 해야 했는데 그걸 못했다.</summary></entry></feed>
