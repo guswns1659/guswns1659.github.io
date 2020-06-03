@@ -149,3 +149,21 @@ echo $PATH
 - [이 사이트](https://github.com/jergusg/k380-function-keys-conf)의 README를 따라서 차근차근 한다. 
 - 중간에 `make install` 명령이 안 먹히면 `sudo make install`로 시도
 
+### zsh에서 java -version 확인이 안될 때 
+
+- 리눅스 내 환경변수에 자바 bin 디렉토리는 추가해놓은 상태인데 java -version을 입력하면 검색이 안되는 상황. 
+- ~/.zshrc에 자바 환경 변수를 추가한다. -> 안된다. 
+
+### ~/.zshrc의 Path를 잘못 건드려서 모든 명령을 못찾을 때 
+
+- [참고 스택오버 플로우](https://stackoverflow.com/questions/18428374/commands-not-found-on-zsh)
+
+- 아래 명령어를 zsh에서 입력한다. 
+
+    ```shell
+    PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
+    export PATH
+    ```
+
+    
+
