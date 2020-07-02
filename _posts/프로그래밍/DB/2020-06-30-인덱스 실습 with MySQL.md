@@ -46,7 +46,7 @@ import java.util.Random;
 }
 ```
 
-- csv 파일 db에 넣는법
+### csv 파일 db에 넣는법
 
 ```
 LOAD DATA LOCAL INFILE '/home/hyunjun/Downloads/csvFile.csv' INTO TABLE csvdb.user FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';
@@ -57,3 +57,15 @@ LOAD DATA LOCAL INFILE '/home/hyunjun/Downloads/csvFile.csv' INTO TABLE csvdb.us
 	```
 	mysql -u jack -p -h airbnb-07.csjhbz8c8oyh.ap-northeast-2.rds.amazonaws.com --local-infile airbnb -e "LOAD DATA LOCAL INFILE 'test_seattle_accommodation.csv' INTO TABLE accommodation FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'"
 	```
+
+### 인덱스를 생성하고 실행시간 테스트
+
+- 인덱스 생성
+```mysql
+create index jackdex on user(name);
+```
+
+- 인덱스 삭제
+```mysql
+drop index index_name on table_name;
+```
