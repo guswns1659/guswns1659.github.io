@@ -193,3 +193,76 @@ mysql -u <rds마스터사용자이름> -p -h <rds 엔드포인트>
 ```
 
 - 기본 터미널에서는 못 들어가지고 ec2에서만 접근이 가능해야 한다.
+
+## ec2 Nginx 설치
+ec2에 Nginx를 설치 후 리버스 프록시를 하면 서버에 대한 요청에 :8080 포트를 안 붙여도 된다.
+
+### 자바8 설치
+
+- 패키지 업데이트
+
+```
+sudo apt update
+```
+
+- 자바 버전 확인 -> 7이하일 경우 삭제 후 8설치
+  - 아래 코드를 참고하되 자바7 이하가 설치 안되어 있는 경우에는 자바8설치하면 된다.
+```
+sudo apt remove java-1.7.0-openjdk
+sudo apt-get install openjdk-8-jdk
+sudo /usr/sbin/alternatives --config java
+그리고 2를 엔터한다.
+```
+
+### Nginx 설치
+
+```
+sudo apt install nginx
+sudo service nginx start
+```
+
+- 실행이 잘 되는 지 확인하기
+
+```
+ps -ef | grep nginx
+```
+
+### 스프링부트 프로젝트와 Nginx 연결하기
+
+- 서버 설정 파일 수정하기
+```
+sudo vim /etc/nginx/sites-available/default
+```
+
+- 리버스 프록시 설정 추가
+```
+# include snippets/snakeoil.conf;
+
+# 프론트 경로
+    root /var/www/html;
+
+    # Add index.php to the list if you are using PHP
+    index index.html index.htm index.nginx-debian.html;
+
+    server_name _;
+
+    location / {
+            # First attempt to serve request as file, then
+            # as directory, then fall back to displaying a 404.
+            try_files $uri $uri/ =404;
+    }
+
+
+    # 백엔드 영역
+    # url에서 other 뒤에 있는 URL을 전부 그대로 사용.
+    location /api/ {
+            rewrite ^/api(/.*)$ $1 break;
+            proxy_pass http://localhost:8080;
+    }
+```
+
+- 재시작
+
+```
+sudo service nginx restart
+```
