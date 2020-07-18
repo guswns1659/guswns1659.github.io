@@ -1,4 +1,4 @@
-## Line 이야기
+  ## Line 이야기
 - 메신저 데이터를 처리하기 위해 Redis와 Hbase를 사용한다. Redis는 인메모리라서 영속성이 없다. 그래서 Hbase를 사용한다. 하둡기반 데이터베이스가 HBase이다.
 
 ## 실습
@@ -57,6 +57,52 @@ LOAD DATA LOCAL INFILE '/home/hyunjun/Downloads/csvFile.csv' INTO TABLE csvdb.us
 	```
 	mysql -u jack -p -h airbnb-07.csjhbz8c8oyh.ap-northeast-2.rds.amazonaws.com --local-infile airbnb -e "LOAD DATA LOCAL INFILE 'test_seattle_accommodation.csv' INTO TABLE accommodation FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'"
 	```
+
+### load data 할 때 에러를 보는 명령어
+
+```MySQL
+show warnings
+```
+
+### Geometry 데이터가 포함된 데이터를 load data 하는 명령어
+
+- POINT 형식을 넣을 때는 EPSG 코드도 넣어줘야 한다.
+- 우리가 사용하는 경도,위도 형식은 0 or 4326같다. 여러번 삽질 끝에 0을 넣는 게 나음.
+- [참고 : 스택오버플로우](https://stackoverflow.com/questions/51444858/point-in-polygon-invalid-gis-data-provided-to-function-st-within)
+
+- csv 데이터 형식 (POINT속 ','가 없다)
+
+```java
+4	제주특별자치도 서귀포시 일주동로 9217 (법환동)	맛집입니다.	커피볶는집오즈비	POINT(126.5083874 33.2487995)	4.5
+
+```
+
+```mysql
+LOAD DATA LOCAL INFILE '/home/hyunjun/Downloads/angelhack/testjejurestaurant.csv'
+    INTO TABLE angelhack.restaurant FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'
+    (@var1, @var2, @var3, @var4, @var5, @var6)
+    SET id = @var1, address = @var2, description = @var3, name = @var4, point = ST_GeomFromText(@var5, 0), rating = @var6;
+```
+
+#### 주의) insert로 데이터를 넣을 때는 POINT에 ','가 필요하다.
+
+```mysql
+insert into restaurant (address, description, name, point, rating)
+values ('제주도 서귀포시', '맛집입니다.', '제주식당', POINT (126.29216, 33.6632387), 3.4);
+```
+
+#### 주의) csv 파일 1행에 컬럼명이 없어야 한다.
+
+#### rds에 데이터를 넣으려면 ec2에 데이터가 있어야 한다. ec2에서만 접근 가능하기 때문이다.
+
+- srid를 4326이 아닌 0으로 한다. 그래야 mysql에서 정상동작한다. 만약 4326일 경우 어떤 것을 만들라고 함. 근데 이게 super 권한이 있어야 가능한데 rds에선 super 권한을 얻을 수 없음.
+
+```mysql
+LOAD DATA LOCAL INFILE '/home/ubuntu/TeamRocket/testjejurestaurant.csv'
+    INTO TABLE angelhack.restaurant FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n'
+    (@var1, @var2, @var3, @var4, @var5, @var6)
+    SET id = @var1, address = @var2, description = @var3, name = @var4, point = ST_GeomFromText(@var5, 0), rating = @var6;
+```
 
 ### 인덱스를 생성하고 실행시간 테스트
 
