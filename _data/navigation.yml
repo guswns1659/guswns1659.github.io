@@ -6,18 +6,12 @@ main:
     url: "/about/"
   - title: "Publications"
     url: "/publications/"
-# - title: "Sample Posts"
-#   url: /year-archive/
-# - title: "Sample Collections"
-#   url: /collection-archive/
-# - title: "Sitemap"
-#   url: /sitemap/
 
 docs:
   - title: Getting Started
     children:
       - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
+        url: "about"
       - title: "Structure"
         url: /docs/structure/
       - title: "Installation"
