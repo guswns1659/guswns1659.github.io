@@ -282,7 +282,7 @@ defaults:
       related: true
   - scope:
       path: ""
-      type: ""
+#      type: ""
     values:
       layout: single
       read_time: false
