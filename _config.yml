@@ -282,7 +282,7 @@ defaults:
       related: true
   - scope:
       path: ""
-      type: docs
+      type: ""
     values:
       layout: single
       read_time: false
