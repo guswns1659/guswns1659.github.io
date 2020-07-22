@@ -7,7 +7,7 @@ main:
   - title: "Publications"
     url: "/publications/"
 
-docs:
+sidebar-sample:
   - title: Getting Started
     children:
       - title: "Quick-Start Guide"

@@ -291,4 +291,4 @@ defaults:
       comments: false
       sidebar:
         title: "Sidebar Title"
-        nav: docs
+        nav: sidebar-sample

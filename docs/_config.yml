@@ -224,7 +224,7 @@ defaults:
       share: false
       comments: false
       sidebar:
-        nav: "docs"
+        nav: "sidebar-sample"
   # _recipes
   - scope:
       path: ""
