@@ -148,6 +148,7 @@ echo $PATH
 ## logitech K380의 F1 ~ F12 키를 기본키로 바꾸는 법
 - [이 사이트](https://github.com/jergusg/k380-function-keys-conf)의 README를 따라서 차근차근 한다. 
 - 중간에 `make install` 명령이 안 먹히면 `sudo make install`로 시도
+- `sudo k380_conf -d /dev/hidrawX -f on` X is 1 or 2 or 3 or 4
 
 ### zsh에서 java -version 확인이 안될 때 
 
