@@ -188,3 +188,9 @@ source /home/jack/.bashrc
 
 anaconda-navigator
 ```
+
+### 우분투에서 인텔리J 버전 선택해서 다운받는 법
+- 우분투 소프트웨어에서 intellij를 검색한다.
+- 아래로 스크롤하면 버전을 선택할 수 있다 (아래 사진 참고)
+
+![우분투_인텔리j_다운그레이드방법](/assets/linux/우분투_인텔리j_다운그레이드방법.png)
