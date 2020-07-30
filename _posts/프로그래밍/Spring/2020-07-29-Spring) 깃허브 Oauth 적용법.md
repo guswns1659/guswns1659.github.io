@@ -7,7 +7,7 @@
 compile group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1'
 ```
 
-- application.yml에 application-oauth 프로파일을 include한다 
+- application.yml에 application-oauth 프로파일을 include한다
 
 ```java
 spring:
@@ -319,5 +319,65 @@ public class LoginController {
     public ResponseEntity<Void> oauthCallback(@Param("code") String code, HttpServletResponse response) {
         return loginService.loginProcess(code, response);
     }
+}
+```
+
+- jwt 토큰을 검증하는 LoingInterceptro 객체 구현
+
+```java
+@Slf4j
+@RequiredArgsConstructor
+public class LoginInterceptor extends HandlerInterceptorAdapter {
+
+    private final JwtService jwtService;
+
+    @Override
+    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) {
+        if (request.getMethod().equals("OPTIONS")) {
+            return true;
+        }
+        final String jwtToken = request.getHeader(OauthEnum.AUTHORIZATION.getValue());
+        log.info("token >> {}", jwtToken);
+        String userId = jwtService.getUserId(jwtToken);
+
+        if (!jwtService.isValidToken(jwtToken)) {
+            response.setStatus(HttpStatus.SC_UNAUTHORIZED);
+            return false;
+        }
+        request.setAttribute("userId", userId);
+        return true;
+    }
+}
+```
+
+- WebConfig에 LoginInterceptor를 빈으로 등록해 동작하도록 시킨다.
+
+```java
+@Configuration
+public class WebConfig implements WebMvcConfigurer {
+
+    @Override
+    public void addCorsMappings(CorsRegistry registry) {
+        long MAX_AGE_SECS = 3600;
+        registry.addMapping("/**")
+                .allowedOrigins("*")
+                .allowedMethods("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS")
+                .allowedHeaders("*")
+                .allowCredentials(true)
+                .maxAge(MAX_AGE_SECS);
+    }
+
+//    @Bean
+//    public LoginInterceptor loginInterceptor() {
+//        return new LoginInterceptor();
+//    }
+//
+//    @Override
+//    public void addInterceptors(InterceptorRegistry registry) {
+//        registry.addInterceptor(loginInterceptor())
+//                .addPathPatterns("/**")
+//                .excludePathPatterns("/api/github/**")
+//                .excludePathPatterns("/github/**") ;
+//    }
 }
 ```
