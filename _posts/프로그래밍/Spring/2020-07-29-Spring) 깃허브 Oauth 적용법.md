@@ -322,7 +322,7 @@ public class LoginController {
 }
 ```
 
-- jwt 토큰을 검증하는 LoingInterceptro 객체 구현
+- jwt 토큰을 검증하는 LoingInterceptor 객체 구현
 
 ```java
 @Slf4j

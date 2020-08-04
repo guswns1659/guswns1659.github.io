@@ -1,657 +1,926 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-19T23:42:15+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">매일 꾸준히!</title><subtitle>An amazing website.</subtitle><author><name>HYUNJUN</name></author><entry><title type="html">책 정리 데이터베이스 첫걸음</title><link href="http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/" rel="alternate" type="text/html" title="책 정리   데이터베이스 첫걸음" /><published>2020-05-19T00:00:00+09:00</published><updated>2020-05-19T00:00:00+09:00</updated><id>http://localhost:4000/%EC%B1%85%20%EC%A0%95%EB%A6%AC%20-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%B2%AB%EA%B1%B8%EC%9D%8C</id><content type="html" xml:base="http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/">&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
-&lt;p&gt;데이터베이스 첫걸음을 읽고 정리한 글. &lt;a href=&quot;&quot;&gt;인출 위주 학습법&lt;/a&gt;을 참고해서 읽는 것에서 끝나지 않고 지식을 꺼내며 정리한 글.&lt;/p&gt;
-&lt;h2 id=&quot;목차&quot;&gt;목차&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-데이터베이스란&quot;&gt;1. 데이터베이스란&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-04T11:47:06+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jack의 블로그</title><subtitle>An amazing website.</subtitle><author><name>HYUNJUN</name></author><entry><title type="html">깃허브 블로그</title><link href="http://localhost:4000/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8/" rel="alternate" type="text/html" title="깃허브 블로그" /><published>2020-08-04T00:00:00+09:00</published><updated>2020-08-04T00:00:00+09:00</updated><id>http://localhost:4000/%EA%B9%83%ED%97%88%EB%B8%8C%20%EB%B8%94%EB%A1%9C%EA%B7%B8</id><content type="html" xml:base="http://localhost:4000/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8/">&lt;h2 id=&quot;1-개요&quot;&gt;1. 개요&lt;/h2&gt;
+&lt;p&gt;오랜 숙제였던 깃허브 블로그를 다운받고 옮기는 작업 준비 중.&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;데이터베이스에게 요구되는 기능 4가지는 무엇인가?
-    &lt;ul&gt;
-      &lt;li&gt;1.데이터의 검색과 갱신이다. 방대한 데이터 속 사용자가 검색하고 싶은 데이터를 제공하는 기능을 가지고 있으며, 그 데이터의 등록, 수정 및 삭제도 가능하다.&lt;/li&gt;
-      &lt;li&gt;2.동시성 제어이다. 개인 주소록과 다르게 데이터베이스는 여러 사용자가 접근한다. 여러 사용자가 하나의 데이터를 동시에 수정할 때 안전하게 수정할 수 있는 방법이 필요하다. 보통 누군가 수정하고 있다면 다른 사용자는 수정할 수 없게 막아 놓는다.&lt;/li&gt;
-      &lt;li&gt;3.장애 대응이다. 데이터베이스는 장애에 강하게 대응할 수 있어야 한다. 수많은 데이터가 사라지지 않게 장애에 대응하는 것도 데이터베이스의 기능이다.&lt;/li&gt;
-      &lt;li&gt;4.보안이다. 데이터베이스 내부에는 기밀이 보장되어야 하는 데이터가 존재할 수 있기 때문에 보안을 강하게 유지해야 한다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;DBMS와 데이터베이스의 차이는 무엇인가요?
-    &lt;ul&gt;
-      &lt;li&gt;데이터베이스는 기능과 구조를 나타낸 추상적인 개념이고 DBMS는 이걸 구현한 구체적인 소프트웨어이다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;소프트웨어&lt;/li&gt;
+  &lt;li&gt;참고 : &lt;a href=&quot;https://donghwa-kim.github.io/jekyll.html&quot;&gt;https://donghwa-kim.github.io/jekyll.html&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;3-데이터베이스에-얽힌-돈-이야기&quot;&gt;3. 데이터베이스에 얽힌 돈 이야기&lt;/h3&gt;
+&lt;h2 id=&quot;2-설치방법&quot;&gt;2. 설치방법&lt;/h2&gt;
+&lt;p&gt;minimal 테마 : &lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes&quot;&gt;https://github.com/mmistakes/minimal-mistakes&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;EOSL이란
-    &lt;ul&gt;
-      &lt;li&gt;End Of Service Life이다. 서비스의 지원이 얼마나 남았는 지 알려주는 지표이다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;깃허브 저장소를 생성&lt;/li&gt;
+  &lt;li&gt;깃 클론으로 로컬로 가져옴&lt;/li&gt;
+  &lt;li&gt;지킬 테마를 다운로드 받은 후 압축 파일을 깃허브 블로그 로컬 저장소에 옮긴다.&lt;/li&gt;
+  &lt;li&gt;add, commit, push 한다.&lt;/li&gt;
+  &lt;li&gt;수정사항 변경하고 add, commit ~ 한다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;4-데이터베이스와-아키텍쳐-구성&quot;&gt;4. 데이터베이스와 아키텍쳐 구성&lt;/h3&gt;
+&lt;h3 id=&quot;21-주의할점&quot;&gt;2.1 주의할점&lt;/h3&gt;
+&lt;p&gt;각 테마의 README를 가면 어떻게 설정할 지 나와있다. 그런데 종류는 2가지가 있다.&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Stand-alone 이란
+  &lt;li&gt;Gem-based method
     &lt;ul&gt;
-      &lt;li&gt;DB가 네트워크에 접속하지 않고 물리적으로 독립되어 운영되는 상태&lt;/li&gt;
+      &lt;li&gt;깃허브에서 테마 zip파일을 다운받지 않고 기본 jekyll를 이용해 관련 테마를 다운받는 방법&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Web 3계층이란
+  &lt;li&gt;Remote theme method
     &lt;ul&gt;
-      &lt;li&gt;클라이언트 요청을 처리하는 계층이 3개이다. 서버 계층 - 어플리케이션 계층 - DB 계층.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;클러스터란
-    &lt;ul&gt;
-      &lt;li&gt;복수의 컴포넌트(사물)로 한 가지 기능을 담당하는 의미&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;신뢰성(Reliability)과 가용성(Availability)의 차이
-    &lt;ul&gt;
-      &lt;li&gt;신뢰성 : 하드웨어나 소프트웨어가 고장나는 빈도.&lt;/li&gt;
-      &lt;li&gt;가용성 : 사용자가 하드웨어나 소프트웨어를 사용할 수 있는 정&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">개요 데이터베이스 첫걸음을 읽고 정리한 글. 인출 위주 학습법을 참고해서 읽는 것에서 끝나지 않고 지식을 꺼내며 정리한 글. 목차</summary></entry><entry><title type="html">21주 check list</title><link href="http://localhost:4000/21%EC%A3%BC-Check-List/" rel="alternate" type="text/html" title="21주 check list" /><published>2020-05-18T00:00:00+09:00</published><updated>2020-05-18T00:00:00+09:00</updated><id>http://localhost:4000/21%EC%A3%BC%20Check%20List</id><content type="html" xml:base="http://localhost:4000/21%EC%A3%BC-Check-List/">&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Driver&lt;/th&gt;
-      &lt;th&gt;SUN 10&lt;/th&gt;
-      &lt;th&gt;MON 11&lt;/th&gt;
-      &lt;th&gt;TUE 12&lt;/th&gt;
-      &lt;th&gt;WED 13&lt;/th&gt;
-      &lt;th&gt;THR 14&lt;/th&gt;
-      &lt;th&gt;FRI 15&lt;/th&gt;
-      &lt;th&gt;SAT 16&lt;/th&gt;
-      &lt;th&gt;Total&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;7시 기상&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;알고리즘&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Instagram&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;복습 주기&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;하루 정리&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;TIL 업로드&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;루테인&lt;/td&gt;
-      &lt;td&gt;O&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;피드백&quot;&gt;피드백&lt;/h2&gt;</content><author><name>HYUNJUN</name></author><summary type="html">Driver SUN 10 MON 11 TUE 12 WED 13 THR 14 FRI 15 SAT 16 Total 7시 기상 X X             알고리즘 X               Instagram X               복습 주기 X               하루 정리 X               TIL 업로드 X               루테인 O              </summary></entry><entry><title type="html">20.05.17) 형식적인 피드백 그만하기</title><link href="http://localhost:4000/20.05.17)-%ED%98%95%EC%8B%9D%EC%A0%81%EC%9D%B8-%ED%94%BC%EB%93%9C%EB%B0%B1-%EA%B7%B8%EB%A7%8C%ED%95%98%EA%B8%B0/" rel="alternate" type="text/html" title="20.05.17) 형식적인 피드백 그만하기" /><published>2020-05-17T00:00:00+09:00</published><updated>2020-05-17T00:00:00+09:00</updated><id>http://localhost:4000/20.05.17)%20%ED%98%95%EC%8B%9D%EC%A0%81%EC%9D%B8%20%ED%94%BC%EB%93%9C%EB%B0%B1%20%EA%B7%B8%EB%A7%8C%ED%95%98%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/20.05.17)-%ED%98%95%EC%8B%9D%EC%A0%81%EC%9D%B8-%ED%94%BC%EB%93%9C%EB%B0%B1-%EA%B7%B8%EB%A7%8C%ED%95%98%EA%B8%B0/">&lt;p&gt;형식적인 피드백 그만하자. 피드백은 아쉬운 점을 돌아보고 그걸 개선하기 위한 ‘행동’이 나와야 한다. 여기서 핵심은 행동이다.&lt;/p&gt;
-
-&lt;p&gt;매주 주간 피드백을 하고있다. 주간 피드백을 하면 그 다음주에는 그 피드백을 매번 생각하며 같은 실수를 반복하지 않기 위해 노력해야 한다. 하지만 나는 주간 피드백을 그 다음주에도 생각하고 있지 않는 것 같다. 단지 피드백을 위한 피드백을 하게 된다. 단지 그 순간을 위해서만 피드백을 하는 모습이 보인다.&lt;/p&gt;</content><author><name>HYUNJUN</name></author><summary type="html">형식적인 피드백 그만하자. 피드백은 아쉬운 점을 돌아보고 그걸 개선하기 위한 ‘행동’이 나와야 한다. 여기서 핵심은 행동이다.</summary></entry><entry><title type="html">20.05.16 til : 차별화된 포트폴리오 고민</title><link href="http://localhost:4000/20.05.16-TIL-%EC%B0%A8%EB%B3%84%ED%99%94%EB%90%9C-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EA%B3%A0%EB%AF%BC/" rel="alternate" type="text/html" title="20.05.16 til : 차별화된 포트폴리오 고민" /><published>2020-05-16T00:00:00+09:00</published><updated>2020-05-16T00:00:00+09:00</updated><id>http://localhost:4000/20.05.16%20TIL%20:%20%EC%B0%A8%EB%B3%84%ED%99%94%EB%90%9C%20%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%20%EA%B3%A0%EB%AF%BC</id><content type="html" xml:base="http://localhost:4000/20.05.16-TIL-%EC%B0%A8%EB%B3%84%ED%99%94%EB%90%9C-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EA%B3%A0%EB%AF%BC/">&lt;h3 id=&quot;포트폴리오-템플릿-만들면-프로젝트-끝날-때마다-적용하기&quot;&gt;포트폴리오 템플릿 만들면 프로젝트 끝날 때마다 적용하기&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;꼭 끝나고 한번에 적지 않아도 프로젝트 중간 점검할 때도 미리 적을 수 있다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;gradle-및-nginx-버전-확인&quot;&gt;Gradle 및 Nginx 버전 확인&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;gradle -&amp;gt; wrapper -&amp;gt; gradle-wrapper.properties 확인&lt;/li&gt;
-  &lt;li&gt;설치된 컴퓨터에서 Nginx -v 입력.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">포트폴리오 템플릿 만들면 프로젝트 끝날 때마다 적용하기 꼭 끝나고 한번에 적지 않아도 프로젝트 중간 점검할 때도 미리 적을 수 있다.</summary></entry><entry><title type="html">철학) 라깡과 헤겔 사이</title><link href="http://localhost:4000/%EC%B2%A0%ED%95%99)-%EB%9D%BC%EA%B9%A1%EA%B3%BC-%ED%97%A4%EA%B2%94-%EC%82%AC%EC%9D%B4/" rel="alternate" type="text/html" title="철학) 라깡과 헤겔 사이" /><published>2020-05-16T00:00:00+09:00</published><updated>2020-05-16T00:00:00+09:00</updated><id>http://localhost:4000/%EC%B2%A0%ED%95%99)%20%EB%9D%BC%EA%B9%A1%EA%B3%BC%20%ED%97%A4%EA%B2%94%20%EC%82%AC%EC%9D%B4</id><content type="html" xml:base="http://localhost:4000/%EC%B2%A0%ED%95%99)-%EB%9D%BC%EA%B9%A1%EA%B3%BC-%ED%97%A4%EA%B2%94-%EC%82%AC%EC%9D%B4/">&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;http://platonacademy.org/&quot;&gt;플라톤아카데미 - 슬라보예 지젝-라깡과 헤겔 사이 강의&lt;/a&gt;를 수강하며 기록한 글&lt;/p&gt;
-
-&lt;h2 id=&quot;지젝의-키워드&quot;&gt;지젝의 키워드&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;사이란
-    &lt;ul&gt;
-      &lt;li&gt;사유 불가능한 것의 사유을 의미. 사유 불가능한 것을 어떻게 사유할 것인가에 대한 질문.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;사후성이란
-    &lt;ul&gt;
-      &lt;li&gt;어떤 철학은 사후에 이해가 된다는 의미. 이 강의에선 라깡 이후에야 헤겔을 이해할 수 있다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;틈이란
-    &lt;ul&gt;
-      &lt;li&gt;지젝은 현실은 완전하지 않은 전체이기 때문에 틈이 존재한다고 생각한다. 틈이 있고 그 틈에서 주체가 자유로운 행위를 할 수 있다. 지젝은 그 틈을 드러내는 것이 목표이다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;지젝의 리딩
-    &lt;ul&gt;
-      &lt;li&gt;지젝의 리딩은 하나의 체계의 내부 모순을 발견하는 과정이다. 지젝의 고유한 주장으로 어떤 철학 체계를 비판하는 것이 아니라 스스로의 체계안에서 모순이 발생하는 지점을 발견하는 행위.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;코기토
-    &lt;ul&gt;
-      &lt;li&gt;빈공간. 데카르트가 발견했지만 덮어버린 무언가.&lt;/li&gt;
+      &lt;li&gt;깃허브에서 테마 zip파일을 다운받아서 번들하는 방법&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;검색이-필요한-키워드&quot;&gt;검색이 필요한 키워드&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%9E%90%ED%81%AC_%EB%8D%B0%EB%A6%AC%EB%8B%A4&quot;&gt;자크 데리다&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;철학과 문학과 사이에서 서성거렸다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">개요 플라톤아카데미 - 슬라보예 지젝-라깡과 헤겔 사이 강의를 수강하며 기록한 글</summary></entry><entry><title type="html">Baseball 포트폴리오</title><link href="http://localhost:4000/Baseball-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4/" rel="alternate" type="text/html" title="Baseball 포트폴리오" /><published>2020-05-16T00:00:00+09:00</published><updated>2020-05-16T00:00:00+09:00</updated><id>http://localhost:4000/Baseball%20%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4</id><content type="html" xml:base="http://localhost:4000/Baseball-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4/">&lt;h2 id=&quot;구조&quot;&gt;구조&lt;/h2&gt;
-&lt;h3 id=&quot;제목&quot;&gt;제목&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Hello World!&lt;/li&gt;
-  &lt;li&gt;야구 게임 프로젝트
-    &lt;h3 id=&quot;목차&quot;&gt;목차&lt;/h3&gt;
-    &lt;ol&gt;
-      &lt;li&gt;제작동기&lt;/li&gt;
-      &lt;li&gt;개발환경&lt;/li&gt;
-      &lt;li&gt;설계 구조&lt;/li&gt;
-      &lt;li&gt;Frond-End&lt;/li&gt;
-      &lt;li&gt;Back-End&lt;/li&gt;
-      &lt;li&gt;피드백
-        &lt;h3 id=&quot;제작동기&quot;&gt;제작동기&lt;/h3&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;복잡한 야구 게임 구현을 통해 데이터 베이스 설계 능력 향상.&lt;/li&gt;
-  &lt;li&gt;로그인 기능을 위한 기술, OAuth2에 대한 이해도 향상.
-    &lt;h3 id=&quot;개발환경&quot;&gt;개발환경&lt;/h3&gt;
-    &lt;h4 id=&quot;기술-스펙&quot;&gt;기술 스펙&lt;/h4&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Spring Boot 2.2.6&lt;/li&gt;
-  &lt;li&gt;JDK 1.8&lt;/li&gt;
-  &lt;li&gt;Junit4&lt;/li&gt;
-  &lt;li&gt;Mysql 5.8&lt;/li&gt;
-  &lt;li&gt;Gradle 6.3&lt;/li&gt;
-  &lt;li&gt;AWS ec2&lt;/li&gt;
-  &lt;li&gt;AWS RDS&lt;/li&gt;
-  &lt;li&gt;Nginx 1.14.0&lt;/li&gt;
-  &lt;li&gt;GitHub OAuth2&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;나는 그동안 뭐가 뭔지 모르니까 Gem-based method로 했는데 사실 Remote theme method 방식으로 했어야 했다. 왜냐하면 깃허브에서 zip 파일을 다운받아서 사용했기 때문이다.&lt;/p&gt;
 
-&lt;h4 id=&quot;선택-이유&quot;&gt;선택 이유&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;내장 톰캣으로 편한 배포를 하기 위해 스프링부트 사용.&lt;/li&gt;
-  &lt;li&gt;최근 각광받는 AWS 클라우드 플랫폼을 사용하기 위함.&lt;/li&gt;
-  &lt;li&gt;사용자 정보를 저장하는 부담을 줄이는 OAuth2 기술 사용하기 위함.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h3 id=&quot;22-remote-theme-method-방법&quot;&gt;2.2 remote theme method 방법&lt;/h3&gt;
+&lt;p&gt;아래 방법대로 진행. (만약, 설치 중 nokogiri를 설치 못한다고 하면 아래 에러처리 항목에서 참고하면 된다.) 정상적으로 bundle되고 exec하면 localhost:4000이 뜨면서 로컬에서 확인할 수 있다.&lt;/p&gt;
 
-&lt;h3 id=&quot;설계구조&quot;&gt;설계구조&lt;/h3&gt;
-&lt;h4 id=&quot;테이블-설계&quot;&gt;테이블 설계&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;Team은 Player 테이블과 1 : N 관계.&lt;/li&gt;
-  &lt;li&gt;&lt;img src=&quot;/home/hyunjun/Repository/guswns1659.github.io/_posts/커리어/포트폴리오/BaseballImages/테이블설계.png&quot; alt=&quot;테이블 설계&quot; /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;front-end&quot;&gt;Front-End&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;로그인 화면 사진1&lt;/li&gt;
-  &lt;li&gt;팀 선택&lt;/li&gt;
-  &lt;li&gt;팀 매칭&lt;/li&gt;
-  &lt;li&gt;공 던지기&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;backend&quot;&gt;BackEnd&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;아래 주요 기능 처리하는 코드 사진 첨부.
-    &lt;h4 id=&quot;주요-기능-1--github-oauth2&quot;&gt;주요 기능 1 : Github OAuth2&lt;/h4&gt;
-  &lt;/li&gt;
-  &lt;li&gt;기능 필요성 :
-    &lt;ul&gt;
-      &lt;li&gt;최근 많은 웹사이트에서 적용하고 있는 기술이라 사용하고 싶었다.&lt;/li&gt;
-      &lt;li&gt;사용자 데이터를 직접 저장하지 않고도 신원 확인 가능하기에 서버 부담이 감소&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;구현 중 어려웠던 점 :
-    &lt;ul&gt;
-      &lt;li&gt;클라이언트 개발자에게 사용자 정보 담은 쿠키가 넘어가지 않는 문제.&lt;/li&gt;
-      &lt;li&gt;Nginx의 리버스 프록시를 적용했기 때문에 도중에 쿠키가 사라지는 현상.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;해결방법 :
-    &lt;ul&gt;
-      &lt;li&gt;쿠키의 Path를 전역으로 지정. Cookie.setPath(“/”)
-        &lt;h4 id=&quot;주요-기능-2--어플리케이션-서버와-db-서버-분리&quot;&gt;주요 기능 2 : 어플리케이션 서버와 DB 서버 분리&lt;/h4&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;기능 필요성 :
-    &lt;ul&gt;
-      &lt;li&gt;기존엔 웹 어플리케이션과 DB가 하나의 컴퓨터(AWS의 EC2)에 공존.&lt;/li&gt;
-      &lt;li&gt;EC2의 성능이 좋지 않아 어플리케이션 동작 시 서버 다운되는 현상 발생&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;구현 중 어려웠던 점 :
-    &lt;ul&gt;
-      &lt;li&gt;보안을 높이기 위해 DB 서버는 인터넷이 안되는 VPC에 적용하려 했으나 기능 구현 시 DB 접근이 어려워지는 문제 발생&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;해결방법 :
-    &lt;ul&gt;
-      &lt;li&gt;DB 서버에 인터넷을 연결.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;피드백&quot;&gt;피드백&lt;/h3&gt;
 &lt;ol&gt;
-  &lt;li&gt;책과 강의를 통한 DB 설계에 대한 꾸준한 공부
-    &lt;ul&gt;
-      &lt;li&gt;DB 설계가 어려워서 핵심 기능 구현할 때 해당 테이블에 접근하는 로직이 너무나 복잡했다. 프로그램의 복잡도가 올라가는 현상이 발생했다.&lt;/li&gt;
-      &lt;li&gt;배우는 상황에서 DB 설계는 어려운 게 당연한데, 다른 기능 구현을 하지 않고 계속 붙들고 있으니 프로젝트 기능 구현이 늦어졌다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;복잡한 기능 구현은 작은 단위로 나누는 연습
-    &lt;ul&gt;
-      &lt;li&gt;공 던지는 로직은 여러가지 경우의 수가 발생하는 로직이다. 하지만 한번에 모든 로직을 처리하려고 하니 기능 구현이 너무나 어려웠다. 실제로 마감기한을 맞추지 못하고 일부 기능 구현을 포기했다.&lt;/li&gt;
-      &lt;li&gt;이후엔 복잡한 기능은 작은 단위로 나누고 구현하는 연습을 시도해보기.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;TDD 기반 프로젝트 개발
-    &lt;ul&gt;
-      &lt;li&gt;이번 프로젝트에 Junit4 기반 TDD를 시도했다. 테스트 코드를 작성하니 해당 테스트만 통과하면 되기에 기능 구현이 편리했다.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>HYUNJUN</name></author><summary type="html">구조 제목 Hello World! 야구 게임 프로젝트 목차 제작동기 개발환경 설계 구조 Frond-End Back-End 피드백 제작동기 복잡한 야구 게임 구현을 통해 데이터 베이스 설계 능력 향상. 로그인 기능을 위한 기술, OAuth2에 대한 이해도 향상. 개발환경 기술 스펙 Spring Boot 2.2.6 JDK 1.8 Junit4 Mysql 5.8 Gradle 6.3 AWS ec2 AWS RDS Nginx 1.14.0 GitHub OAuth2</summary></entry><entry><title type="html">포트폴리오 양식</title><link href="http://localhost:4000/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EC%96%91%EC%8B%9D/" rel="alternate" type="text/html" title="포트폴리오 양식" /><published>2020-05-16T00:00:00+09:00</published><updated>2020-05-16T00:00:00+09:00</updated><id>http://localhost:4000/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%20%EC%96%91%EC%8B%9D</id><content type="html" xml:base="http://localhost:4000/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EC%96%91%EC%8B%9D/">&lt;h2 id=&quot;개요&quot;&gt;개요&lt;/h2&gt;
-&lt;p&gt;포트폴리오 양식을 설명한 글&lt;/p&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create/replace the contents of your  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt;  with the following:&lt;/p&gt;
 
-&lt;h2 id=&quot;컨셉--블랙앤화이트-심플&quot;&gt;컨셉 : 블랙앤화이트, 심플&lt;/h2&gt;
+    &lt;p&gt;source “https://rubygems.org”&lt;/p&gt;
 
-&lt;h2 id=&quot;구조&quot;&gt;구조&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;제목&lt;/li&gt;
-  &lt;li&gt;제작동기&lt;/li&gt;
-  &lt;li&gt;개발환경&lt;/li&gt;
-  &lt;li&gt;설계구조&lt;/li&gt;
-  &lt;li&gt;Front-End : 사진 첨부&lt;/li&gt;
-  &lt;li&gt;BackEnd
-    &lt;ul&gt;
-      &lt;li&gt;사진 첨부&lt;/li&gt;
-      &lt;li&gt;타 프로젝트와의 차별된 기능!
-        &lt;ul&gt;
-          &lt;li&gt;왜 이 기능 넣은 이유, 왜 필요한지.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;기능 구현 중 어려웠던 점 1~2가지
-        &lt;ul&gt;
-          &lt;li&gt;왜 어려웠는지&lt;/li&gt;
-          &lt;li&gt;어떻게 해결하려 했는지&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
+    &lt;p&gt;gem “github-pages”, group: :jekyll_plugins&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;피드백&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">개요 포트폴리오 양식을 설명한 글</summary></entry><entry><title type="html">Linux) ubuntu 사용법</title><link href="http://localhost:4000/Linux)-ubuntu-%EC%82%AC%EC%9A%A9%EB%B2%95/" rel="alternate" type="text/html" title="Linux) ubuntu 사용법" /><published>2020-05-16T00:00:00+09:00</published><updated>2020-05-16T00:00:00+09:00</updated><id>http://localhost:4000/Linux)%20ubuntu%20%EC%82%AC%EC%9A%A9%EB%B2%95</id><content type="html" xml:base="http://localhost:4000/Linux)-ubuntu-%EC%82%AC%EC%9A%A9%EB%B2%95/">&lt;h2 id=&quot;한글-설정&quot;&gt;한글 설정&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;language support에 들어가서 자동으로 필요한 파일을 다운 받는다.&lt;/li&gt;
-  &lt;li&gt;region &amp;amp; language에 들어가서 input sources에 korean(Hangul)을 추가한다.&lt;/li&gt;
-  &lt;li&gt;keyboard에 들어가서 switch to next input source에서 한/영 키로 변경한다.
-    &lt;h3 id=&quot;tweak-사용&quot;&gt;tweak 사용&lt;/h3&gt;
+  &lt;li&gt;
+    &lt;p&gt;Add  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll-include-cache&lt;/code&gt;  to the  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;plugins&lt;/code&gt;  array of your  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;Then open GNOME Tweaks (gnome-tweaks).&lt;/li&gt;
-  &lt;li&gt;Select Keyboard &amp;amp; Mouse tab&lt;/li&gt;
-  &lt;li&gt;Click Additional Layout Options button&lt;/li&gt;
-  &lt;li&gt;Expand Switching to another layout&lt;/li&gt;
-  &lt;li&gt;Select Ctrl + Shift here
-&lt;a href=&quot;https://askubuntu.com/questions/1029588/18-04-ctrlshift-to-change-language&quot;&gt;출처 : https://askubuntu.com/questions/1029588/18-04-ctrlshift-to-change-language&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Fetch and update bundled gems by running the following  &lt;a href=&quot;http://bundler.io/&quot;&gt;Bundler&lt;/a&gt;  command:&lt;/p&gt;
+
+    &lt;p&gt;bundle&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Add  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;remote_theme: &quot;mmistakes/minimal-mistakes@4.19.1&quot;&lt;/code&gt;  to your  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;  file. Remove any other  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;theme:&lt;/code&gt;  or  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;remote_theme:&lt;/code&gt;  entry.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;3-jekyll&quot;&gt;3. jekyll&lt;/h2&gt;
+&lt;p&gt;지킬은 text를 정적인 html로 만들어주는 프로그램이다.
+bundle을 통해 로컬에서 사용한다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;사이트 : &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;https://jekyllrb.com/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;uim-설정-하는-법&quot;&gt;Uim 설정 하는 법&lt;/h3&gt;
-&lt;p&gt;한글 밀리는 거 해결하려고 이것저것 설치하다가 갑자기 한글 자소 구분이 안되서 결국 UIM으로 설치 완료.. 
-나중에 정리할 예정 ! 아래 출처
-&lt;a href=&quot;http://progtrend.blogspot.com/2018/06/ubuntu-1804-uim.html&quot;&gt;http://progtrend.blogspot.com/2018/06/ubuntu-1804-uim.html&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;마우스-오른쪽-클릭-안될-때&quot;&gt;마우스 오른쪽 클릭 안될 때&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;우분투의 기본 설정은 터치 패드에 두 손가락으로 클릭하면 된다.&lt;/li&gt;
-  &lt;li&gt;오른쪽 클릭이 작동하기 위해선 software center에서 GNOME Tweaks를 설치한다.&lt;/li&gt;
-  &lt;li&gt;Keyboard &amp;amp; Mouse -&amp;gt; Mouse Click Emulation -&amp;gt; Area 클릭&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;java-설치-및-java_home-path-지정&quot;&gt;java 설치 및 JAVA_HOME, PATH 지정&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.theserverside.com/video/5-steps-for-an-easy-JDK-13-install-on-Ubuntu&quot;&gt;영상 참고: 5분 짜리 영상&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;로컬에서-미리보기-가능하게-해주는-지킬-tool-설치법&quot;&gt;로컬에서 미리보기 가능하게 해주는 지킬 tool 설치법&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;운영체제에 맞게 jdk8 tar.gz파일을 다운받는다. &lt;a href=&quot;https://www.oracle.com/java/technologies/javase-jdk8-downloads.html&quot;&gt;여기서 다운&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;압축 파일을 푼 후 압축을 푼 파일을 /opt로 이동한다. sudo mv jdk8~~ /opt&lt;/li&gt;
-  &lt;li&gt;아래처럼 자바 환경변수를 설정할 shell 파일을 만들고 환경변수 명령을 입력한다&lt;/li&gt;
+  &lt;li&gt;vim ~/.zshrc를 켜서 아래 명령어를 추가. (bash를 쓰고 있다면 vim ~/.bashrc로 켠다.)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;```shell script
-jdk13@ubuntu:$ sudo tee /etc/profile.d/jdk8env.sh «EOF
-export JAVA_HOME=/opt/jdk-1.8.0_241
-export PATH=$PATH$JAVA_HOME/bin
-EOF&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-- source 명령으로 sh파일을 실행한다. 
-
-```shell script
-$ source /etc/profile.d/jdk8env.sh
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;GEM_HOME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;$HOME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gems&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;$HOME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gems&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;bin:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;$PATH&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;잘 지정됐는지 확인한다.&lt;/li&gt;
+  &lt;li&gt;루비를 설치한다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;shell script
-echo $JAVA_HOME
-echo $PATH
-&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;java -version 입력하면 jdk 없다고 하는데 intelliJ에서 프로젝트 구조에서 jdk 직접 설정하면 된다.&lt;/li&gt;
+  &lt;li&gt;지킬 설치하기 위해 아래 명령어 입력&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;file-찾는-방법&quot;&gt;file 찾는 방법&lt;/h2&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bundler&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;sudo apt-get install locate&lt;/li&gt;
-  &lt;li&gt;sudo updatedb&lt;/li&gt;
-  &lt;li&gt;locate [fileName
-    &lt;h3 id=&quot;whereis-파일명&quot;&gt;whereis 파일명&lt;/h3&gt;
-  &lt;/li&gt;
+  &lt;li&gt;gem source를 gemfile에 업로드위한 명령어&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;file-확장자-찾는-법&quot;&gt;file 확장자 찾는 법&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;file [fileName]&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;단축키&quot;&gt;단축키&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Ctrl + Alt + T : 바탕화면에서 터미널을 실행&lt;/li&gt;
-  &lt;li&gt;Ctrl + Shift + T : 터미널내에서 새탭으로 터미널을 실행&lt;/li&gt;
-  &lt;li&gt;Ctrl + Shift + N : 터미널내에서 새로운 터미널을 실행&lt;/li&gt;
-  &lt;li&gt;Ctrl + Shift + W : 탭으로 실행된 터미널을 종료&lt;/li&gt;
-  &lt;li&gt;Ctrl + Shift + Q : 현재 터미널을 종료(탭포함)&lt;/li&gt;
-  &lt;li&gt;Ctrl + Shift + F : 터미널내에 문자열검색&lt;/li&gt;
-  &lt;li&gt;Alt + 숫자 : 탭간에 이동&lt;/li&gt;
-  &lt;li&gt;Ctrl + PageUp/PageDown : 다음/이전 탭으로 이동&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;terminal에-oh-my-zsh-추가하기&quot;&gt;Terminal에 oh-my-zsh 추가하기&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;글 참고 : &lt;a href=&quot;https://dev.to/mskian/install-z-shell-oh-my-zsh-on-ubuntu-1804-lts-4cm4&quot;&gt;https://dev.to/mskian/install-z-shell-oh-my-zsh-on-ubuntu-1804-lts-4cm4&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;위 글대로 하되 테마 설정 완료 한 후 &lt;a href=&quot;https://github.com/ohmyzsh/ohmyzsh/issues/8038&quot;&gt;이 글 참고해서 실행하기&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;ohmyzsh-테마-설정&quot;&gt;oh.my.zsh 테마 설정&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;cd ~&lt;/li&gt;
-  &lt;li&gt;cd .oh-my-zsh/themes&lt;/li&gt;
-  &lt;li&gt;vim agnoster.zsh-theme 들어간 뒤 필요한 테마 설정&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;agnoster-new-line-설정하기&quot;&gt;agnoster new line 설정하기&lt;/h3&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;bundle&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;원래 코드를 작성했는데 github.io에 올릴 때 에러가 나서 아래 사이트로 대체.
-&lt;a href=&quot;https://wayhome25.github.io/etc/2017/03/12/zsh-alias/&quot;&gt;참고 사이트&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;터미널-프롬프트-설정&quot;&gt;터미널 프롬프트 설정&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;.bashrc:16: command not found: shopt
+  &lt;li&gt;bundle install 하면 activesupport-6.0.3.1이 설치 안된다는 에러가 발생한다. &lt;a href=&quot;https://makandracards.com/makandra/51932-bundler-error-downloading-gem-revealed-dependencies-not-in-the-api&quot;&gt;참고: 해결방법&lt;/a&gt;
     &lt;ul&gt;
-      &lt;li&gt;zsh가 기본 설정인데 예전 bashrc를 설정하려고 할 때 나는 에러라고 함.&lt;/li&gt;
-      &lt;li&gt;참고 : &lt;a href=&quot;https://stackoverflow.com/questions/26616003/shopt-command-not-found-in-bashrc-after-shell-updation&quot;&gt;https://stackoverflow.com/questions/26616003/shopt-command-not-found-in-bashrc-after-shell-updation&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;아래와 같은 메세지가 뜬다. 에러 메세지 추천대로 –full-index 또는 bundle update~를 해도 동작하지 않을 때는 다른 방법으로 한다.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;터미널-프롬프트-이름-지우는-방법&quot;&gt;터미널 프롬프트 이름 지우는 방법&lt;/h2&gt;
-&lt;p&gt;참고 : &lt;a href=&quot;https://the-illusionist.me/49&quot;&gt;https://the-illusionist.me/49&lt;/a&gt;&lt;/p&gt;
-
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;Downloading&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;example&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;revealed&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dependencies&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;API&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;lockfile&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;other&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)).&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;Either&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;installing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;full&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;`&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;running&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bundle&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;update&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;example&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;`&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;should&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fix&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;problem&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;ul&gt;
-  &lt;li&gt;아래 코드를 vim ~/.zshrc 맨 마지막에 넣고 wq!로 저장한다.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;원래 코드가 있었으나 github.io 문제로 위 사이트로 대체. 그대로 따라하면 된다.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;그 뒤 source ~/.zshrc 실행하면 바로 적용.&lt;/li&gt;
+  &lt;li&gt;Gemfile.lock에 들어가 에러메세지의 (other-gem (&amp;lt; 3))을 복사해서 해당 위치에 그대로 붙인다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;auto-suggestions-적용하는-법&quot;&gt;auto-suggestions 적용하는 법&lt;/h2&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;no&quot;&gt;GEM&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;specs:&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;example&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;     &lt;span class=&quot;n&quot;&gt;other&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;no&quot;&gt;DEPENDENCIES&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;참고 : &lt;a href=&quot;https://nachwon.github.io/how-to-install-zsh-plugins/&quot;&gt;https://nachwon.github.io/how-to-install-zsh-plugins/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;bundle -&amp;gt; bundle exec jekyll serve으로 실행하면 로컬에서 확인 가능.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;fzf-적용하는-법&quot;&gt;FzF 적용하는 법&lt;/h2&gt;
+&lt;h2 id=&quot;여러가지-에러&quot;&gt;여러가지 에러&lt;/h2&gt;
+&lt;h3 id=&quot;1-bundle-install-하니-sudo로-하라고-함&quot;&gt;1. bundle install 하니 sudo로 하라고 함&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;참고 : &lt;a href=&quot;https://medium.com/harrythegreat/fzf%EB%A1%9C-zsh-%ED%84%B0%EB%AF%B8%EB%84%90-%EB%8D%94-%EA%B0%95%EB%A0%A5%ED%95%98%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-730c20eb496b&quot;&gt;https://medium.com/harrythegreat/fzf%EB%A1%9C-zsh-%ED%84%B0%EB%AF%B8%EB%84%90-%EB%8D%94-%EA%B0%95%EB%A0%A5%ED%95%98%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-730c20eb496b&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;좋은 기능으로 보이는데 초보인데 벌써 사용하고 싶진 않다.&lt;/li&gt;
+  &lt;li&gt;sudo bundle install 하니 아래 에러&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;유용한-zsh-플러그인-6가지&quot;&gt;유용한 zsh 플러그인 6가지.&lt;/h2&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ERROR: Failed to build gem native extension.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;주소 : &lt;a href=&quot;https://medium.com/harrythegreat/zsh%EC%99%80-%ED%95%A8%EA%BB%98-%EC%82%AC%EC%9A%A9%ED%95%A0-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8-%EC%B6%94%EC%B2%9C-6%EA%B0%80%EC%A7%80-8f9b8b7f3c24&quot;&gt;https://medium.com/harrythegreat/zsh%EC%99%80-%ED%95%A8%EA%BB%98-%EC%82%AC%EC%9A%A9%ED%95%A0-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8-%EC%B6%94%EC%B2%9C-6%EA%B0%80%EC%A7%80-8f9b8b7f3c24&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;다른 블로그 찾아보니 테마를 깃허브블로그 로컬 저장소에 옮긴 후 바로 git push 날림. 그러니 바로 되네?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;ubuntu에-git-설치하기&quot;&gt;Ubuntu에 git 설치하기&lt;/h2&gt;
+&lt;h3 id=&quot;2-bundle-install로-gem-파일-다운받을-때-nokogiri-설치가-안된다고-에러뜰-때&quot;&gt;2. bundle (install)로 gem 파일 다운받을 때 nokogiri 설치가 안된다고 에러뜰 때&lt;/h3&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;sudo apt update&lt;/li&gt;
-  &lt;li&gt;sudo apt install git&lt;/li&gt;
-  &lt;li&gt;git –version // 버전확인&lt;/li&gt;
+  &lt;li&gt;에러 메세지&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;기본-터미널-설정-바꾸기&quot;&gt;기본 터미널 설정 바꾸기&lt;/h2&gt;
-&lt;h3 id=&quot;솔라리스-어두움---녹색-글씨&quot;&gt;솔라리스 어두움 - 녹색 글씨&lt;/h3&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Fetching nokogiri 1.10.9
+Installing nokogiri 1.10.9 with native extensions
+Gem::Ext::BuildError: ERROR: Failed to build gem native
+extension
+... (중략)
+An error occurred while installing nokogiri
+(1.10.9), and Bundler cannot continue.
+Make sure that `gem install nokogiri -v '1.10.9' --source
+'https://rubygems.org/'` succeeds before bundling.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;nokogiri-해결-시도방법&quot;&gt;nokogiri 해결 시도방법&lt;/h4&gt;
 &lt;ul&gt;
-  &lt;li&gt;단점 : autoSuggestion 글씨 색깔이랑 배경이랑 같아서 안보임.. -&amp;gt; 글씨 못 바꾸나?&lt;/li&gt;
-  &lt;li&gt;최초 터미널 크기 100열 / 24행&lt;/li&gt;
-  &lt;li&gt;사용자 지정 글꼴 : DejaVu Sans Mono Book 15&lt;/li&gt;
-  &lt;li&gt;배경의 내장 팔레트 : 솔라리스 어두움을 기본으로 한 뒤 글씨 색깔은 #30E688(녹색계열)&lt;/li&gt;
-  &lt;li&gt;투명한 배경 사용 : 없음 (완전 불투명)&lt;/li&gt;
-  &lt;li&gt;내장 팔레트 : 솔라리스&lt;/li&gt;
-  &lt;li&gt;프로파일 저장도 가능.&lt;/li&gt;
+  &lt;li&gt;참고 : &lt;a href=&quot;https://github.com/rubygems/bundler/issues/4656&quot;&gt;https://github.com/rubygems/bundler/issues/4656&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;아래 명령어 입력하고 다시 bundle 입력&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;블루투스이-on이-안될-때&quot;&gt;블루투스이 on이 안될 때&lt;/h2&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get install build-essential patch ruby-dev zlib1g-dev liblzma-dev
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;갑자기 블루투스가 off 된 뒤 on으로 안된다.&lt;/li&gt;
-  &lt;li&gt;bluez라는 프로그램을 설치하고 다시 껐다가 켠다.&lt;/li&gt;
-  &lt;li&gt;참고 : &lt;a href=&quot;https://askubuntu.com/questions/1036195/bluetooth-doesnt-work-after-resuming-from-sleep-ubuntu-18-04-lts&quot;&gt;https://askubuntu.com/questions/1036195/bluetooth-doesnt-work-after-resuming-from-sleep-ubuntu-18-04-lts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;아래 명령어는 실패&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;사진-편집-프로그램-shutter-설치법&quot;&gt;사진 편집 프로그램, Shutter 설치법&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;참고 : &lt;a href=&quot;https://webnautes.tistory.com/513&quot;&gt;https://webnautes.tistory.com/513&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- sudo gem install nokogiri -v '1.6.7.1'
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;우분투-1804에서-듀얼모니터-설정&quot;&gt;우분투 18.04에서 듀얼모니터 설정&lt;/h2&gt;
+&lt;h2 id=&quot;한-달만에-다시-시도한다&quot;&gt;한 달만에 다시 시도한다.&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;setting -&amp;gt; 장치 -&amp;gt; 디스플레이(display)로 들어간다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;메인-화면-정하기&quot;&gt;메인 화면 정하기&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;주요 디스플레이를 설정&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;모니터-위치-변경하기&quot;&gt;모니터 위치 변경하기.&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;모니터 하나를 클릭한 뒤 이동시킨다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;화면-잠금-시간-설정&quot;&gt;화면 잠금 시간 설정&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;2가지 방법이 있는데 뭐가 정확한지는 헷갈린다.&lt;/li&gt;
-  &lt;li&gt;setting -&amp;gt; 개인정보 -&amp;gt; 화면잠금 클릭 후 시간 설정&lt;/li&gt;
-  &lt;li&gt;setting -&amp;gt; 전원 -&amp;gt; 절전 -&amp;gt; 빈화면 시간 설정&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;logitech-k380의-f1--f12-키를-기본키로-바꾸는-법&quot;&gt;logitech K380의 F1 ~ F12 키를 기본키로 바꾸는 법&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/jergusg/k380-function-keys-conf&quot;&gt;이 사이트&lt;/a&gt;의 README를 따라서 차근차근 한다.&lt;/li&gt;
-  &lt;li&gt;중간에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;make install&lt;/code&gt; 명령이 안 먹히면 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo make install&lt;/code&gt;로 시도&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">한글 설정 language support에 들어가서 자동으로 필요한 파일을 다운 받는다. region &amp;amp; language에 들어가서 input sources에 korean(Hangul)을 추가한다. keyboard에 들어가서 switch to next input source에서 한/영 키로 변경한다. tweak 사용 Then open GNOME Tweaks (gnome-tweaks). Select Keyboard &amp;amp; Mouse tab Click Additional Layout Options button Expand Switching to another layout Select Ctrl + Shift here 출처 : https://askubuntu.com/questions/1029588/18-04-ctrlshift-to-change-language</summary></entry><entry><title type="html">20주 check list</title><link href="http://localhost:4000/20%EC%A3%BC-Check-List/" rel="alternate" type="text/html" title="20주 check list" /><published>2020-05-15T00:00:00+09:00</published><updated>2020-05-15T00:00:00+09:00</updated><id>http://localhost:4000/20%EC%A3%BC%20Check%20List</id><content type="html" xml:base="http://localhost:4000/20%EC%A3%BC-Check-List/">&lt;table&gt;
+  &lt;li&gt;post를 하려면 _posts 디렉토리를 기본 패키지로 꺼내야 한다.&lt;/li&gt;
+  &lt;li&gt;기본 세팅은 _config.yml에서 바꿀 수 있다.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">1. 개요 오랜 숙제였던 깃허브 블로그를 다운받고 옮기는 작업 준비 중. 참고 : https://donghwa-kim.github.io/jekyll.html</summary></entry><entry><title type="html">32주 check list</title><link href="http://localhost:4000/32%EC%A3%BC-Check-List/" rel="alternate" type="text/html" title="32주 check list" /><published>2020-08-02T00:00:00+09:00</published><updated>2020-08-02T00:00:00+09:00</updated><id>http://localhost:4000/32%EC%A3%BC%20Check%20List</id><content type="html" xml:base="http://localhost:4000/32%EC%A3%BC-Check-List/">&lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt;Driver&lt;/th&gt;
-      &lt;th&gt;SUN 10&lt;/th&gt;
-      &lt;th&gt;MON 11&lt;/th&gt;
-      &lt;th&gt;TUE 12&lt;/th&gt;
-      &lt;th&gt;WED 13&lt;/th&gt;
-      &lt;th&gt;THR 14&lt;/th&gt;
-      &lt;th&gt;FRI 15&lt;/th&gt;
-      &lt;th&gt;SAT 16&lt;/th&gt;
+      &lt;th&gt;SUN  2&lt;/th&gt;
+      &lt;th&gt;MON  3&lt;/th&gt;
+      &lt;th&gt;TUE  3&lt;/th&gt;
+      &lt;th&gt;WED  4&lt;/th&gt;
+      &lt;th&gt;THR  5&lt;/th&gt;
+      &lt;th&gt;FRI  6&lt;/th&gt;
+      &lt;th&gt;SAT 7&lt;/th&gt;
       &lt;th&gt;Total&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td&gt;7시 기상&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt;O&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;8시 기상&lt;/td&gt;
       &lt;td&gt;X&lt;/td&gt;
       &lt;td&gt;X&lt;/td&gt;
       &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;알고리즘&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
       &lt;td&gt;O&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
       &lt;td&gt;O&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Instagram&lt;/td&gt;
-      &lt;td&gt;O&lt;/td&gt;
-      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;Push up&lt;/td&gt;
       &lt;td&gt;O&lt;/td&gt;
       &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;복습 주기&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;하루 정리&lt;/td&gt;
-      &lt;td&gt;O&lt;/td&gt;
-      &lt;td&gt;O&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;TIL 업로드&lt;/td&gt;
-      &lt;td&gt;O&lt;/td&gt;
-      &lt;td&gt;O&lt;/td&gt;
-      &lt;td&gt;O&lt;/td&gt;
-      &lt;td&gt;O&lt;/td&gt;
-      &lt;td&gt;O&lt;/td&gt;
-      &lt;td&gt;O&lt;/td&gt;
-      &lt;td&gt;O&lt;/td&gt;
-      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;루테인&lt;/td&gt;
       &lt;td&gt;O&lt;/td&gt;
-      &lt;td&gt;O&lt;/td&gt;
-      &lt;td&gt;O&lt;/td&gt;
-      &lt;td&gt;O&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;시력운동&lt;/td&gt;
       &lt;td&gt;O&lt;/td&gt;
       &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt;O&lt;/td&gt;
-      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;호눅스 강의&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 id=&quot;피드백&quot;&gt;피드백&lt;/h2&gt;
+&lt;h2 id=&quot;피드백&quot;&gt;피드백&lt;/h2&gt;</content><author><name>HYUNJUN</name></author><summary type="html">Driver SUN 2 MON 3 TUE 3 WED 4 THR 5 FRI 6 SAT 7 Total 8시 기상 X X X           알고리즘 O O             Push up O X             TIL 업로드 X X             루테인 O X             시력운동 O X             호눅스 강의 X X            </summary></entry><entry><title type="html">Java) 배열</title><link href="http://localhost:4000/Java)-%EB%B0%B0%EC%97%B4/" rel="alternate" type="text/html" title="Java) 배열" /><published>2020-08-01T00:00:00+09:00</published><updated>2020-08-01T00:00:00+09:00</updated><id>http://localhost:4000/Java)%20%EB%B0%B0%EC%97%B4</id><content type="html" xml:base="http://localhost:4000/Java)-%EB%B0%B0%EC%97%B4/">&lt;h2 id=&quot;배열&quot;&gt;배열&lt;/h2&gt;
+
+&lt;h2 id=&quot;배열-초기화&quot;&gt;배열 초기화&lt;/h2&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;기상은 평소대로 완전 무너짐 -&amp;gt; 아침에 운동 시간으로 일찍 깨기&lt;/li&gt;
-  &lt;li&gt;알고리즘은 꾸준히 풀기로 했으면서 다시 무너졌다. 프로젝트가 바빴지만 주말에도 손대지 못한 점은 잘못 -&amp;gt; 꾸준함이 없으면 목표를 달성하지 못한다.&lt;/li&gt;
-  &lt;li&gt;인스타도 100days 달성한 후론 많이 뜸해졌다. 코딩은 했다면 사진을 찍어서 올리자. 그게 꾸준함을 인식하는 길이다.&lt;/li&gt;
-  &lt;li&gt;기록도 잘하자. TIL 업로드 모두 달성했는데 기록을 보니 4로 기록됨..&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">Driver SUN 10 MON 11 TUE 12 WED 13 THR 14 FRI 15 SAT 16 Total 7시 기상 X O X O X X X 1 알고리즘 X O X O X X X 2 Instagram O O O X X X X 3 복습 주기 X X X X X X X 0 하루 정리 O O X X X X X 2 TIL 업로드 O O O O O O O 7 루테인 O O O O O X O 6</summary></entry><entry><title type="html">20.05.15) til : 프로젝트 기능 구현 실패 원인</title><link href="http://localhost:4000/20.05.15)-TIL-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B8%B0%EB%8A%A5-%EA%B5%AC%ED%98%84-%EC%8B%A4%ED%8C%A8-%EC%9B%90%EC%9D%B8/" rel="alternate" type="text/html" title="20.05.15) til : 프로젝트 기능 구현 실패 원인" /><published>2020-05-15T00:00:00+09:00</published><updated>2020-05-15T00:00:00+09:00</updated><id>http://localhost:4000/20.05.15)%20TIL%20:%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B8%B0%EB%8A%A5%20%EA%B5%AC%ED%98%84%20%EC%8B%A4%ED%8C%A8%20%EC%9B%90%EC%9D%B8</id><content type="html" xml:base="http://localhost:4000/20.05.15)-TIL-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B8%B0%EB%8A%A5-%EA%B5%AC%ED%98%84-%EC%8B%A4%ED%8C%A8-%EC%9B%90%EC%9D%B8/">&lt;h3 id=&quot;프로젝트-기능-구현-실패-원인&quot;&gt;프로젝트 기능 구현 실패 원인&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;테이블 설계 지연&lt;/li&gt;
-  &lt;li&gt;복잡한 로직을 한번에 처리하려 했음. 공 한번 던졌을 때 발생하는 로직을 나눠서 기능 구현을 해야 했는데 그걸 못했다.&lt;/li&gt;
+  &lt;li&gt;객체[] 에서 각 배열의 요소를 초기화할 때 주의할 점은 각 배열의 요소를 인덱스로 접근해서 초기화해야 한다.
+실수하기 쉬운 요소..!! 배열을 자주 다루지 않으니 디버깅하는데 시간이 걸렸다.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;깃허브-oauth&quot;&gt;깃허브 OAuth&lt;/h3&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;//        for (DoublyLinkedList doublyLinkedList : this.bucket) {&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//            doublyLinkedList = new DoublyLinkedList();&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//            System.out.println(&quot;doublyLinkedList : &quot; + doublyLinkedList);&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//        }&lt;/span&gt;
+
+        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;bucket&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;DoublyLinkedList&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>HYUNJUN</name></author><summary type="html">배열</summary></entry><entry><title type="html">Java) 해시sha256함수 만드는법</title><link href="http://localhost:4000/Java)-%ED%95%B4%EC%8B%9Csha256%ED%95%A8%EC%88%98-%EB%A7%8C%EB%93%9C%EB%8A%94%EB%B2%95/" rel="alternate" type="text/html" title="Java) 해시sha256함수 만드는법" /><published>2020-08-01T00:00:00+09:00</published><updated>2020-08-01T00:00:00+09:00</updated><id>http://localhost:4000/Java)%20%ED%95%B4%EC%8B%9Csha256%ED%95%A8%EC%88%98%20%EB%A7%8C%EB%93%9C%EB%8A%94%EB%B2%95</id><content type="html" xml:base="http://localhost:4000/Java)-%ED%95%B4%EC%8B%9Csha256%ED%95%A8%EC%88%98-%EB%A7%8C%EB%93%9C%EB%8A%94%EB%B2%95/">&lt;h2 id=&quot;자바에서-sha256를-이용해-해시를-만드는-법&quot;&gt;자바에서 sha256를 이용해 해시를 만드는 법&lt;/h2&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;nd&quot;&gt;@ParameterizedTest&lt;/span&gt;
+    &lt;span class=&quot;nd&quot;&gt;@CsvSource&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;jack&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;})&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;해시&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;256&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;함수를&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;테스트한다&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;throws&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;NoSuchAlgorithmException&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;MessageDigest&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;messageDigest&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;MessageDigest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getInstance&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;SHA-256&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;byte&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hash&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;messageDigest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;digest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getBytes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;StandardCharsets&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;UTF_8&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;shaHash&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hash&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;StandardCharsets&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;UTF_8&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;shaHash : &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;shaHash&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;16진수-8진수-값을-10진수-정수로-만드는-법&quot;&gt;16진수, 8진수 값을 10진수 정수로 만드는 법&lt;/h2&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hex&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;a&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;Integer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;parseInt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// result = 10&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>HYUNJUN</name></author><summary type="html">자바에서 sha256를 이용해 해시를 만드는 법</summary></entry><entry><title type="html">오픈소스 깃 강의</title><link href="http://localhost:4000/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B9%83-%EA%B0%95%EC%9D%98/" rel="alternate" type="text/html" title="오픈소스 깃 강의" /><published>2020-07-31T00:00:00+09:00</published><updated>2020-07-31T00:00:00+09:00</updated><id>http://localhost:4000/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4%20%EA%B9%83%20%EA%B0%95%EC%9D%98</id><content type="html" xml:base="http://localhost:4000/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B9%83-%EA%B0%95%EC%9D%98/">&lt;h2 id=&quot;오픈-소스-깃-강의&quot;&gt;오픈 소스 깃 강의&lt;/h2&gt;
+&lt;p&gt;오픈소스 컨트리뷰톤 깃 강의를 정리한 글. 생각보다 깊은 내용을 다뤄서 내 깃 스킬을 한 단계 레벨업 시킬 수 있었다.&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;로그인 성공하면 RediretView로 넘기는데, cookie를 담으려면 cookie.setPath(“/”)로 전역으로 쿠키를 전달한다.&lt;/li&gt;
-  &lt;li&gt;리버스 프록시 적용 시 cookie.setPath(“/”) 적용 필수.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">프로젝트 기능 구현 실패 원인 테이블 설계 지연 복잡한 로직을 한번에 처리하려 했음. 공 한번 던졌을 때 발생하는 로직을 나눠서 기능 구현을 해야 했는데 그걸 못했다.</summary></entry></feed>
+  &lt;li&gt;git shortlog&lt;/li&gt;
+  &lt;li&gt;rebase 필요한 순간
+    &lt;ul&gt;
+      &lt;li&gt;upstream이 있는 상황에서 여러명이 작업을 동시에 할 때 필요하다. 내 커밋 베이스를 교체해야 하는 상황에 필요하다.&lt;/li&gt;
+      &lt;li&gt;리베이스를 한 뒤 커밋을 업데이트하면 강제 푸시로 origin을 업데이트하면 P.R도 자동으로 업데이트 된다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;git rebase -i : 되감기의 의미, interactive한 상태로 바꾼다.&lt;/li&gt;
+  &lt;li&gt;git config core.editor vim&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;실습-가장-오래된-역사-부터-두번째-commit-이후에-새로운-커밋-commit-3개-넣기&quot;&gt;실습) 가장 오래된 역사 부터 두번째 commit 이후에 새로운 커밋 commit 3개 넣기&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;git rebase -i –root 한 뒤 감을 커밋 옆에 edit으로 적는다. 그 뒤 저장&lt;/li&gt;
+  &lt;li&gt;git log –oneline으로 하면 되감은 게 보인다. git lg 명령어 쓰면 origin 상태까지 다 나오는 것 같다. git log –oneline과는 다르게 되감은 커밋들이 위에 추가된다.&lt;/li&gt;
+  &lt;li&gt;필요한 커밋 추가한 후&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-git&quot;&gt;git rebase --continue
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;리베이스 취소하는 법 : git rebase –abort&lt;/li&gt;
+  &lt;li&gt;특정 커밋으로 역사를 초기화하는 법 : git reset –hard origin/master&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;실습-위-예제에서-넣은-중간에-낀-3개를-commit을-1개로-합치기&quot;&gt;실습) 위 예제에서 넣은 (중간에 낀) 3개를 commit을 1개로 합치기&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;git rebase -i –root 로 뒤로 합칠 커밋들 중 가장 최신 커밋으로 이동한다.&lt;/li&gt;
+  &lt;li&gt;git reset –soft HEAD~1 합칠 커밋으로 이동. 1개라면 HEAD~1, 2개라면 HEAD~2&lt;/li&gt;
+  &lt;li&gt;git commit –amend로 reset으로 돌린 커밋을 amend로 하나로 합친다.&lt;/li&gt;
+  &lt;li&gt;git rebase –continue 로 진행한다.&lt;/li&gt;
+  &lt;li&gt;git show &lt;commit 메세지=&quot;&quot;&gt;로 확인한다.&lt;/commit&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;실습-가장-오래된-역사에서-두번째-커밋-add-knapsack-problem-pdf-삭제하기&quot;&gt;실습) 가장 오래된 역사에서 두번째 커밋 “Add knapsack problem PDF” 삭제하기&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;git rebase -i –root 로 삭제할 커밋으로 이동한다&lt;/li&gt;
+  &lt;li&gt;git reset –hard HEAD~1 로 현재 커밋을 삭제한다.&lt;/li&gt;
+  &lt;li&gt;git rebase –continue&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;git-blame-명령-해당-소스라인-대해서-누가-마지막으로-수정을-했는지-commit-id-추적이-가능하다&quot;&gt;git blame 명령: 해당 소스라인 대해서 누가 마지막으로 수정을 했는지 commit ID 추적이 가능하다&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;문제 상황이 발생할 때 그 코드를 누가 작성했는지 확인해서 토론을 할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;실습-node_http_parsercc-의-parser-클래스-만든-최초-commit-을-찾아내라&quot;&gt;실습) node_http_parser.cc 의 Parser 클래스 만든 최초 Commit 을 찾아내라&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;git blame src/node_http_parser.cc 를 찾은 뒤 /class Parser를 검색한다.&lt;/li&gt;
+  &lt;li&gt;커밋로그를 발견하면 git show &lt;commit&gt;를 입력해 히스토리를 찾는다.&lt;/commit&gt;&lt;/li&gt;
+  &lt;li&gt;다른 방법은 git log –reverse – node_http_parser.cc&lt;/li&gt;
+  &lt;li&gt;또 다른 방법은 git blame 한 후 class Parser 찾은 다음에 중괄호 같이 처음 이후로 변하지 않을 것 같은 코드의 커밋로그를 찾은 뒤 git show &lt;commit&gt;을 해서 /class Parser로 찾는 방법도 있다.&lt;/commit&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;실습-nodecc-파일이-생성된-진짜-최초-commit-을-찾아내라&quot;&gt;실습) node.cc 파일이 생성된 진짜 최초 Commit 을 찾아내라&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;위 방식 대로 최초 커밋을 찾았다고 생각했는데 아닌 것 같을 수 있다. 이때는 git reset –hard &lt;commit&gt;~1로 더 돌린 뒤에 보면 현재 폴더가 없던 상태로 돌아갈 수 있다. 그 때 다시 git log --reverse -- node.cc 를 입력한다.&lt;/commit&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;실습-node-프로젝트가-처음-만들어질때-최초부터-commit-3-개-찾아내라&quot;&gt;실습) node 프로젝트가 처음 만들어질때 최초부터 Commit 3 개 찾아내라&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;git log –oneline –reverse&lt;/td&gt;
+          &lt;td&gt;head -3&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;실습-pr-3개팀원수-검사받은-후-merge하기--회색버튼된-merge버튼-초록색만들기&quot;&gt;실습) PR 3개(팀원수) 검사받은 후 merge하기 &amp;amp; 회색버튼된 Merge버튼 초록색만들기&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;git fetch upstream master로 베이스로 지정할 upstream의 커밋을 가져온다.&lt;/li&gt;
+  &lt;li&gt;git rebase upstream/master 리베이스 대상 커밋을 입력한다.&lt;/li&gt;
+  &lt;li&gt;git status 로 충돌 상황 확인&lt;/li&gt;
+  &lt;li&gt;git diff 충돌 파일을 확인한다.&lt;/li&gt;
+  &lt;li&gt;vim README.md (예시 파일) 로 충돌되는 파일로 들어가서 충돌을 해결한다&lt;/li&gt;
+  &lt;li&gt;git add README.md로 다시 스테이지에 올린다.&lt;/li&gt;
+  &lt;li&gt;git rebase –continue 리베이스를 마무리한다.&lt;/li&gt;
+  &lt;li&gt;git push origin master -f 푸시한 뒤 P.R이 업데이트 된다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;버그를-수정했을-때-commit-message를-어떻게-작성할-것-인가&quot;&gt;버그를 수정했을 때 commit message를 어떻게 작성할 것 인가?&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;제목 앞에 내가 수정한 모듈을 앞에 적어주면 퀄리티가 높아진다.&lt;/li&gt;
+  &lt;li&gt;fs ext4: fix B problem
+    &lt;ul&gt;
+      &lt;li&gt;why : 80%&lt;/li&gt;
+      &lt;li&gt;how :
+        &lt;h3 id=&quot;before-after로-코드를-첨부해도-좋다&quot;&gt;Before, After로 코드를 첨부해도 좋다.&lt;/h3&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Before :&lt;/li&gt;
+      &lt;li&gt;After :
+        &lt;h3 id=&quot;관련-커밋id를-첨부해도-좋다&quot;&gt;관련 커밋id를 첨부해도 좋다.&lt;/h3&gt;
+      &lt;/li&gt;
+      &lt;li&gt;it is related with the commit 432ewt “fs ext4: Add B feature”&lt;/li&gt;
+      &lt;li&gt;Fixes #91
+        &lt;h3 id=&quot;관련-리뷰어를-첨부해도-좋다&quot;&gt;관련 리뷰어를 첨부해도 좋다.&lt;/h3&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Reviewed-by: HyunJun Kim &lt;a href=&quot;mailto:guswns1659@gmail.com&quot;&gt;guswns1659@gmail.com&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;오픈소스-운영-방식&quot;&gt;오픈소스 운영 방식&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;각 저장소에 CONTRIBUTING.md가 있어서 코드 컨벤션을 알 수 있다.&lt;/li&gt;
+  &lt;li&gt;개선을 하면 Improve, 제안을 하면 Support로 적어서 P.R할 수 있다.&lt;/li&gt;
+  &lt;li&gt;Before, After 코드를 보여주는 것도 중요한 방안&lt;/li&gt;
+  &lt;li&gt;메인테이너가 커밋을 나누라고 한다면 어떤 단위로 나눠야 하는가? 테스트단위, 리뷰와 토론을 할 수 있는 단위.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">오픈 소스 깃 강의 오픈소스 컨트리뷰톤 깃 강의를 정리한 글. 생각보다 깊은 내용을 다뤄서 내 깃 스킬을 한 단계 레벨업 시킬 수 있었다.</summary></entry><entry><title type="html">Spring) 깃허브 oauth 적용법</title><link href="http://localhost:4000/Spring)-%EA%B9%83%ED%97%88%EB%B8%8C-Oauth-%EC%A0%81%EC%9A%A9%EB%B2%95/" rel="alternate" type="text/html" title="Spring) 깃허브 oauth 적용법" /><published>2020-07-29T00:00:00+09:00</published><updated>2020-07-29T00:00:00+09:00</updated><id>http://localhost:4000/Spring)%20%EA%B9%83%ED%97%88%EB%B8%8C%20Oauth%20%EC%A0%81%EC%9A%A9%EB%B2%95</id><content type="html" xml:base="http://localhost:4000/Spring)-%EA%B9%83%ED%97%88%EB%B8%8C-Oauth-%EC%A0%81%EC%9A%A9%EB%B2%95/">&lt;h2 id=&quot;깃허브-oauth-적용법&quot;&gt;깃허브 Oauth 적용법&lt;/h2&gt;
+&lt;p&gt;아래 순서대로 차근차근 적용한다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;jwt 의존성 추가&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;compile&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;group:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;io&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;jsonwebtoken&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;name:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jjwt&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;version:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.9&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;application.yml에 application-oauth 프로파일을 include한다&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nl&quot;&gt;spring:&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;profiles:&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;active:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;local&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;include:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aws&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;oauth&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;jwtServie 구현&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Service&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;JwtService&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;GUEST&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;guest&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SignatureAlgorithm&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SIGNATUREALGORITHM&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;SignatureAlgorithm&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;HS256&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;long&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;EXPIRATION_TIME&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1000&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;60&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;60&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;createJwt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;userId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Object&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;header&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;gt;();&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;OauthEnum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;TYP&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getValue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;OauthEnum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;TYP_VALUE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getValue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;OauthEnum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;ALG&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getValue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;OauthEnum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;ALG&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getValue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;
+
+        &lt;span class=&quot;nc&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Object&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;payload&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HashMap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;gt;();&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;payload&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;OauthEnum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;AUTHORIZATION&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getValue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;userId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Jwts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;builder&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setHeader&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setClaims&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;payload&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setSubject&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;userId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setIssuedAt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;currentTimeMillis&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()))&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setExpiration&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;currentTimeMillis&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;EXPIRATION_TIME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;signWith&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;SIGNATUREALGORITHM&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;OauthEnum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;SECRET_KEY&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getValue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;())&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;compact&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;boolean&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;isValidToken&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;token&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;try&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;nc&quot;&gt;Jwts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;parser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setSigningKey&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;OauthEnum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;SECRET_KEY&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getValue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()).&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;parseClaimsJws&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;token&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;catch&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Exception&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;InvalidTokenException&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getMessage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;getUserId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;HttpServletRequest&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;ServletRequestAttributes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;RequestContextHolder&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;currentRequestAttributes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()).&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getRequest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;token&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getHeader&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;OauthEnum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;AUTHORIZATION&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getValue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;token&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;nc&quot;&gt;Jws&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Claims&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;claims&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Jwts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;parser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setSigningKey&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;OauthEnum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;SECRET_KEY&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getValue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()).&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;parseClaimsJws&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;token&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;claims&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getBody&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getSubject&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;GUEST&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;InvalidTokenException 객체 구현&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@NoArgsConstructor&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;InvalidTokenException&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;RuntimeException&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;InvalidTokenException&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;OauthEnum 객체에 oauth 관련 상수 넣기&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Getter&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;enum&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;OauthEnum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;no&quot;&gt;USER_ID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;userId&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;),&lt;/span&gt;  &lt;span class=&quot;no&quot;&gt;HEADER_LOCATION&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Location&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;),&lt;/span&gt;
+    &lt;span class=&quot;no&quot;&gt;MOBILE_REDIRECT_URL&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;issue04://?token=&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;),&lt;/span&gt;
+    &lt;span class=&quot;no&quot;&gt;HEADER_ACCEPT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Accept&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;HEADER_MEDIA_TYPE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;application/json&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;),&lt;/span&gt;
+    &lt;span class=&quot;no&quot;&gt;AUTHORIZATION&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Authorization&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;),&lt;/span&gt;
+    &lt;span class=&quot;no&quot;&gt;OAUTH_URL_SERVER&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://github.com/login/oauth/authorize?client_id=bdd909bfff2137535182&amp;amp;redirect_uri=http://localhost:8080/callback&amp;amp;scope=user&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;),&lt;/span&gt;
+    &lt;span class=&quot;no&quot;&gt;SECRET_KEY&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;issueTracker04&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;),&lt;/span&gt;
+    &lt;span class=&quot;no&quot;&gt;TYP&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;typ&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;TYP_VALUE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;JWT&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ALG&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;HS256&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;nc&quot;&gt;OauthEnum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;loginservice-관련-객체-생성&quot;&gt;LoginService 관련 객체 생성&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;AccessTokenRequestBody 객체 생성&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Getter&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@NoArgsConstructor&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@ToString&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;AccessTokenRequestBody&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;nd&quot;&gt;@JsonProperty&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;client_id&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;clientId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;nd&quot;&gt;@JsonProperty&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;client_secret&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;clientSecret&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;nd&quot;&gt;@JsonProperty&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;code&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;nd&quot;&gt;@Builder&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;AccessTokenRequestBody&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;clientId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;clientSecret&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;clientId&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;clientId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;clientSecret&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;clientSecret&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;GithubProperties 객체 생성&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;@ConfigurationProperties(“github”) 사용할 때 processor 관련 알람이 뜨면 아래 의존성을 추가한다.&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;annotationProcessor&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;org.springframework.boot:spring-boot-configuration-processor&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Component&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@ConfigurationProperties&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;github&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@Getter&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@Setter&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;GithubProperties&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+
+  &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;accessTokenUrl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;clientId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;clientSecret&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;redirectUrl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;userEmailRequestUrl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;oauth 관련 설정을 관리할 application-oauth.yml 추가. clientSecret가 들어있으니 gitignore를 해야 하지만 배포된 이후에도 사용해야 하기에 하지 않음.&lt;/li&gt;
+      &lt;li&gt;clientId, clientSecret, redirectUrl, userEmailRequestUrl은 각 프로젝트에 따라 바꾼다.&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nl&quot;&gt;github:&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;accessTokenUrl:&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;https:&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//github.com/login/oauth/access_token&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;clientId&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bdd909bfff2137535182&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;clientSecret&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;de5688e0541838556d68954769ed7990ec54fac&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;redirectUrl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;http:&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//localhost:8080/callback&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;userEmailRequestUrl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;https:&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//api.github.com/user&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;깃허브에 accessToken을 요청한 뒤 받은 정보를 담는 GithubResponseDto 객체 생성&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Getter&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@NoArgsConstructor&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@ToString&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;GithubResponseDto&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;nd&quot;&gt;@JsonProperty&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;access_token&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;accessToken&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;nd&quot;&gt;@JsonProperty&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;token_type&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tokenType&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;nd&quot;&gt;@JsonProperty&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;scope&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;scope&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;getAccessToken&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;accessToken&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;AccessToken으로 요청한 사용자 정보를 담는 GithubInformationOfUser 객체 생성&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Getter&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@ToString&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@NoArgsConstructor&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;GithubInformationOfUser&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;nd&quot;&gt;@JsonProperty&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;login&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;userId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;nd&quot;&gt;@JsonProperty&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;nd&quot;&gt;@JsonProperty&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;avatar_url&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;fixName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;userId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;boolean&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;nameIsNull&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;userservice-관련-객체-생성&quot;&gt;UserService 관련 객체 생성&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;AccountRepository 생성&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;interface&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;AccountRepository&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;JpaRepository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Account&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Long&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;nc&quot;&gt;Optional&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Account&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;findByUserId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;userId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;UserService 객체 생성&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Service&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@RequiredArgsConstructor&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;UserService&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;AccountRepository&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;accountRepository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;save&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;GithubInformationOfUser&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;githubInformationOfUser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;Account&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;account&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;accountRepository&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;findByUserId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;githubInformationOfUser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getUserId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()).&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;orElse&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Account&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;accountRepository&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;save&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;account&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;loginService 생성&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Slf4j&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@RequiredArgsConstructor&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@Service&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;LoginService&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;GithubProperties&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;githubProperties&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;JwtService&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jwtService&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;UserService&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;userService&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Integer&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;EXPIRE_TIME&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;60&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;60&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ResponseEntity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Void&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;loginProcess&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpServletResponse&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;GithubResponseDto&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;githubResponseDto&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requestAccessToken&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Github AccessToken, TokenType, Scope Data : {}&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;githubResponseDto&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;GithubInformationOfUser&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;githubInformationOfUser&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requestUserInfo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;githubResponseDto&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getAccessToken&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Github UserId : {}&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;githubInformationOfUser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+
+        &lt;span class=&quot;n&quot;&gt;userService&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;save&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;githubInformationOfUser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jwt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jwtService&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;createJwt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;githubInformationOfUser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getUserId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;
+
+        &lt;span class=&quot;nc&quot;&gt;Cookie&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cookie&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Cookie&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;OauthEnum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;USER_ID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getValue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;githubInformationOfUser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getUserId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;cookie&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setMaxAge&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;EXPIRE_TIME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;addCookie&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cookie&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setHeader&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;OauthEnum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;HEADER_LOCATION&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getValue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;OauthEnum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;MOBILE_REDIRECT_URL&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getValue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jwt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ResponseEntity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;HttpStatus&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;FOUND&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;GithubResponseDto&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;requestAccessToken&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;AccessTokenRequestBody&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;accessTokenRequestBody&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;AccessTokenRequestBody&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;builder&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;clientId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;githubProperties&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;clientId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;clientSecret&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;githubProperties&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;clientSecret&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;HttpHeaders&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpHeaders&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;OauthEnum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;HEADER_ACCEPT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getValue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;OauthEnum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;HEADER_MEDIA_TYPE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getValue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;HttpEntity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;?&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;httpEntity&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpEntity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;accessTokenRequestBody&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;ResponseEntity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;GithubResponseDto&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;responseEntity&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;RestTemplate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;postForEntity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;githubProperties&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;accessTokenUrl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;httpEntity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;GithubResponseDto&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;responseEntity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getBody&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;GithubInformationOfUser&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;requestUserInfo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;accessToken&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;HttpHeaders&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpHeaders&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setBearerAuth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;accessToken&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;HttpEntity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;?&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;httpEntity&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpEntity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;ResponseEntity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;GithubInformationOfUser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;responseEntity&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;RestTemplate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;exchange&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;githubProperties&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;userEmailRequestUrl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpMethod&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;GET&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;httpEntity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;GithubInformationOfUser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;githubUserValidation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;responseEntity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getBody&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;GithubInformationOfUser&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;githubUserValidation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;GithubInformationOfUser&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;githubInformationOfUser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;githubInformationOfUser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;nameIsNull&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;())&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;githubInformationOfUser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;fixName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;githubInformationOfUser&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;LoginController 객체 생성&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Slf4j&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@RequiredArgsConstructor&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@RestController&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;LoginController&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;LoginService&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;loginService&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;nd&quot;&gt;@GetMapping&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/callback&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ResponseEntity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Void&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;oauthCallback&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;@Param&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;code&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpServletResponse&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;loginService&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;loginProcess&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;jwt 토큰을 검증하는 LoingInterceptor 객체 구현&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Slf4j&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@RequiredArgsConstructor&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;LoginInterceptor&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HandlerInterceptorAdapter&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;JwtService&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jwtService&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;nd&quot;&gt;@Override&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;boolean&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;preHandle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;HttpServletRequest&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpServletResponse&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Object&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;handler&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getMethod&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;equals&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;OPTIONS&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jwtToken&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getHeader&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;OauthEnum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;AUTHORIZATION&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getValue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;token &amp;gt;&amp;gt; {}&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jwtToken&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;userId&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jwtService&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getUserId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jwtToken&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jwtService&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;isValidToken&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jwtToken&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setStatus&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;HttpStatus&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;SC_UNAUTHORIZED&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setAttribute&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;userId&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;userId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;WebConfig에 LoginInterceptor를 빈으로 등록해 동작하도록 시킨다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@Configuration&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;WebConfig&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;implements&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;WebMvcConfigurer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;nd&quot;&gt;@Override&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;addCorsMappings&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;CorsRegistry&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;registry&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;long&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;MAX_AGE_SECS&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3600&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;registry&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;addMapping&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/**&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;allowedOrigins&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;*&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;allowedMethods&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;GET&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;POST&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;PUT&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;PATCH&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;DELETE&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;OPTIONS&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;allowedHeaders&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;*&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;allowCredentials&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;maxAge&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;MAX_AGE_SECS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;//    @Bean&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//    public LoginInterceptor loginInterceptor() {&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//        return new LoginInterceptor();&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//    }&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//    @Override&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//    public void addInterceptors(InterceptorRegistry registry) {&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//        registry.addInterceptor(loginInterceptor())&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//                .addPathPatterns(&quot;/**&quot;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//                .excludePathPatterns(&quot;/api/github/**&quot;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//                .excludePathPatterns(&quot;/github/**&quot;) ;&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//    }&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>HYUNJUN</name></author><summary type="html">깃허브 Oauth 적용법 아래 순서대로 차근차근 적용한다.</summary></entry><entry><title type="html">스프링과 mysql</title><link href="http://localhost:4000/%EC%8A%A4%ED%94%84%EB%A7%81%EA%B3%BC-MySQL/" rel="alternate" type="text/html" title="스프링과 mysql" /><published>2020-07-20T00:00:00+09:00</published><updated>2020-07-20T00:00:00+09:00</updated><id>http://localhost:4000/%EC%8A%A4%ED%94%84%EB%A7%81%EA%B3%BC%20MySQL</id><content type="html" xml:base="http://localhost:4000/%EC%8A%A4%ED%94%84%EB%A7%81%EA%B3%BC-MySQL/">&lt;h2 id=&quot;spring과-사용할-때-유용한-mysql-명령&quot;&gt;Spring과 사용할 때 유용한 MySQL 명령&lt;/h2&gt;
+
+&lt;h3 id=&quot;foreign-key-제약을-무시하고-테이블을-삭제하는-명령어&quot;&gt;foreign Key 제약을 무시하고 테이블을 삭제하는 명령어&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-mysql&quot;&gt;SET foreign_key_checks = 0;
+&lt;/code&gt;&lt;/pre&gt;</content><author><name>HYUNJUN</name></author><summary type="html">Spring과 사용할 때 유용한 MySQL 명령</summary></entry><entry><title type="html">Java) 날짜</title><link href="http://localhost:4000/Java)-%EB%82%A0%EC%A7%9C/" rel="alternate" type="text/html" title="Java) 날짜" /><published>2020-07-20T00:00:00+09:00</published><updated>2020-07-20T00:00:00+09:00</updated><id>http://localhost:4000/Java)%20%EB%82%A0%EC%A7%9C</id><content type="html" xml:base="http://localhost:4000/Java)-%EB%82%A0%EC%A7%9C/">&lt;h2 id=&quot;java-date-객체-날짜-계산하기&quot;&gt;Java Date 객체 날짜 계산하기&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Date.getTime()을 이용해서 날짜 계산을 한다.&lt;/li&gt;
+  &lt;li&gt;밀리세컨드를 구한 다음 내가 구하고 싶은 시간 단위에 따라 나누는 값을 다르게 한다.
+    &lt;ul&gt;
+      &lt;li&gt;일 : 24 * 60 * 60 * 1000&lt;/li&gt;
+      &lt;li&gt;시 : 60 * 60 * 1000&lt;/li&gt;
+      &lt;li&gt;분 : 60 * 1000&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-Java&quot;&gt;SimpleDateFormat format = new SimpleDateFormat(&quot;yyyy-MM-dd&quot;);
+Date firstDate = format.parse(&quot;2020-07-20&quot;);
+Date secondDate = format.parse(&quot;2020-07-21&quot;);
+
+// 밀리초단위로 결과가 나온다.
+long calDate = secondDate.getTime() - firstDate.getTime();
+
+// 내가 구하고 싶은 단위에 따라 나누는 값을 구분한다.
+long calDateDay = calDate / (24 * 60 * 60 * 1000);
+
+calDateDay = Math.abs(calDateDay);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;SimpleDateFormat.parse는 String -&amp;gt; Date로 만드는 메서드&lt;/li&gt;
+  &lt;li&gt;SimpleDateFormat.format은 date를 String으로 만드는 메서드&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">Java Date 객체 날짜 계산하기 Date.getTime()을 이용해서 날짜 계산을 한다. 밀리세컨드를 구한 다음 내가 구하고 싶은 시간 단위에 따라 나누는 값을 다르게 한다. 일 : 24 * 60 * 60 * 1000 시 : 60 * 60 * 1000 분 : 60 * 1000</summary></entry><entry><title type="html">Spring) 사진업로드기능</title><link href="http://localhost:4000/Spring)-%EC%82%AC%EC%A7%84%EC%97%85%EB%A1%9C%EB%93%9C%EA%B8%B0%EB%8A%A5/" rel="alternate" type="text/html" title="Spring) 사진업로드기능" /><published>2020-07-20T00:00:00+09:00</published><updated>2020-07-20T00:00:00+09:00</updated><id>http://localhost:4000/Spring)%20%EC%82%AC%EC%A7%84%EC%97%85%EB%A1%9C%EB%93%9C%EA%B8%B0%EB%8A%A5</id><content type="html" xml:base="http://localhost:4000/Spring)-%EC%82%AC%EC%A7%84%EC%97%85%EB%A1%9C%EB%93%9C%EA%B8%B0%EB%8A%A5/">&lt;h2 id=&quot;spring-boot에서-사진-업로드-기능-구현&quot;&gt;Spring boot에서 사진 업로드 기능 구현&lt;/h2&gt;
+
+&lt;h3 id=&quot;에러---nginx-413--request-entity-too-large-error-and-solution&quot;&gt;에러 :  Nginx: 413 – Request Entity Too Large Error and Solution&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;아래 설정으로 들어가
+vi /etc/nginx/nginx.conf&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;http or server 블록에 아래 설정을 추가한다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;client_max_body_size 2M;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;아래 설정을 spring에 추가한다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nl&quot;&gt;spring:&lt;/span&gt;
+&lt;span class=&quot;nl&quot;&gt;servlet:&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;multipart:&lt;/span&gt;
+      &lt;span class=&quot;nl&quot;&gt;enabled:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;threshold:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;KB&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;size:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;MB&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;size:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;215&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;MB&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.cyberciti.biz/faq/linux-unix-bsd-nginx-413-request-entity-too-large/&quot;&gt;해결책 : nginx 설정 변경&lt;/a&gt;
+&lt;a href=&quot;https://www.callicoder.com/spring-boot-file-upload-download-rest-api-example/&quot;&gt;해결책 : 스프링에서 upload위한 설정 나온 글&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;콘솔에도-에러가-안-뜨는데-사진-업로드가-안-될-때&quot;&gt;콘솔에도 에러가 안 뜨는데 사진 업로드가 안 될 때!&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;aws 계정 정보가 없거나&lt;/li&gt;
+  &lt;li&gt;업로드되는 사진 파일의 이름이 같은 경우. 랜덤값은 더 크게 준다.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>HYUNJUN</name></author><summary type="html">Spring boot에서 사진 업로드 기능 구현</summary></entry><entry><title type="html">Spring) 스웨거(swagger) 다루기</title><link href="http://localhost:4000/Spring)-%EC%8A%A4%EC%9B%A8%EA%B1%B0(swagger)-%EB%8B%A4%EB%A3%A8%EA%B8%B0/" rel="alternate" type="text/html" title="Spring) 스웨거(swagger) 다루기" /><published>2020-07-20T00:00:00+09:00</published><updated>2020-07-20T00:00:00+09:00</updated><id>http://localhost:4000/Spring)%20%EC%8A%A4%EC%9B%A8%EA%B1%B0(swagger)%20%EB%8B%A4%EB%A3%A8%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/Spring)-%EC%8A%A4%EC%9B%A8%EA%B1%B0(swagger)-%EB%8B%A4%EB%A3%A8%EA%B8%B0/">&lt;h2 id=&quot;스웨거swagger-문서-다루기&quot;&gt;스웨거(Swagger) 문서 다루기&lt;/h2&gt;
+&lt;p&gt;스웨거도 다양한 설정이 가능하다. 아래 문서를 참고한다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mrsence.tistory.com/56&quot;&gt;참고1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.codota.com/code/java/classes/io.swagger.annotations.ApiImplicitParams&quot;&gt;참고2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;의존성-추가한다&quot;&gt;의존성 추가한다.&lt;/h3&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;n&quot;&gt;implementation&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;group:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;io&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;springfox&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;name:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;springfox&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;swagger2&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;version:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.9&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;implementation&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;group:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;io&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;springfox&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;name:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;springfox&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;swagger&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ui&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;version:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.9&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;각-컨트롤러-설명-붙이는-메서드&quot;&gt;각 컨트롤러 설명 붙이는 메서드&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;@ApiOperation : 컨트롤러에 설명을 붙일 수 있다.
+    &lt;ul&gt;
+      &lt;li&gt;value : 상단의 표시&lt;/li&gt;
+      &lt;li&gt;note : 컨트롤러 클릭하면 본문에 표시&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nd&quot;&gt;@ApiOperation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;300M 이내 식당 요청&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;notes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;기준 좌표 300M 이내 식당 리스트 요청, 고정 latitude = 33.24859, longitude = 126.5648&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;nd&quot;&gt;@GetMapping&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;nearRestaurant&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;NearRestaurantResponseDtos&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;nearRestaurant&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
+        &lt;span class=&quot;nd&quot;&gt;@RequestParam&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;latitude&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Double&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;latitude&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nd&quot;&gt;@RequestParam&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;longitude&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Double&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;longitude&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;restaurantService&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;nearRestaurant&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;latitude&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;longitude&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;에러--typeerror--fail-to-fetch-발생-시-swagger-설정의-host를-본다-로컬인데-배포-호스트로-했는지-아닌지&quot;&gt;에러 : TypeError : fail to fetch 발생 시 swagger 설정의 host를 본다. 로컬인데 배포 호스트로 했는지 아닌지&lt;/h3&gt;</content><author><name>HYUNJUN</name></author><summary type="html">스웨거(Swagger) 문서 다루기 스웨거도 다양한 설정이 가능하다. 아래 문서를 참고한다.</summary></entry></feed>

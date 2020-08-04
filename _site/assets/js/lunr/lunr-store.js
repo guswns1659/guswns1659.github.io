@@ -569,10 +569,10 @@ var store = [{
         "url": "http://localhost:4000/DataStructure-HashMap/",
         "teaser": null
       },{
-        "title": "C.s기초   알고리즘(poorrunner, reverseinteger)",
+        "title": "알고리즘(poorrunner, reverseinteger)",
         "excerpt":"목차 PoorRunner ReverseInteger 핵심 초심자 때 알고리즘이 너무 안 풀릴 땐 답안보고 감각을 키워도 된다. PoorRunner 1. equals() 이용하는 방법 public class PoorRunner{ public String solution(String[] participant, String[] completion) { Arrays.sort(participant); Arrays.sort(completion); for (int i = 0; i &lt; completion.length; i++) { if (!participant[i].equals(completion[i])) { return participant[i]; } } return...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/C.S%EA%B8%B0%EC%B4%88-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98(PoorRunner,-ReverseInteger)/",
+        "url": "http://localhost:4000/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98(PoorRunner,-ReverseInteger)/",
         "teaser": null
       },{
         "title": "Linux   vim(ongoing)",
@@ -828,7 +828,7 @@ var store = [{
         "teaser": null
       },{
         "title": "2020년 도서목록",
-        "excerpt":"머리말  2020년 도서 목록입니다. 주로 개발 서적이 될 것 같지만 다양한 책을 읽도록 노력하겠습니다.   도서 목록     객체지향의 사실과 오해(2독)   팀개발을 위한 Git &amp; GitHub(1독)   그림으로 배우는 HTTP &amp; Newwork basic (2독)   Do it 자료구조와 함께 배우는 알고리즘 입문 - 자바편 (1독)   ","categories": [],
+        "excerpt":"머리말 2020년 도서 목록입니다. 주로 개발 서적이 될 것 같지만 다양한 책을 읽도록 노력하겠습니다. 도서 목록 객체지향의 사실과 오해(2독) 팀개발을 위한 Git &amp; GitHub(1독) 그림으로 배우는 HTTP &amp; Newwork basic (2독) Do it 자료구조와 함께 배우는 알고리즘 입문 - 자바편 (1독) 모두의 네트워크 (1독) 스프링 입문을 위한 자바 객체 지향의...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/2020%EB%85%84-%EB%8F%84%EC%84%9C%EB%AA%A9%EB%A1%9D/",
         "teaser": null
@@ -1133,6 +1133,12 @@ var store = [{
         "url": "http://localhost:4000/Spring-@Autowired/",
         "teaser": null
       },{
+        "title": "Intellij   intellij 설정을 reset하고 싶을 때",
+        "excerpt":"1.개요 마크다운에 글을 입력하닥 종종 숫자 다음에 개행되는 버그?가 발생했다. 어떤 설정인지 몰라서 지울 수도 없는 상황에 아예 설정을 reset하자는 결론은 내리고 찾아본 방법들. 아래처럼 개행이 자동으로 된다. 안녕하세요 오늘은 3 번째 강의입니다. 2. 방법 2.1 IntelliJ 끈 상태에서 config 파일을 지운다. 참고 https://intellij-support.jetbrains.com/hc/en-us/community/posts/207006735-Reset-IntelliJ-settings-to-default- 터미널에 홈디렉토리로 들어간다. -&gt; ls -al로...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/IntelliJ-IntelliJ-%EC%84%A4%EC%A0%95%EC%9D%84-reset%ED%95%98%EA%B3%A0-%EC%8B%B6%EC%9D%84-%EB%95%8C/",
+        "teaser": null
+      },{
         "title": "Aws",
         "excerpt":"AWS 1. 개요 AWS에 대한 기본적인 공부를 정리한 글이다. 2. 클라우드, 인터넷 키워드 클라우드 : 인터넷 기반 컴퓨팅이다. 정보를 내 컴퓨터가 아니라 인터넷에 연결된 다른 컴퓨터로 처리하는 기술. 탄력성 : 인프라의 축소와 확대가 자유로운 지에 대한 지표 내구성 : 데이터가 안전하게 저장되는 지표 안정성 : 서비스가 항상 가동되는 지 Region...","categories": [],
         "tags": [],
@@ -1145,12 +1151,6 @@ var store = [{
         "url": "http://localhost:4000/Heroku-%EB%B0%B0%ED%8F%AC/",
         "teaser": null
       },{
-        "title": "Intellij   intellij 설정을 reset하고 싶을 때",
-        "excerpt":"1.개요 마크다운에 글을 입력하닥 종종 숫자 다음에 개행되는 버그?가 발생했다. 어떤 설정인지 몰라서 지울 수도 없는 상황에 아예 설정을 reset하자는 결론은 내리고 찾아본 방법들. 아래처럼 개행이 자동으로 된다. 안녕하세요 오늘은 3 번째 강의입니다. 2. 방법 2.1 IntelliJ 끈 상태에서 config 파일을 지운다. 참고 https://intellij-support.jetbrains.com/hc/en-us/community/posts/207006735-Reset-IntelliJ-settings-to-default- 터미널에 홈디렉토리로 들어간다. -&gt; ls -al로...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/IntelliJ-IntelliJ-%EC%84%A4%EC%A0%95%EC%9D%84-reset%ED%95%98%EA%B3%A0-%EC%8B%B6%EC%9D%84-%EB%95%8C/",
-        "teaser": null
-      },{
         "title": "운영   aws ec2 배포",
         "excerpt":"AWS EC2로 스프링부트 배포하기 1. 개요 미세먼지 프로젝트 진행하면서 배포는 AWS EC2를 이용했다. 배포하는 방법과 겪었던 어려움을 기록한 글이다. 준비물 ssh -i “200401_deploy_test.pem” ubuntu@ec2-3-34-31-50.ap-northeast-2.compute.amazonaws.com https://github.com/codesquad-member-2020/dust-9.git 52.79.74.109 52.79.74.109:8080 52.79.216.83 52.79.216.83:8080 2. EC2 생성 시 주의할 설정 퍼블릭 IP 자동 할당 : 허용함. 설정 안하면 접속이 안된다. 개방하는 포트 : SSH :...","categories": [],
         "tags": [],
@@ -1161,12 +1161,6 @@ var store = [{
         "excerpt":"목차 자유가 없는 사회에서 권력을 탐낸다. 내 생각 자유가 없는 사회에서 권력을 탐낸다. 밀의 주장은 자유론에 기반을 둔다. 여성의 종속이 옳지 않은 이유는 여성의 자유를 빼앗기 때문이다. 또한 개인이 자유로울 때 공동체 모두에게 이익인데, 여성이 종속되면 다양한 재능과 능력이 묻히기 때문에 그 공동체에도 불이익이다. 밀은 개인의 자유가 없는 사회에서 사람들은...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-3-4/",
-        "teaser": null
-      },{
-        "title": "Mysql",
-        "excerpt":"MySQL 설치 버전 확인 설치 : sudo apt-get install mysql-server-5.7 root 비밀번호 설정 : ```mysql dan@dan_ubuntu:~$ sudo mysql Welcome to the MySQL monitor. Commands end with ; or \\g. Your MySQL connection id is 4 Server version: 5.7.29-0ubuntu0.18.04.1 (Ubuntu) Copyright (c) 2000, 2020, Oracle and/or its affiliates. All rights reserved....","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/Mysql/",
         "teaser": null
       },{
         "title": "Spring   jdbc onetoone",
@@ -1265,12 +1259,6 @@ var store = [{
         "url": "http://localhost:4000/%EC%B2%A0%ED%95%99-Feminism-4-3/",
         "teaser": null
       },{
-        "title": "Git   til",
-        "excerpt":"목차 개인 공부 유용한 git 명령 호눅스 리뷰 핵심 Git은 변경사항만 저장하지 않고 모든 파일을 저장한다. CVCS와 DVCS의 차이 CVCS는 중앙 버전 관리 시스템으로 중앙 서버가 버전 관리를 진행하고 사용자는 파일을 받아서 사용한다.(Check out) 하지만 CVCS의 단점은 만약 중앙 서버가 고장난다면 버전 관리 시스템을 사용할 수 없다. DVCS는 분산 버전...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/Git-TIL/",
-        "teaser": null
-      },{
         "title": "다시 도전한다는 것의 의미",
         "excerpt":"다시 도전한다는 것은 포기하지 않는다는 자세다. 포기하지 않으면 언젠가 내가 원하는 결과를 얻게 된다. 오늘 깃허브 블로그를 개설하면서 느낀 점이다. 작년 말부터 깃허브 블로그를 하고 싶었다. 하지만 기술이 어려워 진입 장벽이 있었다. 진입 장벽을 넘지 못하고 티스토리로 개설했다. 하지만 한쪽에 언젠가 도전하리라는 마음이 있었다. 올해 1월 코드스쿼드를 다니면서 본격적으로 개발자...","categories": [],
         "tags": [],
@@ -1301,28 +1289,10 @@ var store = [{
         "url": "http://localhost:4000/TIL/",
         "teaser": null
       },{
-        "title": "20.05.12) til : spring",
-        "excerpt":"Spring Post 요청은 RequestBody에 데이터가 무조건 들어가야 함. 안 그럼 아래처럼 에러가 발생 { \"timestamp\": \"2020-05-12T02:14:12.899+0000\", \"status\": 400, \"error\": \"Bad Request\", \"message\": \"Required request body is missing: public com.codesquad.baseball10.web.dto.TeamChoiceResponseDto com.codesquad.baseball10.web.controller.MockController.getTeamChoice(java.lang.String)\", \"path\": \"/mock/1\" } RestTemplate postForEntity() 사용할 때 테스트할 때 requestBody는 HashMap으로 만들어서 restTemplate에 넣어준다. Map&lt;String, Long&gt; requestBody = new HashMap&lt;&gt;();...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/20.05.12)-TIL-Spring/",
-        "teaser": null
-      },{
         "title": "학습의 주도권을 내게로",
         "excerpt":"박재성님의 강의를 듣고 현재의 안주하지 않고 내 상황을 돌아보게 해주는 영상이 있어 감사하다. 프로그래밍 학습곡선을 보여주셨다. 코드스쿼드 맨 처음 알아볼 때도 봤던 곡선인데 현재 내가 보기에도 좋은 자료다. 지금 내 위치는 저 곡선에서 어디일까. 지금 내 기분은 어떤지 박재성님이 물어봤다. 나는 부담을 느끼고 있다. 배워야할 기술을 남아있고, 배운 지식도 아직...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/%ED%95%99%EC%8A%B5%EC%9D%98-%EC%A3%BC%EB%8F%84%EA%B6%8C%EC%9D%84-%EB%82%B4%EA%B2%8C%EB%A1%9C/",
-        "teaser": null
-      },{
-        "title": "20.05.13) til : 자바지기(박재성)님 특강",
-        "excerpt":"커넥트 재단의 방구석 토크 버스킹 신청하고 싶다. SW 공부법에 대해서 정리해야 하는데 어떤 이야기를 적어볼까. IntelliJ에 DB를 연결한 뒤 통합테스트를 하면 DB에 연동된다. 테스트 코드라도 application.properties에 schema.sql, data.sql이 있으면 실제로 DB에서 동작한다. 자바지기 QnA 현업에서 일하시다가 교육자로 업을 변경하셨다. 당시 큰 고민이 있으셨을텐데 어떤 점이 끌려서 변경하셨는지 여쭤봤다. 정답은 없다고...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/20.05.13)-TIL-%EC%9E%90%EB%B0%94%EC%A7%80%EA%B8%B0(%EB%B0%95%EC%9E%AC%EC%84%B1)%EB%8B%98-%ED%8A%B9%EA%B0%95/",
-        "teaser": null
-      },{
-        "title": "20.05.14) til : 프로젝트 진행 시",
-        "excerpt":"기능의 로직을 노트에 적었다면 반드시 문서화하기 당시에 떠오른 로직은 기록하지 않으면 기억할 수 없기 때문이다. HttpServletRequest의 setAttribute는 header에 담기는가? Header나 body에 담기지 않고 Request 객체에 속성으로 담기는 것 같다. DB를 조회할 때 Aggregation root를 꺼내서 List 내부의 객체를 순회하면서 찾는 게 추천되는 방법인지? 에러 원인 파악하고 싶을 때 logger.error() 보다...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/20.05.14)-TIL-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%A7%84%ED%96%89-%EC%8B%9C/",
         "teaser": null
       },{
         "title": "20주 check list",
@@ -1331,22 +1301,10 @@ var store = [{
         "url": "http://localhost:4000/20%EC%A3%BC-Check-List/",
         "teaser": null
       },{
-        "title": "20.05.15) til : 프로젝트 기능 구현 실패 원인",
-        "excerpt":"프로젝트 기능 구현 실패 원인     테이블 설계 지연   복잡한 로직을 한번에 처리하려 했음. 공 한번 던졌을 때 발생하는 로직을 나눠서 기능 구현을 해야 했는데 그걸 못했다.   깃허브 OAuth     로그인 성공하면 RediretView로 넘기는데, cookie를 담으려면 cookie.setPath(“/”)로 전역으로 쿠키를 전달한다.   리버스 프록시 적용 시 cookie.setPath(“/”) 적용 필수.  ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/20.05.15)-TIL-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B8%B0%EB%8A%A5-%EA%B5%AC%ED%98%84-%EC%8B%A4%ED%8C%A8-%EC%9B%90%EC%9D%B8/",
-        "teaser": null
-      },{
         "title": "자바지기께 2가지 질문을 했다.",
         "excerpt":"삶 속에서 자극과 울림을 주는 사람을 만날 기회는 흔치 않다. 그분들의 여러 가지 경험이 내가 성장하는데 큰 거름이 될 수 있길 바란다. 계획하지 않았던 우연한 만남이지만 본인의 이야기를 진솔하게 이야기해주신 자바지기께 감사드린다. 질문이 오고 가는 순간은 적지 않고 경청했던 터라 최대한 기억해서 작성했습니다 코드스쿼드에 자바지기님이 찾아오셨다. 단순히 마스터들과 점심 드시러...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/%EC%9E%90%EB%B0%94%EC%A7%80%EA%B8%B0%EA%BB%98-2%EA%B0%80%EC%A7%80-%EC%A7%88%EB%AC%B8%EC%9D%84-%ED%96%88%EB%8B%A4",
-        "teaser": null
-      },{
-        "title": "20.05.16 til : 차별화된 포트폴리오 고민",
-        "excerpt":"포트폴리오 템플릿 만들면 프로젝트 끝날 때마다 적용하기     꼭 끝나고 한번에 적지 않아도 프로젝트 중간 점검할 때도 미리 적을 수 있다.   Gradle 및 Nginx 버전 확인     gradle -&gt; wrapper -&gt; gradle-wrapper.properties 확인   설치된 컴퓨터에서 Nginx -v 입력.  ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/20.05.16-TIL-%EC%B0%A8%EB%B3%84%ED%99%94%EB%90%9C-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EA%B3%A0%EB%AF%BC/",
         "teaser": null
       },{
         "title": "철학) 라깡과 헤겔 사이",
@@ -1362,15 +1320,9 @@ var store = [{
         "teaser": null
       },{
         "title": "포트폴리오 양식",
-        "excerpt":"개요  포트폴리오 양식을 설명한 글   컨셉 : 블랙앤화이트, 심플   구조     제목   제작동기   개발환경   설계구조   Front-End : 사진 첨부   BackEnd            사진 첨부       타 프로젝트와의 차별된 기능!                    왜 이 기능 넣은 이유, 왜 필요한지.                       기능 구현 중 어려웠던 점 1~2가지                    왜 어려웠는지           어떻게 해결하려 했는지                           피드백  ","categories": [],
+        "excerpt":"개요 포트폴리오 양식을 설계하기 위한 글 진행 프로젝트 Todo 어플리케이션 : JWT 토큰, 인증관련 야구게임 : OAuth2, AWS VPC 포트폴리오 구조 분량은 2페이지 넘기지 말고. 프로젝트 명 : 프로젝트 깃헙 링크 : 핵심 기능 왜 이 기능을 넣었는지. 프로젝트 내 나의 역할 구현 중 학습 내용 어려운점1 왜 : 어떻게...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EC%96%91%EC%8B%9D/",
-        "teaser": null
-      },{
-        "title": "Linux) ubuntu 사용법",
-        "excerpt":"한글 설정 language support에 들어가서 자동으로 필요한 파일을 다운 받는다. region &amp; language에 들어가서 input sources에 korean(Hangul)을 추가한다. keyboard에 들어가서 switch to next input source에서 한/영 키로 변경한다. tweak 사용 Then open GNOME Tweaks (gnome-tweaks). Select Keyboard &amp; Mouse tab Click Additional Layout Options button Expand Switching to another layout...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/Linux)-ubuntu-%EC%82%AC%EC%9A%A9%EB%B2%95/",
         "teaser": null
       },{
         "title": "20.05.17) 형식적인 피드백 그만하기",
@@ -1379,15 +1331,435 @@ var store = [{
         "url": "http://localhost:4000/20.05.17)-%ED%98%95%EC%8B%9D%EC%A0%81%EC%9D%B8-%ED%94%BC%EB%93%9C%EB%B0%B1-%EA%B7%B8%EB%A7%8C%ED%95%98%EA%B8%B0/",
         "teaser": null
       },{
+        "title": "Til",
+        "excerpt":"   remote host 사용법-Remote-host-%EC%A0%81%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B2%95/)   MySQL 인덱스 실습  csv파일을 Mysql에 넣을 때  LOAD DATA LOCAL INFILE '/home/hyunjun/Downloads/csvFile.csv' INTO TABLE csvdb.user FIELDS TERMINATED BY ',' LINES TERMINATED BY '\\n';  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/TIL/",
+        "teaser": null
+      },{
+        "title": "책 정리   데이터베이스 첫걸음",
+        "excerpt":"개요 데이터베이스 첫걸음을 읽고 정리한 글. 인출 위주 학습법 을 참고해서 읽는 것에서 끝나지 않고 지식을 꺼내며 정리한 글. 목차 1. 데이터베이스란 데이터베이스에게 요구되는 기능 4가지는 무엇인가? 1.데이터의 검색과 갱신이다. 방대한 데이터 속 사용자가 검색하고 싶은 데이터를 제공하는 기능을 가지고 있으며, 그 데이터의 등록, 수정 및 삭제도 가능하다. 2.동시성 제어이다....","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/",
+        "teaser": null
+      },{
+        "title": "Intellij) remote host 적용하는 법",
+        "excerpt":"개요 인텔리 J 속 remote host 기능에 대해 정리한 글 사용법 인텔리J 상단 Tools -&gt; Deployment -&gt; Browse Remote host SFTP 선택 후 SSH configuration에서 … 클릭 Host에 ec2 ip 입력 User name : ubuntu ( ec2 만들 때 OS) Authentication type : Key pair로 설정 pem key 위치를 찾는다....","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/IntelliJ)-Remote-host-%EC%A0%81%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B2%95/",
+        "teaser": null
+      },{
         "title": "21주 check list",
-        "excerpt":"Driver SUN 10 MON 11 TUE 12 WED 13 THR 14 FRI 15 SAT 16 Total 7시 기상 X X             알고리즘 X               Instagram X               복습 주기 X      ...","categories": [],
+        "excerpt":"Driver SUN 10 MON 11 TUE 12 WED 13 THR 14 FRI 15 SAT 16 Total 7시 기상 X X X X X X X 0 알고리즘 X O O O O O X 5 Instagram X O O O X X X 3 복습 주기 X X O X...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/21%EC%A3%BC-Check-List/",
         "teaser": null
       },{
-        "title": "책 정리   데이터베이스 첫걸음",
-        "excerpt":"개요 데이터베이스 첫걸음을 읽고 정리한 글. 인출 위주 학습법을 참고해서 읽는 것에서 끝나지 않고 지식을 꺼내며 정리한 글. 목차 1. 데이터베이스란 데이터베이스에게 요구되는 기능 4가지는 무엇인가? 1.데이터의 검색과 갱신이다. 방대한 데이터 속 사용자가 검색하고 싶은 데이터를 제공하는 기능을 가지고 있으며, 그 데이터의 등록, 수정 및 삭제도 가능하다. 2.동시성 제어이다. 개인...","categories": [],
+        "title": "4장) 대리인 고용하기",
+        "excerpt":"4장 대리인 고용하기 자원 입대를 옹호하는 사람들의 주장은 무엇인가? 공리주의자 자원 입대를 원하는 자는 입대를 하고, 다른 시민은 그들에게 월급을 지급하는게 공동체 행복이 더 크기 때문이다. 자유지상주의 징병제는 개인의 자유를 빼앗는 강제성을 띈 제도이기 때문이다. 자원 입대에 대한 2가지 반박은 무엇인가? 1. 공정성과 의무 자원 입대를 선택하는 사람은 자유의지보단 경제적...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/",
+        "url": "http://localhost:4000/4%EC%9E%A5)-%EB%8C%80%EB%A6%AC%EC%9D%B8-%EA%B3%A0%EC%9A%A9%ED%95%98%EA%B8%B0/",
+        "teaser": null
+      },{
+        "title": "20.05.24) til",
+        "excerpt":"application.properties로 개인정보 관리할 때 주의      ””, ;를 붙이지 않는다. 자동으로 적용된다.   ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/20.05.24)-TIL/",
+        "teaser": null
+      },{
+        "title": "20.05.24) 주먹왕 랄프를 보고",
+        "excerpt":"오늘은 주먹왕 랄프를 봤다. 최근에 휴식을 어떻게 할 지 고민이었는데 주말에 소파에 누워 애니메이션 한 편 보는 것도 괜찮은 것 같다. 주먹왕 랄프를 보면서 객체지향 프로그래밍이 떠올랐다. 객체지향 프로그래밍은 객체가 각자의 책임과 역할을 가지고 협력하는 구조로 만드는 프로그래밍을 의미한다고 배웠다. 영화 속 랄프는 악당이라는 역할과 건물을 부수고, 건물 밖으로 떨어지는...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/20.05.24)-%EC%A3%BC%EB%A8%B9%EC%99%95-%EB%9E%84%ED%94%84%EB%A5%BC-%EB%B3%B4%EA%B3%A0/",
+        "teaser": null
+      },{
+        "title": "20.05.28) til   resttemplate의 delete()",
+        "excerpt":"RestTemplate의 delete() :  - delete()는 응답 데이터의 타입을 지정할 수 없다.  - 응답 데이터의 타입을 지정하고 싶으면 delete() 대신 exchange()를 사용한다. ```java        ResponseEntity&lt;DeleteReservationResponseDto&gt; responseEntity =                 restTemplate.exchange(url, HttpMethod.DELETE, null , DeleteReservationResponseDto.class);   ```   ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/20.05.28)-TIL-restTemplate%EC%9D%98-delete()/",
+        "teaser": null
+      },{
+        "title": "22주 check list",
+        "excerpt":"Driver SUN 24 MON 25 TUE 26 WED 27 THR 28 FRI 29 SAT 30 Total 7시 기상 X X X O X X X 1 알고리즘 X O O O O O O 6 Instagram X X X X X X X 0 복습 주기 X X X X...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/22%EC%A3%BC-Check-List/",
+        "teaser": null
+      },{
+        "title": "Java에서 slf4j 사용하는 법",
+        "excerpt":"java에서 slf4j 사용하는 법 mavenRepository에서 slf4j를 입력해 jar 파일을 다운 받는다. (이번엔 1.7.26 설치) 프로젝트 classPath에 추가. 자바 프로젝트 구조 설정에 들어가(Ctrl + Shift + Alt + S) libraies에 slf4j jar를 추가한다. jar 파일 추가만으로는 아래 에러가 발생하기 때문에 바인딩을 해줘야 한다. SLF4J: Failed to load class \"org.slf4j.impl.StaticLoggerBinder\". SLF4J: Defaulting...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/java%EC%97%90%EC%84%9C-slf4j-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B2%95/",
+        "teaser": null
+      },{
+        "title": "클라이언트가 requset할 때 jwt 토큰을 header에 넣었는데 cors에 안 걸리려면",
+        "excerpt":"클라이언트가 requset할 때 jwt 토큰을 Header에 넣었는데 cors에 안 걸리려면 Header의 key를 SimpleCorsFilter.java에 추가하기 이번 경우에는 Authorization을 추가했다. @Override public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain) throws IOException, ServletException { HttpServletRequest request = (HttpServletRequest) req; HttpServletResponse response = (HttpServletResponse) res; response.setHeader(\"Access-Control-Allow-Origin\", request.getHeader(\"Origin\")); response.setHeader(\"Access-Control-Allow-Credentials\", \"true\"); response.setHeader(\"Access-Control-Allow-Methods\", \"POST, GET, OPTIONS, DELETE,...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%EA%B0%80-requset%ED%95%A0-%EB%95%8C-jwt-%ED%86%A0%ED%81%B0%EC%9D%84-Header%EC%97%90-%EB%84%A3%EC%97%88%EB%8A%94%EB%8D%B0-cors%EC%97%90-%EC%95%88-%EA%B1%B8%EB%A6%AC%EB%A0%A4%EB%A9%B4/",
+        "teaser": null
+      },{
+        "title": "Mysql",
+        "excerpt":"MySQL 설치 버전 확인 설치 : sudo apt-get install mysql-server-5.7 root 비밀번호 설정 : ```mysql dan@dan_ubuntu:~$ sudo mysql Welcome to the MySQL monitor. Commands end with ; or \\g. Your MySQL connection id is 4 Server version: 5.7.29-0ubuntu0.18.04.1 (Ubuntu) Copyright (c) 2000, 2020, Oracle and/or its affiliates. All rights reserved....","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/Mysql/",
+        "teaser": null
+      },{
+        "title": "Java) collections",
+        "excerpt":"List 를 특정 객체의 값을 기준으로 sort하고 싶을 때   this.getReservations().sort(Comparator.comparing(UserReservation::getId).reversed());   Collection.sort()에서 Comparator를 사용하고 싶을 때   listOfStudent.sort((s1, s2) -&gt; s1.age - s2.age);  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/Java)-Collections/",
+        "teaser": null
+      },{
+        "title": "Linux) ubuntu 사용법",
+        "excerpt":"우분투 초기 셋팅 구글 크롬 + 동기화 소프트웨어 설치가 안 될 때가 있다. 그 땐 아래 페이지 참고 could not get lock /var/lib/dpkg/lock-frontend - open 에러 참고 페이지 크롬을 터미널에서 설치해야 할 수도 있다. 그럼 아래 페이지 참고 크롬 설치 안될 때 아래 페이지 참고 한글 설정 UIM 설정이 적용안될...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/Linux)-ubuntu-%EC%82%AC%EC%9A%A9%EB%B2%95/",
+        "teaser": null
+      },{
+        "title": "23주 check list",
+        "excerpt":"Driver SUN 31 MON 1 TUE 2 WED 3 THR 4 FRI 5 SAT 6 Total 7시 기상 X X O X X X X 1 알고리즘 X O O O O O O 6 Instagram O X X X X X X 1 복습 주기 X X X X...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/23%EC%A3%BC-Check-List/",
+        "teaser": null
+      },{
+        "title": "5장) 중요한 것은 동기다",
+        "excerpt":"5장 중요한 것은 동기다. 칸트가 인간의 존엄성을 강조하는 핵심 근거는 무엇인가? 인간이 이성을 가진 존재이기 때문이다. ‘도덕 형이상학의 기초’에서 다루는 중요한 질문 2가지는 무엇인가? 도덕의 최고 원칙은 무엇인가? 자유란 무엇인가? 이 책에서 말하는 정의에 관한 3가지 관점은 각각 무엇인가? 공리주의 정의란 공동체 전체의 행복을 증진시키는 것. 공동체 전체의 행복을 증진시키기...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/5%EC%9E%A5)-%EC%A4%91%EC%9A%94%ED%95%9C-%EA%B2%83%EC%9D%80-%EB%8F%99%EA%B8%B0%EB%8B%A4/",
+        "teaser": null
+      },{
+        "title": "Mybatis",
+        "excerpt":"MyBatis 인출 학습법을 참고해 작성한 글입니다. 정보 나열보단 질문에 답하는 형식으로 작성했습니다. MyBatis에 대해 간략히 설명하라 MyBatis는 데이터 처리용 프레임워크이다. 기존에 JDBC API를 이용할 때는 문자열 조합으로 쿼리문을 작성했지만 MyBatis를 이용하면 XML로 설정할 수 있다. 이 때문에 MyBatis를 쿼리 매퍼라고도 부른다. MyBatis 사용 이유는? JDBC 구현체는 Spring Data JDBC, Spring...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/MyBatis/",
+        "teaser": null
+      },{
+        "title": "24주 check list",
+        "excerpt":"Driver SUN 7 MON 8 TUE 9 WED 10 THR 11 FRI 12 SAT 13 Total 8시 기상 X X O O X O     알고리즘 X O X O X O     Instagram X X X X X       TIL 업로드 X O X X...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/24%EC%A3%BC-Check-List/",
+        "teaser": null
+      },{
+        "title": "Ubuntu   부팅이 안될 때",
+        "excerpt":"개요 우분투 부팅이 안될 때 해결 방법을 적은 글 상황 몇 시간 전까지 잘 되던 우분투가 부팅이 안될 때, 내 증상은 평소에 안 뜨던 GRUB 부트로더가 등장했고 우분투를 선택하니 보라색 화면에서 안 넘어가는 현상이 발생했다. 문제 해결 참고1 : 네이버 블로그 참고2 : 우분투 커뮤니티 주로 원인은 부트로더라고 한다. 먼저,...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/ubuntu-%EB%B6%80%ED%8C%85%EC%9D%B4-%EC%95%88%EB%90%A0-%EB%95%8C/",
+        "teaser": null
+      },{
+        "title": "Spring) 스프링의 삼각형",
+        "excerpt":"스프링 삼각형 개요 스프링 부트를 공부하는 개발자로서 스프링의 기본 원리인 스프링 삼각형(IoC, PSA, AOP)에 대한 이해를 높이기 위한 글이다. 이번 글에서 특히 집중한 사항은 예시 코드 없는 개념 설명이다. 개발 관련 글을 읽을 때 예시 코드가 있다면 쉽게 개념을 이해할 수 있다. 하지만 종종 예시 코드가 글의 가독성을 방해한다고 생각한다....","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/Spring)-%EC%8A%A4%ED%94%84%EB%A7%81%EC%9D%98-%EC%82%BC%EA%B0%81%ED%98%95/",
+        "teaser": null
+      },{
+        "title": "깃허브 액션을 통한 자동 배포",
+        "excerpt":"깃허브 액션을 통한 자동 배포 깃허브 액션 참고 강의 참고: 생활코딩 강의 깃허브 액션이란? 코드 배포나 운영을 도와주는 가상머신을 깃허브에서 대여해주는 서비스 깃허브 액션은 YML파일로 구동되는 서비스이다. 이슈트래커 프로젝트에 깃허브 액션 적용하기. 순서 깃허브 액션에 workflow (.yml)을 추가한다. AWS EC2, codedeploy, S3 생성 및 권한 부여 배포를 할 때 AWS의...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%EA%B9%83%ED%97%88%EB%B8%8C-%EC%95%A1%EC%85%98%EC%9D%84-%ED%86%B5%ED%95%9C-%EC%9E%90%EB%8F%99-%EB%B0%B0%ED%8F%AC/",
+        "teaser": null
+      },{
+        "title": "지난 6개월간 내가 얻은 3가지",
+        "excerpt":"올해 1월부터 코드스쿼드 라는 교육 기관에서 성장하며 얻은 3가지에 대한 글입니다. 6개월 과정을 돌아보며 과거의 저와 비교해 얼마나 성장했는지 비교하는 것도 중요한 활동이라 생각합니다. 무언가를 학습했다기보다 성장이라 적은 이유는 단순히 기술만 배우지 않았기 때문입니다. 소프트웨어 스킬보단 소프트스킬을 더 얻었습니다. 낯선 지식에 대한 막연한 두려움 줄이기 저는 식당을 가더라도 한번 맛있게...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%EC%A7%80%EB%82%9C-6%EA%B0%9C%EC%9B%94%EA%B0%84-%EB%82%B4%EA%B0%80-%EC%96%BB%EC%9D%80-3%EA%B0%80%EC%A7%80/",
+        "teaser": null
+      },{
+        "title": "성장에 대한 고민",
+        "excerpt":"성장에 대한 고민 요즘들어 코딩이 재미없는걸까. 이전만큼 코딩에 대한 에너지가 나오지 않는 느낌이다. 이유는 뭘까. 성장한다는 느낌이 없기 때문인 것 같다. 프로젝트를 계속 진행 중인데 내가 아는 지식 내에서만 기술을 쓰고 있다보니 성장이 없는 걸까.프로젝트에 바로 적용할 수 있는 기술을 만나면 좋지만 DB, 자료구조 등 원론적인 공부를 하고 있어서 그...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%EC%84%B1%EC%9E%A5%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EB%AF%BC/",
+        "teaser": null
+      },{
+        "title": "피드백에 대하여",
+        "excerpt":"피드백에 대하여 요즘 나는 여러가지 피드백을 받고 있다. 여러가지 피드백을 받으면서 아쉬움이 느껴지는 것은 왜일까? 피드백은 그 자체 만으로 좋은 걸까? 피드백에 대해서 부정적인 시각을 가진 사람을 별로 없을 것이다. 어떤 아쉬움인지와 이 아쉬움을 해결하기 위해선 어떻게 해야 할지 적어봐야겠다. 내가 받는 피드백의 종류는 3가지이다. 시간관리 모임, 코드스쿼드 코드리뷰, 글쓰기...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%ED%94%BC%EB%93%9C%EB%B0%B1%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC/",
+        "teaser": null
+      },{
+        "title": "Jake 만남",
+        "excerpt":"Jake 만남 면접의 질문 내가 사용한 기술 스택에 대한 질문이 많다. jake 피셜 알고리즘 기출 문제 빈도 완전탐색 구현 해시 트리 기타 트라이? 취업 루트 프로그래머스 잡페어 상/하반기 1번 예정? 문제 풀이 팁 문제를 틀렸을 때 오히려 테스트 케이스를 안주는 문제가 좋다. 문제 풀이 사이트 프로그래머스 2~3단계 적절. 백준사이트 문제집...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/Jake-%EB%A7%8C%EB%82%A8/",
+        "teaser": null
+      },{
+        "title": "탐색",
+        "excerpt":"개요 알고리즘 문제를 풀면서 자주 만나는 문제 유형은 탐색이다. 전체 경우의 수를 찾아서 맞는 답을 찾는 방법이 보통 출제된다. 그런데 모든 경우의 수를 찾는 방법은 비효율적이기 때문에 문제에 맞게 알맞은 탐색을 사용할 수 있는 역량은 중요하다. 이번 글에선 깊이 우선 탐색과 너비 우선 탐색에 대해서 적어보려 한다. 깊이 우선 탐색...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%ED%83%90%EC%83%89/",
+        "teaser": null
+      },{
+        "title": "데이터베이스 첫걸음, 트랜잭션 실습",
+        "excerpt":"데이터베이스 첫걸음, 트랜잭션 실습           트랜잭션 시작 명령              strat transaction;                rollback; or commit;            트랜잭션 격리 수준 변경 명령             set transaction isolation level repeatable read;          ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C,-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98-%EC%8B%A4%EC%8A%B5/",
+        "teaser": null
+      },{
+        "title": "트랜잭션",
+        "excerpt":"트랜잭션 참고 : https://lucas.codesquad.kr/course/masters-backend-java/RDBMS-%EC%9D%B5%ED%9E%88%EA%B8%B0/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98 ACID란 무엇인가? 각 약자에 대해 설명하라 a : 각 트랜잭션은 하나의 원자처럼 성공하거나 도중에 실패하면 다시 돌아간다. c : 트랜잭션 이후 데이터의 무결성(제약조건)이 유지되는 정도. I : 동시에 실행돼도 마치 한 개의 트랜잭션만 사용하는 것처럼 유지되는 정도 D : 커밋되면 데이터가 영구적으로 보존되는 속성 분산 처리...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98/",
+        "teaser": null
+      },{
+        "title": "Java) properties를 객체로 관리하는 방법",
+        "excerpt":"properties를 객체로 관리하는 방법 의존성 추가 annotationProcessor \"org.springframework.boot:spring-boot-configuration-processor\" application.properties에 추가 . github.url = https://github.com/login/oauth/access_token; github.client_id = 6adbd2fe704c49a614b7; github.client_secret = 9130ab10336dcdec503fb7ec923f3e1193db3872; github.redirect_url = http://15.164.34.6/api/github/oauth/callback; 클래스 생성 package com.codesquad.baseball10.utils; import lombok.Getter; import lombok.Setter; import org.springframework.boot.context.properties.ConfigurationProperties; import org.springframework.stereotype.Component; @Component @ConfigurationProperties(\"github\") @Getter @Setter public class GithubProperty { private String url; private String client_id; private...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/Java)-properties%EB%A5%BC-%EA%B0%9D%EC%B2%B4%EB%A1%9C-%EA%B4%80%EB%A6%AC%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/",
+        "teaser": null
+      },{
+        "title": "Mybatis",
+        "excerpt":"MyBatis 인출 학습법을 참고해 작성한 글입니다. 정보 나열보단 질문에 답하는 형식으로 작성했습니다. MyBatis에 대해 간략히 설명하라 MyBatis는 데이터 처리용 프레임워크이다. 기존에 JDBC API를 이용할 때는 문자열 조합으로 쿼리문을 작성했지만 MyBatis를 이용하면 XML로 설정할 수 있다. 이 때문에 MyBatis를 쿼리 매퍼라고도 부른다. MyBatis 사용 이유는? JDBC 구현체는 Spring Data JDBC, Spring...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/MyBatis/",
+        "teaser": null
+      },{
+        "title": "스프링 시큐리티에서 jwt사용하기",
+        "excerpt":"스프링 시큐리티에서 jwt 토큰 이용하기   필요 의존성 추가     스프링 시큐리티   jjwt     // https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt compile group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1'          ###      ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0%EC%97%90%EC%84%9C-jwt%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/",
+        "teaser": null
+      },{
+        "title": "Aws s3",
+        "excerpt":"AWS S3 스토리지에 대한 기본 설명 스토리지에 반드시 저장할 수 없는 데이터는 무엇인가? 다시 만들 수 있는 데이터. 시간이 지남에 따라 쌓이는 데이터를 무엇이라 하는가? 시계열 데이터, 타임시리즈 분산시스템이 가져야할 중요한 2가지 특성은? 내구성과 가용성. 분산 서버는 왜 홀수개로 유지하는가? 원래 서버가 죽었는지 확인하는 마스터 서버가 있다. 하지만 마스터 서버도...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/AWS-S3/",
+        "teaser": null
+      },{
+        "title": "Aws 요금 관련",
+        "excerpt":"AWS 요금 주의 실수로 RDS를 Aurora로 만드니까 12시간 요금이 5달러.. 요금 알림 설정하는 법 Billing -&gt; 결제 기본 설정 -&gt; 결제 알림 관리 링크 클릭(CloudWatch) 알림 생성하는 법은 나중에.. 새 주제 생성한 뒤 이메일를 정확히 지정한다. 프리티어 요금 확인하는 법 billing management -&gt; 대시 보드 아래에 사용량 별 상위 프리티어...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/AWS-%EC%9A%94%EA%B8%88-%EA%B4%80%EB%A0%A8/",
+        "teaser": null
+      },{
+        "title": "Vpc",
+        "excerpt":"개요 호눅스 VPC 강의를 정리한 글. VPC의 특징 기본 CIDR 블록은 /16 테넌시는 하나의 vpc 내에서 시작되는 모든 ec2 인스턴스가 하나의 하드웨어에서 실행되도록 한다. vpc는 리전 기반 서비스이다. 서브넷이 AZ 기반 서비스이다. VPC service endpoint는 vpc 내 없는 다른 서비스를 현재 vpc로 가져올 수 있다. 예를 들어, s3 vpc를 생성하면...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/VPC/",
+        "teaser": null
+      },{
+        "title": "하나의 nginx로 2개의 host를 운영하는 법",
+        "excerpt":"하나의 Nginx로 2개의 host를 운영하는 법      여러가지 방법을 시도했는데 잘 안됐다.   우선 ec2 한 개로 테스트를 하고 배포 날에 ec2 한 개 더 생성하기.  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%ED%95%98%EB%82%98%EC%9D%98-Nginx%EB%A1%9C-2%EA%B0%9C%EC%9D%98-host%EB%A5%BC-%EC%9A%B4%EC%98%81%ED%95%98%EB%8A%94-%EB%B2%95/",
+        "teaser": null
+      },{
+        "title": "인덱스",
+        "excerpt":"개요 인덱스, DB에 대한 호눅스 수업을 정리한 글 인덱스 관련 디스크 기반 자료구조와 메모리 기반 자료구조의 차이는? 디스크 기반 자료구조는 컴퓨터가 꺼져도 데이터가 존재한다. 반면 메모리 기반 자료구조는 컴퓨터가 꺼지면 데이터가 사라진다. BST는 어떤 자료구조이고 순회 방식은 몇 가지인가? BST는 부모노드 기준으로 왼쪽 노드는 부모노드의 값보다 작은 값이 오른쪽 노드는...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%EC%9D%B8%EB%8D%B1%EC%8A%A4/",
+        "teaser": null
+      },{
+        "title": "쿼리 최적화",
+        "excerpt":"암달의 법칙 프로파일링을 언제 하는가? 성능(1건 당 응답 속도)이 느려졌을 때 원인을 파악하기 위해 한다. 1건 당 오래 걸리는 메서드를 튜닝하는 것이 아니라 전체 시간이 오래 걸리는 메서드를 튜닝해야 한다. 암달의 법칙이란 시스템의 일부를 개선했을 때 전체 시스템의 성능이 얼마나 향상되는지 계산하는 수식 하지만 아무리 병렬화를 진행해도(코어를 늘려도) 시스템의 성능이...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%EC%BF%BC%EB%A6%AC-%EC%B5%9C%EC%A0%81%ED%99%94/",
+        "teaser": null
+      },{
+        "title": "Til",
+        "excerpt":"도커 설치 중 해시합이 맞지 않습니다. 라는 에러 apt-get update 실행 중 발생하는 오류. 소프트웨어 &amp; 업데이트 서버가 한국 서버라서 나는 오류라고 한다.간단하게 서버만 바꿔주면 됨 해결방법 시스템 설정 - 소프트웨어 &amp; 업데이트에 들어가서 서버를 한국서버에서 ‘주 서버’로 변경 [출처] [우분투 error] 해시 합이 맞지 않습니다. 작성자 Veronica psql: error:...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/TIL/",
+        "teaser": null
+      },{
+        "title": "Git",
+        "excerpt":"개요 개발 프로젝트의 필수 요소인 버전관리를 도와주는 Git에 대해 설명한 글 키워드 버전관리 중요도 별 4개 Git에 대해서 왜 Git을 쓰는 걸까? 다양한 개발 프로젝트에서 Git을 사용하고 있습니다. 왜 이렇게 Git은 개발자들에게 사랑을 받을까요? 답은 프로젝트의 단계 별 버전을 쉽게 관리할 수 있기 때문입니다. 대학교에서 팀 프로젝트를 해보셨다면 이런 파일...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/Git/",
+        "teaser": null
+      },{
+        "title": "Testing",
+        "excerpt":"개요 개발 프로젝트의 필수 요소, 테스팅에 대해 설명한 글 키워드 Junit5, TDD, 학습 테스트, FIRST원칙 중요도 별 3개 서론 “테스트 해야지”라는 말은 개발 프로젝트를 진행하면 자주 듣게 되는 말입니다. 개발 프로젝트에서 테스트가 왜 중요한 지와 실제로 어떻게 테스트를 할 수 있을 지에 관해 설명하고자 합니다. 학습 키워드가 4개가 있지만 이번...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/Testing/",
+        "teaser": null
+      },{
+        "title": "Til",
+        "excerpt":"개요 백기선의 스프링 데이터 JPA 강의 수강하며 정리한 글 ORM 개요 ORM이란 무엇인가? 애플리케이션의 클래스와 SQL 데이터베이스의 테이블 사이의 맵핑 정보를 기술한 메타데이터를 사용하여 자바 애플리케이션의 객체를 SQL 데이터베이스의 테이블에 자동으로 영속화 해주는 기술이다. ORM의 성능에 대한 논쟁은 있을 수 있다. 그럼 성능이 좋은 이유는 무엇인가? 객체와 데이터베이스 사이에 캐시가...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/TIL/",
+        "teaser": null
+      },{
+        "title": "백기선의 스프링 데이터 jpa 핵심 개념 이해",
+        "excerpt":"개요 백기선의 스프링 데이터 JPA 강의 수강하며 정리한 글 docker postgres DB 셋팅 docker ps로 살아있는 지 확인한다. 없다면 docker ps -a로 죽은 컨테이너를 확인한다. docker start postgres_boot 실행 docker exec -i -t postgres_boot bash su - postgres psql –username jack –dbname springdata (콘솔에 접근하느 명령어) jpa application properties 설정...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%EB%B0%B1%EA%B8%B0%EC%84%A0%EC%9D%98-%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-JPA-%ED%95%B5%EC%8B%AC-%EA%B0%9C%EB%85%90-%EC%9D%B4%ED%95%B4/",
+        "teaser": null
+      },{
+        "title": "27주 check list",
+        "excerpt":"Driver SUN 28 MON 29 TUE 30 WED 1 THR 2 FRI 3 SAT 4 Total 8시 기상 X X X X X X X 0 알고리즘 X X X X X X X 0 TIL 업로드 X X O X X O O 3 루테인 X X X X...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/27%EC%A3%BC-Check-List/",
+        "teaser": null
+      },{
+        "title": "20.07.05) til",
+        "excerpt":"Cascade Dirty Checking, Write Behind이란 무엇인가? 객체의 상태 변화를 계속 확인하는 기능 중 하나이다. DB에 들어가기 전에 체크하고 DB에 넣는다. cascade란 무엇인가? 엔티티의 상태 변화를 전파시키는 옵션을 의미한다. 자식과 부모 관계 엔티티 간에 사용되면 좋다. cascade.PERSIST는 어떤 옵션인가? 해당 엔티티에 대해서도 jpa가 관리하는 상태라는 의미. 글이 삭제되면 댓글도 삭제되는 것처럼,...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/20.07.05)-TIL/",
+        "teaser": null
+      },{
+        "title": "미친다고 미칠 수 있을까",
+        "excerpt":"미치고 싶다고 미칠 수 있을까? 글또 피드백 중 블로그 하나를 추천받았다. 첫 번째 글을 읽자마자 자극이 됐다. 블로그 속의 문장이 기억난다. “한 언어에 대해선 면접관보다 잘 알아야 한다”는 글쓴이의 말. 그는 자바 관련 책을 6권 정도 반복해서 읽었다. 한마디로 미쳤다. 어떻게 이런 힘이 나올 수 있었을까. 내가 아는 사람이라면 물어보고...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%EB%AF%B8%EC%B9%9C%EB%8B%A4%EA%B3%A0-%EB%AF%B8%EC%B9%A0-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/",
+        "teaser": null
+      },{
+        "title": "28주 check list",
+        "excerpt":"Driver SUN 5 MON 6 TUE 7 WED 8 THR 9 FRI 10 SAT 11 Total 8시 기상 X O O O O O X 5 알고리즘 X X X X X X X 0 TIL 업로드 O O O X X O X 4 루테인 O O O O...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/28%EC%A3%BC-Check-List/",
+        "teaser": null
+      },{
+        "title": "20.07.06) til",
+        "excerpt":"슬랙과 깃허브 연동하기     채널 만든 뒤 Add an app을 클릭한다.         github을 추가한다.   추가하면 자동으로 저장소에서 슬랙 app을 추가하라고 연결해준다.   이후 /github subscibe /로 연결한다.   참고글 : https://sepiros.tistory.com/37  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/20.07.06)-TIL/",
+        "teaser": null
+      },{
+        "title": "백기선의 스프링 데이터 jpa   스프링 데이터 jpa 활용",
+        "excerpt":"개요 백기선의 스프링 데이터 JPA 강의 2부 - 스프링 데이터 JPA 활용 파트 수강하며 정리한 글 스프링 데이터 jpa 활용 파트 소개 스프링 데이터 jpa 프로젝트에 대해 간략하게 설명하라 스프링 데이터 프로젝트의 일환으로 스프링 common의 jpa 기능을 추가한 프로젝트. 스프링 데이터 Common : repository @NoRepositoryBean이 존재하는 이유는? 추상화된 Repository가 빈으로...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%EB%B0%B1%EA%B8%B0%EC%84%A0%EC%9D%98-%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-JPA-%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-jpa-%ED%99%9C%EC%9A%A9/",
+        "teaser": null
+      },{
+        "title": "20.07.07) til",
+        "excerpt":"쿼리 만들기 실습 By 이후에는 무엇을 정의할 수 있는가? 객체의 프로퍼티에 대해 정의할 수 있다. 리턴 값으로 가능한 타입은 무엇이 있는가? List&lt;&gt;, Page&lt;&gt;, Stream&lt;&gt; 엔티티안에 참조하고 있는 객체에 접근할 때는 어떻게 하는가? 참조 객체의 필드명과 찾으려는 속성을 적는다. Optional&lt;Comment&gt; findFirstByPostTitle(String postTitle); 비동기 쿼리 만들기 레포지토리 쿼리 메서드 위에 @Async를 붙인다....","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/20.07.07)-TIL/",
+        "teaser": null
+      },{
+        "title": "Spring) 스프링부트 프로젝트 셋팅",
+        "excerpt":"개요 개발 프로젝트를 위한 스프링부트 프로젝트 셋팅을 설명하는 글 gitignore 파일 생성 gitignore.io에서 intellij, java, gradle 검색. application.yml or application.properties 추가 프로젝트 환경 프로퍼티를 관리하는 파일이다. gradle 프로젝트의 기본은 properties지만 yml로도 가능. 깃허브 액션이 yml 사용하기 때문에 연습할 겸 yml 사용하기. application.yml 파일 spring: profiles: active: dev include: aws #...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/Spring)-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%85%8B%ED%8C%85/",
+        "teaser": null
+      },{
+        "title": "Aws 계정 안전히 만들기",
+        "excerpt":"개요 AWS 프리티어 계정 생성하고 비용 알림 및 보안 유지하는 법 설명하는 글 회원가입 이메일을 이용해 가입한다. 신용카드를 입력한다. 끝.. IAM 설정 서비스 중 IAM을 검색한다. 아래 사진대 보안 상태를 단계 별로 달성한다. MFA 루트 계정으로 로그인 시 otp 어플을 통해 이중 인증을 하는 설정 아래 사진을 참고하면 otp 어플을...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/AWS-%EA%B3%84%EC%A0%95-%EC%95%88%EC%A0%84%ED%9E%88-%EB%A7%8C%EB%93%A4%EA%B8%B0/",
+        "teaser": null
+      },{
+        "title": "Ec2부터codedeploy까지 초기셋팅",
+        "excerpt":"개요 AWS 계정을 만든 후 VPC, EC2, RDS, CodeDeploy까지 셋팅하는 법을 설명하는 글 VPC 가장 먼저 생성할 서비스. VPC의 서브넷을 통해 EC2와 RDS의 네트워크를 나눌 수 있다. RDS 접근은 EC2에서만 가능하게 만든 뒤 보안을 더 높인다. VPC 생성 이름은 해당 프로젝트-vpc로 한다. vpc는 0.0.0.0/16로 설정. 아래 사진 참고 서브넷 생성...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/ec2%EB%B6%80%ED%84%B0codedeploy%EA%B9%8C%EC%A7%80-%EC%B4%88%EA%B8%B0%EC%85%8B%ED%8C%85/",
+        "teaser": null
+      },{
+        "title": "Ibm 클라우더스 킥오프",
+        "excerpt":"개요  IBM 클라우더스 킥오프 중 중요 내용을 정리한 글   목표 및 과제 관련      클라우더스 커리큘럼         클라우더스 등급         7월 미션     ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/IBM-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%8D%94%EC%8A%A4-%ED%82%A5%EC%98%A4%ED%94%84/",
+        "teaser": null
+      },{
+        "title": "이슈템플릿 생성법",
+        "excerpt":"개요 이슈 템플릿은 settings에서 적용 가능합니다. 다만, settings에 권한이 없는 경우 직접 생성할 수 있습니다. 저장소 Setting에 접근 권한이 없을 때 이슈 템플릿 저장할 Repository에 .github를 생성한다. .github 내부에 ISSUE_TEMPLATE 폴더를 생성한다. 템플릿 이름을 -be--title.md로 지정한다. 하지만 필수는 아님 (team_title.md도 가능) 아래 설정은 내 상황에 맞게 지정한다. 라벨은 존재하는 경우만...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%EC%9D%B4%EC%8A%88%ED%85%9C%ED%94%8C%EB%A6%BF-%EC%83%9D%EC%84%B1%EB%B2%95/",
+        "teaser": null
+      },{
+        "title": "Tool",
+        "excerpt":"Gradle   개요  스프링 프레임워크를 지원하는 대표적인 툴은 메이븐과 그래들이다. 최근에는 그래들의 인기가 높아지고 있는데 그 이유에 대해서 한번 살펴보자.   예제   실전 개념  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/Tool/",
+        "teaser": null
+      },{
+        "title": "모임운영커리큘럼",
+        "excerpt":"개요 스터디, 모임 등 운영 시 필요한 커리큘럼을 정리하기 위한 글. 모임의 타입이 다르더라도 공통적으로 적용할 수 있는 커리큘럼을 적어본다. 제반사항 출석 및 예치금 현황 파일 첫모임 포스트잇에 기대한 것과 얻고자 하는 것 적기 함께 만들어가는 모임이라는 것 알리기. 매주 순번을 정해 모임 준비. ex) 모임 예약, 모니터 셋팅 현재...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%EB%AA%A8%EC%9E%84%EC%9A%B4%EC%98%81%EC%BB%A4%EB%A6%AC%ED%81%98%EB%9F%BC/",
+        "teaser": null
+      },{
+        "title": "20.07.13) til",
+        "excerpt":"TIL : 데이터 삽입 data.sql로 데이터 넣을 때 각 컬럼의 위치를 잘 맞춰야함. 아래코드처럼 각 컬럼의 순서를 맞춰야함. insert into account_point_history (account_id, created_at, eco_point, point_option, project_name) values (1, CURRENT_TIME, 300, 'SAVE', '북극곰 살리기 프로젝트'); mysql Geometry 타입 형식 : POINT(123.123, 33.123) INSERT INTO account_challenge (account_id, created_at, description, challenge_like_count, point, challenge_restaurant_name,...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/20.07.13)-TIL/",
+        "teaser": null
+      },{
+        "title": "인덱스 실습 with mysql",
+        "excerpt":"## Line 이야기 메신저 데이터를 처리하기 위해 Redis와 Hbase를 사용한다. Redis는 인메모리라서 영속성이 없다. 그래서 Hbase를 사용한다. 하둡기반 데이터베이스가 HBase이다. 실습 csv파일을 생성한다. mysql에 csv 파일을 넣는다. 인덱스를 생성한다. 조회한다. csv 데이터를 만드는 코드 import java.time.LocalDate; import java.util.Random; - public class User { int id; String name; int rank; int...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%EC%9D%B8%EB%8D%B1%EC%8A%A4-%EC%8B%A4%EC%8A%B5-with-MySQL/",
+        "teaser": null
+      },{
+        "title": "Git   til",
+        "excerpt":"목차 개인 공부 유용한 git 명령 호눅스 리뷰 핵심 Git은 변경사항만 저장하지 않고 모든 파일을 저장한다. CVCS와 DVCS의 차이 CVCS는 중앙 버전 관리 시스템으로 중앙 서버가 버전 관리를 진행하고 사용자는 파일을 받아서 사용한다.(Check out) 하지만 CVCS의 단점은 만약 중앙 서버가 고장난다면 버전 관리 시스템을 사용할 수 없다. DVCS는 분산 버전...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/Git-TIL/",
+        "teaser": null
+      },{
+        "title": "이력서 초안",
+        "excerpt":"이력서 초안 99CON : 주니어 개발자의 이력서 쓰기 발표하신 이동욱님의 자료를 참고해서 작성한 이력서 초안입니다. 이제 더 이상 해야지.. 라는 말로 늦추면 안 될 것 같습니다. 쓸 게 없어서 두렵더라도 정말 내가 쓸 게 없는 건지. 어떻게 쓸지를 모르는 건지 파헤쳐봅시다. 99콘) 실제 이동욱님 발표 자료 본인 소개 계획을 세우고...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%EC%9D%B4%EB%A0%A5%EC%84%9C-%EC%B4%88%EC%95%88/",
+        "teaser": null
+      },{
+        "title": "스프링과 mysql",
+        "excerpt":"Spring과 사용할 때 유용한 MySQL 명령   foreign Key 제약을 무시하고 테이블을 삭제하는 명령어   SET foreign_key_checks = 0;  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%EC%8A%A4%ED%94%84%EB%A7%81%EA%B3%BC-MySQL/",
+        "teaser": null
+      },{
+        "title": "Java) 날짜",
+        "excerpt":"Java Date 객체 날짜 계산하기 Date.getTime()을 이용해서 날짜 계산을 한다. 밀리세컨드를 구한 다음 내가 구하고 싶은 시간 단위에 따라 나누는 값을 다르게 한다. 일 : 24 * 60 * 60 * 1000 시 : 60 * 60 * 1000 분 : 60 * 1000 SimpleDateFormat format = new SimpleDateFormat(\"yyyy-MM-dd\"); Date...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/Java)-%EB%82%A0%EC%A7%9C/",
+        "teaser": null
+      },{
+        "title": "Spring) 사진업로드기능",
+        "excerpt":"Spring boot에서 사진 업로드 기능 구현 에러 : Nginx: 413 – Request Entity Too Large Error and Solution 아래 설정으로 들어가 vi /etc/nginx/nginx.conf http or server 블록에 아래 설정을 추가한다. client_max_body_size 2M; 아래 설정을 spring에 추가한다. spring: servlet: multipart: enabled: true file-size-threshold: 2KB max-file-size: 200MB max-request-size: 215MB 해결책 : nginx...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/Spring)-%EC%82%AC%EC%A7%84%EC%97%85%EB%A1%9C%EB%93%9C%EA%B8%B0%EB%8A%A5/",
+        "teaser": null
+      },{
+        "title": "Spring) 스웨거(swagger) 다루기",
+        "excerpt":"스웨거(Swagger) 문서 다루기 스웨거도 다양한 설정이 가능하다. 아래 문서를 참고한다. 참고1 참고2 의존성 추가한다. implementation group: 'io.springfox', name: 'springfox-swagger2', version: '2.9.2' implementation group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.9.2' 각 컨트롤러 설명 붙이는 메서드 @ApiOperation : 컨트롤러에 설명을 붙일 수 있다. value : 상단의 표시 note : 컨트롤러 클릭하면 본문에 표시...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/Spring)-%EC%8A%A4%EC%9B%A8%EA%B1%B0(swagger)-%EB%8B%A4%EB%A3%A8%EA%B8%B0/",
+        "teaser": null
+      },{
+        "title": "Spring) 위치 데이터 다루기",
+        "excerpt":"Spring data Jpa와 MySQL로 위치 데이터 다루기 참고 블로그 : Spring JPA를 활용한 MySQL 위치 데이터 다루기 깃허브 링크 위 참고 블로그를 거의 그대로 사용했습니다. 그럼에도 이 글을 쓴 이유는 다시 한번 제가 적어보면서 사용법을 익히기 위함입니다. ## 개발환경 Spring boot 2.2.2 hibernate 5.4.17 MySQL 5.7 ? 8.0 ? Gradle...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/Spring)-%EC%9C%84%EC%B9%98-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%8B%A4%EB%A3%A8%EA%B8%B0/",
+        "teaser": null
+      },{
+        "title": "Spring) 쿼리,",
+        "excerpt":"스프링부트에서 JPA 쿼리 사용해서 쿼리메서드 만드는 법 @Query(\"SELECT SUM(m.totalDays) FROM MyEntity m\") nativeQuery 사용하고 싶을 때, nativeQuery = true 옵션을 준다. @Query(value = \"SELECT SUM(total_days) FROM MyEntity\", nativeQuery = true) 에러 : Tomcat exception Cannot call sendError() after the response has been committed? 무한참조 발생할 때 나타나는 에러다. @JsonIgnore를 붙여서...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/Spring)-%EC%BF%BC%EB%A6%AC,/",
+        "teaser": null
+      },{
+        "title": "Spring) 깃허브 oauth 적용법",
+        "excerpt":"깃허브 Oauth 적용법 아래 순서대로 차근차근 적용한다. jwt 의존성 추가 compile group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1' application.yml에 application-oauth 프로파일을 include한다 spring: profiles: active: local include: aws, oauth jwtServie 구현 @Service public class JwtService { private final String GUEST = \"guest\"; private final SignatureAlgorithm SIGNATUREALGORITHM = SignatureAlgorithm.HS256; private final long...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/Spring)-%EA%B9%83%ED%97%88%EB%B8%8C-Oauth-%EC%A0%81%EC%9A%A9%EB%B2%95/",
+        "teaser": null
+      },{
+        "title": "오픈소스 깃 강의",
+        "excerpt":"오픈 소스 깃 강의 오픈소스 컨트리뷰톤 깃 강의를 정리한 글. 생각보다 깊은 내용을 다뤄서 내 깃 스킬을 한 단계 레벨업 시킬 수 있었다. git shortlog rebase 필요한 순간 upstream이 있는 상황에서 여러명이 작업을 동시에 할 때 필요하다. 내 커밋 베이스를 교체해야 하는 상황에 필요하다. 리베이스를 한 뒤 커밋을 업데이트하면 강제...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EA%B9%83-%EA%B0%95%EC%9D%98/",
+        "teaser": null
+      },{
+        "title": "Java) 배열",
+        "excerpt":"배열 배열 초기화 객체[] 에서 각 배열의 요소를 초기화할 때 주의할 점은 각 배열의 요소를 인덱스로 접근해서 초기화해야 한다. 실수하기 쉬운 요소..!! 배열을 자주 다루지 않으니 디버깅하는데 시간이 걸렸다. // for (DoublyLinkedList doublyLinkedList : this.bucket) { // doublyLinkedList = new DoublyLinkedList(); // System.out.println(\"doublyLinkedList : \" + doublyLinkedList); // } for...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/Java)-%EB%B0%B0%EC%97%B4/",
+        "teaser": null
+      },{
+        "title": "Java) 해시sha256함수 만드는법",
+        "excerpt":"자바에서 sha256를 이용해 해시를 만드는 법 @ParameterizedTest @CsvSource({\"jack\"}) void 해시256함수를_테스트한다(String name) throws NoSuchAlgorithmException { MessageDigest messageDigest = MessageDigest.getInstance(\"SHA-256\"); byte[] hash = messageDigest.digest(name.getBytes(StandardCharsets.UTF_8)); String shaHash = new String(hash, StandardCharsets.UTF_8); System.out.println(\"shaHash : \" + shaHash); } 16진수, 8진수 값을 10진수 정수로 만드는 법 String hex = \"a\"; Integer.parseInt(hex, 16) // result =...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/Java)-%ED%95%B4%EC%8B%9Csha256%ED%95%A8%EC%88%98-%EB%A7%8C%EB%93%9C%EB%8A%94%EB%B2%95/",
+        "teaser": null
+      },{
+        "title": "32주 check list",
+        "excerpt":"Driver SUN 2 MON 3 TUE 3 WED 4 THR 5 FRI 6 SAT 7 Total 8시 기상 X X X           알고리즘 O O             Push up O X             TIL 업로드 X X  ...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/32%EC%A3%BC-Check-List/",
+        "teaser": null
+      },{
+        "title": "깃허브 블로그",
+        "excerpt":"1. 개요 오랜 숙제였던 깃허브 블로그를 다운받고 옮기는 작업 준비 중. 참고 : https://donghwa-kim.github.io/jekyll.html 2. 설치방법 minimal 테마 : https://github.com/mmistakes/minimal-mistakes 깃허브 저장소를 생성 깃 클론으로 로컬로 가져옴 지킬 테마를 다운로드 받은 후 압축 파일을 깃허브 블로그 로컬 저장소에 옮긴다. add, commit, push 한다. 수정사항 변경하고 add, commit ~ 한다. 2.1...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8/",
         "teaser": null
       }]

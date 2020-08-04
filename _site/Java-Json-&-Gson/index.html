@@ -5,44 +5,44 @@
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
-<html class="no-js" lang="en">
+<html lang="en" class="no-js">
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Java   json &amp; gson - 매일 꾸준히!</title>
-<meta content="목차    객체를 표현하는 3가지 방법   Gson API로 JSON 다루기     핵심      Json으로 데이터 정보를 편리하게 주고 받을 수 있다.   " name="description">
+<!-- begin _includes/seo.html --><title>Java   json &amp; gson - Jack의 블로그</title>
+<meta name="description" content="목차    객체를 표현하는 3가지 방법   Gson API로 JSON 다루기     핵심      Json으로 데이터 정보를 편리하게 주고 받을 수 있다.   ">
 
 
-  <meta content="HYUNJUN" name="author">
+  <meta name="author" content="HYUNJUN">
 
 
-<meta content="article" property="og:type">
-<meta content="en_US" property="og:locale">
-<meta content="매일 꾸준히!" property="og:site_name">
-<meta content="Java   json &amp; gson" property="og:title">
-<meta content="http://localhost:4000/Java-Json-&-Gson/" property="og:url">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Jack의 블로그">
+<meta property="og:title" content="Java   json &amp; gson">
+<meta property="og:url" content="http://localhost:4000/Java-Json-&-Gson/">
 
 
-  <meta content="목차    객체를 표현하는 3가지 방법   Gson API로 JSON 다루기     핵심      Json으로 데이터 정보를 편리하게 주고 받을 수 있다.   " property="og:description">
-
-
-
-
-
-
-
-  <meta content="2019-12-28T00:00:00+09:00" property="article:published_time">
+  <meta property="og:description" content="목차    객체를 표현하는 3가지 방법   Gson API로 JSON 다루기     핵심      Json으로 데이터 정보를 편리하게 주고 받을 수 있다.   ">
 
 
 
 
 
-  
+
+
+  <meta property="article:published_time" content="2019-12-28T00:00:00+09:00">
+
+
+
+
 
   
 
+  
 
-<link href="http://localhost:4000/Java-Json-&-Gson/" rel="canonical">
+
+<link rel="canonical" href="http://localhost:4000/Java-Json-&-Gson/">
 
 
 
@@ -66,17 +66,17 @@
 <!-- end _includes/seo.html -->
 
 
-<link href="/feed.xml" rel="alternate" title="매일 꾸준히! Feed" type="application/atom+xml">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Jack의 블로그 Feed">
 
 <!-- https://t.co/dKP3o1e -->
-<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
 <!-- For all browsers -->
-<link href="/assets/css/main.css" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/main.css">
 
 <!--[if IE]>
   <style>
@@ -107,9 +107,9 @@
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
   <ul>
-    <li><a class="screen-reader-shortcut" href="#site-nav">Skip to primary navigation</a></li>
-    <li><a class="screen-reader-shortcut" href="#main">Skip to content</a></li>
-    <li><a class="screen-reader-shortcut" href="#footer">Skip to footer</a></li>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
   </ul>
 </nav>
 
@@ -122,13 +122,19 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav class="greedy-nav" id="site-nav">
+      <nav id="site-nav" class="greedy-nav">
         
         <a class="site-title" href="/">
-          매일 꾸준히!
+          Jack의 블로그
           
         </a>
-        <ul class="visible-links"></ul>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/">Quick-Start Guide</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/publications/">Publications</a>
+            </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle menu</span>
@@ -155,6 +161,12 @@
 <div itemscope itemtype="https://schema.org/Person">
 
   
+    <div class="author__avatar">
+      
+        <img src="/assets/myPicture/%ED%94%84%EB%A1%9C%ED%95%84%EC%82%AC%EC%A7%84.jpg" alt="HYUNJUN" itemprop="image">
+      
+    </div>
+  
 
   <div class="author__content">
     
@@ -162,7 +174,7 @@
     
     
       <div class="author__bio" itemprop="description">
-        <p>자바 백엔드 개발자를 준비하고 있습니다. 아직 검색, 메뉴 기능이 없습니다.</p>
+        <p>계획을 세우고 피드백을 통한 성장을 좋아합니다. 아직 검색, 메뉴 기능이 없습니다.</p>
 
       </div>
     
@@ -173,14 +185,14 @@
     <ul class="author__urls social-icons">
       
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i aria-hidden="true" class="fas fa-fw fa-map-marker-alt"></i> <span itemprop="name">Seoul</span>
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Seoul</span>
         </li>
       
 
       
         
           
-        
+            <li><a href="guswns1659@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
           
         
           
@@ -188,7 +200,15 @@
           
         
           
+            <li><a href="https://www.facebook.com/profile.php?id=100023819959125" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i><span class="label">Facebook</span></a></li>
+          
         
+          
+            <li><a href="https://github.com/guswns1659" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.instagram.com/want.backend.dev/?hl=ko" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">Instagram</span></a></li>
           
         
       
@@ -253,23 +273,68 @@
 </div>
 
   
+    
+      
+      
+      
+      
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  <h3 class="nav__title" style="padding-left: 0;">SideBar</h3>
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Getting Started</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/about">Quick-Start Guide</a></li>
+          
+            <li><a href="/docs/structure/">Structure</a></li>
+          
+            <li><a href="/docs/installation/">Installation</a></li>
+          
+            <li><a href="/docs/upgrading/">Upgrading</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
   </div>
 
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta content="Java   json &amp; gson" itemprop="headline">
-    <meta content="목차  객체를 표현하는 3가지 방법  Gson API로 JSON 다루기    핵심    Json으로 데이터 정보를 편리하게 주고 받을 수 있다." itemprop="description">
-    <meta content="2019-12-28T00:00:00+09:00" itemprop="datePublished">
+    <meta itemprop="headline" content="Java   json &amp; gson">
+    <meta itemprop="description" content="목차  객체를 표현하는 3가지 방법  Gson API로 JSON 다루기    핵심    Json으로 데이터 정보를 편리하게 주고 받을 수 있다.">
+    <meta itemprop="datePublished" content="2019-12-28T00:00:00+09:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" id="page-title" itemprop="headline">Java   json &amp; gson
+          <h1 id="page-title" class="page__title" itemprop="headline">Java   json &amp; gson
 </h1>
           
-            <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
 
 
 
@@ -352,7 +417,7 @@ XML보다 간결하다. 하지만 표현이 제한적인 단점이 있다. 하�
 
 
         
-          <p class="page__date"><strong><i aria-hidden="true" class="fas fa-fw fa-calendar-alt"></i> Updated:</strong> <time datetime="2019-12-28T00:00:00+09:00">December 28, 2019</time></p>
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2019-12-28T00:00:00+09:00">December 28, 2019</time></p>
         
       </footer>
 
@@ -361,22 +426,22 @@ XML보다 간결하다. 하지만 표현이 제한적인 단점이 있다. 하�
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a class="btn btn--twitter" href="https://twitter.com/intent/tweet?text=Java+++json+%26+gson%20http%3A%2F%2Flocalhost%3A4000%2FJava-Json-%26-Gson%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i aria-hidden="true" class="fab fa-fw fa-twitter"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Java+++json+%26+gson%20http%3A%2F%2Flocalhost%3A4000%2FJava-Json-%26-Gson%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a class="btn btn--facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FJava-Json-%26-Gson%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i aria-hidden="true" class="fab fa-fw fa-facebook"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FJava-Json-%26-Gson%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a class="btn btn--linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2FJava-Json-%26-Gson%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i aria-hidden="true" class="fab fa-fw fa-linkedin"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2FJava-Json-%26-Gson%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a class="pagination--pager" href="/69%EA%B6%8C-SAD/" title="69권   sad
+      <a href="/69%EA%B6%8C-SAD/" class="pagination--pager" title="69권   sad
 ">Previous</a>
     
     
-      <a class="pagination--pager" href="/Java-org.json/" title="Java   org.json
+      <a href="/Java-org.json/" class="pagination--pager" title="Java   org.json
 ">Next</a>
     
   </nav>
@@ -401,23 +466,25 @@ XML보다 간결하다. 하지만 표현이 제한적인 단점이 있다. 하�
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/%EC%B1%85-%EC%A0%95%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%B2%AB%EA%B1%B8%EC%9D%8C/" rel="permalink">책 정리   데이터베이스 첫걸음
+        <a href="/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8/" rel="permalink">깃허브 블로그
 </a>
       
     </h2>
     
-      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
 
 
 
 
-  1 minute read
+  2 minute read
 
 </p>
     
-    <p class="archive__item-excerpt" itemprop="description">개요
-데이터베이스 첫걸음을 읽고 정리한 글. 인출 위주 학습법을 참고해서 읽는 것에서 끝나지 않고 지식을 꺼내며 정리한 글.
-목차
+    <p class="archive__item-excerpt" itemprop="description">1. 개요
+오랜 숙제였던 깃허브 블로그를 다운받고 옮기는 작업 준비 중.
+
+  참고 : https://donghwa-kim.github.io/jekyll.html
+
 
 </p>
   </article>
@@ -433,12 +500,12 @@ XML보다 간결하다. 하지만 표현이 제한적인 단점이 있다. 하�
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/21%EC%A3%BC-Check-List/" rel="permalink">21주 check list
+        <a href="/32%EC%A3%BC-Check-List/" rel="permalink">32주 check list
 </a>
       
     </h2>
     
-      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
 
 
 
@@ -451,20 +518,20 @@ XML보다 간결하다. 하지만 표현이 제한적인 단점이 있다. 하�
   
     
       Driver
-      SUN 10
-      MON 11
-      TUE 12
-      WED 13
-      THR 14
-      FRI 15
-      SAT 16
+      SUN  2
+      MON  3
+      TUE  3
+      WED  4
+      THR  5
+      FRI  6
+      SAT 7
       Total
     
   
   
     
-      7시 기상
-    ...</p>
+      8시 기상
+     ...</p>
   </article>
 </div>
 
@@ -478,12 +545,12 @@ XML보다 간결하다. 하지만 표현이 제한적인 단점이 있다. 하�
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/20.05.17)-%ED%98%95%EC%8B%9D%EC%A0%81%EC%9D%B8-%ED%94%BC%EB%93%9C%EB%B0%B1-%EA%B7%B8%EB%A7%8C%ED%95%98%EA%B8%B0/" rel="permalink">20.05.17) 형식적인 피드백 그만하기
+        <a href="/Java)-%ED%95%B4%EC%8B%9Csha256%ED%95%A8%EC%88%98-%EB%A7%8C%EB%93%9C%EB%8A%94%EB%B2%95/" rel="permalink">Java) 해시sha256함수 만드는법
 </a>
       
     </h2>
     
-      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
 
 
 
@@ -492,7 +559,7 @@ XML보다 간결하다. 하지만 표현이 제한적인 단점이 있다. 하�
 
 </p>
     
-    <p class="archive__item-excerpt" itemprop="description">형식적인 피드백 그만하자. 피드백은 아쉬운 점을 돌아보고 그걸 개선하기 위한 ‘행동’이 나와야 한다. 여기서 핵심은 행동이다.
+    <p class="archive__item-excerpt" itemprop="description">자바에서 sha256를 이용해 해시를 만드는 법
 
 </p>
   </article>
@@ -508,25 +575,23 @@ XML보다 간결하다. 하지만 표현이 제한적인 단점이 있다. 하�
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/Linux)-ubuntu-%EC%82%AC%EC%9A%A9%EB%B2%95/" rel="permalink">Linux) ubuntu 사용법
+        <a href="/Java)-%EB%B0%B0%EC%97%B4/" rel="permalink">Java) 배열
 </a>
       
     </h2>
     
-      <p class="page__meta"><i aria-hidden="true" class="far fa-clock"></i>
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
 
 
 
 
-  1 minute read
+  less than 1 minute read
 
 </p>
     
-    <p class="archive__item-excerpt" itemprop="description">한글 설정
+    <p class="archive__item-excerpt" itemprop="description">배열
 
-  language support에 들어가서 자동으로 필요한 파일을 다운 받는다.
-  region &amp; language에 들어가서 input sources에 korean(Hangul)을 추가한다.
-  keyboard에 들어가서 switch to next input...</p>
+</p>
   </article>
 </div>
 
@@ -541,7 +606,7 @@ XML보다 간결하다. 하지만 표현이 제한적인 단점이 있다. 하�
 
     
 
-    <div class="page__footer" id="footer">
+    <div id="footer" class="page__footer">
       <footer>
         <!-- start custom footer snippets -->
 
@@ -568,7 +633,7 @@ XML보다 간결하다. 하지만 표현이 제한적인 단점이 있다. 하�
       
     
 
-    <li><a href="/feed.xml"><i aria-hidden="true" class="fas fa-fw fa-rss-square"></i> Feed</a></li>
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 

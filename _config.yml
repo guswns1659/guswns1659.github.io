@@ -16,7 +16,7 @@ minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon"
 
 # Site Settings
 locale: "en-US"
-title: "매일 꾸준히!"
+title: "Jack의 블로그"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "HYUNJUN"
@@ -94,29 +94,29 @@ analytics:
 # Site Author
 author:
   name: "HYUNJUN"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "자바 백엔드 개발자를 준비하고 있습니다. 아직 검색, 메뉴 기능이 없습니다."
+  avatar: "assets/myPicture/프로필사진.jpg"
+  bio: "계획을 세우고 피드백을 통한 성장을 좋아합니다. 아직 검색, 메뉴 기능이 없습니다."
   location: "Seoul"
   email:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      url: "guswns1659@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+#       url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://www.facebook.com/profile.php?id=100023819959125"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/guswns1659"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/want.backend.dev/?hl=ko"
 
 # Site Footer
 footer:
@@ -290,5 +290,5 @@ defaults:
       share: false
       comments: false
       sidebar:
-        title: "Sidebar Title"
+        title: "SideBar"
         nav: sidebar-sample
