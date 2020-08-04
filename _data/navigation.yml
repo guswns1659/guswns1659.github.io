@@ -13,8 +13,10 @@ sidebar-sample:
       - title: "Quick-Start Guide"
         url: "about"
       - title: "Structure"
-        url: /docs/structure/
+        url: /_posts/Feedback/
       - title: "Installation"
         url: /docs/installation/
       - title: "Upgrading"
         url: /docs/upgrading/
+      - title: "github"
+        url: /github/
