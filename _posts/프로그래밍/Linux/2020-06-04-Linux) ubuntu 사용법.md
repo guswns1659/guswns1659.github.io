@@ -194,3 +194,18 @@ anaconda-navigator
 - 아래로 스크롤하면 버전을 선택할 수 있다 (아래 사진 참고)
 
 ![우분투_인텔리j_다운그레이드방법](/assets/linux/우분투_인텔리j_다운그레이드방법.png)
+
+## sudo apt update 에러 발생할 때
+
+- 에러 메세지
+
+```java
+The repository 'http://ppa.launchpad.net/armagetronad-dev/ppa/ubuntu bionic Release' does not have a Release file.
+```
+
+- 해결책
+해당 ppa 패키지를 지운다.
+
+```java
+sudo add-apt-repository -r ppa:<ppa to remove>
+```
