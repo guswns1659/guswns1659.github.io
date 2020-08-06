@@ -14,7 +14,13 @@ sidebar-sample:
         url: /categories/#til
       - title: "Spring"
         url: /categories/#spring
-      - title: "Linux"
-        url: /categories/#linux
-      - title: "DB"
-        url: /categories/#db
+  - title: DevOps
+    children:
+      - title: "AWS"
+        url: /categories/#aws
+  - title: Philosophy
+    children:
+      - title: "Feminism"
+        url: /categories/#feminism
+  - title: Writing
+    url: /categories/#writing

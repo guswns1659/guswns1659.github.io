@@ -16,11 +16,11 @@ minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon"
 
 # Site Settings
 locale: "en-US"
-title: "Jack의 블로그"
+title: "소프트웨어 장인을 꿈꾸는 Jack의 블로그"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
-name: "HYUNJUN"
-description: "An amazing website."
+name: "HYUNJUN SON"
+description: "Welcome"
 url: "https://guswns1659.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -30,29 +30,29 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  provider               : "facebook"
+#  disqus:
+#    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+#  discourse:
+#    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-  utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
-  staticman:
-    branch               : # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+    num_posts            : 5
+    colorscheme          : "light"
+#  utterances:
+#    theme                : # "github-light" (default), "github-dark"
+#    issue_term           : # "pathname" (default)
+#  staticman:
+#    branch               : # "master"
+#    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
   siteKey                :
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+search                   : true
+search_full_content      : true
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -93,15 +93,15 @@ analytics:
 
 # Site Author
 author:
-  name: "HYUNJUN"
+  name: "HYUNJUN SON"
   avatar: "assets/myPicture/프로필사진.jpg"
-  bio: "계획을 세우고 피드백을 통한 성장을 좋아합니다. 아직 검색, 메뉴 기능이 없습니다."
+  bio: "계획을 세우고 피드백을 통한 성장을 좋아합니다."
   location: "Seoul"
   email:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "guswns1659@gmail.com"
+#      url: "guswns1659@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
 #       url: "https://your-website.com"
@@ -281,6 +281,10 @@ defaults:
       share: true
       related: true
       show_date: true
+      toc: true
+      toc_label: "My Table of Contents"
+      toc_icon: "heart"
+      toc_sticky: true
   - scope:
       path: ""
     values:
@@ -288,7 +292,7 @@ defaults:
       read_time: false
       author_profile: false
       share: false
-      comments: false
+      comments: true
       sidebar:
-        title: "SideBar"
+#        title: "SideBar"
         nav: sidebar-sample

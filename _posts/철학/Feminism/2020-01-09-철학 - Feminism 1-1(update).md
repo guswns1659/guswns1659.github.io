@@ -1,3 +1,9 @@
+---
+title: "Philosophy - Feminism 1-1"
+categories:
+  - Feminism
+---
+
 ## 목차
 - 페미니즘 철학이란 무엇인가? 
 - 인식론
