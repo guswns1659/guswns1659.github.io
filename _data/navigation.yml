@@ -1,22 +1,20 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "About"
-    url: "/about/"
-  - title: "Publications"
-    url: "/publications/"
+  - title: "Category"
+    url: "/categories/"
+  - title: "Yearly"
+    url: "/year-archive/"
+  - title: "Monthly"
+    url: "/month-archive/"
 
 sidebar-sample:
-  - title: Getting Started
+  - title: Back-End
     children:
-      - title: "Quick-Start Guide"
-        url: "about"
-      - title: "Structure"
-        url: /_posts/Feedback/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
-      - title: "github"
-        url: /github/
+      - title: "TIL"
+        url: /categories/#til
+      - title: "Spring"
+        url: /categories/#spring
+      - title: "Linux"
+        url: /categories/#linux
+      - title: "DB"
+        url: /categories/#db

@@ -1,3 +1,14 @@
+---
+title: "Spring) 깃허브 Oauth 적용법"
+categories:
+  - Spring
+toc: true 
+toc_label: "My Table of Contents" 
+toc_icon: "heart" 
+toc_sticky: true 
+show_date: true
+---
+
 ## 깃허브 Oauth 적용법
 아래 순서대로 차근차근 적용한다.
 
