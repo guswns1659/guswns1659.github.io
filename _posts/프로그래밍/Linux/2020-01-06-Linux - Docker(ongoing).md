@@ -11,6 +11,54 @@
 ## 참고할 영상
 [동빈나도커](https://www.youtube.com/watch?v=2-w679FFMrc)
 
+## Docker 명령어
+
+- [설치 : https://www.hanumoka.net/2018/04/29/docker-20180429-docker-install-mysql/](https://www.hanumoka.net/2018/04/29/docker-20180429-docker-install-mysql/)
+
+- 설치한 후 user에게 권한을 줬으면 재부팅하면 적용된다.
+
+### 명령어
+- MySQL 컨테이너 생성하는 명령어, 아래 명령어처럼 ROOT 패스워드를 지정해줘야 docker start가 제대로 된다.
+
+```
+docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root --name anglehack_mysql mysql
+```
+
+- 도커 컨테이너가 꺼져있으면 시작하는 명령어
+
+```
+docker start <<container name>>
+```
+
+- 컨테이너에 접속하는 명령어
+
+```
+docker exec -i -t anglehack_mysql bash
+```
+
+- 컨테이너에 접속하면 아래 명령어로 MYSQL에 접속한다. 비밀번호는 컨테이너 생성할 때 지정한 번호로
+
+```
+mysql -u root -p
+```
+
+- mysql에 접속한 뒤 계정을 생성한다. 아래 설정 명령어를 상황에 맡게 변경한다.
+
+```
+CREATE DATABASE mydb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+create user 'sunny'@'%' identified by '비밀번호';
+GRANT ALL ON mydb.* TO 'sunny'@'%';
+# 모든권한 갖기
+grant all privileges on *.* to 'sunny'@'%';
+```
+
+- 도커 제대로 시작이 안될 때 로그 보는 법
+
+```
+docker logs anglehack
+```
+
+
 # 에러메세지
 ## 도커 설치 중 해시합이 맞지 않습니다. 라는 에러
 
