@@ -10,3 +10,13 @@
 ## Junit5 적용법
 
 - 인텔리j 켠 뒤 테스트 클래스에서 @BeforeEach를 입력하면 자동완성으로 classpath에 등록할건지 물어본다. 그 때 자동으로 의존성 추가하면 된다.
+
+
+## assertJ에서 Exception 테스트하기
+
+- [참고 : 밸덩](https://www.baeldung.com/assertj-exception-assertion)
+
+```java
+assertThatThrownBy(() -> doublyLinkedList.add(15, new LinkedListNode(value2)))
+                .isInstanceOf(IndexOutOfBoundsException.class);
+```
