@@ -20,3 +20,31 @@
 assertThatThrownBy(() -> doublyLinkedList.add(15, new LinkedListNode(value2)))
                 .isInstanceOf(IndexOutOfBoundsException.class);
 ```
+
+## Junit5에서 @MethodSource로 배열 여러개를 인자로 한번에 받는 법
+
+```java
+public class N2920Test {
+
+    private N2920 n2920;
+
+    @BeforeEach
+    void setUp() {
+        this.n2920 = new N2920();
+    }
+
+    private static Stream<Arguments> setUpInputs() {
+        return Stream.of(
+                Arguments.of(new int[]{1, 2, 3, 4}, "ascending"),
+                Arguments.of(new int[]{8, 7, 6, 5}, "descending"),
+                Arguments.of(new int[]{1, 4, 3, 2}, "mixed")
+        );
+    }
+
+    @ParameterizedTest
+    @MethodSource("setUpInputs")
+    void 알고리즘테스트한다(int[] inputs, String expected) {
+        assertThat(n2920.test(inputs)).isEqualTo(expected);
+    }
+}
+```
