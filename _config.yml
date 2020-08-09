@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes@4.19.1"
-minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: "en-US"
@@ -187,6 +187,7 @@ excerpt_separator: "\n\n"
 incremental: false
 
 
+
 # Markdown Processing
 kramdown:
   input: GFM
@@ -275,13 +276,14 @@ defaults:
       type: posts
     values:
       layout: single
+      classes: wide
       author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
       show_date: true
-      toc: true
+      toc: false
       toc_label: "My Table of Contents"
       toc_icon: "heart"
       toc_sticky: true
