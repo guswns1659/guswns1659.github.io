@@ -8,19 +8,43 @@ main:
     url: "/month-archive/"
 
 sidebar-sample:
-  - title: Back-End
+  - title: TIL
     children:
       - title: "TIL"
         url: /categories/#til
+  - title: Back-End
+    children:
+      - title: "Java"
+        url: /categories/#java
       - title: "Spring"
         url: /categories/#spring
+      - title: "DB"
+        url: /categories/#db
+      - title: "Git"
+        url: /categories/#git
+      - title: "Linux"
+        url: /categories/#linux
+      - title: "TCPJava"
+        url: /categories/#tcpjava
   - title: DevOps
     children:
       - title: "AWS"
         url: /categories/#aws
+  - title: Front-End
+    children:
+      - title: "JavaScript"
+        url: /categories/#javascript
   - title: Philosophy
     children:
       - title: "Feminism"
         url: /categories/#feminism
   - title: Writing
-    url: /categories/#writing
+    children:
+      - title: "Writing"
+        url: /categories/#writing
+  - title: ETC
+    children:
+      - title: "Intellij"
+        url: /categories/#intellij
+  - title: Book
+    url: /categories/#book
