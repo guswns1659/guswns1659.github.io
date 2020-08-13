@@ -1,3 +1,15 @@
+---
+header:
+  teaser: /assets/java.jpg
+  overlay_image: /assets/java.jpg
+  overlay_filter: 0.2
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+categories:
+  - Java
+---
+
+자바는 단언컨대 훌륭한 객체 지향 언어 중 하나입니다.
+
 ## List<객체> 를 특정 객체의 값을 기준으로 sort하고 싶을 때
 
 ```java

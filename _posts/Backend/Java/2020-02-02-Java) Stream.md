@@ -1,3 +1,15 @@
+---
+header:
+  teaser: /assets/java.jpg
+  overlay_image: /assets/java.jpg
+  overlay_filter: 0.2
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+categories:
+  - Java
+---
+
+자바는 단언컨대 훌륭한 객체 지향 언어 중 하나입니다.
+
 ## Stream
 신기술은 어렵다. 배우는 과정은 힘들다. 그냥 익숙한 지식을 쓰고 싶을 뿐이다. 하지만 신기술을 배운다면 무척 유용하다. 시간도 단축되고 무엇보다 "이걸 안 배웠으면 정말 멍청했겠다"라는 반응이 나온다. 지금 Stream은 나에게 신기술이다. java라는 언어 자체가 익숙하지 않지만 Stream을 배워야 좀 더 효율적으로 사용할 수 있다.
 배열이나 컬렉션에 데이터를 담고 원하는 결과를 얻기 위해선 for문이나 Iterator를 사용했지만 Stream을 통해서 간편하게 사용 가능해졌다. 배열을 Stream으로 만들고 Stream의 메서드를 사용한다.

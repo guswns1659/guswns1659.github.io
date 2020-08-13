@@ -1,3 +1,15 @@
+---
+header:
+  teaser: /assets/java.jpg
+  overlay_image: /assets/java.jpg
+  overlay_filter: 0.2
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+categories:
+  - Java
+---
+
+자바는 단언컨대 훌륭한 객체 지향 언어 중 하나입니다.
+
 ## System.nanoTime() 이용한 프로그램 측정시간 파악
 
 - 테스트코드 실행 전에 startTime, 실행 후에 endTime을 측정한 뒤 그 둘을 빼서 계산한다.
