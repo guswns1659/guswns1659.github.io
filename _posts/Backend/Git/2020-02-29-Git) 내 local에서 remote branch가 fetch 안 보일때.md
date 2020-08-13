@@ -1,3 +1,15 @@
+---
+header:
+  teaser: /assets/git.jpg
+  overlay_image: /assets/git.jpg
+  overlay_filter: 0.2
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+categories:
+  - Git
+---
+
+Git은 최고의 버전 관리 시스템입니다. 
+
 # 분명 push했는데 remote branch가 안보여!
 혼자서 Git으로 버전관리할 때가 있다. 그런데 종종 나는 분명히 push했는데 local에서 remote 브랜치가 안 보일 때가 있다. 보통 fetch가 안되는 문제인데, 이 때는 git 설정을 변경해줘야 한다. 
 

@@ -1,3 +1,15 @@
+---
+header:
+  teaser: /assets/git.jpg
+  overlay_image: /assets/git.jpg
+  overlay_filter: 0.2
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+categories:
+  - Git
+---
+
+Git은 최고의 버전 관리 시스템입니다. 
+
 [참고 : https://gmlwjd9405.github.io/2018/05/18/git-stash.html](https://gmlwjd9405.github.io/2018/05/18/git-stash.html)
 
 # 목차
