@@ -1,3 +1,15 @@
+---
+header:
+  teaser: /assets/database2.jpg
+  overlay_image: /assets/database2.jpg
+  overlay_filter: 0.2
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+categories:
+  - DB
+---
+
+Database는 애플리케이션의 필수 요소입니다. 
+
 # MySQL 설치 
 - 버전 확인 
 - 설치 : sudo apt-get install mysql-server-5.7
@@ -164,3 +176,10 @@ SELECT C.CNAME, P.NAME FROM COURSE C JOIN PROF P ON C.PROFID = P.PID;
 - foreign key가 아닌 references로 참조하는 key일 경우 on delete cascade가 먹히지 않는 것 같다? 
 - accommodation이 삭제되면 참조하고 있는 List<AcommodationReservation>도 삭제되기 때문에 자바 코드로 해결하면 될 거 같다. 
 
+## Spring과 사용할 때 유용한 MySQL 명령
+
+### foreign Key 제약을 무시하고 테이블을 삭제하는 명령어
+
+```mysql
+SET foreign_key_checks = 0;
+```
