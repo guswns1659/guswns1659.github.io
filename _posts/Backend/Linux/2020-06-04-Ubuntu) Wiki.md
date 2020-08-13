@@ -1,3 +1,15 @@
+---
+header:
+  teaser: /assets/linux.jpg
+  overlay_image: /assets/linux.jpg
+  overlay_filter: 0.2
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+categories:
+  - Linux
+---
+
+리눅스는 최고의 운영체제 중 하나입니다. 
+
 ## 우분투 초기 셋팅
 - 구글 크롬 + 동기화
 	- 소프트웨어 설치가 안 될 때가 있다. 그 땐 아래 페이지 참고
