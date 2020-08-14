@@ -60,3 +60,14 @@ public class N2920Test {
     }
 }
 ```
+
+## Junit5
+- `@MethodSource` 로 String[]을 넘길 때는 (Object)로 캐스팅해줘야 한다.
+
+```java
+private static Stream<Arguments> setUpInputs() {
+        return Stream.of(
+                Arguments.of((Object) new String[]{"3 4", "1 1", "1 -1"})
+        );
+    }
+```
