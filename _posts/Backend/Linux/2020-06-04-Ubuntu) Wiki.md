@@ -8,7 +8,7 @@ categories:
   - Linux
 ---
 
-리눅스는 최고의 운영체제 중 하나입니다. 
+리눅스는 최고의 운영체제 중 하나입니다.
 
 ## 우분투 초기 셋팅
 - 구글 크롬 + 동기화
@@ -52,27 +52,27 @@ categories:
 - 압축 파일을 푼 후 압축을 푼 파일을 /opt로 이동한다. sudo mv jdk8~~ /opt
 - 아래처럼 자바 환경변수를 설정할 shell 파일을 만들고 환경변수 명령을 입력한다
 
-```shell script
+```java
 jdk13@ubuntu:$ sudo tee /etc/profile.d/jdk8env.sh <<EOF
 export JAVA_HOME=/opt/jdk-1.8.0_241
-export PATH=\$PATH\$JAVA_HOME/bin
+export PATH=$PATH:$JAVA_HOME/bin
 EOF
 ```
 
 - source 명령으로 sh파일을 실행한다.
 
-```shell script
+```java
 $ source /etc/profile.d/jdk8env.sh
 ```
 
 - 잘 지정됐는지 확인한다.
 
-```shell script
+```java
 echo $JAVA_HOME
 echo $PATH
 ```
 
-- java -version 입력하면 jdk 없다고 하는데 intelliJ에서 프로젝트 구조에서 jdk 직접 설정하면 된다.
+- java -version 입력 후 제대로 PATH가 지정됐는지 확인한다.
 
 ## file 찾는 방법
 - sudo apt-get install locate
