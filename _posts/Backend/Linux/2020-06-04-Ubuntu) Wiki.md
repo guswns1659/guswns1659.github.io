@@ -94,45 +94,6 @@ echo $PATH
 - Alt + 숫자 : 탭간에 이동
 - Ctrl + PageUp/PageDown : 다음/이전 탭으로 이동
 
-## Terminal에 oh-my-zsh 추가하기
-- 글 참고 : [https://dev.to/mskian/install-z-shell-oh-my-zsh-on-ubuntu-1804-lts-4cm4](https://dev.to/mskian/install-z-shell-oh-my-zsh-on-ubuntu-1804-lts-4cm4)
-- 위 글대로 하되 테마 설정 완료 한 후 [이 글 참고해서 실행하기](https://github.com/ohmyzsh/ohmyzsh/issues/8038)
-
-## oh.my.zsh 테마 설정
-- cd ~
-- cd .oh-my-zsh/themes
-- vim agnoster.zsh-theme 들어간 뒤 필요한 테마 설정
-
-### agnoster new line 설정하기
-
-- 원래 코드를 작성했는데 github.io에 올릴 때 에러가 나서 아래 사이트로 대체.
-[참고 사이트](https://wayhome25.github.io/etc/2017/03/12/zsh-alias/)
-
-## 터미널 프롬프트 설정
-- .bashrc:16: command not found: shopt
-	- zsh가 기본 설정인데 예전 bashrc를 설정하려고 할 때 나는 에러라고 함.
-	- 참고 : [https://stackoverflow.com/questions/26616003/shopt-command-not-found-in-bashrc-after-shell-updation](https://stackoverflow.com/questions/26616003/shopt-command-not-found-in-bashrc-after-shell-updation)
-
-## 터미널 프롬프트 이름 지우는 방법
-참고 : [https://the-illusionist.me/49](https://the-illusionist.me/49)
-
-- 아래 코드를 vim ~/.zshrc 맨 마지막에 넣고 wq!로 저장한다.
-- 원래 코드가 있었으나 github.io 문제로 위 사이트로 대체. 그대로 따라하면 된다.
-
-
-- 그 뒤 source ~/.zshrc 실행하면 바로 적용.
-
-## auto-suggestions 적용하는 법
-- 참고 : [https://nachwon.github.io/how-to-install-zsh-plugins/](https://nachwon.github.io/how-to-install-zsh-plugins/)
-
-## FzF 적용하는 법
-- 참고 : [https://medium.com/harrythegreat/fzf%EB%A1%9C-zsh-%ED%84%B0%EB%AF%B8%EB%84%90-%EB%8D%94-%EA%B0%95%EB%A0%A5%ED%95%98%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-730c20eb496b](https://medium.com/harrythegreat/fzf%EB%A1%9C-zsh-%ED%84%B0%EB%AF%B8%EB%84%90-%EB%8D%94-%EA%B0%95%EB%A0%A5%ED%95%98%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-730c20eb496b)
-- 좋은 기능으로 보이는데 초보인데 벌써 사용하고 싶진 않다.
-
-## 유용한 zsh 플러그인 6가지.
-- 주소 : [https://medium.com/harrythegreat/zsh%EC%99%80-%ED%95%A8%EA%BB%98-%EC%82%AC%EC%9A%A9%ED%95%A0-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8-%EC%B6%94%EC%B2%9C-6%EA%B0%80%EC%A7%80-8f9b8b7f3c24](https://medium.com/harrythegreat/zsh%EC%99%80-%ED%95%A8%EA%BB%98-%EC%82%AC%EC%9A%A9%ED%95%A0-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8-%EC%B6%94%EC%B2%9C-6%EA%B0%80%EC%A7%80-8f9b8b7f3c24)
-
-
 ## Ubuntu에 git 설치하기
 - sudo apt update
 - sudo apt install git
@@ -175,10 +136,82 @@ echo $PATH
 - 중간에 `make install` 명령이 안 먹히면 `sudo make install`로 시도
 - `sudo k380_conf -d /dev/hidrawX -f on` X is 1 or 2 or 3 or 4
 
-### zsh에서 java -version 확인이 안될 때
+## zsh
 
-- 리눅스 내 환경변수에 자바 bin 디렉토리는 추가해놓은 상태인데 java -version을 입력하면 검색이 안되는 상황.
-- ~/.zshrc에 자바 환경 변수를 추가한다. -> 안된다.
+## Terminal에 oh-my-zsh 추가하기
+- 글 참고 : [https://dev.to/mskian/install-z-shell-oh-my-zsh-on-ubuntu-1804-lts-4cm4](https://dev.to/mskian/install-z-shell-oh-my-zsh-on-ubuntu-1804-lts-4cm4)
+- 위 글대로 하되 테마 설정 완료 한 후 [이 글 참고해서 실행하기](https://github.com/ohmyzsh/ohmyzsh/issues/8038)
+
+## oh.my.zsh 테마 설정
+- cd ~
+- cd .oh-my-zsh/themes
+- vim agnoster.zsh-theme 들어간 뒤 필요한 테마 설정
+
+### agnoster new line 설정하기
+
+- 원래 코드를 작성했는데 github.io에 올릴 때 에러가 나서 아래 사이트로 대체.
+[참고 사이트](https://wayhome25.github.io/etc/2017/03/12/zsh-alias/)
+
+## 터미널 프롬프트 설정
+- .bashrc:16: command not found: shopt
+	- zsh가 기본 설정인데 예전 bashrc를 설정하려고 할 때 나는 에러라고 함.
+	- 참고 : [https://stackoverflow.com/questions/26616003/shopt-command-not-found-in-bashrc-after-shell-updation](https://stackoverflow.com/questions/26616003/shopt-command-not-found-in-bashrc-after-shell-updation)
+
+## 터미널 프롬프트 이름 지우는 방법
+참고 : [https://the-illusionist.me/49](https://the-illusionist.me/49)
+
+- 아래 코드를 vim ~/.zshrc 맨 마지막에 넣고 wq!로 저장한다.
+- 원래 코드가 있었으나 github.io 문제로 위 사이트로 대체. 그대로 따라하면 된다.
+
+
+- 그 뒤 source ~/.zshrc 실행하면 바로 적용.
+
+## auto-suggestions 적용하는 법
+- 참고 : [https://nachwon.github.io/how-to-install-zsh-plugins/](https://nachwon.github.io/how-to-install-zsh-plugins/)
+
+## FzF 적용하는 법
+- 참고 : [https://medium.com/harrythegreat/fzf%EB%A1%9C-zsh-%ED%84%B0%EB%AF%B8%EB%84%90-%EB%8D%94-%EA%B0%95%EB%A0%A5%ED%95%98%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-730c20eb496b](https://medium.com/harrythegreat/fzf%EB%A1%9C-zsh-%ED%84%B0%EB%AF%B8%EB%84%90-%EB%8D%94-%EA%B0%95%EB%A0%A5%ED%95%98%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-730c20eb496b)
+- 좋은 기능으로 보이는데 초보인데 벌써 사용하고 싶진 않다.
+
+## 유용한 zsh 플러그인 6가지.
+- 주소 : [https://medium.com/harrythegreat/zsh%EC%99%80-%ED%95%A8%EA%BB%98-%EC%82%AC%EC%9A%A9%ED%95%A0-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8-%EC%B6%94%EC%B2%9C-6%EA%B0%80%EC%A7%80-8f9b8b7f3c24](https://medium.com/harrythegreat/zsh%EC%99%80-%ED%95%A8%EA%BB%98-%EC%82%AC%EC%9A%A9%ED%95%A0-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8-%EC%B6%94%EC%B2%9C-6%EA%B0%80%EC%A7%80-8f9b8b7f3c24)
+
+
+## zsh에서 java 명령이 없다고 뜰 때
+
+- h2를 다운받은 후 실행하려니 java가 없다고 함.
+- 원인 : 자바 PATH를 제대로 설정하지 않아서 못 읽어오는 문제.
+
+### 1 : ~/.zshrc 속  export PATH=를 변경한다
+
+- 기존것에서 /sbin을 추가한 문법을 넣는다.
+
+```java
+# If you come from bash you might have to change your $PATH.
+export PATH=$HOME/bin:/usr/local/bin:/sbin:/usr/sbin:$PATH
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+```
+
+- [export PATH를 변경한 후 리부트한다.](https://unix.stackexchange.com/questions/328542/zsh-command-not-found-services)
+
+### 2 : 자바 PATH를 $JAVA_HOME가 있는 위치로 정확하게 지정한다.
+
+- 아래 코드의 차이를 보면 알지만 $JAVA_HOME은 최상단 루트 디렉토리에 있었는데 계속 $HOME으로 지정하니 리눅스가 bin 폴더를 제대로 못 찾는 문제가 발생한다.
+
+**Before**
+
+```java
+export JAVA_HOME=/opt/jdk1.8.0_261
+export PATH=$HOME/$JAVA_HOME/bin:$PATH
+```
+
+**After**
+
+```java
+export JAVA_HOME=/opt/jdk1.8.0_261
+export PATH=$JAVA_HOME/bin:$PATH
+```
+
 
 ### ~/.zshrc의 Path를 잘못 건드려서 모든 명령을 못찾을 때
 
@@ -220,4 +253,14 @@ The repository 'http://ppa.launchpad.net/armagetronad-dev/ppa/ubuntu bionic Rele
 
 ```java
 sudo add-apt-repository -r ppa:<ppa to remove>
+```
+
+## $PATH 추가하는 문법
+- [참고 : 밸덩 리눅스](https://www.baeldung.com/linux/path-variable)
+- export PATH 명령어를 이용해 PATH를 추가할 수 있다.
+- 만약 아래 코드처럼 :$PATH를 뒤에 붙이면 기존에 존재하는 PATH들 앞으로 추가한 PATH가 붙는다.
+- 만약 아래 코드와 다르게 기존에 존재하는 PATH 뒤로 넣고 싶으면 `export PATH=$PATH:/anothor/path`처럼 기존 PATH 앞에서 붙인다.
+
+```java
+export PATH=$HOME/bin:/usr/local/bin:/sbin:/usr/sbin:$PATH
 ```
