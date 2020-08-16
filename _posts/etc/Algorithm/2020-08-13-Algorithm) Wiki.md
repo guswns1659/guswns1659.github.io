@@ -73,4 +73,54 @@ private static int fibo(int number) {
 ### 고급정렬
 - 머지 정렬 사용해야 하는 문제인데 출력을 Stream으로 하니 시간초과가 발생한다..
 - 퀵정렬은 상황에 따라 O(n제곱)이 발생할 수 있고, unstable하다.
-- 고급 정렬을 사용해도 시간초과가 나오는 경우는 Stream을 없애고 for문을 쓰고 인풋처리를 StringTokenizer를 사용한다. 
+- 고급 정렬을 사용해도 시간초과가 나오는 경우는 Stream을 없애고 for문을 쓰고 인풋처리를 StringTokenizer를 사용한다.
+
+### 동적계획법
+- 값을 저장하는 메모이제이션 기법이 적용되는데 재귀 함수의 원리를 이해하고 그걸 Collections에 저장한다 생각하면 된다.
+- 아래는 피보나치 수열을 DP 방식으로 푼 문제.
+
+```java
+public class DynamicProgramming {
+
+    public static int test(int number) {
+        int[] memories = new int[number];
+        memories[0] = 0;
+        memories[1] = 1;
+
+        for (int index = 2; index < memories.length; index++) {
+            memories[index] = memories[index - 1] + memories[index - 2];
+        }
+        return memories[number-1];
+    }
+}
+```
+
+## 퀵정렬
+- 예전에 자바 알고리즘 책보면서 할 땐 엄청 복잡해서 어려웠는데 지금 강의 들으면서 하니까 이해가 잘된다. 구현이 정말 간단하다. 성장이 느껴진다.
+
+```java
+public class QuickSort {
+    public static List<Integer> quickSort(List<Integer> unsorted) {
+        if (unsorted.size() <= 1) {
+            return unsorted;
+        }
+        int pivot = unsorted.get(0);
+
+        List<Integer> left = new ArrayList<>();
+        List<Integer> right = new ArrayList<>();
+
+        for (int index = 1; index < unsorted.size(); index++) {
+            if (pivot > unsorted.get(index)) {
+                left.add(unsorted.get(index));
+            } else {
+                right.add(unsorted.get(index));
+            }
+        }
+        left = quickSort(left);
+        left.add(pivot);
+        right = quickSort(right);
+        left.addAll(right);
+        return left;
+    }
+}
+```
