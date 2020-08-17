@@ -1,3 +1,16 @@
+---
+header:
+  teaser: /assets/spring.jpg
+  overlay_image: /assets/spring.jpg
+  overlay_filter: 0.2
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+categories:
+  - Spring
+---
+
+스프링 프레임워크는 객체지향 프레임워크입니다.
+
+
 ## MyBatis
 
 > 인출 학습법을 참고해 작성한 글입니다. 정보 나열보단 질문에 답하는 형식으로 작성했습니다.

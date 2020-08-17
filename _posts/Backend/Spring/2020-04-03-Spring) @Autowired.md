@@ -1,3 +1,16 @@
+---
+header:
+  teaser: /assets/spring.jpg
+  overlay_image: /assets/spring.jpg
+  overlay_filter: 0.2
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+categories:
+  - Spring
+---
+
+스프링 프레임워크는 객체지향 프레임워크입니다.
+
+
 [참고강의 : 백기선의 스프링 핵심기술](https://www.inflearn.com/course/spring-framework_core/dashboard)
 
 ## 1. 개요

@@ -1,3 +1,16 @@
+---
+header:
+  teaser: /assets/spring.jpg
+  overlay_image: /assets/spring.jpg
+  overlay_filter: 0.2
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+categories:
+  - Spring
+---
+
+스프링 프레임워크는 객체지향 프레임워크입니다.
+
+
 ## 1. 개요
 Environment는 ApplicationContext을 통해 여러 빈을 모아 하나의 프로파일로 만들어진 환경을 말한다. 각 개발 단계에서 필요한 빈들을 프로파일로 묶고 필요할 때만 사용할 수 있다. 내가 프로파일을 지정해야 그 프로파일 속 여러개의 빈을 사용할 수 있다.
 

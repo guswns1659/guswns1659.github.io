@@ -1,13 +1,14 @@
 ---
-title: "Spring) 깃허브 Oauth 적용법"
+header:
+  teaser: /assets/spring.jpg
+  overlay_image: /assets/spring.jpg
+  overlay_filter: 0.2
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 categories:
   - Spring
-toc: true 
-toc_label: "My Table of Contents" 
-toc_icon: "heart" 
-toc_sticky: true 
-show_date: true
 ---
+
+스프링 프레임워크는 객체지향 프레임워크입니다.
 
 ## 깃허브 Oauth 적용법
 아래 순서대로 차근차근 적용한다.

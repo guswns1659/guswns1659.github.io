@@ -1,3 +1,16 @@
+---
+header:
+  teaser: /assets/spring.jpg
+  overlay_image: /assets/spring.jpg
+  overlay_filter: 0.2
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+categories:
+  - Spring
+---
+
+스프링 프레임워크는 객체지향 프레임워크입니다.
+
+
 # 1. 개요 
 Spring JDBC OneToOne 매핑에 대한 공부를 기록. 자료는 notion에 스프링 페이지에 기록
 

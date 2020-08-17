@@ -1,3 +1,16 @@
+---
+header:
+  teaser: /assets/spring.jpg
+  overlay_image: /assets/spring.jpg
+  overlay_filter: 0.2
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+categories:
+  - Spring
+---
+
+스프링 프레임워크는 객체지향 프레임워크입니다.
+
+
 ## 1. 개요
 어노테이션만으로 객체들이 ioC컨테이너에 빈으로 등록될 수 있는 기능이 ComponentScan이다. 스프링 5.1부터 적용된 이 기술을 한번 살펴보자.
 ## 2. @ComponentScan이란 
