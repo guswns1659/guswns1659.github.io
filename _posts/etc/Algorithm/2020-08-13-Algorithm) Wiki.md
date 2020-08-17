@@ -124,3 +124,33 @@ public class QuickSort {
     }
 }
 ```
+
+### Map에서 value의 최댓값을 찾고 그 값의 키를 찾아야 할 때
+
+- values()에서 최댓값 찾고 다시 keySet() 반복문 돌면서 최댓값을 가진 key를 찾는다.
+
+```java
+public static List<String> test(List<String> books) {
+
+        Map<String, Integer> soldBooks = new LinkedHashMap<>(books.size());
+        int max = 0;
+        for (String book : books) {
+            if (soldBooks.containsKey(book)) {
+                soldBooks.put(book, soldBooks.get(book) + 1);
+            } else {
+                soldBooks.put(book, 1);
+            }
+            max = Math.max(soldBooks.get(book), max);
+        }
+
+        List<String> bestSeller = new ArrayList<>();
+
+        for (String title : soldBooks.keySet()) {
+            if (soldBooks.get(title) == max) {
+                bestSeller.add(title);
+            }
+        }
+        Collections.sort(bestSeller);
+        return bestSeller;
+    }
+```

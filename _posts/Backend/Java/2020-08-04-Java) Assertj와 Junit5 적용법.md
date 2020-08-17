@@ -71,3 +71,13 @@ private static Stream<Arguments> setUpInputs() {
         );
     }
 ```
+
+- `@CsvSource`의 delimeter를 다르게 설정해서 주입하는 법
+
+```java
+@ParameterizedTest
+    @CsvSource(value = {"ababababa:aba:2", "a a a a a:a a:2"}, delimiter = ':')
+    void N1543알고리즘을_테스트한다(String input, String word, int expected) {
+        assertThat(N1543.test(input, word)).isEqualTo(expected);
+    }
+```
