@@ -55,3 +55,14 @@ public class BubbleSortTest {
 ### nanoTime()으로 시간 계산할 땐 초인지 밀리초인지에 따라 나누는 값이 달라진다.
 - 1초 = 1,000,000,000 nanoTime()
 - 1밀리초 = 1,000,000 nanoTime()
+
+## A instanceof B
+- A가 B의 인스턴스인지 확인하는 명령어
+- A가 B를 상속받은 객체라면 true가 나온다.
+
+```java
+Member m1 = em.find(Member.class, member1.getId());
+Member m2 = em.getReference(Member.class, member2.getId());
+
+System.out.println("m1 == m2: " + (m1 instanceof Member));
+```

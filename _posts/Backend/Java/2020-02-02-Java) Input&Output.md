@@ -50,7 +50,7 @@ public class Write7ToFile3 {
             e.printStackTrace();
         }
     }
-    
+
     private static void input() {
         try (InputStream in = new FileInputStream("data.dat")){
             int dat = in.read();
@@ -253,7 +253,7 @@ public class StringWriter {
         stringWriter();
         stringReader();
     }
-    
+
     private static void stringWriter() {
         String string1 = "공부에 있어서 돈이 꼭 필요한 것은 아니다.";
         String string2 = "Life is long if you know how to use it.";
@@ -268,7 +268,7 @@ public class StringWriter {
             e.printStackTrace();
         }
     }
-    
+
         private static void stringReader() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("읽을 파일 : ");
