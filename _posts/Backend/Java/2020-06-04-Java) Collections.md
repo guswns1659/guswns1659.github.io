@@ -135,3 +135,7 @@ public static void test(String[] inputs) {
 
 
 - collections.sort()는 머지소트이고 stable 속성이 있다. Arrays.sort()는 퀵소트이고 unstable이다.
+
+## Collections.binarySearch()
+- 이진탐색 메서드 사용할 땐 반드시 오름차순 정렬은 한 후 사용해야 한다. 안 그러면 이상한 값이 결과로 나온다.
+- binarySearch() 결과는 값이 있을 경우 해당 인덱스 값, 없을 경우 음수가 나온다.
