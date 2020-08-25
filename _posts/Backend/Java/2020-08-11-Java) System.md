@@ -66,3 +66,9 @@ Member m2 = em.getReference(Member.class, member2.getId());
 
 System.out.println("m1 == m2: " + (m1 instanceof Member));
 ```
+
+## nanoTime()을 milliseconds()로 바꿀 때 아래와 같이 TimeUnit객체를 이용하면 편리하다.
+
+```java
+TimeUnit.MILLISECONDS.convert((endTime - startTime), TimeUnit.NANOSECONDS)
+```
