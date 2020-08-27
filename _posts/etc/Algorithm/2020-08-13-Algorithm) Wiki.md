@@ -154,3 +154,10 @@ public static List<String> test(List<String> books) {
         return bestSeller;
     }
 ```
+
+# 알고리즘
+
+- 백준 문자열 3문제 도전했는데 2문제 구현 어려워서 포기, 1문제 시도했는데 다른 사람 답 봄.... 넘 갈 길이 멀다.
+
+## HashMap 사용 이유
+- 전체 탐색할 때 이 수가 한번 사용된 수인지 체크를 해서 모든 조합에서 사용하면 넘어가는 로직 때 사용해도 좋다. 

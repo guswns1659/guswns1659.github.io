@@ -23,3 +23,7 @@ categories:
 - org.hibernate 검색 후 버전 확인
 
 ![image](https://user-images.githubusercontent.com/55608425/90307675-747dde00-df13-11ea-804b-e05f852e7a3b.png)
+
+# 스프링과 스프링부트의 차이
+
+![image](https://user-images.githubusercontent.com/55608425/91444228-6636a700-e8af-11ea-906e-90c849a17929.png)
