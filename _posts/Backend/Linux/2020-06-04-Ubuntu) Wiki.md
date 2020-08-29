@@ -264,3 +264,9 @@ sudo add-apt-repository -r ppa:<ppa to remove>
 ```java
 export PATH=$HOME/bin:/usr/local/bin:/sbin:/usr/sbin:$PATH
 ```
+
+# 우분투에서 동영상 촬영하는 법
+
+- 에어비앤비 리팩토링 하기 전에 기존에 존재하는 프로젝트를 영상으로 찍어서 남기려고 함.
+- [내장 프로그램인데 불편함](https://tipsonubuntu.com/2018/06/09/record-gnome-desktop-ubuntu-18-04/)
+- [Kazam 프로그램, 편리하다](https://itsfoss.com/best-linux-screen-recorders/)

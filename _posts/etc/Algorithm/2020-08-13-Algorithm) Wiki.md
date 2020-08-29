@@ -160,4 +160,151 @@ public static List<String> test(List<String> books) {
 - 백준 문자열 3문제 도전했는데 2문제 구현 어려워서 포기, 1문제 시도했는데 다른 사람 답 봄.... 넘 갈 길이 멀다.
 
 ## HashMap 사용 이유
-- 전체 탐색할 때 이 수가 한번 사용된 수인지 체크를 해서 모든 조합에서 사용하면 넘어가는 로직 때 사용해도 좋다. 
+- 전체 탐색할 때 이 수가 한번 사용된 수인지 체크를 해서 모든 조합에서 사용하면 넘어가는 로직 때 사용해도 좋다.
+
+# 알고리즘
+
+# 그래프 이해
+
+- 그래프는 실제 세계의 현상이나 사물을 정점(Vertex) 또는 노드(Node) 와 간선(Edge)로 표현하기 위해 사용
+- 노드 (Node): 위치를 말함, 정점(Vertex)라고도 함
+- 간선 (Edge): 위치 간의 관계를 표시한 선으로 노드를 연결한 선이라고 보면 됨 (link 또는 branch 라고도 함)
+- 인접 정점 (Adjacent Vertex) : 간선으로 직접 연결된 정점(또는 노드)
+
+## 무방향 그래프 (Undirected Graph)
+- 방향이 없는 그래프
+- 간선을 통해, 노드는 양방향으로 갈 수 있음
+- 보통 노드 A, B가 연결되어 있을 경우, (A, B) 또는 (B, A) 로 표기
+
+## 방향 그래프 (Directed Graph)
+- 간선에 방향이 있는 그래프
+- 보통 노드 A, B가 A -> B 로 가는 간선으로 연결되어 있을 경우, <A, B> 로 표기 (<B, A> 는 B -> A 로 가는 간선이 있는 경우이므로 <A, B> 와 다름)
+
+## 가중치 그래프 (Weighted Graph) 또는 네트워크 (Network)
+- 간선에 비용 또는 가중치가 할당된 그래프
+
+![image](https://user-images.githubusercontent.com/55608425/91522888-41394700-e936-11ea-9020-9318b1308603.png)
+
+
+# 너비 우선 탐색과 깊이 우선 탐색
+
+대표적인 그래프 탐색 알고리즘 -> 트리 탐색 알고리즘이 아니다.
+- 너비 우선 탐색 (Breadth First Search): 정점들과 같은 레벨에 있는 노드들 (형제 노드들)을 먼저 탐색하는 방식
+- 깊이 우선 탐색 (Depth First Search): 정점의 자식들을 먼저 탐색하는 방식
+
+## 너비우선탐색
+
+![image](https://user-images.githubusercontent.com/55608425/91522510-624d6800-e935-11ea-86c7-d9f7740bb022.png)
+
+### 너비우선탐색의 시간 복잡도
+- 일반적인 BFS 시간 복잡도
+- 노드 수: V
+- 간선 수: E
+- 위 코드에서 while need_visit 은 V + E 번 만큼 수행함
+- 시간 복잡도: O(V + E)
+
+## 너비우선탐색 로직
+
+- 루트 노드를 needVisit에 넣는다.
+- while (needVisit.size() != 0) 이면
+  - needVisit의 맨 앞 노드를 꺼낸다. (List.remove(0) 하면 해당 노드 꺼내짐)
+  - visited에 꺼낸 노드가 없다면
+    - visited에 추가한다.
+    - 해당 노드의 자식 노드를 needVisit에 추가한다.
+- visited를 리턴한다.
+
+### 구현 코드
+
+- graph 초기화
+
+```java
+public class BfsTest {
+
+    private Bfs bfs;
+    private Map<String, List<String>> graph;
+
+    @BeforeEach
+    void setUp() {
+        this.bfs = new Bfs();
+        this.graph = new LinkedHashMap<>();
+        this.graph.put("A", Arrays.asList("B", "C"));
+        this.graph.put("B", Arrays.asList("A", "D"));
+        this.graph.put("C", Arrays.asList("A", "G", "H"));
+        this.graph.put("D", Arrays.asList("B"));
+        this.graph.put("G", Arrays.asList("C"));
+        this.graph.put("H", Arrays.asList("C"));
+    }
+```
+
+- bfs 메서드
+
+```java
+public class Bfs {
+
+    public List<String> search(Map<String, List<String>> graph, String startNode) {
+        List<String> needVisit = new ArrayList<>();
+        List<String> visited = new ArrayList<>();
+
+        needVisit.add(startNode);
+
+        while (needVisit.size() != 0) {
+
+            String needVisitNode = needVisit.remove(0);
+            if (!visited.contains(needVisitNode)) {
+                visited.add(needVisitNode);
+                needVisit.addAll(graph.get(needVisitNode));
+            }
+        }
+        return visited;
+    }
+}
+```
+
+## 깊이우선탐색
+
+- 정점의 자식노드를 우선적으로 탐색하는 방법
+
+![image](https://user-images.githubusercontent.com/55608425/91526374-721d7a00-e93e-11ea-858a-5e0de1467795.png)
+
+## 깊이우선탐색 로직
+
+- 루트 노드를 needVisit에 넣는다.
+- while (needVisit.size() != 0) 이면
+  - needVisit의 맨 뒤 노드를 꺼낸다. (List.remove(needVisit.size() - 1) 하면 해당 노드 꺼내짐)
+  - visited에 꺼낸 노드가 없다면
+    - visited에 추가한다.
+    - 해당 노드의 자식 노드를 needVisit에 추가한다.
+- visited를 리턴한다.
+
+### 구현코드
+
+```java
+public class Dfs {
+
+    public static void main(String[] args) {
+        System.out.println("hello");
+    }
+
+    public List<String> search(Map<String, List<String>> graph, String startNode) {
+
+        List<String> visited = new ArrayList<>(graph.size());
+        List<String> needVisit = new ArrayList<>();
+
+        needVisit.add(startNode);
+
+        while (needVisit.size() != 0) {
+            String popNode = needVisit.remove(needVisit.size() - 1);
+            if (!visited.contains(popNode)) {
+                visited.add(popNode);
+                needVisit.addAll(graph.get(popNode));
+            }
+        }
+        return visited;
+    }
+}
+```
+
+- 시간 복잡도는 너비우선탐색과 동일하다. : O(간선 + 노드)
+
+## 깊이 우선 탐색과 너비 우선 탐색 회고
+- 반복문으로 구현하며 원리를 익힐 수 있었던 시간. 이 두가지 탐색을 코딩테스트를 위한 기본 탐색이라고 하는지 아직까진 모르겠다. 주로 알고리즘에서 푸려면 개념을 가지고 응용에 적용해야할 듯 하다.
