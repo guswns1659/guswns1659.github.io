@@ -214,3 +214,30 @@ sudo mysql -u root
 - 위 명령어로 접속한다음 아래 사진처럼 root 비밀번호를 설정한다. [참고 URL](https://stackoverflow.com/questions/42421585/default-password-of-mysql-in-ubuntu-server-16-04)
 
 ![image](https://user-images.githubusercontent.com/55608425/91442719-3e464400-e8ad-11ea-8fd7-38fbe132a646.png)
+
+# Mysql
+
+## LOAD INFILE로 데이터 삽입 시 필드 내 ,가 있으면 데이터 삽입이 잘 안된다.
+- ENCLOSED BY '"'를 추가하면 정상적으로 된다.
+- [참고](https://stackoverflow.com/questions/45156853/mysql-load-data-infile-from-csv-that-consist-of-comma-in-varchar-field)
+
+```java
+SET GLOBAL local_infile = 1;
+
+LOAD DATA LOCAL INFILE '/home/jack/Downloads/airbnbProject/airbnbAccommodation.csv'
+    INTO TABLE airbnb.accommodation FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n'
+    (@var1, @var2, @var3, @var4, @var5, @var6, @var7, @var8, @var9, @var10, @var11, @var12)
+    SET
+    accommodation_id = @var1,
+    accommodation_name = @var2,
+    description = @var3,
+    location = @var4,
+    street = @var5,
+    latitude = @var6,
+    longitude = @var7,
+    available_guest_count = @var8,
+    current_price = @var9,
+    previous_price = @var10,
+    discount_price = @var11,
+    hotel_rating = @var12;
+```

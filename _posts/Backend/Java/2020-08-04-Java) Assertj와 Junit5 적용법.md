@@ -19,6 +19,12 @@ categories:
 
 ![자바_assertj적용법](/assets/java/자바_assertj적용법.png)
 
+- assertj import문
+
+```java
+import static org.assertj.core.api.Assertions.*;
+```
+
 ## Junit5 적용법
 
 - 인텔리j 켠 뒤 테스트 클래스에서 @BeforeEach를 입력하면 자동완성으로 classpath에 등록할건지 물어본다. 그 때 자동으로 의존성 추가하면 된다.
