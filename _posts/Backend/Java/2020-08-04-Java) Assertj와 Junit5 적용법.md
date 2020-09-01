@@ -87,3 +87,20 @@ private static Stream<Arguments> setUpInputs() {
         assertThat(N1543.test(input, word)).isEqualTo(expected);
     }
 ```
+
+## assertAll
+- `org.junit.jupiter.api.Assertions`에서 제공하는 AssertAll()은 테스트를 한번에 묶어주는 역할이다. 한번에 테스트를 한번에 해서 통과해야할 경우 사용할 수 있다. 묶인 테스트 중 하나라도 실패할 경우 실패라고 뜬다.
+- assertj에서도 SoftAssertions가 있어서 비슷하게 사용할 수 있다. alias도 줄 수 있음.
+
+```java
+   SoftAssertions softly = new SoftAssertions();
+   softly.assertThat(mansion.guests()).as("Living Guests").isEqualTo(7);
+   softly.assertThat(mansion.kitchen()).as("Kitchen").isEqualTo("clean");
+   softly.assertThat(mansion.library()).as("Library").isEqualTo("clean");
+   softly.assertThat(mansion.revolverAmmo()).as("Revolver Ammo").isEqualTo(6);
+   softly.assertThat(mansion.candlestick()).as("Candlestick").isEqualTo("pristine");
+   softly.assertThat(mansion.colonel()).as("Colonel").isEqualTo("well kempt");
+   softly.assertThat(mansion.professor()).as("Professor").isEqualTo("well kempt");
+   // Don't forget to call SoftAssertions global verification !
+   softly.assertAll();
+```

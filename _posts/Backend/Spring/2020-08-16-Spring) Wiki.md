@@ -142,3 +142,31 @@ Cannot deserialize instance of object out of START_ARRAY token in Spring 3 REST 
             log.info("userEmailInfo2 : {}", githubEmail[0].getEmail());
 
 ```
+
+# Spring
+
+- Dto 생성 시 DB에서는 데이터가 잘 넘어왔는데 Dto of 메서드로 생성 시에 값이 안들어 가는 경우
+- 원인 : 엔티티를 dto에 바로 사용하는 건 금지한다. Getter가 없기 때문에 직렬화할 때 문제가 발생하는 것 같다.
+- dto로 들어가는 엔티티(Picture)에 `@Getter`를 붙여준다.
+
+```java
+@Entity
+@Getter
+public class Picture {
+
+    @Id
+    @GeneratedValue
+    @Column(name = "picture_id")
+    private Long id;
+
+    @Lob
+    @Column(name = "picture_url")
+    private String url;
+
+    @ManyToOne
+    @JoinColumn(name = "accommodation_id")
+    @JsonIgnore
+    private Accommodation accommodation;
+}
+
+```
