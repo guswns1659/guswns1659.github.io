@@ -12,6 +12,8 @@ sidebar-sample:
     children:
       - title: "TIL"
         url: /categories/#til
+      - title: "Debug"
+        url: /categories/#debug
   - title: Back-End
     children:
       - title: "Java"
