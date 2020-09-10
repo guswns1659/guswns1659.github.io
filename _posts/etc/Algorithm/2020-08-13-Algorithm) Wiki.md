@@ -331,3 +331,17 @@ public class Dfs {
 - BFS를 돌 때 큐에 쌓이는 순서는 시작점에서부터 거리순으로 쌓인다.
 - 유형 : 시작점이 다른 유형일 경우.
 - 시작점이 서로 영향을 안 주는 경우 2개를 따로 dfs 돌면서 풀면 되는데 서로 영향을 주는 경우엔 백트래킹을 사용해야 한다.
+
+# 알고리즘
+- [참고](https://www.mathfactory.net/10916)
+
+
+## 등차수열
+-  일반항 : An = A1 + (n+1)d
+
+![image](https://user-images.githubusercontent.com/55608425/92671566-940cf880-f351-11ea-9b13-de4df7334453.png)
+
+## 계차수열
+- 일반항 : An+1 = An + Bn
+
+![image](https://user-images.githubusercontent.com/55608425/92671656-cae30e80-f351-11ea-8264-244abd454f03.png)
