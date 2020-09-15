@@ -345,3 +345,13 @@ public class Dfs {
 - 일반항 : An+1 = An + Bn
 
 ![image](https://user-images.githubusercontent.com/55608425/92671656-cae30e80-f351-11ea-8264-244abd454f03.png)
+
+## 바킹독 재귀
+- 재귀함수의 조건 : 1. 특정 입력에 대해서는 자기 자신을 호출하지 않고 종료되어야 함(Base Condition). 2. 모든 입력은 base Condition으로 수렴해야 한다.
+
+![image](https://user-images.githubusercontent.com/55608425/93062487-f2b6d700-f6af-11ea-934b-28d209a11665.png)
+
+![image](https://user-images.githubusercontent.com/55608425/93062574-1843e080-f6b0-11ea-8916-0ae2263d8bba.png)
+
+# 회고
+- 바킹독 재귀 알고리즘을 들었는데 집중력 여부와 상관없이 어려운 내용이다. 절차적 사고를 버리고 귀납적 사고를 채택해야 재귀가 익숙해진다고 한다. 다시 한번 들으면서 복습해야겠다.
