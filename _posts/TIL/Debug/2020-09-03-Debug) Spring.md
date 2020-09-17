@@ -91,3 +91,21 @@ create table reservation (
 
 - [참고](https://stackoverflow.com/questions/45082574/spring-boot-doesnt-load-data-to-initialize-database-using-data-sql)
 - [ddl-auto : update 추천](https://galid1.tistory.com/610)
+
+# Spring
+
+## Swagger가 안 뜰 때
+- 원인 : 인터셉터가 적용되서 토큰이 없는 경우라 화면이 보이지 않음.
+- 해결 : 인터셉터 excludePatterns에 swagger를 추가한다. 우선 전부 추가함
+
+```java
+@Override
+    public void addInterceptors(InterceptorRegistry registry) {
+
+        String[] excludePathPatterns = new String[]{"/account/**", "/**"};
+
+        registry.addInterceptor(loginInterceptor())
+                .addPathPatterns(ALL_PATH)
+                .excludePathPatterns(excludePathPatterns);
+    }
+```
