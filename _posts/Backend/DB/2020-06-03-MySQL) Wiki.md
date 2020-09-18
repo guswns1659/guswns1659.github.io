@@ -1,4 +1,4 @@
----
+```java---
 header:
   teaser: /assets/database2.jpg
   overlay_image: /assets/database2.jpg
@@ -14,7 +14,7 @@ Database는 애플리케이션의 필수 요소입니다.
 - 버전 확인
 - 설치 : sudo apt-get install mysql-server-5.7
 - root 비밀번호 설정 :
-```mysql
+```java
 dan@dan_ubuntu:~$ sudo mysql
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 4
@@ -49,11 +49,11 @@ Bye
 - 아래 설정을 추가해야 하는데, 이걸 mysql.cnf 파일 하나에 추가해도 된다고 하기도 하고, mysql.conf.d 디렉토리 안으로 들어가 각 설정별 파일을 만들어야 된다고도 한다. 나는 각 설정 파일을 만들었다.
 - `sudo vim my.cnf` 와 같이 sudo를 붙여야 한다. 안 붙이면 readOnly 형식만 된다.
 
-```shell script
+```java
 sudo vim /etc/mysql/my.cnf
 ```
 
-```mysql
+```java
 [client]
 default-character-set = utf8
 [mysqld]
@@ -73,7 +73,7 @@ default-character-set = utf8
 - 설정 완료하면 `sudo service mysql restart` 해줘야 한다.
 - 설정 완료하면 mysql들어가서 확인한다.
 
-```mysql
+```java
 show variables like '%char%';
 
 +--------------------------+----------------------------+
@@ -92,7 +92,7 @@ show variables like '%char%';
 
 - 추가적으로 max_allowed_packet = 16M을 256M으로 수정하면 쿼리양이 많을 때 도움이 된다고 한다.
 
-```shell script
+```java
 sudo vim /etc/mysql/my.cnf
 sudo service mysql restart
 ```
@@ -100,7 +100,7 @@ sudo service mysql restart
 ## root외 사용자 추가하기.
 - user 만들기
 
-```mysql
+```java
 CREATE DATABASE mydb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 create user 'sunny'@'%' identified by '비밀번호';
 
@@ -108,7 +108,7 @@ create user 'sunny'@'%' identified by '비밀번호';
 
 - 권한 주기
 
-```mysql
+```java
 GRANT ALL ON mydb.* TO 'sunny'@'%';
 # 모든권한 갖기
 grant all privileges on *.* to 'sunny'@'%';
@@ -123,13 +123,13 @@ sevice mysql start 접속 후 mysql -u root로 접속한다.
 ## Join
 - cross Join : 각 모든 행의 조합으로 보여준다. 중복되는 컬럼이 등장한다.
 
-```mysql
+```java
 SELECT * FROM COURSE CROSS JOIN PROF;
 ```
 
 - inner join : 교집합의 의미. 각 테이블 사이의 공통적인 컬럼만 남긴다.
 
-```mysql
+```java
 SELECT C.CNAME, P.NAME FROM COURSE C JOIN PROF P ON C.PROFID = P.PID;
 ```
 
@@ -180,7 +180,7 @@ SELECT C.CNAME, P.NAME FROM COURSE C JOIN PROF P ON C.PROFID = P.PID;
 
 ### foreign Key 제약을 무시하고 테이블을 삭제하는 명령어
 
-```mysql
+```java
 SET foreign_key_checks = 0;
 ```
 
