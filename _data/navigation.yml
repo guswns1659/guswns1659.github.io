@@ -32,8 +32,8 @@ sidebar-sample:
         url: /categories/#network
   - title: DevOps
     children:
-      - title: "AWS"
-        url: /categories/#aws
+      - title: "DevOps"
+        url: /categories/#devops
   - title: Front-End
     children:
       - title: "JavaScript"

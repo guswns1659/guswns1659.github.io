@@ -1,3 +1,14 @@
+---
+header:
+  overlay_image: /assets/devops.jpg
+  overlay_filter: 0.2
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+categories:
+  - DevOps
+---
+
+DevOps는 기술뿐만 아니라 문화, 철학, 도구의 조합입니다.
+
 ## 개요
 AWS 계정을 만든 후 VPC, EC2, RDS, CodeDeploy까지 셋팅하는 법을 설명하는 글
 

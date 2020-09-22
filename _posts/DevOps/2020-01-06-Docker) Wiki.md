@@ -1,3 +1,15 @@
+---
+header:
+  overlay_image: /assets/devops.jpg
+  overlay_filter: 0.2
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+categories:
+  - DevOps
+---
+
+DevOps는 기술뿐만 아니라 문화, 철학, 도구의 조합입니다.
+
+
 ## 핵심
 - **도커는 컨테이너 기반의 오픈소스 가상화 플랫폼이다**
 ## 도커의 필요성
