@@ -26,8 +26,8 @@ sidebar-sample:
         url: /categories/#git
       - title: "Linux"
         url: /categories/#linux
-      - title: "TCPJava"
-        url: /categories/#tcpjava
+      - title: "TPCJava"
+        url: /categories/#tpcjava
       - title: "Network"
         url: /categories/#network
   - title: DevOps
