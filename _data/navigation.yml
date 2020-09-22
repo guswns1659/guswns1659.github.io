@@ -28,6 +28,8 @@ sidebar-sample:
         url: /categories/#linux
       - title: "TCPJava"
         url: /categories/#tcpjava
+      - title: "Network"
+        url: /categories/#network
   - title: DevOps
     children:
       - title: "AWS"
