@@ -1,3 +1,14 @@
+---
+header:
+  overlay_image: /assets/javascript.jpg
+  overlay_filter: 0.2
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+categories:
+  - JavaScript
+---
+
+자바스크립트 객체 기반의 스크립트 프로그래밍 언어입니다.
+
 ## str
 replace(arg1, arg2), chatAt(index), endsWith(), startsWith() includes(), indexOf(), toLowerCase(), toUpperCase()
 
