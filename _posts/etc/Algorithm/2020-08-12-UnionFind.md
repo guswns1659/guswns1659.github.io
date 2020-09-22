@@ -1,3 +1,14 @@
+---
+header:
+  overlay_image: /assets/algorithm.jpg
+  overlay_filter: 0.2
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+categories:
+  - Algorithm
+---
+
+Algorithm은 자료구조를 기반으로 만들어진 다양한 문제해결법입니다.
+
 ## 합집합-찾기 알고리즘 (Union-find)
 
 - 각 노드 별 집합을 찾아내는 알고리즘

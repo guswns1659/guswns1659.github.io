@@ -1,3 +1,14 @@
+---
+header:
+  overlay_image: /assets/algorithm.jpg
+  overlay_filter: 0.2
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+categories:
+  - Algorithm
+---
+
+Algorithm은 자료구조를 기반으로 만들어진 다양한 문제해결법입니다.
+
 ## 목차
 - 재귀 알고리즘 기본 조건
 - 매개변수를 암시화(implicit)하지말고 명시화(explicit)하라

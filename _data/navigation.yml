@@ -50,5 +50,9 @@ sidebar-sample:
     children:
       - title: "Intellij"
         url: /categories/#intellij
+      - title: "Algorithm"
+        url: /categories/#algorithm
+      - title: "Bloging"
+        url: /categories/#bloging
   - title: Book
     url: /categories/#book

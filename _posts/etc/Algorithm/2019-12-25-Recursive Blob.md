@@ -1,3 +1,14 @@
+---
+header:
+  overlay_image: /assets/algorithm.jpg
+  overlay_filter: 0.2
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+categories:
+  - Algorithm
+---
+
+Algorithm은 자료구조를 기반으로 만들어진 다양한 문제해결법입니다.
+
 출처 : [KOCW 부경대학교 권오흠 교수 알고리즘 강의 참고](http://www.kocw.net/home/search/kemView.do?kemId=1148815)
 
 ## 목차
