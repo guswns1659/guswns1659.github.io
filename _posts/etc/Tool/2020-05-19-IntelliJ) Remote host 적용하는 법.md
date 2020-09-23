@@ -1,3 +1,14 @@
+---
+header:
+  overlay_image: /assets/tool.jpg
+  overlay_filter: 0.2
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+categories:
+  - Tool
+---
+
+다양한 Tool은 개발자의 생산성을 높여줍니다.
+
 ## 개요 
 인텔리 J 속 remote host 기능에 대해 정리한 글 
 

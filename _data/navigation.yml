@@ -48,8 +48,8 @@ sidebar-sample:
         url: /categories/#writing
   - title: ETC
     children:
-      - title: "Intellij"
-        url: /categories/#intellij
+      - title: "Tool"
+        url: /categories/#tool
       - title: "Algorithm"
         url: /categories/#algorithm
       - title: "Bloging"
