@@ -232,3 +232,33 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 ```
 
 - [스프링 시큐리티 disable 하는 법](https://www.baeldung.com/spring-security-disable-profile)
+
+
+# Spring
+
+## spring.datasource.initialization-mode
+- embedded DB외에 schema.sql로 스키마를 생성할 때 필요한 옵션
+- 외부 데이터를 사용할 때 필요
+
+- [인프런 백기선님 답변](https://www.inflearn.com/questions/5761)
+
+## swagger url을 interceptor에서 지우고 싶을 때
+
+```java
+@Override
+    public void addInterceptors(InterceptorRegistry registry) {
+
+        String[] excludePathPatterns = new String[]{"/account/**", "/goal/**"};
+        String[] swaggerPaths = new String[]{"/v2/api-docs", "/swagger-resources/**", "/swagger-ui.html", "/webjars/**"};
+
+        registry.addInterceptor(loginInterceptor())
+                .addPathPatterns(ALL_PATH)
+                .excludePathPatterns(excludePathPatterns)
+                .excludePathPatterns(swaggerPaths);
+
+    }
+```
+
+## Swagger에서 요청 시 header 넘기는 기능 구현
+
+- [참고 : https://stackoverflow.com/questions/40801442/add-a-header-parameter-in-swagger-ui-documentation-with-springfox/40801443](https://stackoverflow.com/questions/40801442/add-a-header-parameter-in-swagger-ui-documentation-with-springfox/40801443)
