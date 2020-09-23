@@ -1,8 +1,15 @@
 ---
-title: "Philosophy - Feminism 1-1"
+title: "Feminism 1-1"
+header:
+  overlay_image: /assets/feminism.jpg
+  overlay_filter: 0.2
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 categories:
   - Feminism
 ---
+
+페미니즘은 인식론에 대한 비판에서 출발합니다.
+
 
 ## 목차
 - 페미니즘 철학이란 무엇인가? 
