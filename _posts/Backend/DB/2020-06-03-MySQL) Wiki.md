@@ -1,4 +1,4 @@
-```java---
+---
 header:
   teaser: /assets/database2.jpg
   overlay_image: /assets/database2.jpg
@@ -49,7 +49,7 @@ Bye
 - 아래 설정을 추가해야 하는데, 이걸 mysql.cnf 파일 하나에 추가해도 된다고 하기도 하고, mysql.conf.d 디렉토리 안으로 들어가 각 설정별 파일을 만들어야 된다고도 한다. 나는 각 설정 파일을 만들었다.
 - `sudo vim my.cnf` 와 같이 sudo를 붙여야 한다. 안 붙이면 readOnly 형식만 된다.
 
-```java
+```shell script
 sudo vim /etc/mysql/my.cnf
 ```
 
