@@ -30,6 +30,8 @@ sidebar-sample:
         url: /categories/#tpcjava
       - title: "Network"
         url: /categories/#network
+      - title: "Technical Paradigm"
+        url: /categories/#paradigm
   - title: DevOps
     children:
       - title: "DevOps"
