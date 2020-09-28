@@ -262,3 +262,58 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 ## Swagger에서 요청 시 header 넘기는 기능 구현
 
 - [참고 : https://stackoverflow.com/questions/40801442/add-a-header-parameter-in-swagger-ui-documentation-with-springfox/40801443](https://stackoverflow.com/questions/40801442/add-a-header-parameter-in-swagger-ui-documentation-with-springfox/40801443)
+
+# 스프링
+
+## TDD 적용 방식 변경 해보기
+- 기존엔 컨트롤러 테스트 작성 -> 서비스 테스트 -> 레포지토리 테스트 작성으로 진행했다. 컨트롤러 통합 테스트를 진행하니 직접 port로 api를 요청하는 테스트를 진행하니 테스트의 단위가 커지고 무엇보다 서비스의 테스트가 사라진다.
+- 남은 포크 프로젝트에서는 영한님처럼 서비스 -> 레포지토리 순서로 테스트를 하고 마지막에 컨트롤러 통합테스트를 진행하자. 아래 예시처럼.
+
+```java
+@RunWith(SpringRunner.class)
+@SpringBootTest
+@Transactional
+public class MemberServiceTest {
+
+    @Autowired
+    private MemberService memberService;
+
+    @Autowired
+    private MemberRepository memberRepository;
+
+    @Autowired
+    private EntityManager entityManager;
+
+    @Test
+    public void 회원가입() throws Exception {
+        // given
+        Member member = new Member();
+        member.setName("kim");
+
+        // when
+        Long savedId = memberService.join(member);
+
+        // then
+        entityManager.flush();
+        assertThat(memberRepository.findOne(savedId)).isEqualTo(member);
+    }
+
+    @Test(expected = IllegalStateException.class)
+    public void 중복_회원_예외() throws Exception {
+        // given
+        Member member1 = new Member();
+        member1.setName("kim1");
+
+        Member member2 = new Member();
+        member2.setName("kim1");
+
+        // when
+        memberService.join(member1);
+        memberService.join(member2); // 예외가 발생 해야 한다.
+
+        // then
+        fail("예외가 발생해야 한다.");
+    }
+
+}
+```
