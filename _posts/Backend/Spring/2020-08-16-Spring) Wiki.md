@@ -317,3 +317,108 @@ public class MemberServiceTest {
 
 }
 ```
+
+# Spring
+
+## DTO의 필드를 getter로  가져오지 말고 바로 DTO를 넘겨서 내부에서 구현한다.
+
+```java
+public void register(RegisterRequest registerRequest, HttpServletResponse response) {
+        validateDuplicateEmail(registerRequest);
+
+        // 비밀번호 encode
+        String encodePassword = passwordEncoder.encode(registerRequest.getPassword());
+        Member account = Member.of(registerRequest, encodePassword);
+        accountRepository.save(account);
+        jwtService.loadJwtToHeader(response, registerRequest);
+    }
+```
+
+## AccountDto들의 공통적인 속성을 상속할 수 있도록 AccountRequestDto를 생성한다.
+- 콘크리트 DTO 클래스들이 상속받을 수 있게 한다.
+- 이유 : 추상화를 통해 변경의 비용을 줄이기 위해
+
+- 추상DTO와 콘크리트 DTO 클래스
+
+```java
+@Getter
+@SuperBuilder
+@NoArgsConstructor
+public abstract class AccountRequestDto {
+
+    private String email;
+    private String password;
+
+    public AccountRequestDto(String email, String password) {
+        this.email = email;
+        this.password = password;
+    }
+
+    public void changeEncodedPassword(String encodePassword) {
+        this.password = encodePassword;
+    }
+}
+
+@Getter
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
+@SuperBuilder
+public class RegisterRequest extends AccountRequestDto {
+
+    private String name;
+    private String phoneNumber;
+
+    public RegisterRequest(String email, String password, String name, String phoneNumber) {
+        super(email, password);
+        this.name = name;
+        this.phoneNumber = phoneNumber;
+    }
+
+    public static RegisterRequest of(String email, String password, String name, String phoneNumber) {
+        return RegisterRequest.builder()
+                .email(email)
+                .password(password)
+                .name(name)
+                .phoneNumber(phoneNumber)
+                .build();
+    }
+}
+
+```
+
+- 위 상속이 활용되는 메서드 : JwtProvider 속 loadJwtToHeader
+- 파라미터를 상위 클래스인 AccountRequestDto로 받는다.
+
+```java
+public void loadJwtToHeader(HttpServletResponse response, AccountRequestDto accountRequestDto) {
+        response.setHeader(LoginEnum.AUTHORIZATION.getValue(), createJwtTokenWithEmail(accountRequestDto.getEmail()));
+        log.info("jwtToken, {}", createJwtTokenWithEmail(accountRequestDto.getEmail()));
+    }
+
+```
+
+## Interceptor에서 excludePath 지정할 때 *, **, ?의 의미
+
+![image](https://user-images.githubusercontent.com/55608425/94395089-cfa12280-0199-11eb-9c5f-868d0e0fdad4.png)
+
+## Interceptor
+- api가 같은 단계로 나눠진다면 함께 인터셉터에서 제외된다. (무슨의미냐면..)
+- 아래에서 "/account/{email}/\***"로 excludePath에 추가하면 /account/\*** 이렇게 제외되는 것이랑 마찬가지
+- 해결책 : 앞에 구분자를 더 둔다.  "/account/{email}/\***" -> /account/email/{email}/\***
+
+```java
+@Override
+    public void addInterceptors(InterceptorRegistry registry) {
+
+        /*
+         * 1. 회원가입하는 url (~/account) 제외
+         * 2. 중복 이메일 확인하는 url (~/account/email/{email}) 제외
+         */
+        String[] excludePathPatterns = new String[]{"/account", "/account/{email}/**"};
+        String[] swaggerPaths = new String[]{"/v2/api-docs", "/swagger-resources/**", "/swagger-ui.html", "/webjars/**"};
+
+        registry.addInterceptor(loginInterceptor())
+                .addPathPatterns(ALL_PATH)
+                .excludePathPatterns(excludePathPatterns)
+                .excludePathPatterns(swaggerPaths);
+    }
+```
