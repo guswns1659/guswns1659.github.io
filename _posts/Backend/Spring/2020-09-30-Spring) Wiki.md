@@ -422,3 +422,182 @@ public void loadJwtToHeader(HttpServletResponse response, AccountRequestDto acco
                 .excludePathPatterns(swaggerPaths);
     }
 ```
+
+## Devtools
+- 타임리프로 개발 시 매번 어플리케이션을 다시 시작하지 않고 재컴파일만 해도 변경 사항이 반영되게 도와준다.
+- devtools 의존성을 추가하고 재컴파일(Ctrl + Shift + F9) 를 한다.
+
+## bootStrap(부트스트랩)
+- CSS와 JS를 쉽게 적용할 수 있는 라이브러리
+- [부트스트랩 사이트](https://getbootstrap.com/)에 들어간 뒤 Download를 클릭한다. (아래 사진 참고)
+
+![image](https://user-images.githubusercontent.com/55608425/94646239-c8f4e580-0328-11eb-8cca-3b745967a157.png)
+
+- CSS/JS를 다운받고 압축 푼 CSS, JS 폴더를 스프링부트 프로젝트 main/resources/static 폴더에 넣는다.
+
+![image](https://user-images.githubusercontent.com/55608425/94646318-f772c080-0328-11eb-8920-956aac60e766.png)
+
+![image](https://user-images.githubusercontent.com/55608425/94646343-03f71900-0329-11eb-88e1-9db6a3f5e4a6.png)
+
+- 위 방법했는데 CSS가 적용이 안되면 resources 폴더 마우스 오른쪽 클릭해 'reload from disk'로 업데이트를 하고 build를 다시한다(Ctrl + F9)
+
+![image](https://user-images.githubusercontent.com/55608425/94646487-4ae50e80-0329-11eb-8154-bafe0c0a44f7.png)
+
+## 위치를 올바르게 정렬하고 싶을 때
+- jombotron-narrow.css를 만들어서 적용시킨다.
+
+![image](https://user-images.githubusercontent.com/55608425/94646679-b4fdb380-0329-11eb-9c58-8b1ff8107ae5.png)
+
+- jombotron 코드
+
+```java
+/* Space out content a bit */
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* Custom page header */
+.header {
+    border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+}
+/* Custom page footer */
+.footer {
+    padding-top: 19px;color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+/* Customize container */
+@media (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+}
+.container-narrow > hr {
+    margin: 30px 0;
+}
+/* Main marketing message and sign up button */
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+/* Supporting marketing content */
+.marketing {
+    margin: 40px 0;
+}
+.marketing p + h4 {
+    margin-top: 28px;
+}
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-left: 0;padding-right: 0;
+    }
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
+```
+
+- header.html에서 부트스트랩 설정을 적용했기 때문에 적용된 것
+
+![image](https://user-images.githubusercontent.com/55608425/94646783-fdb56c80-0329-11eb-8944-c086daafb396.png)
+
+## Validation
+- 컨트롤러에서 입력받는 값에 대한 validation을 어노테이션 기반으로 할 수 있다.
+- BindingResult result는 만약 DTO가 올바르지 않은 값이 있다면 에러가 담기는 객체이다. result.hasErrors()를 이용해 에러가 발생했다면 해당하는 결과값을 리턴할 수 있다.
+- 만약 RestFul API라면 ResponseEntity<>()를 응답하면 될 듯?
+
+```java
+// 회원가입 컨트롤러
+@PostMapping("/members/new")
+    public String create(@Valid MemberForm form, BindingResult result) {
+
+        if (result.hasErrors()) {
+            return "members/createMemberForm";
+        }
+
+        Address address = new Address(form.getCity(), form.getStreet(), form.getZipcode());
+
+        Member member = new Member();
+        member.setName(form.getName());
+        member.setAddress(address);
+
+        memberService.join(member);
+        return "redirect:/";
+    }
+
+// 회원 가입 폼(DTO)
+@Getter
+@Setter
+public class MemberForm {
+
+    @NotEmpty(message = "회원 이름은 필수입니다")
+    private String name;
+
+    private String city;
+    private String street;
+    private String zipcode;
+}
+```
+
+# 타임리프
+- th:replace라는 태그는 공통적으로 사용되는 템플릿에 대한 코드를 모은 것이다. 주로 header, body, footer 등이 있다.
+- 아래 코드에서 `<head th:replace="fragments/header :: header">` 이부분의 의미는 fragements 폴더 속 header.html로 대체하겠다는 의미이다. 그러니 해당 폴더가 저 위치에 존재해야 한다.
+
+```java
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/header :: header">
+    <title>Hello</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<div class="container">
+    <div th:replace="fragments/bodyHeader :: bodyHeader"/>
+    <div class="jumbotron">
+        <h1>HELLO SHOP</h1>
+        <p class="lead">회원 기능</p>
+        <p>
+            <a class="btn btn-lg btn-secondary" href="/members/new">회원 가입</a>
+            <a class="btn btn-lg btn-secondary" href="/members">회원 목록</a>
+        </p>
+        <p class="lead">상품 기능</p>
+        <p>
+            <a class="btn btn-lg btn-dark" href="/items/new">상품 등록</a>
+            <a class="btn btn-lg btn-dark" href="/items">상품 목록</a>
+        </p>
+        <p class="lead">주문 기능</p>
+        <p>
+            <a class="btn btn-lg btn-info" href="/order">상품 주문</a>
+            <a class="btn btn-lg btn-info" href="/orders">주문 내역</a>
+        </p>
+    </div>
+    <div th:replace="fragments/footer :: footer"/>
+</div> <!-- /container --></body>
+</html>
+```
