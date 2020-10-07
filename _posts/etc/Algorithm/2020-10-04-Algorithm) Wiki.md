@@ -28,11 +28,6 @@ public static String test(String number) {
     }
 ```
 
-## 알고리즘
-
-- 문제 제출할 때 Node 클래스를 만드는 위치는 public class Main 위에 만들어야 한다. 나동빈 강사 코드랑 큰 차이가 없는데 런타임 에러가 계속 발생하는데 이유를 모르겠다.
-- 변수명에 i를 붙여서 반복문을 돌리고 싶지만 자바에서는 불가능하다.
-
 ### 계수정렬
 - 수의 범위가 작고 (1~10000) nlogn보다 빠르게 정렬을 해야할 땐 계수정렬을 이용해야 한다.
 
@@ -166,14 +161,8 @@ public static List<String> test(List<String> books) {
     }
 ```
 
-# 알고리즘
-
-- 백준 문자열 3문제 도전했는데 2문제 구현 어려워서 포기, 1문제 시도했는데 다른 사람 답 봄.... 넘 갈 길이 멀다.
-
 ## HashMap 사용 이유
 - 전체 탐색할 때 이 수가 한번 사용된 수인지 체크를 해서 모든 조합에서 사용하면 넘어가는 로직 때 사용해도 좋다.
-
-# 알고리즘
 
 # 그래프 이해
 
@@ -320,9 +309,6 @@ public class Dfs {
 ## 깊이 우선 탐색과 너비 우선 탐색 회고
 - 반복문으로 구현하며 원리를 익힐 수 있었던 시간. 이 두가지 탐색을 코딩테스트를 위한 기본 탐색이라고 하는지 아직까진 모르겠다. 주로 알고리즘에서 푸려면 개념을 가지고 응용에 적용해야할 듯 하다.
 
-# 알고리즘
-- 바킹독 유튜브를 통해 BFS 익히는 중인데 언어는 달라도 설명이 좋아서 이해가 잘된다. 어려웠던 DFS문제도 점점 익숙해지는 중
-
 ## BFS
 
 ![image](https://user-images.githubusercontent.com/55608425/92348890-689acb80-f10f-11ea-8739-040ea3eae09e.png)
@@ -343,12 +329,9 @@ public class Dfs {
 - 유형 : 시작점이 다른 유형일 경우.
 - 시작점이 서로 영향을 안 주는 경우 2개를 따로 dfs 돌면서 풀면 되는데 서로 영향을 주는 경우엔 백트래킹을 사용해야 한다.
 
-# 알고리즘
-- [참고](https://www.mathfactory.net/10916)
-
-
 ## 등차수열
 -  일반항 : An = A1 + (n+1)d
+- [참고](https://www.mathfactory.net/10916)
 
 ![image](https://user-images.githubusercontent.com/55608425/92671566-940cf880-f351-11ea-9b13-de4df7334453.png)
 
@@ -363,9 +346,6 @@ public class Dfs {
 ![image](https://user-images.githubusercontent.com/55608425/93062487-f2b6d700-f6af-11ea-934b-28d209a11665.png)
 
 ![image](https://user-images.githubusercontent.com/55608425/93062574-1843e080-f6b0-11ea-8916-0ae2263d8bba.png)
-
-# 회고
-- 바킹독 재귀 알고리즘을 들었는데 집중력 여부와 상관없이 어려운 내용이다. 절차적 사고를 버리고 귀납적 사고를 채택해야 재귀가 익숙해진다고 한다. 다시 한번 들으면서 복습해야겠다.
 
 # 바킹독 알고리즘
 
@@ -408,3 +388,199 @@ public class Dfs {
   - n = k일 때 성립한다고 가정하고 n = K+1도 성립함을 보인다.
 
 - [참고 : 수학적 귀납법을 이용해 식 증명하기](https://m.blog.naver.com/PostView.nhn?blogId=jamogenius&logNo=221198859160&proxyReferer=https:%2F%2Fwww.google.com%2F)
+
+# 트리
+- 무방향이면서 사이클이 없는 연결 그래프
+
+![image](https://user-images.githubusercontent.com/55608425/95159276-a1929280-07d8-11eb-8470-614d69b93bec.png)
+
+- V 개의 정점을 가진 트리는 V - 1개의 간선을 가지고 있다는 성질
+- 임의의 두 점은 연결하는 simple path가 유일하다는 성질
+- 트리는 임의의 노드를 루트로 만들 수 있다. 단, 루트가 달라지면 각 노드의 부모 또한 달라집니다.
+
+### 트리 BFS, 부모 배열을 이용하면 노드의 부모를 알 수 있다.
+
+```java
+package com.titanic.javatest.barkingdog.tree;
+
+import java.util.*;
+
+public class Tree {
+
+    private static int[] parent = new int[6];
+    private static Map<Integer, List<Integer>> tree = new HashMap<>();
+
+    public static void main(String[] args) {
+        // 트리
+        // 1 = [2, 3], 2 = [1, 4, 5], 3 = [1], 4 = [2], 5 = [2]
+        tree.put(1, Arrays.asList(2,3));
+        tree.put(2, Arrays.asList(1,4,5));
+        tree.put(3, Collections.singletonList(1));
+        tree.put(4, Collections.singletonList(2));
+        tree.put(5, Collections.singletonList(2));
+
+        bfs(1);
+        System.out.println(Arrays.toString(parent));
+    }
+
+    public static void bfs(int root) {
+        Queue<Integer> queue = new LinkedList<>();
+        queue.offer(root);
+
+        while (!queue.isEmpty()) {
+            int current = queue.poll();
+
+            // 연결된 노드를 순회하고 자식 노드면 queue에 넣는다.
+            for (int next : tree.get(current)) {
+                // 부모 노드일 경우
+                if (parent[current] == next) continue;
+                queue.offer(next);
+                parent[next] = current;
+            }
+        }
+    }
+}
+
+```
+
+### depth를 구할 수 있는 bfs
+
+```java
+private static void depthBfs(int root) {
+        Queue<Integer> queue = new LinkedList<>();
+        queue.offer(root);
+
+        while(!queue.isEmpty()) {
+            int current = queue.poll();
+
+            for (int next : tree.get(current)) {
+                if (parent[current] == next) continue;
+                parent[next] = current;
+                queue.offer(next);
+                depth[next] = depth[current] + 1;
+            }
+        }
+    }
+```
+
+## DFS
+
+### 부모 배열과 depth를 구하는 dfs 메서드
+
+```java
+private static void dfs(int root) {
+        Stack<Integer> stack = new Stack<>();
+        stack.push(root);
+
+        while (!stack.isEmpty()) {
+            int current = stack.pop();
+
+            for (int next : tree.get(current)) {
+                if (parent[current] == next) continue;
+                parent[next] = current;
+                stack.push(next);
+                depth[next] = depth[current] + 1;
+            }
+        }
+    }
+```
+
+### dfs : 부모와 depth 배열 채우기, 재귀
+
+```java
+private static void recursiveDfs(int node) {
+        System.out.println(node);
+        for (int next : tree.get(node)) {
+            if (parent[node] == next) continue;
+            parent[next] = node;
+            depth[next] = depth[node] + 1;
+            recursiveDfs(next);
+        }
+    }
+```
+
+### dfs : 단순 순회 목적이라면 parent배열을 두지 않고 인자로 parent를 넘겨서 더 간단하게 구현할 수 있다.
+
+```java
+private static void recursiveDfs(int current, int parent) {
+        System.out.println(current);
+        for (int next : tree.get(current)) {
+            if (parent == next) continue;
+            recursiveDfs(next, current);
+        }
+    }
+```
+
+
+## 이진탐색트리 4가지 순회
+- 이진트리를 구현하는 방법은 구조체를 만들어서 할수도 있지만 코딩테스트에서는 거창한 자료구조 대신 왼쪽, 오른쪽 배열로 이진트리를 구현할 수 있다.
+- 배열 속 0이라는 값은 해당 자리가 비어있음을 의미한다.
+
+![image](https://user-images.githubusercontent.com/55608425/95167312-68631e00-07ea-11eb-97ae-104f324f438c.png)
+
+
+### 레벨 순회, 중위, 후위, 전위 순회
+
+![image](https://user-images.githubusercontent.com/55608425/95167487-b9731200-07ea-11eb-8527-9f3d71a0bfcc.png)
+
+
+```java
+package com.titanic.javatest.barkingdog.tree;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class BinaryTree {
+    private static int[] lc = new int[]{0,2,4,6,0,0,0,0,0};
+    private static int[] rc = new int[]{0,3,5,7,0,8,0,0,0};
+
+    public static void main(String[] args) {
+        int root = 1;
+//        levelTraversal(root);
+//        preorderTraversal(root);
+//        inorderTraversal(root);
+        postTraversal(root);
+    }
+
+    private static void postTraversal(int current) {
+        if (lc[current] != 0) postTraversal(lc[current]);
+        if (rc[current] != 0) postTraversal(rc[current]);
+        System.out.println(current);
+    }
+
+    private static void inorderTraversal(int current) {
+        if (lc[current] != 0) inorderTraversal(lc[current]);
+        System.out.println(current);
+        if (rc[current] != 0) inorderTraversal(rc[current]);
+    }
+
+    private static void preorderTraversal(int current) {
+        System.out.println(current);
+        if (lc[current] != 0) preorderTraversal(lc[current]);
+        if (rc[current] != 0) preorderTraversal(rc[current]);
+    }
+
+    /** 레벨 순회
+     *  bfs 방식으로 순회하면된다. 다만, lc, rc에 맞게 구현해야 한다
+     *  부모 배열이 필요하면 레벨 순회할 때 코드를 추가하면 된다.
+     */
+    private static void levelTraversal(int root) {
+        Queue<Integer> queue = new LinkedList<>();
+        queue.offer(root);
+
+        while (!queue.isEmpty()) {
+            int current = queue.poll();
+            System.out.println(current);
+            if (lc[current] != 0) {
+                parents[lc[current]] = current;
+                queue.offer(lc[current]);
+            }
+            if (rc[current] != 0) {
+                parents[rc[current]] = current;
+                queue.offer(rc[current]);
+            }
+        }
+    }
+}
+
+```
