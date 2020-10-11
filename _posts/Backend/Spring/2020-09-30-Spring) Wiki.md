@@ -699,3 +699,8 @@ public void givenTwoDateTimesInJava8_whenDifferentiatingInSeconds_thenWeGetTen()
 ```
 
 - [참고 : 밸덩](https://www.baeldung.com/java-date-difference)
+
+## @Validated 사용법
+- 쿼리 파람 validation할 때 필요하다
+
+- [참고 블로그](https://reflectoring.io/bean-validation-with-spring-boot/)
