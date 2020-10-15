@@ -109,3 +109,9 @@ create table reservation (
                 .excludePathPatterns(excludePathPatterns);
     }
 ```
+
+## spring.profile.active를 인식 못할 때
+- 원인 : gradle이 제대로 로딩이 안됐기 때문이다.
+- 해결 : gradle를 새로 고침한다. 아래 사진처럼
+
+![image](https://user-images.githubusercontent.com/55608425/95998907-52033500-0e70-11eb-970a-a39909a9e2c8.png)
