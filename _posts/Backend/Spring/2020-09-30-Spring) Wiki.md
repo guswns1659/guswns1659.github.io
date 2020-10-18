@@ -606,6 +606,7 @@ public class MemberForm {
 
 - 외부 API 요청 후 JSON 데이터를 내가 원하는 필드만 받고 싶을 때는 DTO를 원하는 필드만 지정하면 된다.
 - 원래 10개 이상 넘어오는 데이터인데 아래 원하는 필드만 추려냄
+
 ```java
 package com.banksalad.jackcalculator.web.dto;
 
