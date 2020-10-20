@@ -685,21 +685,41 @@ public class JavaTestApplication {
 "0 0 12 1 * *" means 12:00 PM on the first day of every month.
 ```
 
-## 날짜 차이 구하는 계산
+- zone 설정
 
 ```java
-@Test
-public void givenTwoDateTimesInJava8_whenDifferentiatingInSeconds_thenWeGetTen() {
-    LocalDateTime now = LocalDateTime.now();
-    LocalDateTime tenSecondsLater = now.plusSeconds(10);
+@Component
+@Slf4j
+@Transactional
+public class Scheduler {
 
-    long diff = ChronoUnit.SECONDS.between(now, tenSecondsLater);
+    @PersistenceContext
+    private EntityManager entityManager;
 
-    assertEquals(10, diff);
-}
+    /**
+     * 매일 자정에 todayElapsedTime 0으로 초기화
+     */
+    @Scheduled(cron = "0 0 0 */1 * *", zone = "Asia/Seoul")
+    public void resetTodayElapsedTime() {
+        entityManager.createNativeQuery("update account_goal set today_elapsed_time = :value")
+                .setParameter("value", 0)
+                .executeUpdate();
+    }
+
+    /**
+     * 매주 일요일 자정에 weeklyElapsedTime 0으로 초기화
+     */
+    @Scheduled(cron = "0 0 0 * * SUN", zone = "Asia/Seoul")
+    public void resetWeeklyElapsedTime() {
+        entityManager.createNativeQuery("update account_goal set weekly_elapsed_time = :value")
+                .setParameter("value", 0)
+                .executeUpdate();
+    }
 ```
 
-- [참고 : 밸덩](https://www.baeldung.com/java-date-difference)
+## 참고
+- [밸덩](https://www.baeldung.com/spring-scheduled-tasks)
+
 
 ## @Validated 사용법
 - 쿼리 파람 validation할 때 필요하다
