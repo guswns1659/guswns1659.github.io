@@ -1,6 +1,5 @@
 ---
 header:
-  teaser: /assets/linux.jpg
   overlay_image: /assets/linux.jpg
   overlay_filter: 0.2
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
@@ -270,3 +269,16 @@ export PATH=$HOME/bin:/usr/local/bin:/sbin:/usr/sbin:$PATH
 - 에어비앤비 리팩토링 하기 전에 기존에 존재하는 프로젝트를 영상으로 찍어서 남기려고 함.
 - [내장 프로그램인데 불편함](https://tipsonubuntu.com/2018/06/09/record-gnome-desktop-ubuntu-18-04/)
 - [Kazam 프로그램, 편리하다](https://itsfoss.com/best-linux-screen-recorders/)
+
+# 우분투 마우스가 안 움직일 때
+- 아래 명령어를 입력하고 다시 껐다 킨다.
+
+```java
+gsettings set org.gnome.settings-daemon.plugins.cursor active false
+```
+
+- 명령이 안되면 아래 명령어로 sudo를 업데이트 한다.
+
+```java
+sudo pat-get udpate && sudo apt-get upgrade
+```
