@@ -1,6 +1,5 @@
 ---
 header:
-  teaser: /assets/database2.jpg
   overlay_image: /assets/database2.jpg
   overlay_filter: 0.2
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
@@ -14,6 +13,7 @@ Database는 애플리케이션의 필수 요소입니다.
 - 버전 확인
 - 설치 : sudo apt-get install mysql-server-5.7
 - root 비밀번호 설정 :
+
 ```java
 dan@dan_ubuntu:~$ sudo mysql
 Welcome to the MySQL monitor.  Commands end with ; or \g.
@@ -42,6 +42,7 @@ Query OK, 0 rows affected (0.01 sec)
 mysql> quit;
 Bye
 ```
+
 ## characterset 설정
 [[참고1 : https://webdir.tistory.com/217](https://webdir.tistory.com/217)]
 [[참고2 : https://zzznara2.tistory.com/765](https://zzznara2.tistory.com/765)]
@@ -49,7 +50,7 @@ Bye
 - 아래 설정을 추가해야 하는데, 이걸 mysql.cnf 파일 하나에 추가해도 된다고 하기도 하고, mysql.conf.d 디렉토리 안으로 들어가 각 설정별 파일을 만들어야 된다고도 한다. 나는 각 설정 파일을 만들었다.
 - `sudo vim my.cnf` 와 같이 sudo를 붙여야 한다. 안 붙이면 readOnly 형식만 된다.
 
-```shell script
+```java
 sudo vim /etc/mysql/my.cnf
 ```
 
@@ -142,6 +143,7 @@ SELECT C.CNAME, P.NAME FROM COURSE C JOIN PROF P ON C.PROFID = P.PID;
 ## 모델링
 - 데이터 모델링할 때는 필요한 최소한의 정보만 가져와야 한다. <br>
 [lucas ERD 참고 : https://lucas.codesquad.kr/course/%EB%A7%88%EC%8A%A4%ED%84%B0%EC%A6%88-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%ED%95%99%EC%8A%B5%EC%9E%90%EB%A3%8C-BE/ERD](https://lucas.codesquad.kr/course/%EB%A7%88%EC%8A%A4%ED%84%B0%EC%A6%88-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/%ED%95%99%EC%8A%B5%EC%9E%90%EB%A3%8C-BE/ERD)
+
 ### 개념적 설계
 - 동그라미 2개 : 나중에 컬럼이 나눠질 수 있는 경우
 - 선이 1개 : null 값이 가능하다. 값을 모른다.  
