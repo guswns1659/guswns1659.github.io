@@ -161,8 +161,6 @@ echo $PATH
 
 - 아래 코드를 vim ~/.zshrc 맨 마지막에 넣고 wq!로 저장한다.
 - 원래 코드가 있었으나 github.io 문제로 위 사이트로 대체. 그대로 따라하면 된다.
-
-
 - 그 뒤 source ~/.zshrc 실행하면 바로 적용.
 
 ## auto-suggestions 적용하는 법
@@ -227,10 +225,20 @@ export PATH=$JAVA_HOME/bin:$PATH
 ### 아나콘다 설치하기
 - [이 영상을 참고한다](https://www.youtube.com/watch?v=9Uy00NhbG6w)
 - 위 영상대로 참고하되 마지막에 아래 명령어로 .bashrc를 실행하고 anaconda-navigation 입력
+
 ```java
 source /home/jack/.bashrc
 
 anaconda-navigator
+```
+
+### 아나콘다 실행하기
+
+- 아래 명령어 입력 후 true를 바꾼뒤 터미널을 껐다 킨다.
+- 이후 anaconda-navigator를 입력하면 실행된다.
+
+```java
+vim .condarc
 ```
 
 ### 우분투에서 인텔리J 버전 선택해서 다운받는 법
