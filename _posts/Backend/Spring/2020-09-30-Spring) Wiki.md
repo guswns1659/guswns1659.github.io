@@ -841,3 +841,16 @@ public class Scheduler {
 - 쿼리 파람 validation할 때 필요하다
 
 - [참고 블로그](https://reflectoring.io/bean-validation-with-spring-boot/)
+
+## ResponseEntity<> 사용법
+- 하나씩 처음부터 해보니 사용법에 대해서 익숙해진다.
+- 원인 : new ResponseEntity<Object, HttpStatus>() 생성자의 순서가 틀림
+- 해결 : Object, HttpStatus 순서로 가야함
+
+```java
+@ExceptionHandler(NoSuchTodoException.class)
+    public ResponseEntity<ExceptionResponse> noSuchEntity(NoSuchTodoException e) {
+        return new ResponseEntity<>(ExceptionResponse.of(HttpStatus.NOT_FOUND.value(), e.getMessage()),
+                HttpStatus.NOT_FOUND);
+    }
+```
