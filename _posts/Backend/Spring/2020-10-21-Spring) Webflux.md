@@ -127,3 +127,69 @@ categories:
 
 - BodyToMono :  리스폰스 바디를 Mono 타입으로 추출한다. 만약 리스폰스 코드가 400 또는 500일 경우 Mono는 WebClientException을 갖게 된다.
 - subcribe : Subscribe to this Mono and request unbounded demand. Mono를 구독한다(계속 지켜본다. 결과가 나왔는지?) 그리고 제한없는 demand를 요청한다.
+
+# webflux
+
+## webclient 이용해서 post 요청하는 법
+- [참고 : 밸덩](https://www.baeldung.com/spring-5-webclient)
+- webclient은 static 메서드 create()로 생성한다. 처음부터 url를 지정한 webclient를 생성할 수 있는 것 같다
+
+```java
+@Slf4j
+@Service
+public class LoginService {
+
+    private final GithubProperties githubProperties;
+    private WebClient webClient;
+
+    public LoginService(GithubProperties githubProperties) {
+        this.githubProperties = githubProperties;
+        this.webClient = WebClient.create();
+    }
+
+    public ResponseEntity<Void> login(String redirectCode,
+                                      HttpServletResponse response) {
+
+        githubProperties.addRedirectCode(redirectCode);
+
+        AccessTokenRequestDto accessTokenRequestDto
+                = AccessTokenRequestDto.of(githubProperties);
+
+        String accessToken = webClient.post()
+                .uri(githubProperties.getAccessTokenRequestUrl())
+                .body(Mono.just(accessTokenRequestDto), AccessTokenRequestDto.class)
+                .exchange()
+                .block()
+                .bodyToMono(String.class)
+                .block();
+
+        log.info("accessToken : {}", accessToken);
+
+        return new ResponseEntity<>(HttpStatus.FOUND);
+    }
+}
+```
+
+## webflus.get() 요청에서 응답이 배열로 올 때 타입 지정하는 법
+
+- 처음엔 응답타입을 List로 가지는 객체를 생성하고 매핑하려 했는데 아래 에러가 뜬다. 이는 래퍼 클래스의 변수명을 응답결과에서 없기 때문에 json 키가 맞지 않다고 말하는 것.
+
+```java
+Cannot deserialize instance of object out of START_ARRAY token in Spring 3 REST Webservice
+```
+
+- exchange() 대신 retrieve() 사용하고 log()를 사용한다.
+
+```java
+            GithubEmailResponseDto[] githubEmail = webClient.get()
+                    .uri(githubProperties.getEmailRequestUrl())
+                    .accept(MediaType.APPLICATION_JSON)
+                    .header("Authorization", "token " + accessToken)
+                    .retrieve()
+                    .bodyToMono(GithubEmailResponseDto[].class)
+                    .log()
+                    .block();
+
+            log.info("userEmailInfo2 : {}", githubEmail[0].getEmail());
+
+```

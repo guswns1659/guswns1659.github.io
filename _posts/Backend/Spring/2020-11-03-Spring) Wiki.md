@@ -140,10 +140,6 @@ categories:
 
 ![image](https://user-images.githubusercontent.com/55608425/90307675-747dde00-df13-11ea-804b-e05f852e7a3b.png)
 
-# 스프링과 스프링부트의 차이
-
-![image](https://user-images.githubusercontent.com/55608425/91444228-6636a700-e8af-11ea-906e-90c849a17929.png)
-
 # @ConfigurationProperties("github") 설정
 - 이 어노테이션을 사용하려면 application-yml에 해당 값(github)을 추가해야한다.
 
@@ -193,71 +189,6 @@ public class GithubProperties {
 
 ```
 
-# webflux
-
-## webclient 이용해서 post 요청하는 법
-- [참고 : 밸덩](https://www.baeldung.com/spring-5-webclient)
-- webclient은 static 메서드 create()로 생성한다. 처음부터 url를 지정한 webclient를 생성할 수 있는 것 같다
-
-```java
-@Slf4j
-@Service
-public class LoginService {
-
-    private final GithubProperties githubProperties;
-    private WebClient webClient;
-
-    public LoginService(GithubProperties githubProperties) {
-        this.githubProperties = githubProperties;
-        this.webClient = WebClient.create();
-    }
-
-    public ResponseEntity<Void> login(String redirectCode,
-                                      HttpServletResponse response) {
-
-        githubProperties.addRedirectCode(redirectCode);
-
-        AccessTokenRequestDto accessTokenRequestDto
-                = AccessTokenRequestDto.of(githubProperties);
-
-        String accessToken = webClient.post()
-                .uri(githubProperties.getAccessTokenRequestUrl())
-                .body(Mono.just(accessTokenRequestDto), AccessTokenRequestDto.class)
-                .exchange()
-                .block()
-                .bodyToMono(String.class)
-                .block();
-
-        log.info("accessToken : {}", accessToken);
-
-        return new ResponseEntity<>(HttpStatus.FOUND);
-    }
-}
-```
-
-## webflus.get() 요청에서 응답이 배열로 올 때 타입 지정하는 법
-
-- 처음엔 응답타입을 List로 가지는 객체를 생성하고 매핑하려 했는데 아래 에러가 뜬다. 이는 래퍼 클래스의 변수명을 응답결과에서 없기 때문에 json 키가 맞지 않다고 말하는 것.
-
-```java
-Cannot deserialize instance of object out of START_ARRAY token in Spring 3 REST Webservice
-```
-
-- exchange() 대신 retrieve() 사용하고 log()를 사용한다.
-
-```java
-            GithubEmailResponseDto[] githubEmail = webClient.get()
-                    .uri(githubProperties.getEmailRequestUrl())
-                    .accept(MediaType.APPLICATION_JSON)
-                    .header("Authorization", "token " + accessToken)
-                    .retrieve()
-                    .bodyToMono(GithubEmailResponseDto[].class)
-                    .log()
-                    .block();
-
-            log.info("userEmailInfo2 : {}", githubEmail[0].getEmail());
-
-```
 
 # Spring
 
@@ -286,71 +217,6 @@ public class Picture {
 }
 
 ```
-
-# 스프링 시큐리티 이용한 비밀번호 암호화
-
-암호화에 있어서 개발자들이 지켜야할 규칙들이 몇가지 있다.
-
-1. 복호화(디코딩)가 불가능한 단방향 암호코드로 만들어져야 한다.
-2. 암호는 개발자나 관리자도 알 수 없어야 하며 이용자 이외에는 누구도 접근할 수 없는 형태여야 한다.
-3. 공격자가 예측할 수 없도록 솔트 처리를 해주어야 한다.
-
-## 순서
-- 스타터 시큐리티 의존성 추가, 스프링부트와 버전을 맞춘다. ex) 2.3.1
-
-```java
-// 비밀번호 암호화를 위한 security 의존성 추가, 스프링부트와 버전을 맞춘다
-    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: '2.3.1.RELEASE'
-```
-
-- BCryptPasswordEncoder()를 빈으로 등록
-
-```java
-@Configuration
-public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
-
-    @Override
-    public void configure(WebSecurity web) {
-        web.ignoring().antMatchers("/**");
-    }
-
-    @Bean
-    public PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
-    }
-}
-```
-
-- PasswordEncoder의 encode()를 사용한다.
-
-```java
-// 비밀번호 encode
-        String encodePassword = passwordEncoder.encode(registerRequestDto.getPassword());
-        registerRequestDto.setPassword(encodePassword);
-```
-
-## 시큐리티 disable 하는 법
-
-```java
-@Configuration
-public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
-
-    @Override
-    public void configure(WebSecurity web) {
-        web.ignoring().antMatchers("/**");
-    }
-
-    @Bean
-    public PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder();
-    }
-}
-```
-
-- [스프링 시큐리티 disable 하는 법](https://www.baeldung.com/spring-security-disable-profile)
-
-
-# Spring
 
 ## spring.datasource.initialization-mode
 - embedded DB외에 schema.sql로 스키마를 생성할 때 필요한 옵션
@@ -854,3 +720,88 @@ public class Scheduler {
                 HttpStatus.NOT_FOUND);
     }
 ```
+
+# Spring
+
+## 회원 도메인 협력 관계
+- 기획자도 함께 보는 도메인 모델
+
+![image](https://user-images.githubusercontent.com/55608425/97852914-b8c29280-1d3a-11eb-933b-a02f98090282.png)
+
+
+## 회원 클래스 다이어그램
+- 개발자가 사용하는 특정 언어, 프레임워크에 기반해서 작성하는 다이어그램. 아래같은 경우는 자바를 기반으로 객체 기반 다이어그램이다.
+
+![image](https://user-images.githubusercontent.com/55608425/97852928-bf510a00-1d3a-11eb-9ea9-eba4e45b28ff.png)
+
+
+## 회원 객체 다이어그램
+- 실제 서비스가 운영될 때 사용되는 인스턴스를 의미한다. 다형성이 구현되어 있으면 구체적인 인스턴스는 프로그램이 실행될 때 정해지기 때문이다.
+
+![image](https://user-images.githubusercontent.com/55608425/97852944-c710ae80-1d3a-11eb-8437-b120d2af2220.png)
+
+## 서비스 추상화
+- 지금까지 개발할 땐 콘트리트 서비스 클래스를 사용했다. 하지만 스프링 예제를 보니 서비스도 추상화 계층을 두고 콘크리트 클래스를 따로 사용하는 것 같다.
+
+- 인터페이스
+
+```java
+package com.titanic.springstudy.member;
+
+public interface MemberService {
+
+    void join(Member member);
+
+    Member findMember(Long memberId);
+}
+
+```
+
+
+- 콘크리트 클래스
+
+```java
+public class MemberServiceImpl implements MemberService {
+
+    private final MemberRepository memberRepository = new MemoryMemberRepository();
+
+    @Override
+    public void join(Member member) {
+        memberRepository.save(member);
+    }
+
+    @Override
+    public Member findMember(Long memberId) {
+        return memberRepository.findById(memberId);
+    }
+}
+```
+
+## OCP 및 DIP가 적용이 안된 코드
+
+- 아래 코드는 콘크리트 클래스(MemberServiceImpl)에 직접 구현하고 있기 때문에 DIP가 깨진 상황
+- 만약 다른 Service로 변경해야 한다면 변해야 하는 코드가 많기 때문에 OCP도 지켜지지 않고 있다.
+
+```java
+public class MemberApp {
+
+    public static void main(String[] args) {
+        MemberService memberService = new MemberServiceImpl();
+        Member member = new Member(1L, "memberA", Grade.VIP);
+        memberService.join(member);
+
+        Member findMember = memberService.findMember(1L);
+        System.out.println("new member = " + member.getName());
+        System.out.println("find Member = " + findMember.getName());
+    }
+}
+```
+
+## 역할과 구현 분리
+- 역할이란 인터페이스를 의미하고 구현이란 해당 인터페이스를 구현한 콘크리트 클래스를 의미한다. 역할과 구현을 분리했다는 의미는 추상화를 했다는 말이다.
+
+![image](https://user-images.githubusercontent.com/55608425/97868863-c9cbcd80-1d53-11eb-9229-5c66aca6707e.png)
+
+- 구체화된 클래스 다이어그램
+
+![image](https://user-images.githubusercontent.com/55608425/97868917-e36d1500-1d53-11eb-870d-255bae88d0ec.png)
