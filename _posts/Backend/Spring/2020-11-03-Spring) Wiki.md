@@ -805,3 +805,76 @@ public class MemberApp {
 - 구체화된 클래스 다이어그램
 
 ![image](https://user-images.githubusercontent.com/55608425/97868917-e36d1500-1d53-11eb-870d-255bae88d0ec.png)
+
+# Spring
+
+## DIP 위반
+- 인터페이스에 의존하고 있다고 해서 DIP, OCP가 항상 적용되지 않다. 클라이언트에서 인터페이스도 의존하지만 구체 클래스도 의존하고 있다면 DIP 위반. 아래 코드를 보자
+
+- 클라이언트(ServiceImpl)이 DiscountPolicy(인터페이스)와 RadeDiscountPolicy(구체클래스)에 둘 다 의존하고 있다 .
+
+```java
+public class OrderServiceImpl implements OrderService {
+
+    private final MemberRepository memberRepository = new MemoryMemberRepository();
+    private final DiscountPolicy discountPolicy = new RateDiscountPolicy();
+
+    @Override
+    public Order createOrder(Long memberId, String itemName, int itemPrice) {
+        Member member = memberRepository.findById(memberId);
+        int discountPrice = discountPolicy.discount(member, itemPrice);
+
+        return new Order(memberId, itemName, itemPrice, discountPrice);
+    }
+}
+```
+
+## 그럼 어떻게 해야할까?
+- 구체 클래스를 클라이언트에서 생성하지 않고 외부에서 주입해주는 객체가 필요하다. 이게 스프링의 역할이다. DI 컨테이너를 통해서 빈으로 등록된 객체는 스프링이 주입을 해준다.
+
+- AppConfig (구체 클래스를 주입해주는 DI 컨테이너 역할)
+
+```java
+public class AppConfig {
+
+    public MemberService memberService() {
+        return new MemberServiceImpl(new MemoryMemberRepository());
+    }
+
+    public OrderService orderService() {
+        return new OrderServiceImpl(new MemoryMemberRepository(), new FixDiscountPolicy());
+    }
+}
+```
+
+- DIP가 적용된 클라이언트 클래스 (생성자를 통해 주입된다)
+
+```java
+public class OrderServiceImpl implements OrderService {
+
+    private final MemberRepository memberRepository;
+    private final DiscountPolicy discountPolicy;
+
+    public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
+        this.memberRepository = memberRepository;
+        this.discountPolicy = discountPolicy;
+    }
+```
+
+- main 코드 (이제 의존성 주입은 AppConfig가 담당한다.)
+
+```java
+public class MemberApp {
+
+    public static void main(String[] args) {
+        AppConfig appConfig = new AppConfig();
+        MemberService memberService = appConfig.memberService();
+        Member member = new Member(1L, "memberA", Grade.VIP);
+        memberService.join(member);
+
+        Member findMember = memberService.findMember(1L);
+        System.out.println("new member = " + member.getName());
+        System.out.println("find Member = " + findMember.getName());
+    }
+}
+```
