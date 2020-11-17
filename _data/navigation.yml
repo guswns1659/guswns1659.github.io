@@ -18,6 +18,8 @@ sidebar-sample:
     children:
       - title: "Java"
         url: /categories/#java
+      - title: "Kotlin"
+        url: /categories/#kotlin
       - title: "Spring"
         url: /categories/#spring
       - title: "DB"
