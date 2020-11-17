@@ -1,0 +1,125 @@
+---
+title: "kotlin) Wiki"
+header:
+  overlay_image: /assets/java.jpg
+  overlay_filter: 0.2
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+categories:
+  - Kotlin
+---
+
+Kotlin은 자바에 비해 생산성이 향상됩니다.
+
+# 코틀린
+
+## 코틀린에서 컨트롤러 테스트
+
+```java
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+@AutoConfigureWebTestClient(timeout = "30000")
+class GetApiControllerTest {
+
+    @LocalServerPort
+    private var port: Int = 0;
+
+    @Autowired
+    lateinit var webTestClient: WebTestClient
+
+    // equivalent of final static
+    companion object {
+        private const val REQUEST_MAPPING: String = "/api/"
+        private const val LOCALHOST: String = "http://localhost:";
+    }
+
+    @Test
+    fun get() {
+
+        // given
+        val requestUrl: String = LOCALHOST + port + REQUEST_MAPPING + "hello"
+
+        // when
+        webTestClient.get()
+                .uri(requestUrl)
+                .accept(MediaType.APPLICATION_JSON)
+                .exchange()
+                .expectStatus().isOk
+                .expectBody()
+                .consumeWith {
+                    assertThat(it.responseBody?.let { it1 -> String(it1) }).isEqualTo("hello kotlin")
+                }
+    }
+
+}
+```
+
+- 여러개의 API 매핑을 가질 수 있게 설정하는 법
+
+```java
+@GetMapping(path = ["/hello", "/abcd"])
+    fun hello(): String{
+        return "hello kotlin"
+    }
+```
+
+- @CsvSource 사용법
+
+```java
+@DisplayName("path-variable 이용한 GetMapping 테스트")
+    @ParameterizedTest
+    @CsvSource("jack,10,jack 10")
+    fun getPathVariable(name: String, age: Int, expected: String) {
+        // given
+```
+
+- 코틀린에서는 변수명을 스네이크 형식으로 선언할 수 없다. ex) phone-number (x) phoneNumber
+- JsonProperty()이용해도 null로 들어온다. -> 왠지 쿼리파람으로 적용할 때 안 먹히는 것 같다. Post의 바디로 전달하면 먹힐 것 같다.
+
+```java
+
+Expecting:
+ <null>
+to be equal to:
+ <"010-7720-7957">
+but was not.
+```
+
+- Map<>을 통해서 쿼리파람을 받을 수 있다.
+- 장점은 하이픈이 들어간 쿼리 파람을 받을 수 있다.
+
+```java
+@GetMapping("/get-mappling/query-param/map")
+    fun queryParamMap(@RequestParam map: Map<String,Any>): Map<String, Any> {
+        println(map)
+        return map
+    }
+```
+
+# 코틀린
+
+## val, var
+- val : 불변타입변수, 자바의 final과 유사하다. 해당 변수의 값은 변경할 수 없지만 해당 참조의 값은 변경이 가능하다고 한다.
+- var : 가변타입변수
+
+## apply, let
+
+- let : 지정된 값이 null이 아닐 경우 실행되는 코드. if (result != null)와 같은 코드가 사라진다.
+
+```java
+getNullablePerson()?.let {
+    // null 이 아닐때만 실행됩니다.
+    promote(it)
+}
+```
+
+- apply : 수신 객체 람다 내부에서 수신 객체의 함수를 사용하지 않고 수신 객체 자신을 다시 반환 하려는 경우에 사용
+
+```java
+val jack = Human().apply {
+    // apply 의 블록 에서는 오직 프로퍼티 만 사용합니다!
+    name = "Peter"
+    age = 18
+}
+```
+
+- also : 수신 객체 람다가 전달된 수신 객체를 전혀 사용 하지 않거나 수신 객체의 속성을 변경하지 않고 사용하는 경우에 사용
+- run : 어떤 값을 계산할 필요가 있거나 여러개의 지역 변수의 범위를 제한할 때 사용
