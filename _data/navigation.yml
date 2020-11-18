@@ -58,5 +58,7 @@ sidebar-sample:
         url: /categories/#algorithm
       - title: "Bloging"
         url: /categories/#bloging
+      - title: "Domain"
+        url: /categories/#domain
   - title: Book
     url: /categories/#book
