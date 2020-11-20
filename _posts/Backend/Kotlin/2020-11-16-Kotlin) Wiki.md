@@ -123,3 +123,31 @@ val jack = Human().apply {
 
 - also : 수신 객체 람다가 전달된 수신 객체를 전혀 사용 하지 않거나 수신 객체의 속성을 변경하지 않고 사용하는 경우에 사용
 - run : 어떤 값을 계산할 필요가 있거나 여러개의 지역 변수의 범위를 제한할 때 사용
+
+# 코틀린
+
+## 정적팩터리 메서드 만들기
+
+- [참고 블로그](https://kotlin-code.com/design-patterns/creational-patterns/factory-method/)
+
+- 생성
+
+```java
+class Complex private constructor(private val re: Double, private val im: Double) {
+
+    companion object Factory {
+        fun valueOf(re: Double, im: Double): Complex {
+            return Complex(re, im)
+        }
+    }
+}
+```
+
+- main에서 사용, 계속 실수한게 val valueOf: Complex로 구하려고 했음.
+
+```java
+fun main(args: Array<String>) {
+    val valueOf = Complex.valueOf(3.1, 3.2)
+    print(valueOf.toString())
+}
+```
