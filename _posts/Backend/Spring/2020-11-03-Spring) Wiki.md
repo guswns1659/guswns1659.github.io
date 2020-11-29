@@ -938,3 +938,7 @@ public class MemberApp {
 
 - 스프링에서는 ObjectMapper가 있어 json을 object로 변환해주는 역할을 한다.
 - @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy::class)을 사용하면 전체 클래스의 네이밍 전략을 지정할 수 있다.
+
+## @PostConstruct
+
+- @PostConstruct는 의존성 주입이 이루어진 후 초기화를 수행하는 메서드이다. @PostConstruct가 붙은 메서드는 클래스가 service(로직을 탈 때? 로 생각 됨)를 수행하기 전에 발생한다. 이 메서드는 다른 리소스에서 호출되지 않는다해도 수행된다
