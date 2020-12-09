@@ -942,3 +942,139 @@ public class MemberApp {
 ## @PostConstruct
 
 - @PostConstruct는 의존성 주입이 이루어진 후 초기화를 수행하는 메서드이다. @PostConstruct가 붙은 메서드는 클래스가 service(로직을 탈 때? 로 생각 됨)를 수행하기 전에 발생한다. 이 메서드는 다른 리소스에서 호출되지 않는다해도 수행된다
+
+# Spring
+
+## ApplicationContextAware
+- 용도 : 빈이 아닌 객체에 빈 객체를 주입하고 싶을 때 사용
+- 방법 : ApplicationContextAware를 구현하는 클래스를 만든다음 아래처럼 사용한다.
+
+```java
+@Component
+class ApplicationContextProvider : ApplicationContextAware {
+
+    companion object {
+        private lateinit var applicationContext: ApplicationContext
+
+        fun getApplicationContext() : ApplicationContext{
+            return applicationContext
+        }
+    }
+
+    override fun setApplicationContext(appContext: ApplicationContext) {
+        applicationContext = appContext
+    }
+}
+
+class BeanUtils {
+    companion object {
+        fun getBean(beanName:String) : Any{
+            val applicationContext = ApplicationContextProvider.getApplicationContext();
+            return applicationContext.getBean(beanName)
+        }
+    }
+}
+```
+
+# Spring
+
+## Validation
+- [공식문서](https://beanvalidation.org/2.0-jsr380/spec/#builtinconstraints-null)
+
+- validation을 사용하기 위해선 자바빈으로 등록되어야 하는데 @Validated가 도와준다.
+
+```java
+@RestController
+@RequestMapping("/api")
+@Validated
+class DeleteController {
+
+    @DeleteMapping(path = ["/delete-mapping"])
+    fun deleteMapping(
+        @RequestParam(value = "name") _name : String,
+
+        @NotNull(message = "age 값이 누락되었습니다.")
+        @Min(value = 20, message = "ages는 20보다 커야 합니다.")
+        @RequestParam(name = "age") _age : Int
+    ) : String {
+        println(_name)
+        println(_age)
+        return "$_name $_age"
+    }
+
+```
+
+- requestDTO에 대해서 검증할 때 @Valid는 하나의 객체에 적용할 수 있다.
+
+```java
+@RestController
+@RequestMapping("/api")
+class PutApiController {
+
+    @PutMapping(path = ["/put-mapping/object"])
+    fun putMappingObject(@Valid @RequestBody userRequest: UserRequest) : UserResponse {
+        return UserResponse().apply {
+
+        }
+    }
+}
+
+data class UserResponse(
+
+    @field:NotEmpty
+    @field:Pattern(regexp = "")
+    private var result: Result?=null,
+    private var description: String?=null
+
+)
+```
+
+- validation할 때 에러가 발생할 때 처리하는 법
+
+```java
+@RestController
+@RequestMapping("/api")
+class PutApiController {
+
+    @PutMapping(path = ["/put-mapping/object"])
+    fun putMappingObject(@Valid @RequestBody userRequest: UserRequest, bindingResult: BindingResult): ResponseEntity<String> {
+
+        if (bindingResult.hasErrors()) {
+            // 500 error
+            val msg = StringBuilder()
+            bindingResult.allErrors.forEach {
+                // as는 형변환
+                val filed = it as FieldError
+                val message = it.defaultMessage
+                msg.append("${filed.field} : $message\n")
+            }
+            return ResponseEntity.badRequest().body(msg.toString())
+        }
+        return ResponseEntity.ok("")
+    }
+}
+```
+
+- 내가 정의한 validation사용하는 법 : @AssertTrue를 사용한다. 메서드명은 isValid필드명으로 해야 하는 것 같다
+
+```java
+data class UserRequest (
+
+        var name: String?=null,
+        var phoneNumber: String?=null,
+
+        var createdAt:String?=null // yyyy-MM-dd HH:mm:ss
+) {
+    @AssertTrue(message = "생성일자의 패턴은 yyyy-MM-dd HH:mm:ss")
+    private fun isValidCreatedAt():Boolean {
+
+        try {
+            LocalDateTime.parse(this.createdAt, DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"))
+            return true
+
+        } catch (e:Exception) {
+            return false
+        }
+    }
+}
+```
