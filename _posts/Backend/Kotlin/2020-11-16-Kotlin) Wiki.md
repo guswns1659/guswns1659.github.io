@@ -154,3 +154,15 @@ fun main(args: Array<String>) {
 
 ## open 키워드
 - 상속을 위한 부모 클래스에 붙여야 하는 키워드이다. 해당 키워드가 없으면 상속을 구현할 수 없다고 한다.
+
+# 코틀린
+
+## assertAll 테스트
+- import org.junit.jupiter.api.assertAll
+
+```java
+assertAll("convert",
+            { assertThat(convertToEntityAttribute).isEqualTo(decryptedField) },
+            { assertThat(convertToDatabaseColumn).isEqualTo(encryptedField) }
+        )
+```

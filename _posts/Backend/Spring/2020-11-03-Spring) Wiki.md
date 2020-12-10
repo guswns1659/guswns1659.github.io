@@ -1078,3 +1078,87 @@ data class UserRequest (
     }
 }
 ```
+
+# Spring
+
+## Custom Validation 어노테이션
+- 직접 어노테이션을 만들어서 해당 필드에 대한 validation을 할 수 있다.
+
+- 내가 필요한 어노테이션을 만든다.
+
+```java
+@Constraint(validatedBy = [StringFormatDateTimeValidator::class])
+@Target(
+    AnnotationTarget.FIELD,
+    AnnotationTarget.PROPERTY_GETTER,
+    AnnotationTarget.PROPERTY_SETTER,
+)
+@Retention(AnnotationRetention.RUNTIME)
+@MustBeDocumented
+annotation class StringFormatDateTime(
+    val pattern: String = "yyyy-MM-dd HH:mm:ss",
+    val message: String = "시간 형식이 유효하지 않습니다.",
+    val groups: Array<KClass<*>> = [],
+    val payload: Array<KClass<out Payload>> = []
+)
+```
+
+- 위 어노테이션의 검증 역할을 담당하는 Validattor를 만든다. ConstraintValidator라는 인터페이스가 isValid라는 명세를 정의하고 있다. 그래서 isValid에 내가 필요한 검증로직을 넣는다.
+
+
+```java
+class StringFormatDateTimeValidator : ConstraintValidator<StringFormatDateTime, String> {
+
+    private var pattern : String? = null
+
+    override fun initialize(constraintAnnotation: StringFormatDateTime?) {
+        this.pattern = constraintAnnotation?.pattern
+    }
+
+    // 정상이면 true, 비정상이면 false
+    override fun isValid(value: String?, context: ConstraintValidatorContext?): Boolean {
+        try {
+            LocalDateTime.parse(value, DateTimeFormatter.ofPattern(pattern))
+            return true
+
+        } catch (e:Exception) {
+            return false
+        }
+    }
+}
+```
+
+- 실제 필드에서 사용하는 법
+
+```java
+data class UserRequest(
+
+    var name: String? = null,
+    var phoneNumber: String? = null,
+
+    @field:StringFormatDateTime(pattern = "yyyy-MM-dd HH:mm:ss", message = "패턴이 올바르지 않습니다.")
+    var createdAt: String? = null // yyyy-MM-dd HH:mm:ss
+)
+```
+
+# ControllerAdvice
+
+## ControllerAdvice의 범위를 지정하는 법
+- 어노테이션 내부에 다양한 기능이 존재한다. 그 중 basePackageClasses이다.
+
+```java
+@RestControllerAdvice(basePackageClasses = [ExceptionApiController::class])
+class GlobalControllerAdvice {
+
+    @ExceptionHandler(value = [RuntimeException::class])
+    fun exception(e : RuntimeException) : String {
+        return "Server Error"
+    }
+
+    @ExceptionHandler(value = [IndexOutOfBoundsException::class])
+    fun indexOutOfBoundsException(e : IndexOutOfBoundsException) : ResponseEntity<String> {
+        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Index Error")
+    }
+}
+
+```
