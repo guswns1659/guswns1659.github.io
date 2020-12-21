@@ -637,3 +637,11 @@ class ExceptionApiController {
 
     }
 ```
+
+## Validation
+- Validation 사용하려면 아래 의존성을 추가한다
+
+```java
+    implementation("org.springframework.boot:spring-boot-starter-validation")
+
+```

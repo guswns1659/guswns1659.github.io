@@ -166,3 +166,40 @@ assertAll("convert",
             { assertThat(convertToDatabaseColumn).isEqualTo(encryptedField) }
         )
 ```
+
+## apply 사용법
+- apply 적용 후에 run을 실행하면 된다.
+
+```java
+@Service
+class TodoRepositoryImpl: TodoRepository {
+
+   @Autowired
+   lateinit var todoDataBase: TodoDataBase
+
+   override fun save(todo: Todo): Todo {
+
+       return todo.apply {
+           this.index = todoDataBase.index++
+       }.run {
+           todoDataBase.todoList.add(todo)
+           this
+       }
+   }
+```
+
+- let 사용법
+- null이 아닐 경우, null일 경우에 대한 코드를 아래처럼 처리
+
+```java
+override fun delete(index: Int): Boolean {
+       val todo = findOne(index)
+
+       return todo?.let {
+           todoDataBase.todoList.remove(it)
+           true
+       }?: kotlin.run {
+           false
+       }
+   }
+```
