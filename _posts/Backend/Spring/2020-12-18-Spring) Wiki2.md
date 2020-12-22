@@ -645,3 +645,16 @@ class ExceptionApiController {
     implementation("org.springframework.boot:spring-boot-starter-validation")
 
 ```
+
+# Micrometer
+
+- 마이크로미터는 모니터링 시스템을 위한 측정 클라이언트에 대한 파사드(인터페이스)를 제공한다.
+
+## meterRegistry
+- Meter는 어플리케이션의 메트릭을 수집하기 위한 인터페이스이다.
+- Meter의 식별자는 이름과 태그로 구성된다. 단어를 “.”으로 구분하는 네이밍 컨벤션을 지켜야한다. 이는 여러 모니터링 시스템에 대한 메트릭 이름 이식성을 보장한다.
+
+```java
+val tags = Tags.of("name", jack).and("age",20) // Tags.of는 불변 리스트를 만들어주고 and로 tag를 추가할 수 있다.
+meterRegistry.counter("jack.meter", tags).increment() // tags를 meterRegistry에 적용한다.
+```

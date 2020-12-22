@@ -203,3 +203,10 @@ override fun delete(index: Int): Boolean {
        }
    }
 ```
+
+## List, Map
+
+- [참고글](https://brunch.co.kr/@mystoryg/28)
+
+- listOf()는 읽기 전용 모드, mutableListOf<String>()가 추가, 삭제가 가능한 list
+- mapOf()는 읽기 전용, mutableListOf<String>()는 추가, 삭제가 가능한 map
