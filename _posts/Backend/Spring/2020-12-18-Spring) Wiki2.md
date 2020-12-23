@@ -658,3 +658,8 @@ class ExceptionApiController {
 val tags = Tags.of("name", jack).and("age",20) // Tags.of는 불변 리스트를 만들어주고 and로 tag를 추가할 수 있다.
 meterRegistry.counter("jack.meter", tags).increment() // tags를 meterRegistry에 적용한다.
 ```
+
+# MapStruct
+- [참고글](https://meetup.toast.com/posts/213)
+- Entity와 DTO간 변환을 쉽게 도와주는 라이브러리
+- @AfterMapping을 사용하려면 Mapper를 인터페이스가 아니라 abstract 클래스로 만들어야 한다. 그래야 제대로 반영이 된다.
