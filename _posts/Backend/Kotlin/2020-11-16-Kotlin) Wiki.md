@@ -210,3 +210,13 @@ override fun delete(index: Int): Boolean {
 
 - listOf()는 읽기 전용 모드, mutableListOf<String>()가 추가, 삭제가 가능한 list
 - mapOf()는 읽기 전용, mutableListOf<String>()는 추가, 삭제가 가능한 map
+
+## 에러 : Lint error > [import-ordering] Imports must be ordered in lexicographic order without any empty lines in-between
+- 원인 : lint 설정에 맞지 않는 포매팅이 있기 때문이다. import가 사전식으로 돼야한다는 에러
+- 해결 : gradle -> formatting -> formatKotlin
+
+## 에러 : wildcard-import 문제
+- 원인 : 몇개 이상이면 *로 바꾸는 설정 문제
+- 해결 : 아래와 같이 설정 변경
+
+![image](https://user-images.githubusercontent.com/74221090/102974944-ad256800-4542-11eb-967c-ccc590761115.png)
