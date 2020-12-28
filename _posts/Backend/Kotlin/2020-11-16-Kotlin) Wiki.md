@@ -220,3 +220,71 @@ override fun delete(index: Int): Boolean {
 - 해결 : 아래와 같이 설정 변경
 
 ![image](https://user-images.githubusercontent.com/74221090/102974944-ad256800-4542-11eb-967c-ccc590761115.png)
+
+# Kotlin
+
+## ResponseEntity에서 리다이렉트 하는 법
+
+```java
+@GetMapping(path = [""])
+    fun read(@RequestParam(required = false) index: Int?): ResponseEntity<Any> {
+        return index?.let {
+            todoService.read(it)
+        }?.let {
+            ResponseEntity.ok(it)
+        }?: kotlin.run {
+            return ResponseEntity.status(HttpStatus.MOVED_PERMANENTLY).header(HttpHeaders.LOCATION, "/api/todo/all").build()
+        }
+    }
+```
+
+## Swagger2 설정
+
+```java
+@Configuration
+@EnableSwagger2
+class SwaggerConfig {
+
+    @Bean
+    fun docket(): Docket {
+        return Docket(DocumentationType.SWAGGER_2)
+            .select()
+            .apis(RequestHandlerSelectors.any())
+            .paths(PathSelectors.any())
+            .build()
+    }
+}
+```
+
+## Swagger Dto 예시 변경하기
+- Dto에 들어가서 @ApiModelProperty를 추가한다.
+
+```java
+data class TodoDto(
+    @field:ApiModelProperty(
+        value = "DB INDEX",
+        example = "1",
+        required = false
+    )
+    var index:Int?=null,
+    @field:ApiModelProperty(
+        value = "일정명",
+        example = "일정관리",
+        required = true
+    )
+    @field:NotBlank
+    var title:String?=null,
+    var description:String?=null,
+    @field:NotBlank
+    // yyyy-MM-dd HH:mm:ss // TODO : 이전에 학습한 custom annotation으로 변경
+    var schedule: String?=null,
+    var createdAt:LocalDateTime?=null,
+    var updatedAt:LocalDateTime?=null
+
+
+)
+```
+
+- swagger 어노테이션 설명
+
+![image](https://user-images.githubusercontent.com/74221090/103165392-90e33d00-485a-11eb-9479-ed77ebea0dd1.png)
