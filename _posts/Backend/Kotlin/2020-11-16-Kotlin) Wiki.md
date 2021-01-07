@@ -288,3 +288,8 @@ data class TodoDto(
 - swagger 어노테이션 설명
 
 ![image](https://user-images.githubusercontent.com/74221090/103165392-90e33d00-485a-11eb-9479-ed77ebea0dd1.png)
+
+
+## 코틀린 사용할 때 컴파일 시 Unresolved Reference 에러가 발생할 때
+- 원인 : 코틀린 사용 시 발생할 수 있는 문제라고 함.
+- 해결 : 인텔리j gradle 메뉴에서 gradle clean -> build한다. 만약 lint 에러있으면 해결한다.
