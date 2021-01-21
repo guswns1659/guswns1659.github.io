@@ -293,3 +293,10 @@ data class TodoDto(
 ## 코틀린 사용할 때 컴파일 시 Unresolved Reference 에러가 발생할 때
 - 원인 : 코틀린 사용 시 발생할 수 있는 문제라고 함.
 - 해결 : 인텔리j gradle 메뉴에서 gradle clean -> build한다. 만약 lint 에러있으면 해결한다.
+
+## logger 사용법
+
+```java
+    val logger = LoggerFactory.getLogger(GlobalFilter::class.java)
+
+```
