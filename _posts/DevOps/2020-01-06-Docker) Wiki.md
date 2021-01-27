@@ -124,3 +124,13 @@ docker run -p 5432:5432 -e POSTGRES_PASSWORD=pass -e POSTGRES_USER=postgres -e P
 - docker exec -i -t postgres_boot bash
 - su - postgres
 - psql --username jack --dbname springdata (콘솔에 접근하는 명령어)
+
+---
+
+# 명령어
+
+- 이미지 생성 : docker build -t username/imagename .
+- 컨테이너 실행(컨테이너 포트를 8100으로 개방하고 8000과 연결): docker  run -d -p 8100:8000 username/imagename
+- 컨테이너 접속 : docker exec -it container id /bin/bash
+- 로그인 : docker login
+- 도커 허브에 이미지 올리기 : docker push username/imagename
