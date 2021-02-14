@@ -159,11 +159,22 @@ done
 cp abc.txt xyz
 ```
 
-### 압축 해제 시 한글 깨질 때 적용 방법 
+### 압축 해제 시 한글 깨질 때 적용 방법
 - 윈도우에서 압축할 때 사용하는 인코딩방식과 리눅스에서 해제할 때 사용하는 인코딩 방식이 다르기 때문에 발생
 - vim ~/.profile에 들어간 뒤 아래 설정을 추가한 뒤 재시작한다.
 
 ```java
 export UNZIP="-O cp949"
-export ZIPINFO="-O cp949
+export ZIPINFO="-O cp949"
+```
+
+## tee
+tee 는 표준 입력(standard input)에서 읽어서 표준 출력(standard output) 과 파일에 쓰는 명령어이다. 입력값을 출력하거나 파일에 쓸 때 사용된다.
+
+```java
+echo "jack" | tee OUT // "jack"을 OUT에 쓴다.
+
+cat OUT | tee OUT2 // OUT파일을 OUT2에 복사한다.
+
+echo "jack" | tee -a OUT // "jack"을 OUT에 추가로 쓴다.
 ```

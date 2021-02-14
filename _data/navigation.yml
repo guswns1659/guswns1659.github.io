@@ -34,6 +34,8 @@ sidebar-sample:
         url: /categories/#network
       - title: "Technical Paradigm"
         url: /categories/#paradigm
+      - title: "NewTech"
+        url: /categories/#newtech
   - title: DevOps
     children:
       - title: "DevOps"

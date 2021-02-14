@@ -4,6 +4,8 @@ header:
   overlay_image: /assets/write.jpg
   overlay_filter: 0.2
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+categories:
+  - newtech
 ---
 
 제일 무서운 사람은 매일 꾸준히 무언가를 하는 사람
