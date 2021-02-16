@@ -300,3 +300,10 @@ data class TodoDto(
     val logger = LoggerFactory.getLogger(GlobalFilter::class.java)
 
 ```
+
+# EqualsBuilder.reflectionEquals
+- 리스트 안에 리스트 비교할 때도 내부 값이 같아야 true로 한다.
+
+# List<> size
+- List<> 내부의 객체의 개수만 같으면 true가 나온다.
+- 내부 객체의 내부에 있는 리스트의 데이터의 개수가 달라도 true가 나온다.
