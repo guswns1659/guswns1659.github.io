@@ -361,3 +361,32 @@ class MutableTest {
         assertThat(ktcTime).isBefore(LocalDateTime.now())
     }
 ```
+
+## reflection
+- DTO간 필드를 비교할 때 reflection을 사용하면 간결하게 코드를 작성할 수 있다.
+- [참고 블로그](https://www.python2.net/questions-1056892.htm)
+
+```java
+private fun reflectionCardBill(
+        cardBill1: CardBill,
+        cardBill2: CardBill
+    ): MutableMap<String, String> {
+        val declaredFields = cardBill1.javaClass.declaredFields
+        val list = mutableListOf<String>()
+        val mutableMapOf = mutableMapOf<String, String>()
+
+        // 1. cardbill의 필드가 다른 경우
+        declaredFields.forEach { field ->
+            field.isAccessible = true
+            val old = field.get(cardBill1)
+            val new = field.get(cardBill2)
+            if (!old.equals(new)) {
+                mutableMapOf["oldBill.${field.name}"] = old.toString()
+                mutableMapOf["newBill.${field.name}"] = new.toString()
+                // cardBillTransaction의 값을 지운다.
+                mutableMapOf.remove("oldBill.transactions")
+                mutableMapOf.remove("newBill.transactions")
+                list.add(field.name)
+            }
+        }
+```
