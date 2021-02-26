@@ -701,3 +701,7 @@ class TodoDtoTest {
     }
 }
 ```
+
+# spring.main.web-application-type=none
+
+스프링은 기본적으로 톰캣 웹서버를 구동하게끔 되어있다. 만약 어떤 웹서버도 사용하고 싶지 않으면 `spring.main.web-application-type=none`이라는 옵션을 application.yml에 주면 된다. 스프링을 grpc 서버로만 사용하고 WAS를 사용하지 않는다면 위 옵션을 줄 수 있다.
