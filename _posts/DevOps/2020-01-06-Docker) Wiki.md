@@ -134,3 +134,9 @@ docker run -p 5432:5432 -e POSTGRES_PASSWORD=pass -e POSTGRES_USER=postgres -e P
 - 컨테이너 접속 : docker exec -it container id /bin/bash
 - 로그인 : docker login
 - 도커 허브에 이미지 올리기 : docker push username/imagename
+
+# docker 실행 명령
+
+```java
+docker run -d -p 8100:8000 username/imagename:tags (없다면 tag는 lastest로 적힌다)
+```
