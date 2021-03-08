@@ -78,3 +78,26 @@ public TodoDeleteResponse delete(Long todoId) {
 
 ### 큐
 - 클라이언트의 요청을 비동기-논블락킹 방식으로 처리할 수 있는 자료구조
+
+# tcpdump 패킷 확인하는 법
+tcp 패킷을 dump할 일이 생기는 이유는 외부사와의 통신에서 인코딩이 맞지 않을 때 외부사의 패킷을 봐야할 때 사용한다. 대부분 utf-8로 설정되지만 과거에 만들어진 프로그램이면 euc-kr, cp949로 나눠진다.
+- 팟 내부에 tcpdump 명령어를 설치한다. Dockerfile에 아래 명령어를 기록한다.
+
+```java
+FROM openjdk:8
+
+USER root
+RUN apt-get update -y; exit 0
+RUN apt-get install tcpdump -y
+```
+
+- 팟 내부로 들어가서 tcpdump tcp -w packet.pcap이라는 명령으로 tcp 패킷을 체크한다. -w는 write이고 packet.pcap는 파일명을 의미한다.
+- tcp dump가 끝나면 루트 디렉토리에 packet.pcap라는 파일명으로 파일이 남겨져있다.
+- 팟 내부에 있는 파일을 local로 가져오는 명령어는 아래와 같다.
+
+```java
+kubectl cp namespcaceName/podname:packet.pcap ./packet/packet.pcap -c containerName
+```
+
+- 다운 받은 pcap 파일을 와이어샤크에서 확인한다.
+- 와이어샤크에서 ip 별로 필터링을 하려면 이 옵션을 준다. `ip.addr == 100.109.160.51`
