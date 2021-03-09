@@ -705,3 +705,40 @@ class TodoDtoTest {
 # spring.main.web-application-type=none
 
 스프링은 기본적으로 톰캣 웹서버를 구동하게끔 되어있다. 만약 어떤 웹서버도 사용하고 싶지 않으면 `spring.main.web-application-type=none`이라는 옵션을 application.yml에 주면 된다. 스프링을 grpc 서버로만 사용하고 WAS를 사용하지 않는다면 위 옵션을 줄 수 있다.
+
+# Spring Validation
+
+Spring Bean Validation을 통해서 DTO의 validation을 간편하게 처리할 수 있다. 아래 코드는 코틀린으로 작성
+
+```java
+class ValidationTest {
+
+    private val logger = LoggerFactory.getLogger(ValidationTest::class.java)
+
+    @DisplayName("Spring Validation 테스트")
+    @Test
+    fun validation_test() {
+
+        val buildDefaultValidatorFactory = Validation.buildDefaultValidatorFactory()
+        val validator = buildDefaultValidatorFactory.validator
+
+        // given
+        val testDto = TestDto("", -1)
+        logger.info("testDto = {}", testDto)
+
+        // when, then
+        val validationResult = validator.validate(testDto)
+        logger.info("validationResult = {}", validationResult)
+        assertThat(validationResult).isNotEmpty
+    }
+}
+
+
+data class TestDto(
+    @field:NotEmpty(message = "Not to be null")
+    var name: String? = null,
+
+    @field:PositiveOrZero
+    var age: Int? = null
+)
+```
