@@ -742,3 +742,22 @@ data class TestDto(
     var age: Int? = null
 )
 ```
+
+## UriComponentBuilder
+- uri을 하드코딩하지 않고 생성하는 방법
+
+```java
+@DisplayName("toUrl 테스트")
+    @Test
+    fun toUrl_test() {
+        // given
+        // when
+        val url = UriComponentsBuilder.newInstance().scheme("http").host("www.naver.com").port(8080).build()
+
+        // then
+        logger.info("url = {}", url)
+        assertThat(url.scheme).isEqualTo("http")
+        assertThat(url.host).isEqualTo("www.naver.com")
+        assertThat(url.port).isEqualTo(8080)
+    }
+```
