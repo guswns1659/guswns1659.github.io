@@ -4,5 +4,18 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
+## 요즘 스스로에게 하는 말 
+
+> 모든 사람에게 인정받지 않아도 큰일 나지 않는다.
 {: .prompt-tip }
+
+## 나에 대해서 
+
+개발과 관련없는 전공을 졸업하고 진로를 고민하던 시기에 [Be my eyes](https://www.bemyeyes.com/)라는 어플을 접했습니다. 시각장애인과 봉사자를 카메라로 연결해주는 어플입니다. 자원봉사자로 참여하면서 `개발자는 이렇게 세상에 멋진 영향력을 줄 수 있구나`라고 느꼈습니다.
+이후 개발자를 준비했고, 다행히 업으로 삼고 살아가고 있습니다.
+
+## 되고 싶은 개발자 
+
+되고 싶은 개발자는 필요하다면 직접 만들 수 있는 장인과 같은 개발자입니다. [유닉스의 탄생](http://www.yes24.com/Product/Goods/91213198)이라는 책을 읽으며 필요했기에 만들었던 유닉스 운영체제가 어떻게 세상을 바꿨는지 절실히 느꼈습니다. 
+
+
