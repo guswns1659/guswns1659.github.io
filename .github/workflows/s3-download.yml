@@ -23,7 +23,7 @@ jobs:
 
       - name: Download S3 object
         run: |
-          aws s3 cp s3://jack-blog-posts/blogger_hook_테스트_500f1c.md ./_posts/Essay/2023/blogger_hook_테스트_500f1c.md
+          aws s3 cp s3://jack-blog-posts/2023-04-15-blogger_hook_테스트_f2f2ba.md ./_posts/Essay/2023/2023-04-15-blogger_hook_테스트_f2f2ba.md
 
       - name: Commit and push downloaded object
         run: |
