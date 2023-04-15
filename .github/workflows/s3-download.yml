@@ -1,0 +1,32 @@
+name: Download S3 Object
+
+on:
+  repository_dispatch:
+    types: [s3-download]
+
+jobs:
+  download_s3_object:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up AWS CLI
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ap-northeast-2
+
+      - name: Download S3 object
+        run: |
+          aws s3 cp s3://jack-blog-posts/blogger_hook_테스트_500f1c.md ./_posts/Essay/2023/blogger_hook_테스트_500f1c.md
+
+      - name: Commit and push downloaded object
+        run: |
+          git config user.name "guswns1659"
+          git config user.email "guswns1659@gmail.com"
+          git add .
+          git commit -m "Add downloaded S3 object"
+          git push
