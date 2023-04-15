@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.WORKFLOW_GITHUB_TOKEN }}
 
       - name: Set up AWS CLI
         uses: aws-actions/configure-aws-credentials@v1
