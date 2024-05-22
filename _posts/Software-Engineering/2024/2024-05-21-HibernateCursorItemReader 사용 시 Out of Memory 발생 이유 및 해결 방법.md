@@ -13,7 +13,7 @@ Spring Batch에서 대용량 데이터를 처리할 때, `HibernateCursorItemRea
 
 `HibernateCursorItemReader`를 사용할 때 Out of Memory 오류가 발생하는 주된 이유는 대용량 데이터를 메모리에 로드하기 때문입니다. 기본적으로, `HibernateCursorItemReader`는 `Query.scroll()` 메서드를 사용하여 결과를 가져오지만, 이를 사용할 때 적절한 설정이 없으면 메모리에 모든 결과를 로드할 수 있습니다.
 
-`useStatelessSession(true)`를 설정하여 `StatelessSession`을 사용하더라도, JDBC 드라이버가 커서 기반으로 데이터를 가져오지 않으면 결국 모든 데이터를 메모리에 로드하게 되어 메모리 부족 문제가 발생할 수 있습니다【24†source】.
+`useStatelessSession(true)`를 설정하여 `StatelessSession`을 사용하더라도, JDBC 드라이버가 커서 기반으로 데이터를 가져오지 않으면 결국 모든 데이터를 메모리에 로드하게 되어 메모리 부족 문제가 발생할 수 있습니다.
 
 #### 해결 방법
 
