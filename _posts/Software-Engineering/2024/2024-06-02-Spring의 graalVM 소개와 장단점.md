@@ -45,11 +45,9 @@ Spring 프레임워크는 GraalVM의 네이티브 이미지 기능을 지원하�
   - 네이티브 이미지 생성 시 GraalVM은 애플리케이션 코드를 분석하고, 필요한 모든 의존성을 포함하여 최적의 실행 파일을 생성합니다 .
 
 #### 결론
-
 GraalVM을 사용하여 Spring 프레임워크 애플리케이션을 네이티브 이미지로 변환함으로써, 메모리 사용량을 줄이고 시작 속도를 개선할 수 있습니다. 이를 위해 Spring Native 프로젝트와 Spring Boot의 지원을 활용할 수 있습니다. 다만, 네이티브 이미지 생성 시 몇 가지 제약 사항이 있으므로, 이를 고려하여 애플리케이션을 설계해야 합니다.
 
 ### 참고 자료
-
 - [Spring Boot GraalVM Native Image Support](https://docs.spring.io/spring-boot/docs/current/reference/html/native-image.html)
 - [Spring Native for GraalVM](https://spring.io/blog/2020/11/23/spring-native-for-graalvm-0-8-3-available-now)
 - [Baeldung: Native Images with Spring Boot and GraalVM](https://www.baeldung.com/spring-native-graalvm)
