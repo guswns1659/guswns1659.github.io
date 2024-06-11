@@ -5,7 +5,8 @@ categories: [Software-Engineering]
 tags: engineering
 ---
 
-Spring WebFlux는 MVC와 다르게 비동기 논블락킹 방식으로 동작합니다. 이 때 자주 등장하는 단어는 네티의 이벤트루프입니다. HTTP 요청이 왔을 때 이벤트 루프와 함께 어떻게 처리되는지 적어봤습니다.
+Spring WebFlux는 MVC와 다르게 비동기 논블락킹 방식으로 동작합니다. 이 때 자주 등장하는 단어는 netty의 이벤트루프입니다. 
+HTTP 요청이 왔을 때 이벤트 루프가 요청을 어떻게 처리되는지 적어봤습니다.
 
 ### 동작 과정
 
