@@ -1,77 +1,76 @@
 ---
 title: Webflux에서 HTTP 요청을 처리하는 과정
-date: 2024-06-06 11:49:08 +09:00
+date: 2024-06-07 11:49:08 +09:00
 categories: [Software-Engineering]
 tags: engineering
 ---
 
-Spring WebFlux는 MVC와 다르게 비동기 논블락킹 방식으로 동작합니다. 이 때 자주 등장하는 단어는 netty의 이벤트루프입니다. 
-HTTP 요청이 왔을 때 이벤트 루프가 요청을 어떻게 처리되는지 적어봤습니다.
+### 1. 애플리케이션 레벨
+1. **쿼리 생성**:
+  - 애플리케이션 코드에서 SQL 쿼리를 생성합니다.
+   ```java
+   String sql = "SELECT * FROM my_table WHERE id = ?";
+   PreparedStatement pstmt = connection.prepareStatement(sql);
+   pstmt.setInt(1, 1);
+   ```
 
-### 동작 과정
+2. **쿼리 실행 요청**:
+  - `pstmt.execute()` 또는 `pstmt.executeQuery()` 메소드를 호출하여 쿼리 실행을 요청합니다.
+   ```java
+   ResultSet rs = pstmt.executeQuery();
+   ```
 
-1. **요청 수신**
-  - 클라이언트가 HTTP 요청을 보냅니다.
-  - Netty 서버가 요청을 수신합니다.
+### 2. JDBC 드라이버 레벨
+3. **JDBC 드라이버 처리**:
+  - JDBC 드라이버는 SQL 쿼리를 받아 데이터베이스 서버로 전송하기 위한 준비를 합니다. 이 과정에서 SQL 쿼리를 네트워크 패킷으로 변환합니다.
 
-2. **DispatcherHandler 호출**
-  - Netty의 이벤트 루프가 수신된 요청을 `DispatcherHandler`에 전달합니다.
-  - `DispatcherHandler`는 요청을 적절한 컨트롤러 메서드에 라우팅합니다.
+### 3. 네트워크 통신
+4. **소켓 통신 설정**:
+  - JDBC 드라이버는 애플리케이션과 데이터베이스 서버 간의 소켓 연결을 사용하여 통신합니다. 이 소켓 연결은 이미 HikariCP와 같은 커넥션 풀에서 설정되어 있을 수 있습니다.
 
-3. **리액티브 스트림 반환**
-  - 컨트롤러 메서드는 Mono 또는 Flux를 반환합니다.
-  - 예를 들어, `Mono.just("Hello, Mono")`와 같은 리액티브 스트림 객체가 생성됩니다.
+5. **시스템 콜**:
+  - 네트워크 통신을 수행하기 위해 운영체제의 네트워크 스택을 사용합니다. 여기에는 여러 시스템 콜이 포함됩니다.
+  - 예를 들어, `send()` 시스템 콜을 사용하여 SQL 쿼리를 데이터베이스 서버로 전송합니다.
 
-4. **구독 시작**
-  - `DispatcherHandler`는 반환된 Mono 또는 Flux를 구독합니다.
-  - 구독이 시작되면 리액티브 스트림은 데이터를 방출하기 시작합니다.
+### 4. 데이터베이스 서버 레벨
+6. **데이터베이스 서버 수신**:
+  - 데이터베이스 서버는 클라이언트(애플리케이션)로부터 네트워크를 통해 SQL 쿼리를 수신합니다.
+  - 서버의 네트워크 스택에서 `recv()` 시스템 콜을 사용하여 패킷을 수신합니다.
 
-5. **비동기 작업 처리**
-  - 리액티브 스트림에서 정의된 비동기 작업이 실행됩니다.
-  - 예를 들어, `delayElement(Duration.ofSeconds(1))`는 1초 지연 후 데이터를 방출합니다.
+7. **SQL 쿼리 처리**:
+  - 데이터베이스 서버는 SQL 쿼리를 파싱, 최적화, 실행 계획 수립 후 실제로 데이터를 검색하거나 조작합니다.
 
-6. **데이터 방출 및 콜백 실행**
-  - Mono 또는 Flux가 데이터를 방출할 때 `onNext` 콜백이 호출됩니다.
-  - 모든 데이터가 방출되면 `onComplete` 콜백이 호출됩니다.
+8. **결과 전송**:
+  - 쿼리 실행 결과를 클라이언트로 전송합니다. 이 과정도 네트워크 패킷으로 변환되어 전송됩니다.
+  - 서버에서 `send()` 시스템 콜을 사용하여 결과를 클라이언트로 전송합니다.
 
-7. **완료 이벤트 처리**
-  - 비동기 작업이 완료되면 Reactor 라이브러리가 완료 이벤트를 생성합니다.
-  - 완료 이벤트에는 최종 데이터가 포함됩니다.
+### 5. 클라이언트 수신 및 처리
+9. **결과 수신**:
+  - 클라이언트(애플리케이션)는 서버로부터 결과 패킷을 수신합니다.
+  - 네트워크 스택에서 `recv()` 시스템 콜을 사용하여 데이터를 수신합니다.
 
-8. **이벤트 큐에 추가**
-  - 완료 이벤트가 Netty의 이벤트 큐에 추가됩니다.
-
-9. **응답 생성 및 전송**
-  - Netty의 이벤트 루프가 이벤트 큐에서 완료 이벤트를 꺼내어 처리합니다.
-  - 처리된 데이터는 HTTP 응답 바디에 포함되어 클라이언트로 전송됩니다.
-
-### 예시 코드
-
-```java
-@RestController
-public class ExampleController {
-
-    @GetMapping("/mono")
-    public Mono<String> getMono() {
-        return Mono.just("Hello, Mono")
-                   .delayElement(Duration.ofSeconds(1))
-                   .doOnNext(data -> System.out.println("Processing data: " + data))
-                   .doOnSuccess(data -> System.out.println("Completed with: " + data));
+10. **결과 처리**:
+  - JDBC 드라이버는 수신된 데이터를 ResultSet 객체로 변환하여 애플리케이션에 제공합니다.
+    ```java
+    while (rs.next()) {
+        int id = rs.getInt("id");
+        String name = rs.getString("name");
+        // 결과 처리
     }
-}
-```
+    ```
 
-### 예시 설명
+### 네트워크 시스템 콜 예시
+#### 클라이언트 측
+- **소켓 생성**: `socket()`
+- **서버에 연결**: `connect()`
+- **데이터 전송**: `send()`
+- **데이터 수신**: `recv()`
 
-- 클라이언트가 `/mono` 경로로 GET 요청을 보냅니다.
-- Netty 서버가 요청을 수신하고 `DispatcherHandler`에 전달합니다.
-- `DispatcherHandler`는 `getMono` 메서드를 호출합니다.
-- `getMono` 메서드는 `Mono.just("Hello, Mono").delayElement(Duration.ofSeconds(1))`를 반환합니다.
-- `DispatcherHandler`가 Mono를 구독하여 데이터 방출이 시작됩니다.
-- 1초 지연 후 "Hello, Mono" 문자열이 방출됩니다.
-- `onNext` 콜백이 호출되어 "Processing data: Hello, Mono"가 출력됩니다.
-- 데이터 방출이 완료되면 `onComplete` 콜백이 호출되어 "Completed with: Hello, Mono"가 출력됩니다.
-- 완료 이벤트가 Netty의 이벤트 큐에 추가됩니다.
-- Netty 이벤트 루프가 완료 이벤트를 처리하여 "Hello, Mono"를 응답 바디에 포함시켜 클라이언트로 전송합니다.
+#### 서버 측
+- **소켓 생성**: `socket()`
+- **클라이언트 연결 수락**: `accept()`
+- **데이터 수신**: `recv()`
+- **데이터 전송**: `send()`
 
-이 과정을 통해 Spring WebFlux는 비동기 작업을 효과적으로 처리하고 응답을 생성하여 클라이언트에게 전송할 수 있습니다.
+### 요약
+하나의 SQL 쿼리가 실행되는 과정은 애플리케이션에서 SQL 쿼리를 생성하고 JDBC 드라이버를 통해 네트워크를 통해 데이터베이스 서버로 전송하며, 데이터베이스 서버는 이를 처리한 후 결과를 다시 클라이언트로 전송하는 일련의 단계로 구성됩니다. 이 과정에서 운영체제의 네트워크 시스템 콜을 사용하여 소켓을 통한 통신이 이루어집니다.
