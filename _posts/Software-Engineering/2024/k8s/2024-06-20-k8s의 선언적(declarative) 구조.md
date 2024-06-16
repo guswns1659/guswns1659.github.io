@@ -1,6 +1,6 @@
 ---
 title: k8s의 선언적(declarative) 구조
-date: 2024-06-20 11:49:08 +09:00
+date: 2024-06-16 11:49:08 +09:00
 categories: [Software-Engineering]
 tags: engineering
 ---
