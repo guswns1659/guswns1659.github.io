@@ -13,7 +13,7 @@ tags: engineering
 
 사용자는 시스템이 수행할 명령을 순차적으로 정의하고 실행합니다. 즉, 사용자는 구체적인 작업을 하나씩 명령하고, 시스템은 이를 순차적으로 실행합니다. 명령적 방식은 사용자가 각 단계를 명확히 제어할 수 있게 하며, 특정 작업을 즉시 실행할 수 있는 장점이 있습니다.
 
-![Kubernetes Architecture](../../../../assets/img/full-kubernetes-model-architecture.png)
+![Kubernetes Architecture](/assets/img/full-kubernetes-model-architecture.png)
 
 ### 마스터 노드의 선언적 방식: 
 마스터 노드는 클러스터 상태를 유지하기 위해 주로 선언적 방식을 사용합니다. 사용자가 YAML 파일 등으로 정의한 최종 상태를 기반으로, 컨트롤러 매니저와 스케줄러가 현재 상태를 조정하여 일관성을 유지합니다. 이는 Kubernetes의 자동 복구(self-healing) 기능을 가능하게 합니다.
@@ -26,7 +26,7 @@ tags: engineering
 k8s의 마스터 노드에서는 선언적 방식을 구현하기 위해 watch 매커니즘을 이용합니다. 
 Kubernetes의 watch 메커니즘은 클러스터 리소스의 변경 사항을 실시간으로 감지하고 처리하기 위한 효율적인 방법입니다. 이를 통해 클라이언트는 리소스의 상태 변경을 즉시 감지하고 필요한 조치를 취할 수 있습니다. 아래에서는 watch 메커니즘이 어떻게 동작하는지, 요청과 응답의 예시를 포함하여 정리하겠습니다.
 
-![Kubernetes Architecture](../../../../assets/img/master-node-network.png)
+![Kubernetes Architecture](/assets/img/master-node-network.png)
 
 
 ### Watch 메커니즘 동작 방식
