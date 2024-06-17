@@ -1,9 +1,13 @@
 ---
-title: k8s의 선언적(declarative) 구조
+title: k8s 아키텍쳐
 date: 2024-06-16 11:49:08 +09:00
 categories: [Software-Engineering]
 tags: engineering
 ---
+
+k8s의 아키텍쳐에 대해 소개합니다. k8s의 "hub-and-spoke" API pattern과 선언적(Declarative) 구조에 대해 이야기 합니다.
+
+
 
 k8s는 기본적인 동작방식을 선언적 구조를 채택했습니다. 선언적 구조는 무엇이며, 이를 구현하기 위해 어떤 매커니즘을 사용했는지 살펴보겠습니다.
 
