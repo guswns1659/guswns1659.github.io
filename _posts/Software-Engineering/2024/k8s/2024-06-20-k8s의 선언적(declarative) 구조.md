@@ -21,6 +21,8 @@ k8s는 기본적인 동작방식을 선언적 구조를 채택했습니다. 선�
 
 ![Kubernetes Architecture](/assets/img/full-kubernetes-model-architecture.png)
 
+(출처 : [https://phoenixnap.com/kb/understanding-kubernetes-architecture-diagrams](https://phoenixnap.com/kb/understanding-kubernetes-architecture-diagrams))
+
 ### 마스터 노드의 선언적 방식: 
 마스터 노드는 선언적 구성 파일을 통해 Kubernetes 객체를 관리합니다. 구성 파일은 YAML 형식으로 작성되며, kubectl apply 명령을 통해 클러스터에 적용됩니다. 이 방식은 객체의 원하는 상태를 선언하고, 컨트롤러나 스케쥴러가 자동으로 현재 상태를 조정하여 선언된 상태로 일치시키도록 합니다​. 이 때 객체의 현재 상태를 확인하기 위해 ping API를 호출하는데, k8s는 watch 매커니즘이라 부릅니다.
 
