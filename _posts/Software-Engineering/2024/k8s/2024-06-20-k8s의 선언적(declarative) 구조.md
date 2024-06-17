@@ -5,6 +5,10 @@ categories: [Software-Engineering]
 tags: engineering
 ---
 
+k8s는 기본적인 동작방식을 선언적 구조를 채택했습니다. 선언적 구조는 무엇이며, 이를 구현하기 위해 어떤 매커니즘을 사용했는지 살펴보겠습니다.
+
+## 선언적 방식과 명령적 방식의 차이
+
 ### 선언적 방식 (Declarative Approach)
 
 사용자는 시스템의 최종 상태(desired state)를 정의합니다. Kubernetes는 이 정의된 상태를 자동으로 유지합니다. 즉, 사용자는 무엇이 되어야 하는지를 명시하고, 시스템은 지속적으로 현재 상태를 모니터링하여 최종 상태와 일치하도록 조정합니다. 이 방식은 자동 복구(self-healing)와 상태 일관성(consistency)을 보장합니다.
@@ -12,6 +16,8 @@ tags: engineering
 ### 명령적 방식 (Imperative Approach)
 
 사용자는 시스템이 수행할 명령을 순차적으로 정의하고 실행합니다. 즉, 사용자는 구체적인 작업을 하나씩 명령하고, 시스템은 이를 순차적으로 실행합니다. 명령적 방식은 사용자가 각 단계를 명확히 제어할 수 있게 하며, 특정 작업을 즉시 실행할 수 있는 장점이 있습니다.
+
+### k8s 아키텍쳐
 
 ![Kubernetes Architecture](/assets/img/full-kubernetes-model-architecture.png)
 
