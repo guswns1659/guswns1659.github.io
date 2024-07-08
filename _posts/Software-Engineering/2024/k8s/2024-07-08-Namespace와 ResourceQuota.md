@@ -1,5 +1,9 @@
-----
-----
+---
+title: Namespace와 ResourceQuota
+date: 2024-07-08 11:49:08 +09:00
+categories: [Software-Engineering]
+tags: engineering
+---
 
 # namespace와 resourceQuota
 
@@ -88,7 +92,7 @@ kubectl apply -f resourcequota.yaml
   - **목적**: 특정 네임스페이스 내에서 사용할 수 있는 자원의 총량을 제한합니다.
   - **자원 사용 관리**: 네임스페이스 내 모든 파드가 사용할 수 있는 자원의 총량을 제한하여, 특정 네임스페이스가 과도한 자원을 사용하지 않도록 합니다.
 
-### 상호작용 및 제한 시나리오
+### 예시
 
 1. **파드 생성 및 자원 요청**:
    - 네임스페이스 내에서 파드를 생성할 때, 파드의 자원 요청과 제한이 ResourceQuota의 제한을 초과하지 않는지 확인합니다.
@@ -99,10 +103,3 @@ kubectl apply -f resourcequota.yaml
 
 3. **실행 중인 파드 자원 사용**:
    - 파드가 실행 중일 때, 자원 제한을 초과하면 CPU 사용이 제한되거나, 메모리 사용이 초과될 경우 OOMKiller에 의해 컨테이너가 종료됩니다.
-
-### 요약
-
-- **네임스페이스**: Kubernetes 클러스터 내에서 리소스를 논리적으로 격리하고 관리하는 단위입니다.
-- **Resource Quota**: 특정 네임스페이스 내에서 사용할 수 있는 리소스의 총량을 제한하는 메커니즘입니다.
-- **파드의 Requests 및 Limits**: 파드의 자원 사용을 제어하고, 스케줄링 및 실행 시의 자원 사용을 관리합니다.
-- **ResourceQuota의 Requests 및 Limits**: 네임스페이스 내에서 요청할 수 있는 자원과 사용할 수 있는 자원의 총량을 관리하여, 네임스페이스 간의 자원 사용을 공정하게 제한합니다.
