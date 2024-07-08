@@ -1,7 +1,7 @@
 ---
 title: Deployment의 RollingUpdate
 date: 2024-07-08 11:49:08 +09:00
-categories: [Software-Engineering]
+categories: [Kubernetes]
 tags: engineering
 ---
 

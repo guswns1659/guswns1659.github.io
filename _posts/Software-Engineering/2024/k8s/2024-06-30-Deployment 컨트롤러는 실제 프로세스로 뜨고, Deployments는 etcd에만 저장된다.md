@@ -1,7 +1,7 @@
 ---
 title: k8s 오브젝트는 etcd에 저장되는 Json 오브젝트와 프로세스로 실행되는 오브젝트로 구분된다. 
 date: 2024-06-30 11:49:08 +09:00
-categories: [Software-Engineering]
+categories: [Kubernetes]
 tags: engineering
 ---
 
