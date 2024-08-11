@@ -7,6 +7,7 @@ tags: engineering
 
 Real Mysql 책을 읽으면서 InnoDB 스토리지 엔진의 아키텍쳐를 공부하고 있습니다. 실제로 쿼리문이 실행될 때 각 로그가 어떻게 기록되는지 궁금해서 찾아봤습니다.
 
+
 MySQL에서 `UPDATE` 문이 실행될 때, 변경 사항이 버퍼 풀, 언두 로그 버퍼, 리두 로그 버퍼, 리두 로그 파일, 그리고 바이너리 로그에 어떻게 기록되는지 단계별로 설명하겠습니다.
 
 ### 전체 과정 요약
@@ -72,5 +73,3 @@ MySQL에서 `UPDATE` 문이 실행될 때, 변경 사항이 버퍼 풀, 언두 �
 - [MySQL 8.0 Reference Manual - Buffer Pool](https://dev.mysql.com/doc/refman/8.0/en/innodb-buffer-pool.html)
 - [MySQL 8.0 Reference Manual - Binary Log](https://dev.mysql.com/doc/refman/8.0/en/binary-log.html)
 - [Percona - Understanding the Differences Between InnoDB Undo Log and Redo Log](https://www.percona.com/blog/2018/03/22/understanding-the-differences-between-innodb-undo-log-and-redo-log/)
-
-이 과정을 통해 InnoDB는 데이터의 무결성을 유지하고, 시스템 충돌 시 데이터를 복구할 수 있습니다.
